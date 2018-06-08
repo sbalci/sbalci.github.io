@@ -5,4 +5,6 @@
 layout: home
 ---
 
-Serdar Balci
+My research notes
+
+Serdar Balci MD Pathologist
