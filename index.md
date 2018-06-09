@@ -6,5 +6,3 @@ layout: home
 ---
 
 My research notes
-
-Serdar Balci MD Pathologist
