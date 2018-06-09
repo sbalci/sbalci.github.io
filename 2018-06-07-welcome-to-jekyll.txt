@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-06-07 00:15:25 +0300
+title:  "Started My GitHub Page"
+date:   2018-06-09
 categories: jekyll update
 ---
 

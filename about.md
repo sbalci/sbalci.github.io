@@ -10,9 +10,7 @@ I use [https://twitter.com/serdarbalci](https://twitter.com/serdarbalci) frequen
 
 See [https://www.serdarbalci.com/](https://www.serdarbalci.com/) for main web page,
 
-[http://www.patolojinotlari.com/](http://www.patolojinotlari.com/) for Turkish Lecture Notes & Social Media Based Notes,
-
-[https://sbalci.gitbooks.io/pathology-notes/content/](https://sbalci.gitbooks.io/pathology-notes/content/) for parapathology collection.
+[http://www.patolojinotlari.com/](http://www.patolojinotlari.com/) for Turkish Lecture Notes & Social Media Based Notes for pathology.
 
 
 <!--This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) 
