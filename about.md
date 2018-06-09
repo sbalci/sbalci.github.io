@@ -4,29 +4,26 @@ title: About
 permalink: /about/
 ---
 
-I use https://twitter.com/serdarbalci frequently
+I am a medical doctor, specialised in anatomic pathology.
 
-See https://www.serdarbalci.com/ for main web page,
+I use [https://twitter.com/serdarbalci](https://twitter.com/serdarbalci) frequently
 
-http://www.patolojinotlari.com/ for Turkish Lecture Notes & Social Media Based Notes,
+See [https://www.serdarbalci.com/](https://www.serdarbalci.com/) for main web page,
 
-https://sbalci.gitbooks.io/pathology-notes/content/ for parapathology collection,
+[http://www.patolojinotlari.com/](http://www.patolojinotlari.com/) for Turkish Lecture Notes & Social Media Based Notes,
 
-https://sbalci.github.io/MyRCodesForDataAnalysis/ for R codes,
-
-https://sbalci.github.io/pubmed/BibliographicStudies.html for Bibliographic studies.
+[https://sbalci.gitbooks.io/pathology-notes/content/](https://sbalci.gitbooks.io/pathology-notes/content/) for parapathology collection.
 
 
+<!--This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) 
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-# This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-# 
-# You can find the source code for Minima at GitHub:
-# [jekyll][jekyll-organization] /
-# [minima](https://github.com/jekyll/minima)
-# 
-# You can find the source code for Jekyll at GitHub:
-# [jekyll][jekyll-organization] /
-# [jekyll](https://github.com/jekyll/jekyll)
-# 
-# 
-# [jekyll-organization]: https://github.com/jekyll
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
+
+
+[jekyll-organization]: https://github.com/jekyll
+-->
