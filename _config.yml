@@ -23,6 +23,10 @@ twitter_username: serdarbalci
 github_username:  sbalci
 linkedin_username: serdar-balci-md-pathologist
 youtube_username: SERDARBALCIMD
+instagram_username: balciserdar
+gitbook_username: sbalci
+webpage: https://www.serdarbalci.com/
+webpage: http://www.patolojinotlari.com/
 
 # Build settings
 markdown: kramdown
