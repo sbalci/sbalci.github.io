@@ -24,12 +24,22 @@ github_username:  sbalci
 linkedin_username: serdar-balci-md-pathologist
 youtube_username: SERDARBALCIMD
 instagram_username: balciserdar
+google_plus_username: +SERDARBALCIMD
+facebook_username: serdarbalcimdpathologist
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-avatar
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
