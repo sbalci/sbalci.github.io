@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Journal Watch PBPath
+title: Kötü Veri Kılavuzu
 permalink: /KotuVeriKilavuzu/
 ---
 
