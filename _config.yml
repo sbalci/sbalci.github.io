@@ -29,7 +29,7 @@ facebook_username: serdarbalcimdpathologist
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
