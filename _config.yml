@@ -32,7 +32,7 @@ markdown: kramdown
 
 # https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/
 
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
