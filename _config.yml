@@ -17,7 +17,7 @@ title: Serdar Balci MD Pathologist
 email: drserdarbalci@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Codes used in my research
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: serdarbalci
 github_username:  sbalci
@@ -32,7 +32,7 @@ markdown: kramdown
 
 # https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/
 
-theme: jekyll-theme-cayman
+theme: jekyll-minimal
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -43,7 +43,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-avatar
   - jekyll-include-cache
-  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
