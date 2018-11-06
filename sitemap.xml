@@ -110,15 +110,6 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/academic/</loc>
       <lastmod>2018-01-13T00:00:00+03:00</lastmod>
       <priority>0</priority>
@@ -165,6 +156,15 @@
     
       <loc>/publication_types/</loc>
       <lastmod>2013-07-01T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2017-10-15T00:00:00+03:00</lastmod>
       <priority>0</priority>
     </url>
     
