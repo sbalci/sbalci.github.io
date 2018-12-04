@@ -107,6 +107,35 @@ Hakkımda</h3>
 
 <b>DataCamp:</b>&nbsp;<a href="https://www.datacamp.com/profile/drserdarbalci" target="_blank">https://www.datacamp.com/profile/drserdarbalci</a>
 
+---
+
+
+---
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-sbalci-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+---
+
+
 
 <h3 id="yayinlar" style="text-align: center;">
 <b>Yayın Listesi</b></h3>
@@ -1435,6 +1464,7 @@ Genetik Araştırmalarda İstatistiksel Yöntemler (BIS 783), Hacettepe Ünivers
 Biyoinformatiğe Giriş (BIS761), Hacettepe Üniversitesi Tıp Fakültesi Biyoistatistik Anabilim Dalı. Ders Tanımı, Syllabus in English
 Karar verme Sürecinde istatistiksel yöntemler (BIS 710), Hacettepe Üniversitesi Tıp Fakültesi Biyoistatistik Anabilim Dalı. Ders Tanımı, Syllabus in English
 
+---
 
 <i>Üye Olduğu Dernekler ve Çalışma Grupları</i>
 
@@ -1449,7 +1479,7 @@ Patoloji Dernekleri Federasyonu Hepato-Pankreato-Biliyer Patoloji Çalışma Gru
 Hacettepe Üniversitesi Tıp Fakültesi Bilimsel Araştırma Topluluğu (HÜTBAT), 2000-2005
 
 
-
+---
 
 <i>Katkılar</i>
 
@@ -1458,3 +1488,6 @@ Odze and Goldblum Surgical Pathology of the GI Tract, Liver, Biliary Tract and P
 
 Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors
 <a href="http://pid.emory.edu/ark:/25593/rkcxs" target="_blank">http://pid.emory.edu/ark:/25593/rkcxs</a>
+
+                    
+---
