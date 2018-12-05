@@ -43,6 +43,7 @@ output: html_notebook
 
 ## Genel ve Güncel Uğraşılar
 
+---
 
 <a href="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s1600/SerdarBalci-MD-Pathologist.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="459" data-original-width="580" height="253" src="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s320/SerdarBalci-MD-Pathologist.jpg" width="320" /></a>
 
@@ -50,6 +51,8 @@ output: html_notebook
 ### Genel Uğraşılar
 
 <!-- Eşyanın isimleri bize Dede mirasıdır *2/31* -->
+
+[Genel Uğraşılarım]( # "Eşyanın isimleri bize Dede mirasıdır 2/31")
 
 - Gastrointestinal ve Pankreatobilier Patoloji
 - Anatomik patolojide istatistik ve biyoinformatik yöntemlerin uygulanması
@@ -59,17 +62,27 @@ output: html_notebook
 
 ### Güncel Uğraşılar
 
-[(Para) Pathology Notes](https://sbalci.gitbooks.io/pathology-notes/content/)
+- [(Para) Pathology Notes](https://sbalci.gitbooks.io/pathology-notes/content/)
 
-[Patoloji Notları](https://sites.google.com/view/drserdarbalci/)
+- [Patoloji Notları](https://sites.google.com/view/drserdarbalci/)
 
-[Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)
+- [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)
 
-[Coursera Turkish Language Community](http://www.serdarbalci.com/p/coursera-current-active-turkish.html)
+- [Coursera Turkish Language Community](http://www.serdarbalci.com/p/coursera-current-active-turkish.html)  
+
+- [PBPath Journal Watch](http://pbpath.org/pbpath-journal-watch/)
+
+### Contact Me / İletişim Formu
+  
+- _[Contact Form](https://drserdarbalci.wixsite.com/website)_  
+
+- _[feedback form](https://goo.gl/forms/YjGZ5DHgtPlR1RnB3)_
 
 
-[PBPath Journal Watch](http://pbpath.org/pbpath-journal-watch/)
+<!-- <a target="_blank" href="https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d"><img src="https://assets.peerwith.com/content/network-share/peerwith-req-blue.png"></a> -->
 
+
+- Comment Here
 
 <div id="disqus_thread"></div>
 <script>
@@ -98,30 +111,44 @@ s.setAttribute('data-timestamp', +new Date());
 
 ## Hakkımda
 
+---
 
-**Blogs About Me:** [https://about.me/serdarbalci](https://about.me/serdarbalci)
 
-https://serdarbalci.netlify.com/
+**Blogs About Me:**
+
+- [https://about.me/serdarbalci](https://about.me/serdarbalci)
+
+- [https://serdarbalci.netlify.com/](https://serdarbalci.netlify.com/)
+
+
+<a href="https://sbalci.github.io/" target="_blank">https://sbalci.github.io/</a>
+
+<b>GitBooks:</b><a href="http://sbalci.gitbooks.io/" target="_blank">http://sbalci.gitbooks.io/</a>
+
 
 
 **Social Media**
 
-[Google+](https://plus.google.com/u/0/+SERDARBALCIMD)
+- [Google+](https://plus.google.com/u/0/+SERDARBALCIMD)
 
-<b>Twitter:</b>&nbsp;<a href="https://twitter.com/serdarbalci" target="_blank">https://twitter.com/serdarbalci</a>
+- [Twitter](https://twitter.com/serdarbalci)
 
-<b>Facebook:</b>&nbsp;<a href="https://www.facebook.com/serdarbalcimd" target="_blank">https://www.facebook.com/serdarbalcimd</a>
+- [Facebook](https://www.facebook.com/serdarbalcimd)
 
-<b>Facebook Page:</b>&nbsp;<a href="https://www.facebook.com/serdarbalcimdpathologist/" target="_blank">https://www.facebook.com/serdarbalcimdpathologist/</a>
+- [Facebook Page](https://www.facebook.com/serdarbalcimdpathologist/)
 
-<b>Instagram:</b>&nbsp;<a href="https://www.instagram.com/balciserdar/" target="_blank">https://www.instagram.com/balciserdar/</a>
 
-<b>YouTube:</b> <a href="https://www.youtube.com/c/SERDARBALCIMD" target="_blank">https://www.youtube.com/c/SERDARBALCIMD</a>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fserdarbalcimdpathologist%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-<b>My Local Guide Footsteps on Google Maps:</b>
-<a href="https://goo.gl/maps/er9WHy6EguG2" target="_blank">https://goo.gl/maps/er9WHy6EguG2</a>
 
-<b>LinkedIN:</b>&nbsp;<a href="https://www.linkedin.com/in/serdar-balci-md-pathologist/" target="_blank">https://www.linkedin.com/in/serdar-balci-md-pathologist/</a>
+- [Instagram](https://www.instagram.com/balciserdar/)
+
+- [YouTube](https://www.youtube.com/c/SERDARBALCIMD)
+
+- [My Local Guide Footsteps on Google Maps](https://goo.gl/maps/er9WHy6EguG2)
+
+
+- [LinkedIN](https://www.linkedin.com/in/serdar-balci-md-pathologist/)
 
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="tr_TR" data-type="vertical" data-theme="dark" data-vanity="serdar-balci-md-pathologist"><a class="LI-simple-link" href='https://tr.linkedin.com/in/serdar-balci-md-pathologist?trk=profile-badge'>Serdar Balcı</a></div>
@@ -130,23 +157,22 @@ https://serdarbalci.netlify.com/
 
 
 
-<b>GitBooks:</b><a href="http://sbalci.gitbooks.io/" target="_blank">http://sbalci.gitbooks.io/</a>
 
 
 <b>GitHub:</b>&nbsp;<a href="https://github.com/sbalci" target="_blank">https://github.com/sbalci</a>
 
-<a href="https://sbalci.github.io/" target="_blank">https://sbalci.github.io/</a>
+
 
 <b>Web:</b>&nbsp;<a href="https://serdarbalci.wordpress.com/cv/" target="_blank">https://serdarbalci.wordpress.com/cv/</a>
 
-<b>Contact Form:</b> <a href="https://drserdarbalci.wixsite.com/website" target="_blank">https://drserdarbalci.wixsite.com/website</a>
+
 
 <b>OSF:</b>&nbsp;<a href="https://osf.io/msnux/" target="_blank">https://osf.io/msnux/</a>
 
 <b>DataCamp:</b>&nbsp;<a href="https://www.datacamp.com/profile/drserdarbalci" target="_blank">https://www.datacamp.com/profile/drserdarbalci</a>
 
 
-<!-- <a target="_blank" href="https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d"><img src="https://assets.peerwith.com/content/network-share/peerwith-req-blue.png"></a> -->
+
 
 
 <!-- <a title="Follow me on ResearchGate" href="https://www.researchgate.net/profile/Serdar_Balci?cp=shp" target="_blank"><img src="https://www.researchgate.net/images/public/profile_share_badge.png" alt="Follow me on ResearchGate" /></a> -->
@@ -168,6 +194,8 @@ https://serdarbalci.netlify.com/
 
 
 ## Yayınlar
+
+---
 
 *Yayın Listesi*
 
@@ -215,7 +243,6 @@ https://serdarbalci.netlify.com/
 
 
 
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fserdarbalcimdpathologist%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 
 
@@ -225,6 +252,7 @@ https://peeriodicals.com/peeriodicals/histopathology-reviewed
 
 ## Yayın ve Atıflar
 
+---
 
 ### Atıflar
 
@@ -234,8 +262,9 @@ https://peeriodicals.com/peeriodicals/histopathology-reviewed
 <a href="https://scholar.google.com.tr/citations?user=q40DcqYAAAAJ"><img alt="Serdar Balci Google Scholar" border="0" data-original-height="300" data-original-width="800" height="120" src="https://drive.google.com/uc?export=view&amp;id=1hehESwCzi_8cxPTU8HFcomP4xwUyF299" width="320" /></a>
 
 
+### Uluslararası Yayınlar
 
-### Araştırma Makaleleri
+#### Araştırma Makaleleri
 
 
 <i>Role of calcium-sensing receptor, Galectin-3, Cyclin D1, and Ki-67 immunohistochemistry to favor in the diagnosis of parathyroid carcinoma.</i>
@@ -514,7 +543,7 @@ Usubütün A, Ozseker HS, Himmetoglu C, <i>Balci S</i>, Ayhan A. Omentectomy for
 </span>
 
 
-<i>Derlemeler</i>
+#### Derlemeler
 
 
 Reid MD, Choi H, <i>Balci S</i>, Akkas G, Adsay V. Serous cystic neoplasms of the pancreas: Clinicopathologic and molecular characteristics. Semin Diagn Pathol. 2014 Nov;31(6):475-83. doi: 10.1053/j.semdp.2014.08.009. Epub 2014 Sep 3. PMID: 25441309
@@ -549,7 +578,7 @@ Adsay NV, Bagci P, Tajiri T, Oliva I, Ohike N, <i>Balci S</i>, Gonzalez RS, Bast
 
 
 
-<i>Vaka serileri, vaka raporları ve editöre mektuplar</i>
+#### Vaka serileri, vaka raporları ve editöre mektuplar
 
 
 Bozkurt S, Aktekin L, Uğurlu FG, <i>Balci S</i>, Sezer N, Akkus S. An Unusual Cause of Myelopathy: Ochronotic Spondyloarthropathy with Positive HLA B27. Am J Phys Med Rehabil. 2017 Feb 24. doi: 10.1097/PHM.0000000000000727. [Epub ahead of print] PMID: 28240677
@@ -621,11 +650,11 @@ Celik HH, Tore H, Balcı S, Bagcicek O, Ozdemir B
 
 
 
-<i>Türkiye dergilerinde yer alan yayınlar</i>
+### Türkiye dergilerinde yer alan yayınlar
 
 
 
-<i>Araştırma Makaleleri</i>
+#### Araştırma Makaleleri
 
 A Retrospective Evaluation of the Epithelial Changes/Lesions and Neoplasms of the Gallbladder in Turkey and a Review of the Existing Sampling Methods: A Multicentre Study.
 Güldal Esendağlı, F. Göknur Akarca, Serdar Balcı, Asuman Argon, Selma Şengiz Erhan, Nesrin Turhan, Neslihan İnce Zengin, Sevinç Hallaç Keser, Betül Çelik, Tangül Bulut, Samir Abdullazade, Esra Erden, Berna Savaş, Temmuz Bostan, Özgül Sağol, Anıl Aysal Ağalar, Nuray Kepil, Yıldırım Karslıoğlu, Armağan Günal, Fatma Markoç, Burcu Saka, Gonca Özgün, Şükrü Oğuz Özdamar, Burak Bahadır, Esin Kaymaz, Emre Işık, Semin Ayhan, Deniz Tunçel, Banu Özgüven Yılmaz, Sevinç Çelik, Tuba Karabacak, İpek Erbarut Seven, Çiğdem Ataizi Çelikel, Zuhal Gücin, Özgür Ekinci, Gülen Akyol
@@ -663,14 +692,14 @@ doi: 10.5146/tjpath.2010.01006
 
 
 
-<i>Derlemeler</i>
+#### Derlemeler
 
 <i>Balci S</i>. Dünya Sağlık Örgütü Santral Sinir Sistemi Tümörleri Sınıflaması ve Glial Tümörlerin Genetik Özelliklerindeki Yenilikler. World Health Organization Classification of Central Nervous System Neoplasms and Developments in Genetic Properties of Glial Tumors
 <a href="http://www.turkiyeklinikleri.com/article/en-dunya-saglik-orgutu-santral-sinir-sistemi-tumorleri-siniflamasi-ve-glial-tumorlerin-genetik-ozelliklerindeki-yenilikler-65128.html">Turkiye Klinikleri J Med Oncol-Special Topics 2013;6(1):6-13</a>
 
 
 
-<i>Vaka raporları ve vaka serileri</i>
+#### Vaka raporları ve vaka serileri
 
 Balcı S, Önder S, Tezel GG. Adrenal Bezde Hodgkin Lenfoma (Hodgkin Lymphoma in Adrenal Gland)
 Türk Patoloji Dergisi 2010, Cilt 26, Sayı 1, 091-094
@@ -713,7 +742,7 @@ Turkish Journal of Cancer Volume 37, No.1, 2007
 
 
 
-<i>Uluslararası kongrelerdeki sözel bildiriler</i>
+### Uluslararası kongrelerdeki sözel bildiriler
 
 Michelle Reid, Serdar Balci, Yue Xue, Nobu Ohike, Takuma Tajiri, Olca Basturk, Takashi Muraki, Grace E Kim, Alyssa M Krasinskas, Brian Quigley, Burcu Saka, Pelin Bagci, Bassel El-Rayes, David Kooby, Juan Sarmiento, Shishir Maithel, Volkan Adsay
 Significant Prognostic Factors in Invasive Ampullary Adenocarcinoma (AC): Clinicopathologic Analysis of 367 Cases. 2016/2/1
@@ -827,7 +856,7 @@ Aghayev K, Bal E, Rahimli T, Mut M, <i>Balci S</i>, Vrionis F, Akalan N. Express
 
 
 
-<i>Yurtiçi kongrelerdeki sözel bildiriler</i>
+### Yurtiçi kongrelerdeki sözel bildiriler
 
 Seda Maralı, Serdar Balcı, Fuat Özcan, Berrak Gümüşkaya. Tekrarlayan biyopsilerinde prostat karsinomu tanısı alan vakaların ilk biyopsilerinin yeniden incelenmesi. S27. 25. Ulusal Patoloji Kongresi ve 6. Sitopatoloji Kongresi, 14-17 Ekim 2015, Bursa
 
@@ -843,7 +872,7 @@ Balcı S, Tezel GG, Güler G. Üçlü negatif meme kanserlerinde BRCA1 protein e
 
 
 
-<i>Uluslararası kongrelerdeki poster sunumları</i>
+### Uluslararası kongrelerdeki poster sunumları
 
 
 
@@ -1087,7 +1116,7 @@ Baydar T, Girgin G, Selmanoglu G, Karacaoglu E, Kilic A, <i>Balci S</i>, Sahin G
 
 
 
-<i>Yurtiçi kongrelerdeki poster sunumları</i>
+### Yurtiçi kongrelerdeki poster sunumları
 
 Nuran Süngü, Aydan Kılıçarslan, Hayriye Tatlı Doğan, Mehmet Kılıç, Şefika Burçak Polat, Mehmet Tokaç, Soner Akbaba, Ömer Parlak, Serdar Balcı, Betül Öğüt, Bekir Çakır. Paratiroid Karsinom Tanısında CASR, Cyclin-D1, Galaktin-3 ve Ki-67 nin Yeri ve Önemi. P-927. 25. Ulusal Patoloji Kongresi ve 6. Sitopatoloji Kongresi, 14-17 Ekim 2015, Bursa
 
@@ -1173,7 +1202,7 @@ Balcı S, Baydar DE. Nadir bir Laringeal Tümör: Atipik Karsinoid 18.Ulusal Pat
 
 
 
-<i>Uzmanlık tezi</i>
+### Uzmanlık tezi
 
 
 <i>Pilositik ve pilomiksoid astrositomlarda histomorfolojik bulgulara ve lokalizasyona göre B-raf, pMEK1 ve pERK1/2 ekspresyonlarının incelenmesi.</i>
@@ -1216,6 +1245,7 @@ Kösemehmetoğlu K, Balcı S, Gürel B, Altınok G. Katılımcı Slayt Seminerle
 
 ## Yönettiği Tezler
 
+---
 
 *Yönettiği Tezler*
 
@@ -1224,6 +1254,8 @@ Dr. Özge Başaran Aydoğdu, Uzmanlık Tezi, Ankara Atatürk Eğitim ve Araştı
 
 
 ## Araştırma Projeleri
+
+---
 
 
 *Araştırma Projeleri*
@@ -1237,7 +1269,7 @@ Safra kesesi epitelyal anomalilerinde yeni parça alınmasının tanıya olan ka
 
 ## Eğitim Aktiviteleri
 
-
+---
 
 <i>Diğer Akademik Aktiviteler</i>
 
@@ -1248,6 +1280,7 @@ Yıldırım Beyazıt Üniversitesi Tıp Fakültesi Multidisipliner Araştırma T
 
 ## Burslar
 
+---
 
 <i>Burslar</i>
 
@@ -1256,6 +1289,7 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 ## Sınavlar
 
+---
 
 <i>Board Sınavı ve Yeterlilik Belgeleri</i>
 
@@ -1266,6 +1300,8 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 
 ## Kurslar ve Diğer Eğitimler 
+
+---
 
 <i>Katıldığı uzaktan eğitim ve Online kurslar</i>
 
@@ -1470,6 +1506,8 @@ Karar verme Sürecinde istatistiksel yöntemler (BIS 710), Hacettepe Üniversite
 
 ## Dernek ve Çalışma Grupları
 
+---
+
 <i>Üye Olduğu Dernekler ve Çalışma Grupları</i>
 
 - Ankara Patoloji Derneği
@@ -1485,60 +1523,15 @@ Karar verme Sürecinde istatistiksel yöntemler (BIS 710), Hacettepe Üniversite
 
 ## Katkılar
 
+---
+
 *Katkılar*
 
 - Odze and Goldblum Surgical Pathology of the GI Tract, Liver, Biliary Tract and Pancreas
+
 <iframe frameborder="0" height="500" scrolling="no" src="https://books.google.com.tr/books?id=aIcZBAAAQBAJ&amp;lpg=PA1054&amp;vq=Serdar%20Balci&amp;hl=tr&amp;pg=PA1054&amp;output=embed" style="border: 0px;" width="500"></iframe>
 
-- Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors
+- Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors  
 <a href="http://pid.emory.edu/ark:/25593/rkcxs" target="_blank">http://pid.emory.edu/ark:/25593/rkcxs</a>
 
 
-## Contact Me / İletişim Formu
-
-I use https://twitter.com/serdarbalci frequently.
-
-See https://www.serdarbalci.com/ for main web page
-
-http://www.patolojinotlari.com/ for Turkish Lecture Notes & Social Media Based Notes
-
-https://sbalci.github.io/MyRCodesForDataAnalysis/ for R codes,
-
-https://sbalci.github.io/pubmed/BibliographicStudies.html for Bibliographic studies.
-
-
-### wixi
-
-https://drserdarbalci.wixsite.com/website
-
-
-### google form
-
-- I would like to hear your feedback: _[feedback form](https://goo.gl/forms/YjGZ5DHgtPlR1RnB3)_
-
-
-### disqus
-
-
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://https-sbalci-github-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
----
