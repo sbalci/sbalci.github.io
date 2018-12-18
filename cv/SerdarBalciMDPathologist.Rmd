@@ -67,9 +67,6 @@ Row {.tabset .tabset-fade .tabset-pills}
 ### Genel Uğraşılar
 
 
-<!-- Eşyanın isimleri bize Dede mirasıdır *2/31* -->
-
-
 [Genel Uğraşılarım]( # "Eşyanın isimleri bize Dede mirasıdır 2/31")
 
 
@@ -469,6 +466,19 @@ https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f4735
 - Patoloji Dernekleri Federasyonu Standardizasyon Komisyonu
 - Patoloji Dernekleri Federasyonu Hepato-Pankreato-Biliyer Patoloji Çalışma Grubu
 - Hacettepe Üniversitesi Tıp Fakültesi Bilimsel Araştırma Topluluğu (HÜTBAT), 2000-2005
+
+
+<!-- ### Motto -->
+
+
+<!-- - Eşyanın isimleri bize Dede mirasıdır *2/31* -->
+
+<!-- - "In God we trust. All others must bring data." -->
+
+<!-- - Hakkı hak bilip hakka ittiba, bâtılı bâtıl bilip bâtıldan ictinâb. -->
+
+
+
 
 
 
