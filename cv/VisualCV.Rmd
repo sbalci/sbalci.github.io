@@ -8,7 +8,10 @@ output: html_notebook
 
 # VisualResume
 https://github.com/ndphillips/VisualResume  
-https://ndphillips.shinyapps.io/Visual_Resume/
+https://ndphillips.shinyapps.io/Visual_Resume/  
+
+- Visual Resume Generator  
+https://ndphillips.shinyapps.io/Visual_Resume/  
 
 
 ```{r}

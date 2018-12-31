@@ -214,6 +214,8 @@ s.setAttribute('data-timestamp', +new Date());
 
 - [DataCamp](https://www.datacamp.com/profile/drserdarbalci)  
 
+- [Udemy](https://www.udemy.com/user/serdar-balci-3/)
+
 - [Resume](https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist)  
 
 - [RPubs](http://rpubs.com/sbalci) 
@@ -263,23 +265,21 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 - The Insider's Guide to Accessing NLM Data: EDirect for PubMed. Medical Library Association Online Continuing Education Course 3/26/2018
 
-- Coursera Turkish Language Coordinator. Language Coordinator Training Course by Coursera Community Team on Coursera. Certificate earned on Friday, February 23, 2018 https://www.coursera.org/account/accomplishments/certificate/WV9ELWMKFB3G
+- [Coursera Turkish Language Coordinator. Language Coordinator Training Course by Coursera Community Team on Coursera. Certificate earned on Friday, February 23, 2018](https://www.coursera.org/account/accomplishments/certificate/WV9ELWMKFB3G)
 
 - Insider's Guide to Accessing NLM Data: Welcome to E-utilities for PubMed Medical Library Association Online Continuing Education Course 2/13/2018
 
-- DataCamp Introduction to the Tidyverse Course <a href="https://www.datacamp.com/statement-of-accomplishment/course/c4d0a444736f7b92b6f06aa414c17c52de0a4c04" target="_blank">https://www.datacamp.com/statement-of-accomplishment/course/c4d0a444736f7b92b6f06aa414c17c52de0a4c04</a>
+- [DataCamp Introduction to the Tidyverse Course](https://www.datacamp.com/statement-of-accomplishment/course/c4d0a444736f7b92b6f06aa414c17c52de0a4c04)
 
-- DataCamp Working with the RStudio IDE (Part 1) https://www.datacamp.com/statement-of-accomplishment/course/559f2aa96b12324d4163cd18bfff54f91b8f4cf7
+- [DataCamp Working with the RStudio IDE (Part 1)](https://www.datacamp.com/statement-of-accomplishment/course/559f2aa96b12324d4163cd18bfff54f91b8f4cf7)
 
 
 - *DataCamp Data Analyst with R Tract*
 
 
-- DataCamp Introduction to R Course https://www.datacamp.com/statement-of-accomplishment/course/47cebe0a287a0bd92c5cb881b37a3fde83bcb6ae
+- [DataCamp Introduction to R Course](https://www.datacamp.com/statement-of-accomplishment/course/47cebe0a287a0bd92c5cb881b37a3fde83bcb6ae)
 
-
-- DataCamp Intermediate R Course https://www.datacamp.com/statement-of-accomplishment/course/516018e0b11bdbb04234d536a01fa706521996aa
-
+- [DataCamp Intermediate R Course](https://www.datacamp.com/statement-of-accomplishment/course/516018e0b11bdbb04234d536a01fa706521996aa)
 
 - DataCamp Intermediate R - Practice Course https://www.datacamp.com/statement-of-accomplishment/course/04232d77aa816d772b181b776feb108f2c1b87e8
 
@@ -337,103 +337,103 @@ https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f4735
 - Update in Soft Tissue Pathology, 2nd meeting of Turkish division of IAP, 2-3 May 2015, Ankara
 
 - Çok kesitli BT kursu 2015, Kesitlerde Radyolojik-Patolojik korelasyon, 10-11 Nisan 2015, Ankara
-- 
+
 - Applied Short Course in Epidemiology, Ulusal Kanser Haftası Kayıtçılık ve Tarama Eğitimleri, 1-3 Nisan 2015, - Ankara
-- 
+
 - USCAP 2015 Annual Meeting, 21-27 March 2015, Boston, MA, USA
-- 
+
 - Hepatobilier Sistemin Kolestatik ve Otoimmun Hastalıkları, 7 Mart 2015, İstanbul
-- 
+
 - Girişimci Doktor Sertifika Programı, 14 Şubat 2015, 22 Şubat 2015, Ankara
-- 
+
 - European Society of Pathology Tumors of the Urinary System and Male Genital Organs Pathology Course, 24-26 May - 2014, Ankara
-- 
+
 - Nöropatoloji Kursu, 17-18 Mayıs 2014, İstanbul
-- 
+
 - Sorular ve Olgularla Jinekopatoloji Güncellemesi, 10-11 Mayıs 2014, Ankara
-- 
+
 - USCAP 103rd Annual Meeting, 1-7 March 2014, San Diego, California.
-- 
+
 - USCAP 102nd Annual Meeting, March 2-8, 2013 Baltimore Convention Center, Baltimore, MD, USA
-- 
+
 - 22. Ulusal Patoloji Kongresi, 7-11 Kasım 2012, Antalya
-- 
+
 - Temel Nöropatoloji Kursu, 28-29 Nisan 2012, İstanbul
-- 
+
 - USCAP 101st Annual Meeting, March 17-23, 2012 Vancouver Convention Centre Vancouver, BC, Canada
-- 
+
 - Patoloji laboratuvarlarında kalite standartlarının düzenlenmesi ve laboratuvarlar yönetmeliği kursu, 3 Mart 2011, - Ankara
-- 
+
 - 21.Ulusal Patoloji Kongresi, 16-20 Kasım 2011, İzmir.
-- 
+
 - PDF Standardizasyon Komisyonu, Teknik Kurs, 19 Kasım 2011, İzmir.
-- 
+
 - Kemik-yumuşak Doku Patolojisi Kursu, 16 Kasım 2011, İzmir.
-- 
+
 - 36th European Congress of Cytology İstanbul, Turkey 22-25.09.2011
-- 
+
 - Jinekopatoloji Bahar Toplantısı: Olgularla Uterin Korpus ve Over Tümörleri, 21-22 Mayıs 2011, Ankara
-- 
+
 - Testis Tümörleri Patolojisi Kursu, 7-8 Mayıs 2011, Ankara
-- 
+
 - Patolojide Yenilikler ve Ayırıcı Tanı, 2-3 Nisan 2011, Hacettepe Üniversitesi, Ankara
-- 
+
 - USCAP 100th Annual Meeting, 26 Februrary-4 March 2011, San Antonio, TX USA
-- 
+
 - Kemik İliği Patolojisi Kursu, Ankara Patoloji Derneği, 8-9 Ocak 2011, Ankara
-- 
+
 - 20.Ulusal Patoloji Kongresi, 29 Eylül-3 Ekim 2010, Eskişehir
-- 
+
 - Baş Boyun Patolojisi Kursu, 20.Ulusal Patoloji Kongresi, 29 Eylül-3 Ekim 2010, Eskişehir
-- 
+
 - Moleküler Patoloji-Uygulamalı KRAS Mutasyon Analizi Kursu, 22-23 Ekim 2010, Ankara
-- 
+
 - 4th AMR International Pathology Slide Seminar Symposium in Anatomic Pathology. 5-6 June 2010, Istanbul, Turkey
-- 
+
 - Temel Santral Sinir Sistemi Tümörleri Kursu, Ankara Patoloji Derneği, 29-30 Mayıs 2010, Ankara
-- 
+
 - Servikal Sitoloji Çalıştayı, 13-14 Şubat 2010, Ankara
-- 
+
 - Moleküler Patoloji-I Uygulamalı Eğitim Programı, 10-12 Aralık 2009, Ankara
-- 
+
 - PASW Statistics ile İstatistiksel Analiz Eğitimi 17-19 Kasım 2009 Ankara 42) 19.Ulusal Patoloji Kongresi, 7-11 - Ekim 2009 Kıbrıs
-- 
+
 - Jinekopatoloji Kursu 19.Ulusal Patoloji Kongresi 7-11 Ekim 2009 Girne/Kıbrıs
-- 
+
 - Temel Onkolojide Güncel Gelişmeler Sempozyumu, 23 Mayıs 2009, Hacettepe Üniversitesi, Ankara
-- 
+
 - Patoloji Laboratuvarı Kuruyoruz kursu, 9-10 Mayıs, 2009, Çukurova Patoloji Derneği, Adana
-- 
+
 - Update in Gastrointestinal Pathology, European Society of Pathology Course, 1-3 May 2009, Ankara
-- 
+
 - Patolojide Yenilikler ve Ayırıcı Tanı, 4-5 Nisan 2009, Hacettepe Üniversitesi Ankara
-- 
+
 - IV.Ulusal Sitopatoloji Kongresi, 26-29 Mart 2009, Ankara
-- 
+
 - Rektum Kanserinde Cerrahi Materyale Patolojik Yaklaşım, 15 Kasım 2008, Ankara.
-- 
+
 - Jinekopatoloji Kursu, 8-9 Kasım 2008, Ankara Patoloji Derneği, Ankara
-- 
+
 - 18. Ulusal Patoloji Kongresi, 25-29 Ekim 2008 Antalya
-- 
+
 - Servikal Sitopatoloji Kursu, I. Ulusal Kolposkopi ve Servikal Patolojiler Kongresi, 8-9 Ekim 2008, Antalya
-- 
+
 - Dermatopatoloji Kursu, 26-27 Nisan 2008, Ankara
-- 
+
 - Patolojide Yenilikler ve Ayırıcı Tanı, 12-13 Nisan 2008, Hacettepe Üniversitesi Ankara
-- 
+
 - Patolojide Yenilikler ve Ayırıcı Tanı, 17-18 Mart 2007, Hacettepe Üniversitesi Ankara
-- 
+
 - Meme hastalıkları Temel Kursu, 25-26 Kasım 2006, Ankara Patoloji Derneği
-- 
+
 - Jinekolojik tümörlere yaklaşım Jinekopatoloji Kursu, 4 Kasım 2006 Ankara
-- 
+
 - Pediatrik ve Perinatal Patoloji Kursu, 11-13 Mayıs 2006, İzmir
-- 
+
 - Kemik İliği Kursu, 24 Aralık 2005, Hacettepe Üniversitesi Onkoloji Enstitüsü, Ankara
-- 
+
 - Yumuşak doku tümörleri kursu, 12 Kasım 2005, Ankara Patoloji Derneği, Ankara
-- 
+
 - Gastrointestinal Sistem ve Karaciğer Hastalıkları Patolojisi kursu, 14-15 Ekim 2005, Hacettepe Üniversitesi, - Ankara
 
 
@@ -520,8 +520,7 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 - [ResearcherID](http://www.researcherid.com/rid/B-6401-2011)  
 
-
-- [Publons](https://publons.com/researcher/467202/serdar-balci/)
+- [Publons](https://publons.com/researcher/467202/serdar-balci/)  
 
 - [PubMed](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/)
 
@@ -530,13 +529,17 @@ Row {.tabset .tabset-fade .tabset-pills}
 - [ORCID](http://orcid.org/0000-0002-7852-3851)  
 
 
+
 <a content="https://orcid.org/0000-0002-7852-3851" href="https://orcid.org/0000-0002-7852-3851" itemprop="sameAs" rel="noopener noreferrer" style="vertical-align: top;" target="orcid.widget"><img alt="ORCID iD icon" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="margin-right: 0.5em; width: 1em;" />orcid.org/0000-0002-7852-3851</a>  
+
 
 
 - [ResearchGate](https://www.researchgate.net/profile/Serdar_Balci)  
 
 
 <a href="https://www.researchgate.net/profile/Serdar_Balci?cp=shp" target="_blank" title="Follow me on ResearchGate"><img alt="Follow me on ResearchGate" src="https://www.researchgate.net/images/public/profile_share_badge.png" /></a>  
+
+
 
 - [Scopus](https://www.scopus.com/authid/detail.uri?authorId=22933834600)
 
@@ -546,6 +549,7 @@ Row {.tabset .tabset-fade .tabset-pills}
 - [Microsoft Academic](https://academic.microsoft.com/#/profile/SerdarBalci)
 
 - [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)  
+
 
 
 ---
@@ -838,31 +842,31 @@ PMID: 21682559
 ##### Derlemeler
 
 
-Reid MD, Choi H, <i>Balci S</i>, Akkas G, Adsay V. Serous cystic neoplasms of the pancreas: Clinicopathologic and molecular characteristics. Semin Diagn Pathol. 2014 Nov;31(6):475-83. doi: 10.1053/j.semdp.2014.08.009. Epub 2014 Sep 3. PMID: 25441309
+- Reid MD, Choi H, <i>Balci S</i>, Akkas G, Adsay V. Serous cystic neoplasms of the pancreas: Clinicopathologic and molecular characteristics. Semin Diagn Pathol. 2014 Nov;31(6):475-83. doi: 10.1053/j.semdp.2014.08.009. Epub 2014 Sep 3. PMID: 25441309
 
 <span class="__dimensions_badge_embed__" data-doi="10.1053/j.semdp.2014.08.009" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1053/j.semdp.2014.08.009">
 </span>
 
-Adsay NV, Basturk O, Saka B, Bagci P, Ozdemir D, <i>Balci S</i>, Sarmiento JM, Kooby DA, Staley C, Maithel SK, Everett R, Cheng JD, Thirabanjasak D, Weaver DW. Whipple made simple for surgical pathologists: orientation, dissection, and sampling of pancreaticoduodenectomy specimens for a more practical and accurate evaluation of pancreatic, distal common bile duct, and ampullary tumors. Am J Surg Pathol. 2014 Apr;38(4):480-93. doi: 10.1097/PAS.0000000000000165. PMID: 24451278
+- Adsay NV, Basturk O, Saka B, Bagci P, Ozdemir D, <i>Balci S</i>, Sarmiento JM, Kooby DA, Staley C, Maithel SK, Everett R, Cheng JD, Thirabanjasak D, Weaver DW. Whipple made simple for surgical pathologists: orientation, dissection, and sampling of pancreaticoduodenectomy specimens for a more practical and accurate evaluation of pancreatic, distal common bile duct, and ampullary tumors. Am J Surg Pathol. 2014 Apr;38(4):480-93. doi: 10.1097/PAS.0000000000000165. PMID: 24451278
 
 <span class="__dimensions_badge_embed__" data-doi="10.1097/PAS.0000000000000165" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1097/PAS.0000000000000165">
 </span>
 
-Reid MD, Saka B, <i>Balci S</i>, Goldblum AS, Adsay NV. Molecular genetics of pancreatic neoplasms and their morphologic correlates: an update on recent advances and potential diagnostic applications. Am J Clin Pathol. 2014 Feb;141(2):168-80. doi: 10.1309/AJCP0FKDP7ENVKEV. Review. PMID: 24436263
+- Reid MD, Saka B, <i>Balci S</i>, Goldblum AS, Adsay NV. Molecular genetics of pancreatic neoplasms and their morphologic correlates: an update on recent advances and potential diagnostic applications. Am J Clin Pathol. 2014 Feb;141(2):168-80. doi: 10.1309/AJCP0FKDP7ENVKEV. Review. PMID: 24436263
 
 <span class="__dimensions_badge_embed__" data-doi="10.1309/AJCP0FKDP7ENVKEV" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1309/AJCP0FKDP7ENVKEV">
 </span>
 
-Reid MD, <i>Balci S</i>, Saka B, Adsay NV. Neuroendocrine Tumors of the Pancreas: Current Concepts and Controversies. Endocr Pathol. 2014 Mar;25(1):65-79. doi: 10.1007/s12022-013-9295-2. PMID: 24430597
+- Reid MD, <i>Balci S</i>, Saka B, Adsay NV. Neuroendocrine Tumors of the Pancreas: Current Concepts and Controversies. Endocr Pathol. 2014 Mar;25(1):65-79. doi: 10.1007/s12022-013-9295-2. PMID: 24430597
 
 <span class="__dimensions_badge_embed__" data-doi="10.1007/s12022-013-9295-2" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s12022-013-9295-2">
 </span>
 
-Adsay NV, Bagci P, Tajiri T, Oliva I, Ohike N, <i>Balci S</i>, Gonzalez RS, Basturk O, Jang KT, Roa JC. Pathologic staging of pancreatic, ampullary, biliary, and gallbladder cancers: pitfalls and practical limitations of the current AJCC/UICC TNM staging system and opportunities for improvement. Semin Diagn Pathol. 2012 Aug;29(3):127-41. doi: 10.1053/j.semdp.2012.08.010. PMID: 23062420
+- Adsay NV, Bagci P, Tajiri T, Oliva I, Ohike N, <i>Balci S</i>, Gonzalez RS, Basturk O, Jang KT, Roa JC. Pathologic staging of pancreatic, ampullary, biliary, and gallbladder cancers: pitfalls and practical limitations of the current AJCC/UICC TNM staging system and opportunities for improvement. Semin Diagn Pathol. 2012 Aug;29(3):127-41. doi: 10.1053/j.semdp.2012.08.010. PMID: 23062420
 
 <span class="__dimensions_badge_embed__" data-doi="10.1053/j.semdp.2012.08.010" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1053/j.semdp.2012.08.010">
@@ -873,68 +877,68 @@ Adsay NV, Bagci P, Tajiri T, Oliva I, Ohike N, <i>Balci S</i>, Gonzalez RS, Bast
 ##### Vaka serileri, vaka raporları ve editöre mektuplar
 
 
-Bozkurt S, Aktekin L, Uğurlu FG, <i>Balci S</i>, Sezer N, Akkus S. An Unusual Cause of Myelopathy: Ochronotic Spondyloarthropathy with Positive HLA B27. Am J Phys Med Rehabil. 2017 Feb 24. doi: 10.1097/PHM.0000000000000727. [Epub ahead of print] PMID: 28240677
+- Bozkurt S, Aktekin L, Uğurlu FG, <i>Balci S</i>, Sezer N, Akkus S. An Unusual Cause of Myelopathy: Ochronotic Spondyloarthropathy with Positive HLA B27. Am J Phys Med Rehabil. 2017 Feb 24. doi: 10.1097/PHM.0000000000000727. [Epub ahead of print] PMID: 28240677
 
 <span class="__dimensions_badge_embed__" data-doi="10.1097/PHM.0000000000000727" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1097/PHM.0000000000000727">
 </span>
 
-Cohen D, Allen TC, <i>Balci S</i>, Cagle PT, Teruya-Feldstein J, Fine SW, Gondim DD, Hunt JL, Jacob J, Jewett K, Jiang X', Kaplan KJ, Kulac I, Meunier R, Riddle ND, Rush PS, Stall J, Stuart LN, Terrano D, Uthman E, Wasco MJ, Williamson SR, Wu RI, Gardner JM. #InSituPathologists: how the #USCAP2015 meeting went viral on Twitter and founded the social media movement for the United States and Canadian Academy of Pathology. Mod Pathol. 2017 Jan 13;(2):160-168. PMID: 28084341 DOI: 10.1038/modpathol.2016.223
+- Cohen D, Allen TC, <i>Balci S</i>, Cagle PT, Teruya-Feldstein J, Fine SW, Gondim DD, Hunt JL, Jacob J, Jewett K, Jiang X', Kaplan KJ, Kulac I, Meunier R, Riddle ND, Rush PS, Stall J, Stuart LN, Terrano D, Uthman E, Wasco MJ, Williamson SR, Wu RI, Gardner JM. #InSituPathologists: how the #USCAP2015 meeting went viral on Twitter and founded the social media movement for the United States and Canadian Academy of Pathology. Mod Pathol. 2017 Jan 13;(2):160-168. PMID: 28084341 DOI: 10.1038/modpathol.2016.223
 
 <span class="__dimensions_badge_embed__" data-doi="10.1038/modpathol.2016.223" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/modpathol.2016.223">
 </span>
 
-Gurcan O, Kazanci A, Gurcay AG, <i>Balci S</i>, Kucukyildiz HC, Turkoglu OF, Bavbek M. Densly calcified cystic extraventricular neurocytoma: Radiological-pathological correlation. Neurol India. 2016 Nov-Dec;64(6):1355-1358. doi: 10.4103/0028-3886.193824. PMID: 27841226
+- Gurcan O, Kazanci A, Gurcay AG, <i>Balci S</i>, Kucukyildiz HC, Turkoglu OF, Bavbek M. Densly calcified cystic extraventricular neurocytoma: Radiological-pathological correlation. Neurol India. 2016 Nov-Dec;64(6):1355-1358. doi: 10.4103/0028-3886.193824. PMID: 27841226
 
 <span class="__dimensions_badge_embed__" data-doi="10.4103/0028-3886.193824" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.4103/0028-3886.193824">
 </span>
 
-Kılınç İ, Dumlu EG, Öztürk V, Çuhacı N, Balcı S, Yalçın A, Kılıç M. Idiopathic Adrenal Hematoma Mimicking Neoplasia: A Case Report. International Journal of Surgery Case Reports. doi: http://dx.doi.org/10.1016/j.ijscr.2016.04.003 PMID: 27662215
+- Kılınç İ, Dumlu EG, Öztürk V, Çuhacı N, Balcı S, Yalçın A, Kılıç M. Idiopathic Adrenal Hematoma Mimicking Neoplasia: A Case Report. International Journal of Surgery Case Reports. doi: http://dx.doi.org/10.1016/j.ijscr.2016.04.003 PMID: 27662215
 
 <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ijscr.2016.04.003" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.ijscr.2016.04.003">
 </span>
 
-<i>Balci S</i>, Akkas G, Roa JC, Adsay NV. Intracholecystic Papillary Tubular Neoplasm of the Gallbladder With Microinvasive Carcinoma. Pathology Case Reviews 2014 19 (6), 283-288. doi: 10.1097/PCR.0000000000000069
+- <i>Balci S</i>, Akkas G, Roa JC, Adsay NV. Intracholecystic Papillary Tubular Neoplasm of the Gallbladder With Microinvasive Carcinoma. Pathology Case Reviews 2014 19 (6), 283-288. doi: 10.1097/PCR.0000000000000069
 
 <span class="__dimensions_badge_embed__" data-doi="10.1097/PCR.0000000000000069" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1097/PCR.0000000000000069">
 </span>
 
-Ersoy O, Akin E, Demirezer A, Koseoglu H, <i>Balci S</i>, Kiyak G. Cavernous haemangioma of small intestine mimicking gastrointestinal stromal tumour. Arab J Gastroenterol. 2013 Sep;14(3):139-40. doi: 10.1016/j.ajg.2013.08.008. Epub 2013 Oct 7. PMID: 24206746
+- Ersoy O, Akin E, Demirezer A, Koseoglu H, <i>Balci S</i>, Kiyak G. Cavernous haemangioma of small intestine mimicking gastrointestinal stromal tumour. Arab J Gastroenterol. 2013 Sep;14(3):139-40. doi: 10.1016/j.ajg.2013.08.008. Epub 2013 Oct 7. PMID: 24206746
 
 <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ajg.2013.08.008" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.ajg.2013.08.008">
 </span>
 
-Akin S, Karadag O, Kalyoncu U, <i>Balci S</i>, Ozgen B. Nasopharyngeal sarcoidosis: a rare involvement. Rheumatol Int. 2012 May;32(5):1407-9. doi: 10.1007/s00296-011-1866-2. Epub 2011 Mar 25. PMID: 21437690
+- Akin S, Karadag O, Kalyoncu U, <i>Balci S</i>, Ozgen B. Nasopharyngeal sarcoidosis: a rare involvement. Rheumatol Int. 2012 May;32(5):1407-9. doi: 10.1007/s00296-011-1866-2. Epub 2011 Mar 25. PMID: 21437690
 
 <span class="__dimensions_badge_embed__" data-doi="10.1007/s00296-011-1866-2" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s00296-011-1866-2">
 </span>
 
-<i>Balci S</i>, SaglamA, Usubutun A. Primary Signet-ring Cell Carcinoma of the Cervix: Case Report and Review of the Literature Int J Gynecol Pathol. 2010 Mar;29(2):181-4. doi: 10.1097/PGP.0b013e3181b70176. PMID: 20173504 Web of Knowledge
+- <i>Balci S</i>, SaglamA, Usubutun A. Primary Signet-ring Cell Carcinoma of the Cervix: Case Report and Review of the Literature Int J Gynecol Pathol. 2010 Mar;29(2):181-4. doi: 10.1097/PGP.0b013e3181b70176. PMID: 20173504 Web of Knowledge
 
 <span class="__dimensions_badge_embed__" data-doi="10.1097/PGP.0b013e3181b70176" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1097/PGP.0b013e3181b70176">
 </span>
 
-Kiratli H, Ustünel S, <i>Balci S</i>, Söylemezoğlu F. Ipsilateral ciliary body schwannoma and ciliary body melanoma in a child. J AAPOS. 2010 Apr;14(2):175-7. PubMed: 20451861 doi: 10.1016/j.jaapos.2010.01.013
+- Kiratli H, Ustünel S, <i>Balci S</i>, Söylemezoğlu F. Ipsilateral ciliary body schwannoma and ciliary body melanoma in a child. J AAPOS. 2010 Apr;14(2):175-7. PubMed: 20451861 doi: 10.1016/j.jaapos.2010.01.013
 
 <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jaapos.2010.01.013" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1016/j.jaapos.2010.01.013">
 </span>
 
-Isikay I, Berker M, <i>Balci S</i>, Cila A. Somatotroph adenoma cells may populate paranasal sinus mucosa. Acta Neurochir (Wien). 2010 Sep;152(9):1629-30; discussion 1630. doi: 10.1007/s00701-010-0677-7. Epub 2010 May 6. PMID: 20446098 Web of Knowledge
+- Isikay I, Berker M, <i>Balci S</i>, Cila A. Somatotroph adenoma cells may populate paranasal sinus mucosa. Acta Neurochir (Wien). 2010 Sep;152(9):1629-30; discussion 1630. doi: 10.1007/s00701-010-0677-7. Epub 2010 May 6. PMID: 20446098 Web of Knowledge
 
 <span class="__dimensions_badge_embed__" data-doi="10.1007/s00701-010-0677-7" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s00701-010-0677-7">
 </span>
 
 
-<i>Scanning electron microscopic examination of the hair in Chédiak-Higashi syndrome</i>
+- <i>Scanning electron microscopic examination of the hair in Chédiak-Higashi syndrome</i>
 Celik HH, Tore H, Balcı S, Bagcicek O, Ozdemir B
 <a href="https://www.amjcaserep.com/download/index/idArt/451376">Case Rep Clin Pract Rev;4(3):252-255, 2003</a>
 
@@ -948,7 +952,7 @@ Celik HH, Tore H, Balcı S, Bagcicek O, Ozdemir B
 
 ##### Araştırma Makaleleri
 
-A Retrospective Evaluation of the Epithelial Changes/Lesions and Neoplasms of the Gallbladder in Turkey and a Review of the Existing Sampling Methods: A Multicentre Study.
+- A Retrospective Evaluation of the Epithelial Changes/Lesions and Neoplasms of the Gallbladder in Turkey and a Review of the Existing Sampling Methods: A Multicentre Study.
 Güldal Esendağlı, F. Göknur Akarca, Serdar Balcı, Asuman Argon, Selma Şengiz Erhan, Nesrin Turhan, Neslihan İnce Zengin, Sevinç Hallaç Keser, Betül Çelik, Tangül Bulut, Samir Abdullazade, Esra Erden, Berna Savaş, Temmuz Bostan, Özgül Sağol, Anıl Aysal Ağalar, Nuray Kepil, Yıldırım Karslıoğlu, Armağan Günal, Fatma Markoç, Burcu Saka, Gonca Özgün, Şükrü Oğuz Özdamar, Burak Bahadır, Esin Kaymaz, Emre Işık, Semin Ayhan, Deniz Tunçel, Banu Özgüven Yılmaz, Sevinç Çelik, Tuba Karabacak, İpek Erbarut Seven, Çiğdem Ataizi Çelikel, Zuhal Gücin, Özgür Ekinci, Gülen Akyol
 DOI: 10.5146/tjpath.2017.01404
 
