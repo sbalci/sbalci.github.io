@@ -6,7 +6,11 @@ layout: home
 comments: true
 ---
 
-My Research Notes
+Click the links in the menu to see My Research Notes.
+
+You may contact with me with the comment field below.
+
+
 
 
 {% if page.comments %}

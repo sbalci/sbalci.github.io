@@ -16,6 +16,11 @@ See [https://www.serdarbalci.com/](https://www.serdarbalci.com/) for main web pa
 See [my CV here](https://sbalci.github.io/cv/SerdarBalciMDPathologist.html).
 
 
+Click the links in the menu to see My Research Notes.
+
+You may contact with me with the comment field below.
+
+
 
 {% if page.comments %}
 <script id="dsq-count-scr" src="//https-sbalci-github-io.disqus.com/count.js" async></script>
