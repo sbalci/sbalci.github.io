@@ -60,21 +60,21 @@ library(vitae)
 <!-- ``` -->
 
 
-# Selected talks
+<!-- # Selected talks -->
 
-```{r talks}
-tibble::tribble(
-  ~name, ~event, ~location, ~year,
-  "Empowering people with community, software, and peer review", "**RUCK: R Users Conference Korea (Invited Keynote speaker)**", "Seoul, Korea", 2018,
-  "Now you see it?  Now you don’t?  The role of graphics in identifying MCMC convergence (Awarded Runner up Pitman Prize for Young Statistician)", "ISCB-ASC", "Melbourne, Australia", 2018,
-  "Find the best locations for facilities using `maxcovr`", "UseR! 2018", "Brisbane, Australia", 2018
-) %>%
-  detailed_entries(
-    what = name,
-    when = year,
-    with = event,
-    where = location
-  )
-```
+<!-- ```{r talks} -->
+<!-- tibble::tribble( -->
+<!--   ~name, ~event, ~location, ~year, -->
+<!--   "Empowering people with community, software, and peer review", "**RUCK: R Users Conference Korea (Invited Keynote speaker)**", "Seoul, Korea", 2018, -->
+<!--   "Now you see it?  Now you don’t?  The role of graphics in identifying MCMC convergence (Awarded Runner up Pitman Prize for Young Statistician)", "ISCB-ASC", "Melbourne, Australia", 2018, -->
+<!--   "Find the best locations for facilities using `maxcovr`", "UseR! 2018", "Brisbane, Australia", 2018 -->
+<!-- ) %>% -->
+<!--   detailed_entries( -->
+<!--     what = name, -->
+<!--     when = year, -->
+<!--     with = event, -->
+<!--     where = location -->
+<!--   ) -->
+<!-- ``` -->
 
 

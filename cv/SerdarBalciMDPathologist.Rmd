@@ -562,6 +562,7 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 ##### Araştırma Makaleleri
 
+---
 
 - <i>Role of calcium-sensing receptor, Galectin-3, Cyclin D1, and Ki-67 immunohistochemistry to favor in the diagnosis of parathyroid carcinoma.</i>
 Sungu N, Dogan H, Kilicarslan A, Kilic M, Polat S, Tokac M, Akbaba S, Parlak Omer, Balci S, Ogut B, Cakir B.
@@ -572,6 +573,7 @@ Sungu N, Dogan H, Kilicarslan A, Kilic M, Polat S, Tokac M, Akbaba S, Parlak Ome
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.4103/ijpm.ijpm_85_17">
 </span>
 
+---
 
 - <i>A FISH assay efficiently screens for BRAF gene rearrangements in pancreatic acinar-type neoplasms.</i>
 Wang L, Basturk O, Wang J, Benayed R, Middha S, Zehir A, Linkov I, Rao M, Aryeequaye R, Cao L, Chmielecki J, Ross J, Stephens PJ, Adsay V, Askan G, <i>Balci S</i>, Klimstra DS
@@ -584,6 +586,10 @@ Wang L, Basturk O, Wang J, Benayed R, Middha S, Zehir A, Linkov I, Rao M, Aryeeq
 </span>
 
 
+[![](figures/semantic-scholar.PNG){width=8%}](https://api.semanticscholar.org/10.1038/modpathol.2017.106?include_unknown_references=true)
+
+---
+
 - <i>Pancreatic intraductal tubulopapillary neoplasm is genetically distinct from intraductal papillary mucinous neoplasm and ductal adenocarcinoma.</i>
 Basturk O, Berger MF, Yamaguchi H, Adsay V, Askan G, Bhanot UK, Zehir A, Carneiro F, Hong SM, Zamboni G, Dikoglu E, Jobanputra V, Wrzeszczynski KO, <i>Balci S</i>, Allen P, Ikari N, Takeuchi S, Akagawa H, Kanno A, Shimosegawa T, Morikawa T, Motoi F, Unno M, Higuchi R, Yamamoto M, Shimizu K, Furukawa T, Klimstra DS
 <a href="https://www.nature.com/articles/modpathol201760" target="_blank">Mod Pathol. 2017 Aug 4</a>
@@ -594,6 +600,7 @@ Basturk O, Berger MF, Yamaguchi H, Adsay V, Askan G, Bhanot UK, Zehir A, Carneir
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/modpathol.2017.60">
 </span>
 
+---
 
 - <i>Immunohistochemical Classification of Ampullary Carcinomas: Critical Reappraisal Fails to Confirm Prognostic Relevance for Recently Proposed Panels, and Highlights MUC5AC as a Strong Prognosticator.</i>
 Xue Y, Reid MD, <i>Balci S</i>, Quigley B, Muraki T, Memis B, Xia J, Hacihasanoglu E, Bedolla G, Pehlivanoglu B, Kim GE, Tajiri T, Ohike N, Aneja R, Krasinskas AM, Adsay V

@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% Adapted to be an Rmarkdown template by Rob J Hyndman
+% 23 November 2018
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,]{twentysecondcv}
+
+\usepackage[scaled=0.86]{DejaVuSansMono}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{csquotes}
+
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+
+\usepackage{booktabs}
+
+
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+% Profile pic
+\profilepic{SerdarBalci-MD-Pathologist.jpg}
+
+\cvname{Serdar Balci} % Your name
+
+\cvjobtitle{Associate Professor of Pathology} % Job title/career
+\cvdate{January 2019} % Date of birth or date of CV??
+\cvaddress{Independent Researcher} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+90 533 4472096} % Phone number
+\cvsite{\href{http://serdarbalci.com}{serdarbalci.com}} % Personal website
+\cvmail{\href{mailto:drserdarbalci@gmail.com}{\nolinkurl{drserdarbalci@gmail.com}}} % Email address
+\cvtwitter{\href{https://twitter.com/serdarbalci}{serdarbalci}}
+\cvgithub{\href{https://github.com/sbalci}{sbalci}}
+\cvlinkedin{\href{https://www.linkedin.com/in/serdar-balci-md-pathologist}{serdar-balci-md-pathologist}}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{
+\twentyitem{#2}{#1}{#3}{\ifx#4\empty\else#4\par\fi\ifx#5\empty\else{\begin{minipage}{0.7\textwidth}\begin{itemize}#5\end{itemize}\end{minipage}}\fi}}
+\def\detailedsection#1{\nopagebreak\begin{twenty}#1\end{twenty}}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\twentyitemshort{#2}{#1. #3}}
+\def\briefsection#1{\nopagebreak\begin{twentyshort}#1\end{twentyshort}}
+
+\lfoot{\sf Curriculum Vitae: Serdar Balci}
+\rfoot{\sf\thepage}
+
+\begin{document}
+\aboutme{Serdar Balci is a pathologist.}
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+%\skills{{pursuer of rabbits/5.8},{good manners/4},{outgoing/4.3},{polite/4},{Java/0.01}}
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+\makeprofile % Print the sidebar
+
+
+
+
+\hypertarget{about-me}{%
+\section{About Me}\label{about-me}}
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://about.me/serdarbalci}
+\item
+  I use \url{https://twitter.com/serdarbalci} frequently.
+\item
+  See \url{https://www.serdarbalci.com/} for main web page
+\item
+  \url{http://www.patolojinotlari.com/} for Turkish Lecture Notes \& Social Media Based Notes
+\item
+  \url{https://sbalci.github.io/MyRCodesForDataAnalysis/} for R codes,
+\item
+  \url{https://sbalci.github.io/pubmed/BibliographicStudies.html} for Bibliographic studies.
+\end{itemize}
+
+
+
+\end{document}

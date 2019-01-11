@@ -8,6 +8,7 @@ email: "drserdarbalci@gmail.com"
 twitter: serdarbalci
 github: sbalci
 linkedin: serdar-balci-md-pathologist
+aboutme: serdarbalci
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::hyndman
 ---
