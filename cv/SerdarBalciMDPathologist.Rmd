@@ -1,13 +1,11 @@
----
-title: "Serdar Balci, MD, Pathologist"
-output: 
-  flexdashboard::flex_dashboard:
-    orientation: rows
-    social: menu
-  # html_notebook:
-  #       theme: paper
----
-
+<!-- # --- -->
+<!-- # title: "Serdar Balci, MD, Pathologist" -->
+<!-- # output: -->
+<!-- #   flexdashboard::flex_dashboard: -->
+<!-- #     orientation: rows -->
+<!-- #     social: menu -->
+<!-- # --- -->
+<!-- # -->
 
 <!-- Open all links in new tab-->  
 <base target="_blank"/> 
