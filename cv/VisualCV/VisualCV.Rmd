@@ -1,7 +1,4 @@
----
-title: "VisualCV"
-output: html_notebook
----
+
 
 <!-- # Visualize your CV’s timeline with R (Gantt chart style) -->
 <!-- https://www.r-bloggers.com/visualize-your-cvs-timeline-with-r-gantt-chart-style/ -->
@@ -20,7 +17,7 @@ devtools::install_github("ndphillips/VisualResume")
 
 ```{r}
 VisualResume::VisualResume(
- titles.left = c("Serdar Balci", "MD, PAthologist", "*Built with love in R using the InfoResume package: www.ndphillips.github.io/inforesume"),
+ titles.left = c("Serdar Balci", "MD, Pathologist", "*Built with love in R using the InfoResume package: www.ndphillips.github.io/inforesume"),
 titles.right = c("www.serdarbalci.com", "www.patolojinotlari.com", "drserdarbalci@gmail.com", "Full Resume: sbalci.github.io/SerdarBalciMDPathologist.nb.html"),
 titles.right.cex = c(2, 2, 1),
 titles.left.cex = c(4, 2, 1),

@@ -10,7 +10,7 @@ Click the links in the menu to see My Research Notes.
 
 You may contact with me with the comment field below.
 
-
+---
 
 
 {% if page.comments %}
@@ -37,3 +37,5 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %} 
+
+---
