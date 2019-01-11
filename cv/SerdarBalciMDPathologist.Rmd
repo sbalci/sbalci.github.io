@@ -4,8 +4,8 @@ output:
   flexdashboard::flex_dashboard:
     orientation: rows
     social: menu
-  html_notebook:
-        theme: paper
+  # html_notebook:
+  #       theme: paper
 ---
 
 
@@ -42,7 +42,6 @@ output:
   ]
 }
 </script></div>
-
 
 
 

@@ -1,4 +1,7 @@
-
+<!-- # --- -->
+<!-- # title: "VisualCV" -->
+<!-- # output: html_notebook -->
+<!-- # --- -->
 
 <!-- # Visualize your CV’s timeline with R (Gantt chart style) -->
 <!-- https://www.r-bloggers.com/visualize-your-cvs-timeline-with-r-gantt-chart-style/ -->
