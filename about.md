@@ -16,10 +16,14 @@ See [https://www.serdarbalci.com/](https://www.serdarbalci.com/) for main web pa
 See [my CV here](https://sbalci.github.io/cv/SerdarBalciMDPathologist.html).
 
 
+---
+
 Click the links in the menu to see My Research Notes.
 
 You may contact with me with the comment field below.
 
+
+---
 
 
 {% if page.comments %}
@@ -47,7 +51,7 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %} 
 
-
+---
 
 
 <!--This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/) 
