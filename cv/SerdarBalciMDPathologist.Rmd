@@ -1,13 +1,13 @@
-<!-- # --- -->
-<!-- # title: "Serdar Balci, MD, Pathologist" -->
-<!-- # output: -->
-<!-- #   flexdashboard::flex_dashboard: -->
-<!-- #     orientation: rows -->
-<!-- #     social: menu -->
-<!-- # --- -->
-<!-- # -->
 
-<!-- Open all links in new tab-->  
+---
+title: "Serdar Balci, MD, Pathologist"
+output:
+ flexdashboard::flex_dashboard:
+   orientation: rows
+   social: menu
+---
+
+<!-- Open all links in new tab -->
 <base target="_blank"/> 
 
 <script async="" charset="utf-8" src="https://badge.dimensions.ai/badge.js"></script>
@@ -515,13 +515,16 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 - [GoogleScholar](http://scholar.google.com/citations?user=q40DcqYAAAAJ)
 
-- [ResearcherID](http://www.researcherid.com/rid/B-6401-2011)  
+- [ResearcherID: B-6401-2011](http://www.researcherid.com/rid/B-6401-2011)  
 
 - [Publons](https://publons.com/researcher/467202/serdar-balci/)  
 
-- [PubMed](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/)
+- [PubMed My Bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/)
 
-- [PubMed](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1n_xodb65Uqv226D6zhH5rj/?sort=date&amp;direction=ascending)
+- [PubMed My Bibliography Other Page 1](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1n_xodb65Uqv226D6zhH5rj/?sort=date&amp;direction=ascending)
+
+- [PubMed My Bibliography Other Page 2](https://www.ncbi.nlm.nih.gov/labs/bibliography/serdar.balci.1/bibliography/public/)
+
 
 - [ORCID](http://orcid.org/0000-0002-7852-3851)  
 
