@@ -72,6 +72,8 @@ Row {.tabset .tabset-fade .tabset-pills}
 - Dijital patoloji
 - Patolojide kalite kontrol
 
+This page is updated on `r Sys.Date()`
+
 
 ### Güncel Uğraşılar
 
@@ -1569,6 +1571,8 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 - [Does the presence of endometriosis increase the risk of gynecologic malignancies?](https://www.endonews.com/does-the-presence-of-endometriosis-increase-the-risk-of-gynecologic-malignancies)  
 
 - [A new theory in the pathogenesis of endometriosis](https://www.endonews.com/a-new-theory-in-the-pathogenesis-of-endometriosis)  
+
+- [Clonal Proliferation and Cancer Associated Mutations in normal uterine endometrium and endometriosis](https://www.endonews.com/clonal-proliferation-and-cancer-associated-mutations-in-normal-uterine-endometrium-and-endometriosis)  
 
 
 
