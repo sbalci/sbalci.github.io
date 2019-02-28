@@ -58,7 +58,7 @@ Row {.tabset .tabset-fade .tabset-pills}
 <br>
 
 
-<a href="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s1600/SerdarBalci-MD-Pathologist.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="459" data-original-width="580" height="253" src="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s320/SerdarBalci-MD-Pathologist.jpg" width="320" /></a>
+<a href="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s1600/SerdarBalci-MD-Pathologist.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="459" data-original-width="580" src="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s320/SerdarBalci-MD-Pathologist.jpg" width="20%" /></a>
 
 
 ### Genel Uğraşılar
@@ -1555,6 +1555,12 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 - Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors  
 <a href="http://pid.emory.edu/ark:/25593/rkcxs" target="_blank">http://pid.emory.edu/ark:/25593/rkcxs</a>
 
+- Reviews:
+
+Publons: https://publons.com/researcher/467202/serdar-balci/
+
+Acknowledgement to reviewers 2018 
+Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5 
 
 ### Diğer yazılar
 
@@ -1574,6 +1580,7 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 
 - [Clonal Proliferation and Cancer Associated Mutations in normal uterine endometrium and endometriosis](https://www.endonews.com/clonal-proliferation-and-cancer-associated-mutations-in-normal-uterine-endometrium-and-endometriosis)  
 
+- [PAX8 immunohistochemistry in the diagnosis of Extragenital Endometriosis](https://www.endonews.com/pax8-immunohistochemistry-in-the-diagnosis-of-extragenitalendometriosis)
 
 
 
