@@ -205,6 +205,10 @@ s.setAttribute('data-timestamp', +new Date());
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="tr_TR" data-type="vertical" data-theme="dark" data-vanity="serdar-balci-md-pathologist"><a class="LI-simple-link" href='https://tr.linkedin.com/in/serdar-balci-md-pathologist?trk=profile-badge'>Serdar Balcı</a></div>  
 
 
+
+- [Disqus](https://disqus.com/by/serdarbalci/favorites/)
+
+
 #### Other Research Accounts
 
 - [GitHub](https://github.com/sbalci)  
@@ -224,8 +228,16 @@ s.setAttribute('data-timestamp', +new Date());
 
 ### Eğitim Hayatı
 
+---
+
+|  Öğrenim Dönemi|  Derece|  Üniversite|  Öğretim Alanı|
+|--:|--:|--:|--:|
+|  1998-2005|  Lisans|  Hacettepe Üniversitesi Tıp (İngilizce) Fakültesi|  Tıp Doktorluğu|
+|  2005-2010|  Tıbbi Patoloji Uzmanı|  Hacettepe Üniversitesi Tıp Fakültesi Tıbbi Patoloji Anabilim Dalı|  Tıbbi Patoloji Uzmanlığı|
+|  2010-2011|  Özel Öğrenci|  Hacettepe Üniversitesi Sağlık Bilimleri Enstitüsü|  Tıp Fakültesi Biyoistatistik Anabilim Dalı|
 
 
+---
 
 
 #### Burslar
@@ -234,29 +246,29 @@ s.setAttribute('data-timestamp', +new Date());
 
 **Burslar**
 
-Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mart 2014, Emory University School of Medicine, Department of Pathology and Laboratory Medicine
+Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mart 2014, Emory University School of Medicine, Department of Pathology and Laboratory Medicine  
 
 
 #### Sınavlar
 
 ---
 
-**Board Sınavı ve Yeterlilik Belgeleri**
+**Board Sınavı ve Yeterlilik Belgeleri**  
 
-18 Ekim 2015 Patoloji Dernekleri Federasyonu Tıbbi Patoloji Yeterlilik Sınavı
+18 Ekim 2015 Patoloji Dernekleri Federasyonu Tıbbi Patoloji Yeterlilik Sınavı  
 
-1 Nisan 2016 Doçentlik Sınavı, Üniversiteler Arası Kurul, Ankara
+1 Nisan 2016 Doçentlik Sınavı, Üniversiteler Arası Kurul, Ankara  
 
 
 
-#### Kurslar ve Diğer Eğitimler 
+#### Kurslar ve Diğer Eğitimler   
 
 
 ---
 
-**Katıldığı uzaktan eğitim ve Online kurslar**
+**Katıldığı uzaktan eğitim ve Online kurslar**  
 
-- [DataCamp Introduction to Data Course](https://www.datacamp.com/statement-of-accomplishment/course/2700e289e1a666ba0e10fd09ec0d1297bd33c7c0)
+- [DataCamp Introduction to Data Course](https://www.datacamp.com/statement-of-accomplishment/course/2700e289e1a666ba0e10fd09ec0d1297bd33c7c0)  
 
 - [DataCamp Data Analysis with Spreadsheets](https://www.datacamp.com/statement-of-accomplishment/course/f48bd225f20f34ec927f61cd9e3992479bc98ec6)
 
@@ -280,36 +292,30 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 - [DataCamp Intermediate R Course](https://www.datacamp.com/statement-of-accomplishment/course/516018e0b11bdbb04234d536a01fa706521996aa)
 
-- DataCamp Intermediate R - Practice Course https://www.datacamp.com/statement-of-accomplishment/course/04232d77aa816d772b181b776feb108f2c1b87e8
+- [DataCamp Intermediate R - Practice Course](https://www.datacamp.com/statement-of-accomplishment/course/04232d77aa816d772b181b776feb108f2c1b87e8)
 
 
-- DataCamp Importing Data in R (Part 1) Course
-https://www.datacamp.com/statement-of-accomplishment/course/f186f4f36b8dbf2d69d7ce4f944c3b5c7831b821
+- [DataCamp Importing Data in R (Part 1) Course](https://www.datacamp.com/statement-of-accomplishment/course/f186f4f36b8dbf2d69d7ce4f944c3b5c7831b821)
 
 
-- DataCamp Importing Data in R (Part 2) Course
-https://www.datacamp.com/statement-of-accomplishment/course/fb7eeb69b868d1aec9f2214d74b867a2b0a6f6b1
+- [DataCamp Importing Data in R (Part 2) Course](https://www.datacamp.com/statement-of-accomplishment/course/fb7eeb69b868d1aec9f2214d74b867a2b0a6f6b1)
 
 
-- DataCamp Cleaning Data in R Course
-https://www.datacamp.com/statement-of-accomplishment/course/e6f5130a798e08a990755bcf0766abf2dd38b243
+- [DataCamp Cleaning Data in R Course](https://www.datacamp.com/statement-of-accomplishment/course/e6f5130a798e08a990755bcf0766abf2dd38b243)
 
 
-- DataCamp Importing &amp; Cleaning Data in R: Case Studies
-https://www.datacamp.com/statement-of-accomplishment/course/3c9180bf9068b1c4476689aaac5dda021b1a6f3c
+- [DataCamp Importing & Cleaning Data in R: Case Studies](https://www.datacamp.com/statement-of-accomplishment/course/3c9180bf9068b1c4476689aaac5dda021b1a6f3c)
 
 
-- DataCamp Data Manipulation in R with dplyr Course
-https://www.datacamp.com/statement-of-accomplishment/course/627937d2deb5e18c1974ca6cc1598dd4226918d6
+- [DataCamp Data Manipulation in R with dplyr Course](https://www.datacamp.com/statement-of-accomplishment/course/627937d2deb5e18c1974ca6cc1598dd4226918d6)
 
 
-- DataCamp Joining Data in R with dplyr Course
-https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f473542bc4152c62d64f07a34
+- [DataCamp Joining Data in R with dplyr Course](https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f473542bc4152c62d64f07a34)
 
 
-- DataCamp SQL DataCamp Intro to SQL for Data Science Course https://www.datacamp.com/statement-of-accomplishment/course/3645785960e50b28775aa47e441adc83808d14e5
+- [DataCamp SQL DataCamp Intro to SQL for Data Science Course](https://www.datacamp.com/statement-of-accomplishment/course/3645785960e50b28775aa47e441adc83808d14e5)
 
-- <a href="https://courses.edx.org/certificates/781da378e05a471e9eae6855a2934f46">OsakaUx MED101x:&nbsp;Introduction to Applied Biostatistics EdX</a>
+- [OsakaUx MED101x: Introduction to Applied Biostatistics EdX](https://courses.edx.org/certificates/781da378e05a471e9eae6855a2934f46)
 
 
 
@@ -323,11 +329,11 @@ https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f4735
 
 - USCAP 2016 Annual Meeting, 12-18 Mart 2016, Seattle, Washington.
 
-- 5. Patoloji Kış Okulu, 20-21 Şubat 2016, Ankara.
+- 5.Patoloji Kış Okulu, 20-21 Şubat 2016, Ankara.
 
 - EScoP Nephropathology course: A Practical Workshop, 26-28 November 2015, Ankara
 
-- 25. Ulusal Patoloji Kongresi ve 6. Sitopatoloji Kongresi, 14-17 Ekim 2015, Bursa
+- 25.Ulusal Patoloji Kongresi ve 6. Sitopatoloji Kongresi, 14-17 Ekim 2015, Bursa
 
 - Akciğer Patolojisi Kursu, 25. Ulusal Patoloji Kongresi ve 6. Sitopatoloji Kongresi, 14-17 Ekim 2015, Bursa
 
@@ -355,7 +361,7 @@ https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f4735
 
 - USCAP 102nd Annual Meeting, March 2-8, 2013 Baltimore Convention Center, Baltimore, MD, USA
 
-- 22. Ulusal Patoloji Kongresi, 7-11 Kasım 2012, Antalya
+- 22.Ulusal Patoloji Kongresi, 7-11 Kasım 2012, Antalya
 
 - Temel Nöropatoloji Kursu, 28-29 Nisan 2012, İstanbul
 
@@ -413,7 +419,7 @@ https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f4735
 
 - Jinekopatoloji Kursu, 8-9 Kasım 2008, Ankara Patoloji Derneği, Ankara
 
-- 18. Ulusal Patoloji Kongresi, 25-29 Ekim 2008 Antalya
+- 18.Ulusal Patoloji Kongresi, 25-29 Ekim 2008 Antalya
 
 - Servikal Sitopatoloji Kursu, I. Ulusal Kolposkopi ve Servikal Patolojiler Kongresi, 8-9 Ekim 2008, Antalya
 
@@ -435,6 +441,7 @@ https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f4735
 
 - Gastrointestinal Sistem ve Karaciğer Hastalıkları Patolojisi kursu, 14-15 Ekim 2005, Hacettepe Üniversitesi, - Ankara
 
+---
 
 **Özel Öğrenci Olarak Aldığı Dersler**
 
@@ -446,7 +453,26 @@ https://www.datacamp.com/statement-of-accomplishment/course/fad3f7024bf4b36f4735
 - Biyoinformatiğe Giriş (BIS761), Hacettepe Üniversitesi Tıp Fakültesi Biyoistatistik Anabilim Dalı. Ders Tanımı, Syllabus in English
 - Karar verme Sürecinde istatistiksel yöntemler (BIS 710), Hacettepe Üniversitesi Tıp Fakültesi Biyoistatistik Anabilim Dalı. Ders Tanımı, Syllabus in English
 
+---
+
 ### Çalışma Hayatı
+
+---
+
+|  Görev Dönemi|  Ünvan|  Üniversite/Kurum|  Bölüm|
+|--:|--:|--:|--:|
+|  2005-2010|  Araştırma Görevlisi|  Hacettepe Üniversitesi|  Tıp Fakültesi Patoloji Anabilim Dalı|
+|  Haziran-Ağustos 2009|  Visiting Scholar|  Emory University Atlanta/USA|  Emory University School of Medicine Anatomic Pathology Department|
+|  Nisan 2010-Temmuz 2010|  Patoloji Uzmanı|  Hacettepe Üniversitesi|  Tıp Fakültesi Patoloji Anabilim Dalı|
+|  Temmuz 2010-Haziran 2012|  Patoloji Uzmanı|  Ankara Atatürk Eğitim ve Araştırma Hastanesi|  Patoloji Kliniği|
+|  Haziran 2012 – Ekim 2016|  Yrd. Doç. Dr.|  Yıldırım Beyazıt Üniversitesi, Ankara Atatürk Eğitim ve Araştırma Hastanesi|  Yıldırım Beyazıt Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara Atatürk Eğitim ve Araştırma Hastanesi Patoloji Kliniği|
+|  Mart 2013-Mart 2014|  YÖK Doktora Sonrası Araştırma Bursu Visiting Scholar / Postdoctorate researcher|  Emory University Atlanta/USA|  Emory University School of Medicine Anatomic Pathology Department|
+|  Mart 2014 – Kasım 2015|  Patoloji AD Başkanı|  Yıldırım Beyazıt Üniversitesi	|  Tıp Fakültesi Patoloji Anabilim Dalı|
+|  Nisan 2014 – Kasım 2015|  Eğitim Sorumlusu|  Ankara Atatürk Eğitim ve Araştırma Hastanesi|  Patoloji Kliniği|
+|  1 Nisan 2016|  Doç.Dr.|  |  |
+
+
+---
 
 
 #### Dernek ve Çalışma Grupları
