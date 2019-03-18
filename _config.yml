@@ -43,7 +43,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-avatar
   - jekyll-include-cache
-  - jekyll-twitter-plugin
+
 
 
 # Exclude from processing.
