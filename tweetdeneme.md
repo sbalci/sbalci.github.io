@@ -1,4 +1,8 @@
-
+---
+layout: page
+title: tweetdeneme
+permalink: /tweetdeneme/
+---
 
 {% twitter https://twitter.com/LizaMQuintana/status/1107618814089404416}
 
