@@ -43,6 +43,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-avatar
   - jekyll-include-cache
+  - jekyll-twitter-plugin
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
