@@ -1,4 +1,3 @@
-
 ---
 title: "Serdar Balci, MD, Pathologist"
 output:
@@ -577,6 +576,9 @@ Row {.tabset .tabset-fade .tabset-pills}
 - [Microsoft Academic](https://academic.microsoft.com/#/profile/SerdarBalci)
 
 - [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)  
+
+
+- [Lens Scholar](https://www.lens.org/lens/scholar/search/analysis?q=&page=0&limit=10&orderBy=%2Bpublished&filterMap=%7B%7D&dateFilterField=year_published&previewType=SCHOLAR_ANALYSIS&preview=true&regexEnabled=false&orcids=0000-0002-7852-3851&dashboardId=14)
 
 
 
