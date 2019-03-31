@@ -582,6 +582,18 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 
 
+<iframe width="100%" height="720" src="https://openknowledgemaps.org/map/cb13e14ef3ea4038280826bbaf87d9f1&embed=true"></iframe>
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 
@@ -1609,6 +1621,25 @@ Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5
 - [Clonal Proliferation and Cancer Associated Mutations in normal uterine endometrium and endometriosis](https://www.endonews.com/clonal-proliferation-and-cancer-associated-mutations-in-normal-uterine-endometrium-and-endometriosis)  
 
 - [PAX8 immunohistochemistry in the diagnosis of Extragenital Endometriosis](https://www.endonews.com/pax8-immunohistochemistry-in-the-diagnosis-of-extragenitalendometriosis)
+
+
+
+### Scholar Connections
+
+#### Connections
+
+![](figures/VOSviewer-CV.png)
+
+#### Connections With Years
+
+
+![](figures/VOSviewerOverlay-CV.png)
+
+#### Connections Density
+
+
+![](figures/VOSviewerDensity-CV.png)
+
 
 
 
