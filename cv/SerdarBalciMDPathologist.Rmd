@@ -99,7 +99,34 @@ This page is updated on `r Sys.Date()`
 <a target="_blank" href="https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d"><img src="https://assets.peerwith.com/content/network-share/peerwith-req-blue.png"></a>  
 
 
+**Article Collections**
+
+
+- [My Journal Watch Articles Worth Reading](https://sbalci.github.io/MyJournalWatch/)
+
+
 - [Peeriodicals Histopathology Reviewed](https://peeriodicals.com/peeriodicals/histopathology-reviewed)
+
+
+- [Peeriodicals R-project Articles](https://peeriodicals.com/peeriodicals/r-project-articles)
+
+
+- [Peeriodicals Pathology Articles From Turkey](https://peeriodicals.com/peeriodicals/pathology-articles-from-turkey)
+
+
+- [Peeriodicals Knowledge Discovery](https://peeriodicals.com/peeriodicals/knowledge-discovery)
+
+
+- [Pancreatobiliary Pathology Society PBPath Journal Watch in peeriodicals](https://peeriodicals.com/peeriodicals/pancreatobiliary-pathology-society)
+
+
+- [Pancreatobiliary Pathology Society PBPath Journal Watch Official Page](http://pbpath.org/journal-watch/)
+
+
+**Games**
+
+
+- [lichess](https://lichess.org/@/sbalci)
 
 
 
@@ -262,6 +289,15 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 #### Kurslar ve Diğer Eğitimler   
 
+---
+
+**Dil Kursları**  
+
+- Deutschkurs im Goethe-Institut Ankara, A1.1, 18.07.2018-03.08.2018  
+- Deutschkurs im Goethe-Institut Ankara, A1.2, 06.08.2018-29.08.2018  
+- Deutschkurs im Goethe-Institut Ankara, A2.1, 10.09.2018-26.09.2018  
+- Deutschkurs im Goethe-Institut Ankara, A2.2, 15.10.2018-10.12.2018  
+- Deutschkurs im Goethe-Institut Ankara, B1.1-B1.3, 24.12.2018-15.02.2019  
 
 ---
 
@@ -319,6 +355,8 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 
 **Katıldığı Toplantı ve Kurslar**
+
+- Bibliyometri Eğitimi, 23-24 Mart 2019, Hacettepe Üniversitesi Yaşam Boyu Öğrenme Merkezi, Bilgi ve Belge Yönetimi Bölümü, Ankara  
 
 - Böbrek ve Mesane Tümörlerine Güncel Bakış, 18-19 Haziran 2016, Acıbadem, İstanbul
 
@@ -497,7 +535,9 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 <!-- - Eşyanın isimleri bize Dede mirasıdır *2/31* -->
 
-<!-- - "In God we trust. All others must bring data." -->
+<!-- - "In God we trust. All others must bring data."   
+"Wir vertrauen in Gott. Alle anderen müssen Daten mitbringen" -->
+
 
 <!-- - Hakkı hak bilip hakka ittiba, bâtılı bâtıl bilip bâtıldan ictinâb. -->
 
@@ -767,6 +807,9 @@ PMID: 25783680
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1097/PAS.0000000000000408">
 </span>
 
+https://scite.ai/reports/10.1097/PAS.0000000000000408
+
+
 - Colbert LE, Fisher SB, <i>Balci S</i>, Saka B, Chen Z, Kim S, El-Rayes BF, Adsay NV, Maithel SK, Landry JC, Curran WJ Jr. High Nuclear Hypoxia-Inducible Factor 1 Alpha Expression Is a Predictor of Distant Recurrence in Patients With Resected Pancreatic Adenocarcinoma. Int J Radiat Oncol Biol Phys. 2015 Mar 1;91(3):631-9. doi: 10.1016/j.ijrobp.2014.11.004.
 
 <span class="__dimensions_badge_embed__" data-doi="10.1016/j.ijrobp.2014.11.004" data-style="small_circle"></span>
@@ -796,6 +839,8 @@ PMID: 25783680
 <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0088525" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0088525">
 </span>
+
+https://scite.ai/reports/10.1371/JOURNAL.PONE.0088525
 
 - Kiliç M, <i>Balci S</i>, Irkkan Ç, Yetişir F, Ebru Salman A, Bilal Ozkardes A, Buluş H, Narci A, Ozaydin I, Guler G. The effect of payment and working system of specialist surgeons on the rate of negative appendectomy in different types of hospitals in Turkey. Chirurgia 2013 April;26(2):115-9
 
@@ -846,6 +891,9 @@ Guney G, Tezel GG, Kosemehmetoglu K, Yilmaz E, <i>Balci S</i>, Ersoy R, Cakir B,
 <span class="__dimensions_badge_embed__" data-doi="10.1097/PAS.0b013e31826399d8" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1097/PAS.0b013e31826399d8">
 </span>
+
+https://scite.ai/reports/10.1097/PAS.0B013E31826399D8
+
 
 - Ozcan MF, Dizdar O, Dincer N, Balcı S, Guler G, Gok B, Pektas G, Seker MM, Aksoy S, Arslan C, Yalcin S, Balbay MD. Low ERCC1 expression is associated with prolonged survival in patients with bladder cancer receiving platinum-based neoadjuvant chemotherapy. Urol Oncol. 2013 Nov;31(8):1709-15. doi: 10.1016/j.urolonc.2012.06.014. Epub 2012 Aug 3. PMID:22863869
 
@@ -1089,6 +1137,9 @@ Turkish Journal of Cancer Volume 37, No.1, 2007
 
 #### Uluslararası kongrelerdeki sözel bildiriler
 
+https://www.xcdsystem.com//uscap/program/2019/index.cfm?pgid=132&SearchTerm=balci&loginsuccess=1
+
+
 Michelle Reid, Serdar Balci, Yue Xue, Nobu Ohike, Takuma Tajiri, Olca Basturk, Takashi Muraki, Grace E Kim, Alyssa M Krasinskas, Brian Quigley, Burcu Saka, Pelin Bagci, Bassel El-Rayes, David Kooby, Juan Sarmiento, Shishir Maithel, Volkan Adsay
 Significant Prognostic Factors in Invasive Ampullary Adenocarcinoma (AC): Clinicopathologic Analysis of 367 Cases. 2016/2/1
 LABORATORY INVESTIGATION, 96, 194A-194A
@@ -1219,7 +1270,7 @@ Balcı S, Tezel GG, Güler G. Üçlü negatif meme kanserlerinde BRCA1 protein e
 
 #### Uluslararası kongrelerdeki poster sunumları
 
-
+https://www.xcdsystem.com//uscap/program/2019/index.cfm?pgid=132&SearchTerm=balci&loginsuccess=1
 
 Muraki T, Reid MD, Keilin M, <i>Balci S</i>, Ohike N, Tajiri T, Xue Y, Memis B, Sekhar A, Mittal P, Krasinskas A, Kooby D, Maithel S, Sarmiento JM, Adsay V. Clinical Manifestations of Pathologic Site-Based Classification of Ampullary Carcinomas (ACs):An Analysis of 107 Resected ACs Demonstrates Distinct Clinicopathologic Associations (Abstract). Modern Pathology, 30(2S):189A, 2017
 
@@ -1625,6 +1676,11 @@ Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5
 
 
 ### Scholar Connections
+
+#### Download to view the interactive graph
+
+http://www.vosviewer.com/vosviewer.php?map=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewermap.txt&network=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewerNetwork.txt
+
 
 #### Connections
 
