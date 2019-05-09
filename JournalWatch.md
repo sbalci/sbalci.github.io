@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Journal Watch PBPath
-permalink: /JournalWatchPBPath/
+title: JournalWatch
+permalink: /JournalWatch/
 ---
 
 
