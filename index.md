@@ -6,7 +6,20 @@ layout: home
 comments: true
 ---
 
-This page contains information and links about Serdar Balci MD Pathologist.
+
+I am a medical doctor, specialised in anatomic pathology.
+
+I use [https://twitter.com/serdarbalci](https://twitter.com/serdarbalci) frequently
+
+See [https://www.serdarbalci.com/](https://www.serdarbalci.com/) for main web page,
+
+[http://www.patolojinotlari.com/](http://www.patolojinotlari.com/) for Turkish Lecture Notes & Social Media Based Notes for pathology.
+
+See [my CV here](https://sbalci.github.io/cv/SerdarBalciMDPathologist.html).
+
+
+---
+
 
 Click the links in the menu to see My Research Notes.
 
