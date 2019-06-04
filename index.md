@@ -20,6 +20,13 @@ See [my CV here](https://sbalci.github.io/cv/SerdarBalciMDPathologist.html).
 
 ---
 
+<a class="twitter-follow-button" data-show-count="false"
+  href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)
+[![HitCount](http://hits.dwyl.io/sbalci/sbalci.github.io.svg)](http://hits.dwyl.io/sbalci/sbalci.github.io)
+
+
+---
 
 Click the links in the menu to see My Research Notes.
 
