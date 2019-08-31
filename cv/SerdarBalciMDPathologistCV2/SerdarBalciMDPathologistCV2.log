@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.24)  11 JAN 2019 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.6)  23 AUG 2019 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,7 +868,7 @@ l.78 \lfoot
            {\sf Curriculum Vitae: Serdar Balci} 
 Here is how much of TeX's memory you used:
  18732 strings out of 494587
- 344799 string characters out of 6176485
+ 344799 string characters out of 6176487
  410226 words of memory out of 5000000
  22065 multiletter control sequences out of 15000+600000
  4403 words of font info for 15 fonts, out of 8000000 for 9000

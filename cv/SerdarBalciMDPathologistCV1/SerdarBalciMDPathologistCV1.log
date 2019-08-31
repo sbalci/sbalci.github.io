@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.11.24)  11 JAN 2019 19:34
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2019.4.6)  23 AUG 2019 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ l.46
       
 Here is how much of TeX's memory you used:
  17871 strings out of 494950
- 342100 string characters out of 6176611
+ 342100 string characters out of 6176613
  439570 words of memory out of 5000000
  21694 multiletter control sequences out of 15000+600000
  532362 words of font info for 27 fonts, out of 8000000 for 9000
@@ -655,3 +655,24 @@ Here is how much of TeX's memory you used:
  46i,0n,49p,818b,443s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 No pages of output.
+
+
+! kpathsea: Running mktextfm FontAwesome
+! /Users/serdarbalciold/Library/TinyTeX/texmf-dist/web2c/mktexnam: Could not map source abbreviation  for FontAwesome.
+! /Users/serdarbalciold/Library/TinyTeX/texmf-dist/web2c/mktexnam: Need to update ?
+! mktextfm: Running mf-nowin -progname=mf \mode:=ljfour; mag:=1; nonstopmode; input FontAwesome
+! This is METAFONT, Version 2.7182818 (TeX Live 2018) (preloaded base=mf)
+
+! kpathsea: Running mktexmf FontAwesome
+
+! ! I can't find file `FontAwesome'.
+! <*> ...our; mag:=1; nonstopmode; input FontAwesome
+                                                  
+! Please type another input file name
+! ! Emergency stop.
+! <*> ...our; mag:=1; nonstopmode; input FontAwesome
+                                                  
+! Transcript written on mfput.log.
+! grep: FontAwesome.log: No such file or directory
+! mktextfm: `mf-nowin -progname=mf \mode:=ljfour; mag:=1; nonstopmode; input FontAwesome' failed to make FontAwesome.tfm.
+! kpathsea: Appending font creation commands to missfont.log.
