@@ -660,6 +660,10 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 - [Microsoft Academic](https://academic.microsoft.com/#/profile/SerdarBalci)
 
+https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication
+
+
+
 - [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)  
 
 
@@ -707,6 +711,21 @@ IMPORTANT NOTES:
 ##### Araştırma Makaleleri
 
 ---
+
+
+- Int J Surg Pathol. 2019 Oct 15:1066896919880968. doi: 10.1177/1066896919880968. [Epub ahead of print]
+Poorly Cohesive (Signet Ring Cell) Carcinoma of the Ampulla of Vater.
+
+Tuncel D1, Basturk O2, Bradley KT3, Kim GE4, Xue Y3, Reid MD3, Balci S3, Erbarut I5, Adsay V6.
+
+PMID: 31612756 DOI: 10.1177/1066896919880968
+
+
+https://journals.sagepub.com/doi/abs/10.1177/1066896919880968
+
+
+
+
 
 - Sarcomatoid carcinomas of the gallbladder: clinicopathologic characteristics.
 
@@ -1786,7 +1805,7 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 - [Google Scholar](http://scholar.google.com/citations?user=q40DcqYAAAAJ)
 
 
-```{r}
+```{r google scholar}
 suppressPackageStartupMessages(library(scholar))
 suppressPackageStartupMessages(library(ggplot2))
 cit <- get_citation_history('q40DcqYAAAAJ')
@@ -1817,7 +1836,7 @@ ggplot(cit,aes(x=year,y=cites))+
 ### beamplot
 
 
-```{r echo=FALSE}
+```{r beamplot, echo=FALSE}
 BibPlots::beamplot(wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArticles.txt",
                    do_weight = FALSE)
 ```
