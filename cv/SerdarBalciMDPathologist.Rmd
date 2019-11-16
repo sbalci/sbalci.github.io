@@ -710,32 +710,19 @@ IMPORTANT NOTES:
 
 ##### Araştırma Makaleleri
 
+
 ---
 
 
-- Int J Surg Pathol. 2019 Oct 15:1066896919880968. doi: 10.1177/1066896919880968. [Epub ahead of print]
-Poorly Cohesive (Signet Ring Cell) Carcinoma of the Ampulla of Vater.
-
-Tuncel D1, Basturk O2, Bradley KT3, Kim GE4, Xue Y3, Reid MD3, Balci S3, Erbarut I5, Adsay V6.
-
-PMID: 31612756 DOI: 10.1177/1066896919880968
+-  Taskin OC, Bellolio E, Dursun N, Seven IE, Roa JC, Araya JC, Villaseca M, Tapia O, Vance C, Saka B, Balci S, Bagci P, Losada H, Sarmiento J, Memis B, Pehlivanoğlu B, Basturk O, Reid MD, Koshiol J, Cheng JD, Kapran Y, Adsay V. Non-neoplastic Polyps of the Gallbladder: A Clinicopathologic Analysis of 447 Cases. Am J Surg Pathol. 2019 Nov 12;. doi: 10.1097/PAS.0000000000001405. [Epub ahead of print] PubMed PMID: 31725469. 
 
 
-https://journals.sagepub.com/doi/abs/10.1177/1066896919880968
+-  Tuncel D, Basturk O, Bradley KT, Kim GE, Xue Y, Reid MD, Balci S, Erbarut I, Adsay V. Poorly Cohesive (Signet Ring Cell) Carcinoma of the Ampulla of Vater. Int J Surg Pathol. 2019 Oct 15;:1066896919880968. doi: 10.1177/1066896919880968. [Epub ahead of print] PubMed PMID: 31612756.  https://journals.sagepub.com/doi/abs/10.1177/1066896919880968
 
 
 
+-  Taskin OC, Akkas G, Memis B, Seven IE, Basturk O, Jang KT, Roa JC, Araya JC, Bellolio E, Losada H, Sarmiento J, Balci S, Pehlivanoglu B, Reid MD, Koshiol J, Adsay V. Sarcomatoid carcinomas of the gallbladder: clinicopathologic characteristics. Virchows Arch. 2019 Jun 8;. doi: 10.1007/s00428-019-02583-z. [Epub ahead of print] PubMed [PMID: 31177317](https://www.ncbi.nlm.nih.gov/pubmed/31177317). 
 
-
-- Sarcomatoid carcinomas of the gallbladder: clinicopathologic characteristics.
-
-Virchows Arch. 2019 Jun 8. doi: 10.1007/s00428-019-02583-z. [Epub ahead of print]
-
-Taskin OC1, Akkas G2, Memis B3,4, Seven IE5, Basturk O6,7, Jang KT8, Roa JC9, Araya JC10, Bellolio E11, Losada H12, Sarmiento J3, Balci S3, Pehlivanoglu B3, Reid MD3, Koshiol J13, Adsay V14.
-
-PMID: 31177317 DOI: 10.1007/s00428-019-02583-z
-
-https://www.ncbi.nlm.nih.gov/pubmed/31177317
 
 
 
@@ -748,6 +735,7 @@ Sungu N, Dogan H, Kilicarslan A, Kilic M, Polat S, Tokac M, Akbaba S, Parlak Ome
 <span class="__dimensions_badge_embed__" data-doi="10.4103/ijpm.ijpm_85_17" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.4103/ijpm.ijpm_85_17">
 </span>
+
 
 ---
 
