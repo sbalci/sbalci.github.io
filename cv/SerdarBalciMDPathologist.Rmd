@@ -72,7 +72,7 @@ Row {.tabset .tabset-fade .tabset-pills}
 <a href="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s1600/SerdarBalci-MD-Pathologist.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="459" data-original-width="580" src="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s320/SerdarBalci-MD-Pathologist.jpg" width="20%" /></a>
 
 
-### Genel Uğraşılar
+### Genel Uğraşılar {#guncel-ugrasilar}
 
 
 [Genel Uğraşılarım]( # "Eşyanın isimleri bize Dede mirasıdır 2/31")
@@ -94,26 +94,27 @@ This page is updated on `r Sys.Date()`
 
 
 
-### Güncel Uğraşılar
+### Güncel Uğraşılar {#genel-ugrasilar}
 
+- [Histopathology Research Template](https://github.com/sbalci/histopathology-template)  
 
-- [(Para) Pathology Notes](https://sbalci.gitbooks.io/pathology-notes/content/)
+- [(Para) Pathology Notes](https://sbalci.gitbooks.io/pathology-notes/content/)  
 
 
 - [Patoloji Notları](https://sites.google.com/view/drserdarbalci/)  
 
 
-- [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)
+- [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)  
 
 - [Coursera Turkish Language Community](http://www.serdarbalci.com/p/coursera-current-active-turkish.html)  
 
-- [PBPath Journal Watch](http://pbpath.org/pbpath-journal-watch/)
+- [PBPath Journal Watch](http://pbpath.org/pbpath-journal-watch/)  
 
 
-- [Endonews](https://www.endonews.com/author/serdar-balci)
+- [Endonews](https://www.endonews.com/author/serdar-balci)  
 
 
-- [Model İstatistik](https://www.modelistatistik.com/)
+- [Model İstatistik](https://www.modelistatistik.com/)  
 
 
 - [Peerwith](https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d)  
@@ -162,7 +163,7 @@ This page is updated on `r Sys.Date()`
 
 
 
-### Contact Me
+### Contact Me {#contact-me}
 
 **Contact Me / İletişim Formu**  
   
@@ -214,11 +215,11 @@ s.setAttribute('data-timestamp', +new Date());
 
 
 
-### Web & Social Media Accounts
+### Web & Social Media Accounts {#web-social-links}
 
 
 
-#### Blog
+#### Blog {#blogs}
 
 
 - [about.me/serdarbalci](https://about.me/serdarbalci)
@@ -232,7 +233,7 @@ s.setAttribute('data-timestamp', +new Date());
 - [Web](https://serdarbalci.wordpress.com/cv/)
 
 
-#### Social Media
+#### Social Media {#social-links}
 
 
 - [Google+](https://plus.google.com/u/0/+SERDARBALCIMD)
@@ -277,7 +278,7 @@ s.setAttribute('data-timestamp', +new Date());
 - [Disqus](https://disqus.com/by/serdarbalci/favorites/)
 
 
-#### Other Research Accounts
+#### Other Research Accounts {#research-accounts}
 
 - [GitHub](https://github.com/sbalci)  
 
@@ -289,12 +290,12 @@ s.setAttribute('data-timestamp', +new Date());
 
 - [Resume](https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist)  
 
-- [RPubs](http://rpubs.com/sbalci) 
+- [RPubs](http://rpubs.com/sbalci)  
+
+- [SourceForge](https://sourceforge.net/u/serdarbalci/profile/)
 
 
-
-
-### Eğitim Hayatı
+### Eğitim Hayatı {#education}
 
 ---
 
@@ -308,7 +309,7 @@ s.setAttribute('data-timestamp', +new Date());
 ---
 
 
-#### Burslar
+#### Burslar {#bursaries}
 
 ---
 
@@ -317,7 +318,7 @@ s.setAttribute('data-timestamp', +new Date());
 Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mart 2014, Emory University School of Medicine, Department of Pathology and Laboratory Medicine  
 
 
-#### Sınavlar
+#### Sınavlar {#boards}
 
 ---
 
@@ -329,7 +330,7 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 
 
 
-#### Kurslar ve Diğer Eğitimler   
+#### Kurslar ve Diğer Eğitimler  {#courses}  
 
 ---
 
@@ -537,7 +538,7 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 
 ---
 
-### Çalışma Hayatı
+### Çalışma Hayatı {#work-experience}
 
 ---
 
@@ -557,7 +558,7 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 ---
 
 
-#### Dernek ve Çalışma Grupları
+#### Dernek ve Çalışma Grupları {#society}
 
 
 ---
@@ -618,7 +619,7 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 
 
-### Yayın Listeleri
+### Yayın Listeleri {#publication-lists}
 
 
 
@@ -703,12 +704,12 @@ IMPORTANT NOTES:
 ---
 
 
-### Yayınlar
+### Yayınlar {#peer-reviewed-publications}
 
 
-#### Uluslararası Yayınlar
+#### Uluslararası Yayınlar  {#international-publications}
 
-##### Araştırma Makaleleri
+##### Araştırma Makaleleri  {#research-publications}
 
 
 ---
@@ -1083,7 +1084,7 @@ PMID: 21682559
 </span>
 
 
-##### Derlemeler
+##### Derlemeler {#reviews}
 
 
 - Reid MD, Choi H, <i>Balci S</i>, Akkas G, Adsay V. Serous cystic neoplasms of the pancreas: Clinicopathologic and molecular characteristics. Semin Diagn Pathol. 2014 Nov;31(6):475-83. doi: 10.1053/j.semdp.2014.08.009. Epub 2014 Sep 3. PMID: 25441309
@@ -1127,7 +1128,7 @@ https://scite.ai/reports/10.1007/S12022-013-9295-2
 https://scite.ai/reports/10.1053/J.SEMDP.2012.08.010
 
 
-##### Vaka serileri, vaka raporları ve editöre mektuplar
+##### Vaka serileri, vaka raporları ve editöre mektuplar  {#case-reports}
 
 
 - Bozkurt S, Aktekin L, Uğurlu FG, <i>Balci S</i>, Sezer N, Akkus S. An Unusual Cause of Myelopathy: Ochronotic Spondyloarthropathy with Positive HLA B27. Am J Phys Med Rehabil. 2017 Feb 24. doi: 10.1097/PHM.0000000000000727. [Epub ahead of print] PMID: 28240677
@@ -1201,11 +1202,11 @@ Celik HH, Tore H, Balcı S, Bagcicek O, Ozdemir B
 
 
 
-#### Türkiye dergilerinde yer alan yayınlar
+#### Türkiye dergilerinde yer alan yayınlar  {#publications-in-Turkish}
 
 
 
-##### Araştırma Makaleleri
+##### Araştırma Makaleleri  {#research-articles-in-Turkish}
 
 - A Retrospective Evaluation of the Epithelial Changes/Lesions and Neoplasms of the Gallbladder in Turkey and a Review of the Existing Sampling Methods: A Multicentre Study.
 Güldal Esendağlı, F. Göknur Akarca, Serdar Balcı, Asuman Argon, Selma Şengiz Erhan, Nesrin Turhan, Neslihan İnce Zengin, Sevinç Hallaç Keser, Betül Çelik, Tangül Bulut, Samir Abdullazade, Esra Erden, Berna Savaş, Temmuz Bostan, Özgül Sağol, Anıl Aysal Ağalar, Nuray Kepil, Yıldırım Karslıoğlu, Armağan Günal, Fatma Markoç, Burcu Saka, Gonca Özgün, Şükrü Oğuz Özdamar, Burak Bahadır, Esin Kaymaz, Emre Işık, Semin Ayhan, Deniz Tunçel, Banu Özgüven Yılmaz, Sevinç Çelik, Tuba Karabacak, İpek Erbarut Seven, Çiğdem Ataizi Çelikel, Zuhal Gücin, Özgür Ekinci, Gülen Akyol
@@ -1247,14 +1248,14 @@ doi: 10.5146/tjpath.2010.01006
 
 
 
-##### Derlemeler
+##### Derlemeler {#reviews-in-Turkish}
 
 - <i>Balci S</i>. Dünya Sağlık Örgütü Santral Sinir Sistemi Tümörleri Sınıflaması ve Glial Tümörlerin Genetik Özelliklerindeki Yenilikler. World Health Organization Classification of Central Nervous System Neoplasms and Developments in Genetic Properties of Glial Tumors
 <a href="http://www.turkiyeklinikleri.com/article/en-dunya-saglik-orgutu-santral-sinir-sistemi-tumorleri-siniflamasi-ve-glial-tumorlerin-genetik-ozelliklerindeki-yenilikler-65128.html">Turkiye Klinikleri J Med Oncol-Special Topics 2013;6(1):6-13</a>
 
 
 
-##### Vaka raporları ve vaka serileri
+##### Vaka raporları ve vaka serileri {#case-reports-in-Turkish}
 
 - Balcı S, Önder S, Tezel GG. Adrenal Bezde Hodgkin Lenfoma (Hodgkin Lymphoma in Adrenal Gland)
 Türk Patoloji Dergisi 2010, Cilt 26, Sayı 1, 091-094
@@ -1297,7 +1298,7 @@ Turkish Journal of Cancer Volume 37, No.1, 2007
 
 
 
-#### Uluslararası kongrelerdeki sözel bildiriler
+#### Uluslararası kongrelerdeki sözel bildiriler {#platform-presentations}
 
 - https://www.xcdsystem.com//uscap/program/2019/index.cfm?pgid=132&SearchTerm=balci&loginsuccess=1
 
@@ -1425,7 +1426,7 @@ Aghayev K, Bal E, Rahimli T, Mut M, <i>Balci S</i>, Vrionis F, Akalan N. Express
 
 
 
-#### Yurtiçi kongrelerdeki sözel bildiriler
+#### Yurtiçi kongrelerdeki sözel bildiriler {#platform-presentations-in-Turkey}
 
 Seda Maralı, Serdar Balcı, Fuat Özcan, Berrak Gümüşkaya. Tekrarlayan biyopsilerinde prostat karsinomu tanısı alan vakaların ilk biyopsilerinin yeniden incelenmesi. S27. 25. Ulusal Patoloji Kongresi ve 6. Sitopatoloji Kongresi, 14-17 Ekim 2015, Bursa
 
@@ -1441,7 +1442,7 @@ Balcı S, Tezel GG, Güler G. Üçlü negatif meme kanserlerinde BRCA1 protein e
 
 
 
-#### Uluslararası kongrelerdeki poster sunumları
+#### Uluslararası kongrelerdeki poster sunumları {#posters}
 
 https://www.xcdsystem.com//uscap/program/2019/index.cfm?pgid=132&SearchTerm=balci&loginsuccess=1
 
@@ -1685,7 +1686,7 @@ Baydar T, Girgin G, Selmanoglu G, Karacaoglu E, Kilic A, <i>Balci S</i>, Sahin G
 
 
 
-#### Yurtiçi kongrelerdeki poster sunumları
+#### Yurtiçi kongrelerdeki poster sunumları {#posters-in-Turkey}
 
 Nuran Süngü, Aydan Kılıçarslan, Hayriye Tatlı Doğan, Mehmet Kılıç, Şefika Burçak Polat, Mehmet Tokaç, Soner Akbaba, Ömer Parlak, Serdar Balcı, Betül Öğüt, Bekir Çakır. Paratiroid Karsinom Tanısında CASR, Cyclin-D1, Galaktin-3 ve Ki-67 nin Yeri ve Önemi. P-927. 25. Ulusal Patoloji Kongresi ve 6. Sitopatoloji Kongresi, 14-17 Ekim 2015, Bursa
 
@@ -1771,7 +1772,7 @@ Balcı S, Baydar DE. Nadir bir Laringeal Tümör: Atipik Karsinoid 18.Ulusal Pat
 
 
 
-#### Uzmanlık tezi
+#### Uzmanlık tezi {#dissertation}
 
 
 <i>Pilositik ve pilomiksoid astrositomlarda histomorfolojik bulgulara ve lokalizasyona göre B-raf, pMEK1 ve pERK1/2 ekspresyonlarının incelenmesi.</i>
@@ -1784,7 +1785,7 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 
 
 
-### Atıflar
+### Atıflar {#citations}
 
 
 - [Impact Story](https://impactstory.org/u/0000-0002-7852-3851/)  
@@ -1821,7 +1822,7 @@ ggplot(cit,aes(x=year,y=cites))+
 
 
 
-### beamplot
+### beamplot {#beamplot}
 
 
 ```{r beamplot, echo=FALSE}
@@ -1831,7 +1832,7 @@ BibPlots::beamplot(wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArt
 
 
 
-### Atıfların özellikleri scite.ai 'ye göre
+### Atıfların özellikleri scite.ai 'ye göre {#scite}
 
 
 ```{r load library, include=FALSE}
@@ -1898,7 +1899,7 @@ ggplot(data = df) +
 
 
 
-### Katkılar
+### Katkılar {#contributions}
 
 
 ---
@@ -1919,10 +1920,10 @@ Publons: https://publons.com/researcher/467202/serdar-balci/
 Acknowledgement to reviewers 2018 
 Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5 
 
-### Diğer yazılar
+### Diğer yazılar {#other-writings}
 
 
-#### Endonews
+#### Endonews {#endonews}
 
 
 - [Author Page](https://www.endonews.com/author/serdar-balci)  
@@ -1943,24 +1944,54 @@ Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5
 
 
 
+### R-project Codes & Projects {#r-project-codes}
 
-### Scholar Connections
 
-#### Download to view the interactive graph
+#### Pages {#r-project-pages}
+
+
+#### Presentations {#r-project-presentations}
+
+
+#### Shares {#r-project-shares}
+
+https://twitter.com/search?q=from%3Aserdarbalci%20%23rstats
+
+#### Github {#r-project-github}
+
+
+#### Docker Images {#r-project-docker}
+
+https://hub.docker.com/r/serdarbalci/clinicopathological
+
+
+#### Projects {#r-project}
+
+
+#### Packages {#r-project-packages}
+
+https://sourceforge.net/projects/histopathr/
+
+
+
+
+### Scholar Connections {#scholar-connections}
+
+#### Download to view the interactive graph {#vosviewer}
 
 http://www.vosviewer.com/vosviewer.php?map=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewermap.txt&network=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewerNetwork.txt
 
 
-#### Connections
+#### Connections {#vosviewer1}
 
 ![](figures/VOSviewer-CV.png)
 
-#### Connections With Years
+#### Connections With Years {#vosviewer2}
 
 
 ![](figures/VOSviewerOverlay-CV.png)
 
-#### Connections Density
+#### Connections Density {#vosviewer3}
 
 
 ![](figures/VOSviewerDensity-CV.png)
@@ -1973,7 +2004,7 @@ Eğitim Aktiviteleri
 =======================
 
 
-### Konuşmalar ve Sunumlar
+### Konuşmalar ve Sunumlar  {#presentations}
 
 
 - Pankreas Kisti ve Beyaz Elastik Birikimler. 14 Ocak 2016. Hepato-pankreato-bilier sistem çalışma grubu Ankara lokal toplantısı, Başkent Üniversitesi.
@@ -2005,7 +2036,7 @@ Eğitim Aktiviteleri
 
 
 
-### Yönettiği Tezler
+### Yönettiği Tezler  {#dissertation-supervisor}
 
 
 ---
@@ -2016,7 +2047,7 @@ Eğitim Aktiviteleri
 Dr. Özge Başaran Aydoğdu, Uzmanlık Tezi, Ankara Atatürk Eğitim ve Araştırma Hastanesi, 2016
 
 
-### Araştırma Projeleri
+### Araştırma Projeleri  {#research-projects}
 
 
 ---
@@ -2032,7 +2063,7 @@ Dr. Özge Başaran Aydoğdu, Uzmanlık Tezi, Ankara Atatürk Eğitim ve Araştı
 
 
 
-### Diğer Akademik Aktiviteler
+### Diğer Akademik Aktiviteler   {#other-academic-activities}
 
 - Patoloji Dernekleri Federasyonu Hepato-pankreato-bilier patoloji çalışma grubu, Safra kesesi ve safra yolları rezeksiyon materyallerinde makroskopik değerlendirme klavuzu, Pankreas rezeksiyon materyallerinin makroskopik değerlendirmesi, Mart 2013,&nbsp;http://www.turkpath.org.tr/includes/spaw2/uploads/files/Hepatobiliyer.pdf
 
