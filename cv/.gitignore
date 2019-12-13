@@ -26,4 +26,4 @@ vignettes/*.pdf
 rsconnect/
 data
 rsconnect
-.gitignore
+*.gitignore
