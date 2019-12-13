@@ -680,22 +680,9 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 
 ---
 
-Read-Write link
-   http://visualbib.uniud.it/en/visualbib2/?id=8e44ed2086640b5962b573b34267f266 ⟸ CLICK ON THIS TO CONTINUE EDITING THE SAVED VERSION
 
-Read-Only link
-   http://visualbib.uniud.it/en/visualbib2/?id=c22cef766037d3a918056157466db2e4
-
-Embed code (change the width and height attributes to adapt the size)
-   <iframe width="995" height="929" src="http://visualbib.uniud.it/visualBib2/visualBib.min.html?id=c22cef766037d3a918056157466db2e4&embed=1" frameborder="0" >
+<iframe width="100%" src="http://visualbib.uniud.it/visualBib2/visualBib.min.html?id=c22cef766037d3a918056157466db2e4&embed=1" frameborder="0" >
    </iframe>
-
-IMPORTANT NOTES:
-   - store the Read-Write link for future accessing / editing the bibliography;
-   - click on it to continue editing the saved version;
-   - the links of all the saved bibliographies can be received via email using the 'List my bib' function.
-
-
 
 
 
