@@ -67,9 +67,23 @@ Row {.tabset .tabset-fade .tabset-pills}
 
 <br>
 <br>
+<div class = "row">
+<div class = "col-md-6">
+
+![](img/SerdarBalci-MD-Pathologist.jpg){width=70%}
 
 
-<a href="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s1600/SerdarBalci-MD-Pathologist.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="459" data-original-width="580" src="https://4.bp.blogspot.com/-sSTZwbqfvXo/WpBuO_e3YUI/AAAAAAAAhoA/5XKkpCrPUngRBpC9PO7C3AR84UnjzgJ7ACLcBGAs/s320/SerdarBalci-MD-Pathologist.jpg" width="20%" /></a>
+</div>
+<div class = "col-md-4">
+
+**Serdar Balcı**  
+*Türk Hekim ve Araştırmacı. Patoloji Uzmanı.*  
+2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.  
+İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.  
+Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.  
+</div>
+</div>
+
 
 
 ### Genel Uğraşılar {#guncel-ugrasilar}
@@ -103,8 +117,22 @@ This page is updated on `r Sys.Date()`
 
 - [Patoloji Notları](https://sites.google.com/view/drserdarbalci/)  
 
+- [ClinicoPath jamovi Module](https://sbalci.github.io/ClinicoPathJamoviModule/)
 
 - [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)  
+
+- [Open Knowledge Maps](https://openknowledgemaps.org/news#enthusiasts2020)
+
+https://openknowledgemaps.org/news#enthusiasts2020
+
+https://openknowledgemaps.org/community
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are happy to announce our 2020 enthusiasts 😃 <br>Please welcome with us: Nancy Kwangwa, Daniel Deogratus, Paloma Marín Arraiza, Hamdan Hidayat &amp; Serdar Balci!<br><br>In light of COVID-19, we extended the program&#39;s time frame and added more support for webinars: <a href="https://t.co/111bH4AbRf">https://t.co/111bH4AbRf</a> <a href="https://t.co/dk3e3DcEBJ">pic.twitter.com/dk3e3DcEBJ</a></p>&mdash; Open Knowledge Maps (@OK_Maps) <a href="https://twitter.com/OK_Maps/status/1252577217542045696?ref_src=twsrc%5Etfw">April 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+- [lens2r package](https://sbalci.github.io/lens2r/)
+
 
 - [Coursera Turkish Language Community](http://www.serdarbalci.com/p/coursera-current-active-turkish.html)  
 
@@ -172,6 +200,7 @@ This page is updated on `r Sys.Date()`
 
 - _[feedback form](https://goo.gl/forms/YjGZ5DHgtPlR1RnB3)_
 
+
 - *Peerwith*  
 
 
@@ -184,7 +213,13 @@ This page is updated on `r Sys.Date()`
 <a href="https://www.patreon.com/bePatron?u=11237306" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
 
 
+- *PayPal*
 
+https://www.paypal.me/serdarbalci
+
+- *buymeacoffee*
+
+<a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/bS0teIs"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
 
 
 
@@ -1781,7 +1816,7 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 - [Google Scholar](http://scholar.google.com/citations?user=q40DcqYAAAAJ)
 
 
-```{r google scholar}
+```{r google scholar, cache=TRUE}
 suppressPackageStartupMessages(library(scholar))
 suppressPackageStartupMessages(library(ggplot2))
 cit <- get_citation_history('q40DcqYAAAAJ')
@@ -1807,12 +1842,15 @@ ggplot(cit,aes(x=year,y=cites))+
 - [ResearcherID](http://www.researcherid.com/rid/B-6401-2011)  
 
 
+### scholarometer{#scholarometer}
+
+<script src='//scholarometer.indiana.edu/Widget/SMWidget.js'></script><div id='scholarometer-widget' data-gid='q40DcqYAAAAJ' data-max-disciplines='4'></div>
 
 
 ### beamplot {#beamplot}
 
 
-```{r beamplot, echo=FALSE}
+```{r beamplot, echo=FALSE, cache=TRUE}
 BibPlots::beamplot(wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArticles.txt",
                    do_weight = FALSE)
 ```
@@ -1822,19 +1860,19 @@ BibPlots::beamplot(wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArt
 ### Atıfların özellikleri scite.ai 'ye göre {#scite}
 
 
-```{r load library, include=FALSE}
+```{r load library, include=FALSE, cache=TRUE}
 suppressPackageStartupMessages(library("tidyverse"))
 suppressPackageStartupMessages(library("rjson"))
 suppressPackageStartupMessages(library("magicfor"))
 ```
 
 
-```{r read DOI, include=FALSE}
+```{r read DOI, include=FALSE, cache=TRUE}
 myDOI <- readr::read_csv(here::here("cv/data/BalciSdoi.txt"), col_names = "DOI", col_types = "c")
 ```
 
 
-```{r add api code, include=FALSE}
+```{r add api code, include=FALSE, cache=TRUE}
 myDOI <- myDOI %>%
   mutate(apitallies = paste0("https://api.scite.ai/tallies/", DOI)) %>%
   mutate(apipapers = paste0("https://api.scite.ai/papers/", DOI)) %>%
@@ -1843,7 +1881,7 @@ myDOI <- myDOI %>%
 ```
 
 
-```{r get json data, include=FALSE}
+```{r get json data, include=FALSE, cache=TRUE}
 magicfor::magic_for(silent = TRUE)
 json_data <- for (i in 1:(dim(myDOI)[1]-1)) {
     json_name <- paste0("Article", myDOI$rowname[i])
@@ -1860,7 +1898,7 @@ jsonDF <- dplyr::bind_rows(jsonDF$json_data, .id = "meta_information")
 
 
 
-```{r ggplot, echo=FALSE}
+```{r ggplot, echo=FALSE, cache=TRUE}
 df <- jsonDF %>% 
     filter(total > 0) %>% 
     select(doi,
