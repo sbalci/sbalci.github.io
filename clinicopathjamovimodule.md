@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ParaPathology
+title: ClinicoPath Jamovi Module
 permalink: /ParaPathology/
 ---
 

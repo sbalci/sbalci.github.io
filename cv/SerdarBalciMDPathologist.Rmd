@@ -740,6 +740,9 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 -  Taskin OC, Bellolio E, Dursun N, Seven IE, Roa JC, Araya JC, Villaseca M, Tapia O, Vance C, Saka B, Balci S, Bagci P, Losada H, Sarmiento J, Memis B, Pehlivanoğlu B, Basturk O, Reid MD, Koshiol J, Cheng JD, Kapran Y, Adsay V. Non-neoplastic Polyps of the Gallbladder: A Clinicopathologic Analysis of 447 Cases. Am J Surg Pathol. 2019 Nov 12;. doi: 10.1097/PAS.0000000000001405. [Epub ahead of print] PubMed PMID: 31725469. 
 
 
+
+
+
 -  Tuncel D, Basturk O, Bradley KT, Kim GE, Xue Y, Reid MD, Balci S, Erbarut I, Adsay V. Poorly Cohesive (Signet Ring Cell) Carcinoma of the Ampulla of Vater. Int J Surg Pathol. 2019 Oct 15;:1066896919880968. doi: 10.1177/1066896919880968. [Epub ahead of print] PubMed PMID: 31612756.  https://journals.sagepub.com/doi/abs/10.1177/1066896919880968
 
 
@@ -778,6 +781,13 @@ Wang L, Basturk O, Wang J, Benayed R, Middha S, Zehir A, Linkov I, Rao M, Aryeeq
 `r icon::ai_semantic_scholar_square()`
 
 [![](figures/semantic-scholar.PNG){width=8%}](https://api.semanticscholar.org/10.1038/modpathol.2017.106?include_unknown_references=true)
+
+
+<link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"> </script> <div class="scite-badge" data-doi="10.1038/modpathol.2017.106"/>
+
+
+https://www.connectedpapers.com/main/b082e8216300b4a314d7601697cde755e34b409c/A-FISH-assay-efficiently-screens-for-BRAF-gene-rearrangements-in-pancreatic-acinartype-neoplasms/graph
+
 
 
 ---
@@ -1872,7 +1882,7 @@ myDOI <- readr::read_csv(here::here("cv/data/BalciSdoi.txt"), col_names = "DOI",
 ```
 
 
-```{r add api code, include=FALSE, cache=TRUE}
+```{r add api code, eval=FALSE, cache=TRUE, include=FALSE}
 myDOI <- myDOI %>%
   mutate(apitallies = paste0("https://api.scite.ai/tallies/", DOI)) %>%
   mutate(apipapers = paste0("https://api.scite.ai/papers/", DOI)) %>%
@@ -1881,7 +1891,7 @@ myDOI <- myDOI %>%
 ```
 
 
-```{r get json data, include=FALSE, cache=TRUE}
+```{r get json data, eval=FALSE, cache=TRUE, include=FALSE}
 magicfor::magic_for(silent = TRUE)
 json_data <- for (i in 1:(dim(myDOI)[1]-1)) {
     json_name <- paste0("Article", myDOI$rowname[i])
@@ -1898,7 +1908,7 @@ jsonDF <- dplyr::bind_rows(jsonDF$json_data, .id = "meta_information")
 
 
 
-```{r ggplot, echo=FALSE, cache=TRUE}
+```{r ggplot, eval=FALSE, cache=TRUE, include=FALSE}
 df <- jsonDF %>% 
     filter(total > 0) %>% 
     select(doi,
