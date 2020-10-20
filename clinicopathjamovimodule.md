@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ClinicoPath Jamovi Module
-permalink: https://github.com/ClinicoPath
+title: ClinicoPath jamovi Module
+permalink: /ClinicoPathJamoviModule/
 ---
 
 

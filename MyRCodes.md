@@ -4,5 +4,5 @@ title: R Code Collection
 permalink: /MyRCodes/
 ---
 
-See [https://sbalci.github.io/MyRCodesForDataAnalysis/](https://sbalci.github.io/MyRCodesForDataAnalysis/) for R codes I am collecting.
+See [My R Codes For Data Analysis repository](https://sbalci.github.io/MyRCodesForDataAnalysis/) for R codes I am collecting.
 
