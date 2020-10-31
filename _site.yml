@@ -9,5 +9,13 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - social: menu
+    - icon: fab fa-github
+      href: https://github.com/sbalci/
 output: distill::distill_article
-exclude: ["cv"]
+exclude: ["cv", "*.csv", "*.R", "*.log", "docs2", "jekyll", "*.ows"]
+twitter:
+      site: "@serdarbalci"
+base_url: https://sbalci.github.io/
+repository_url: https://github.com/sbalci/sbalci.github.io
+creative_commons: CC BY
