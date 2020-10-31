@@ -1,7 +1,7 @@
 ---
 title: "Serdar Balci, MD, Pathologist"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Serdar Balci, MD, Pathologist
 site: distill::distill_website
 ---
 

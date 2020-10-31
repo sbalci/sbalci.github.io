@@ -2,19 +2,19 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "Serdar Balci, MD, Pathologist",
+      "description": "Serdar Balci, MD, Pathologist",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-10-31T18:45:50+03:00"
+      "last_modified": "2020-10-31T18:59:20+03:00"
     },
     {
       "path": "index.html",
       "title": "Serdar Balci, MD, Pathologist",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "description": "Serdar Balci, MD, Pathologist\n",
       "author": [],
       "contents": "\nI am a medical doctor, specialised in anatomic pathology.\nI use https://twitter.com/serdarbalci frequently\nSee https://www.serdarbalci.com/ for main web page,\nhttp://www.patolojinotlari.com/ for Turkish Lecture Notes & Social Media Based Notes for pathology.\nSee my CV here or here.\nBiyografi Dr. Serdar Balcı\nTürk Hekim ve Araştırmacı. Patoloji Uzmanı.\n2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi’nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD’de Emory Üniversitesi’nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.\nİlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır. Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.\n\n\n\n",
-      "last_modified": "2020-10-31T18:45:39+03:00"
+      "last_modified": "2020-10-31T18:59:40+03:00"
     }
   ],
   "collections": []

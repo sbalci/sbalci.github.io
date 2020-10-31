@@ -1,7 +1,7 @@
 ---
-title: "About this site"
+title: "Serdar Balci, MD, Pathologist"
 description: |
-  Some additional details about the website
+  Serdar Balci, MD, Pathologist
 ---
 
 ```{r setup, include=FALSE}
