@@ -1,0 +1,13 @@
+name: "Serdar Balci, MD, Pathologist"
+title: "Serdar Balci, MD, Pathologist"
+description: |
+  Serdar Balci, MD, Pathologist
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
+exclude: ["cv"]

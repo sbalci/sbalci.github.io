@@ -1,10 +1,18 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
-comments: true
+title: "Serdar Balci, MD, Pathologist"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
 
 
 I am a medical doctor, specialised in anatomic pathology.
@@ -20,7 +28,7 @@ See [my CV here](https://sbalci.github.io/cv/SerdarBalciMDPathologist.html) or [
 
 ---
 
-**Biography**
+**Biyografi**
 Dr. Serdar Balcı  
 Türk Hekim ve Araştırmacı. Patoloji Uzmanı.   
 2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.  
