@@ -51,13 +51,13 @@ knitr::opts_chunk$set(fig.width = 12, fig.height = 8, fig.path = 'Figs/', echo =
 ## Biyografi
 
 
-**Serdar Balcı**
+**Serdar Balcı**  
 *Türk Hekim ve Araştırmacı. Patoloji Uzmanı.*
 2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.
 İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
 Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.
 
-# Biography
+## Biography
 
 I am a Medical Doctor and Pathologist. I graduated from Hacettepe University Faculty of Medicine, Ankara, Turkey, the top medical institution in Turkey. I completed my pathology residency in the Department of Pathology in Hacettepe and then worked at Emory University, Atlanta, GA, USA as a research scholar, and had the opportunity to participate in numerous studies. Since I have always been interested in research, I took statistics and introductory bioinformatics courses at Hacettepe University Biostatistics Department.
 
@@ -95,7 +95,7 @@ Loop: http://loop.frontiersin.org/people/306241/overview
 ImpactStory: https://impactstory.org/u/0000-0002-7852-3851/
 Publons: https://publons.com/a/467202/
 
-# General Uğraşılar {#guncel-ugrasilar}
+# Genel Uğraşılar {#genel-ugrasilar}
 
 
 [Genel Uğraşılarım]( # "Eşyanın isimleri bize Dede mirasıdır 2/31")
@@ -116,7 +116,7 @@ Publons: https://publons.com/a/467202/
 
 
 
-## Güncel Uğraşılar {#genel-ugrasilar}
+## Güncel Uğraşılar {#guncel-ugrasilar}
 
 - [Histopathology Research Template](https://github.com/sbalci/histopathology-template)
 
@@ -735,7 +735,7 @@ Wang L, Basturk O, Wang J, Benayed R, Middha S, Zehir A, Linkov I, Rao M, Aryeeq
 [![](figures/semantic-scholar.PNG){width=8%}](https://api.semanticscholar.org/10.1038/modpathol.2017.106?include_unknown_references=true)
 
 
-<link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"> </script> <div class="scite-badge" data-doi="10.1038/modpathol.2017.106"/>
+<!-- <link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css"><script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js"> </script> <div class="scite-badge" data-doi="10.1038/modpathol.2017.106"/> -->
 
 
 https://www.connectedpapers.com/main/b082e8216300b4a314d7601697cde755e34b409c/A-FISH-assay-efficiently-screens-for-BRAF-gene-rearrangements-in-pancreatic-acinartype-neoplasms/graph
