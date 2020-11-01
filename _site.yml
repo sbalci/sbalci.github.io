@@ -16,10 +16,6 @@ navbar:
       menu:
         - text: serdarbalci.com
           href: https://serdarbalci.com
-    - text: Bibliometric  
-      menu:
-        - text: Bibliometric Studies
-          href: BibliographicStudies.html
     - text: R packages  
       menu:
         - text: jamovi modules
@@ -52,11 +48,10 @@ twitter:
     site: "@serdarbalci"
     creator: "@serdarbalci"
 repository_url: https://github.com/sbalci/sbalci.github.io
-
-# base_url: https://sbalci.github.io/
-# collections:
-#   posts:
-#     disqus: serdar-balci-md-pathologist
-#     share: [twitter, linkedin]
-#     citation: true
+base_url: https://sbalci.github.io/
+collections:
+  posts:
+    disqus: serdar-balci-md-pathologist
+    share: [twitter, linkedin, facebook]
+    citation: true
 

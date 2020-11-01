@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Serdar Balci, MD, Pathologist</title>
+    <link>https://sbalci.github.io/</link>
+    <atom:link href="https://sbalci.github.io/BlogPosts.xml" rel="self" type="application/rss+xml"/>
+    <description>Serdar Balci, MD, Pathologist
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>begin2</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://sbalci.github.io/posts/2020-11-01-begin2</link>
+      <description>A short description of the post.</description>
+      <guid>https://sbalci.github.io/posts/2020-11-01-begin2</guid>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>startblog</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://sbalci.github.io/posts/2020-11-01-startblog</link>
+      <description>A short description of the post.</description>
+      <guid>https://sbalci.github.io/posts/2020-11-01-startblog</guid>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bibliometric Studies</title>
+      <dc:creator>Serdar Balcı, MD, Pathologist</dc:creator>
+      <link>https://sbalci.github.io/posts/BibliographicStudies</link>
+      <description>A short description of the post.</description>
+      <guid>https://sbalci.github.io/posts/BibliographicStudies</guid>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to My Blog</title>
+      <dc:creator>Nora Jones</dc:creator>
+      <link>https://sbalci.github.io/posts/welcome</link>
+      <description>Welcome to our new blog, My Blog. We hope you enjoy 
+reading what we have to say!</description>
+      <guid>https://sbalci.github.io/posts/welcome</guid>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
