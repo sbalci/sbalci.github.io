@@ -1,21 +1,49 @@
-name: "Serdar Balci, MD, Pathologist"
+name: "sbalci.github.io"
 title: "Serdar Balci, MD, Pathologist"
 description: |
   Serdar Balci, MD, Pathologist
 output_dir: "docs"
+date: '`r Sys.Date()`'
 navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: Websites  
+      menu:
+        - text: (Para)Pathology
+          href: https://parapathology.com
+    - text: R packages  
+      menu:
+        - text: jamovi modules
+          href: # 
     - text: "About"
       href: about.html
+    - text: "CV"
+      href: Serdar-Balci-MD-Pathologist-CV.html
     - social: menu
     - icon: fab fa-github
       href: https://github.com/sbalci/
+    - icon: fab fa-twitter
+      href: https://twitter.com/serdarbalci/
 output: distill::distill_article
 exclude: ["cv", "*.csv", "*.R", "*.log", "docs2", "jekyll", "*.ows"]
 twitter:
       site: "@serdarbalci"
+      creator: "@serdarbalci"
 base_url: https://sbalci.github.io/
 repository_url: https://github.com/sbalci/sbalci.github.io
 creative_commons: CC BY
+site: distill::distill_website
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+bibliography: bibliography.bib
+theme: theme.css
+toc: true
+toc_depth: 2
+toc_float: true
+slug: serdarbalcimdpathologist

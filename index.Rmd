@@ -3,7 +3,7 @@ title: "Serdar Balci, MD, Pathologist"
 description: |
   Serdar Balci, MD, Pathologist
 site: distill::distill_website
-date: May 4, 2018
+date: '`r Sys.Date()`'
 author:
   - first_name: "Serdar"
     last_name: "Balci"
@@ -11,19 +11,15 @@ author:
     affiliation: serdarbalci.com
     affiliation_url: https://www.serdarbalci.com
     orcid_id: 0000-0002-7852-3851
-bibliography: bibliography.bib
 ---
 
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
-
 ```
-
 
 
 I am a medical doctor, specialised in anatomic pathology.
@@ -34,11 +30,19 @@ See [https://www.serdarbalci.com/](https://www.serdarbalci.com/) for main web pa
 
 [http://www.patolojinotlari.com/](http://www.patolojinotlari.com/) for Turkish Lecture Notes & Social Media Based Notes for pathology.
 
-See [my CV here](https://sbalci.github.io/cv/SerdarBalciMDPathologist.html) or [here](https://rpubs.com/sbalci/CV).
-
+See [my CV here](https://sbalci.github.io/Serdar-Balci-MD-Pathologist-CV.html) or [here](https://rpubs.com/sbalci/CV).
 
 
 I am a Medical Doctor and Pathologist. I graduated from Hacettepe University Faculty of Medicine, Ankara, Turkey, the top medical institution in Turkey. I completed my pathology residency in the Department of Pathology in Hacettepe and then worked at Emory University, Atlanta, GA, USA as a research scholar, and had the opportunity to participate in numerous studies. Since I have always been interested in research, I took statistics and introductory bioinformatics courses at Hacettepe University Biostatistics Department.
+
+<aside>
+```{r img SerdarBalci-MD-Pathologist.jpg}
+knitr::include_graphics("img/SerdarBalci-MD-Pathologist.jpg")
+```
+</aside>
+
+
+
 I have more than 50 articles published in peer-reviewed journals. I have participated in many international studies. For these studies, I have not only participated as a pathologist but was also actively involved in project planning and I have been the main person responsible for data preparation, data cleaning, data analyses, and reporting. I have experience in bibliography programs and image editing software. I have also used SEER data for cancer research.
 
 I am interested in the application of statistical and bioinformatic methods in anatomic and digital pathology. I am also interested in publication metrics and have done some research on bibliometrics. I am using vosviewer and citespace for side projects, and used PubMed data for bibliography and text mining studies.
