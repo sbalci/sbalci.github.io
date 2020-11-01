@@ -6,18 +6,26 @@ output_dir: "docs"
 date: '`r Sys.Date()`'
 navbar:
   right:
-    - text: "Home"
-      href: index.html
-    - text: Websites  
+    - text: "Blog Posts"
+      href: BlogPosts.html
+    - text: Pathology  
       menu:
         - text: (Para)Pathology
           href: https://parapathology.com
+    - text: Websites  
+      menu:
+        - text: serdarbalci.com
+          href: https://serdarbalci.com
+    - text: Bibliometric  
+      menu:
+        - text: Bibliometric Studies
+          href: BibliographicStudies.html
     - text: R packages  
       menu:
         - text: jamovi modules
-          href: # 
-    - text: "About"
-      href: about.html
+        - text: "---"
+        - text: ClinicoPath
+          href: #
     - text: "CV"
       href: Serdar-Balci-MD-Pathologist-CV.html
     - social: menu
@@ -25,14 +33,10 @@ navbar:
       href: https://github.com/sbalci/
     - icon: fab fa-twitter
       href: https://twitter.com/serdarbalci/
+    - icon: fa fa-rss
+      href: index.xml
 output: distill::distill_article
-exclude: ["cv", "*.csv", "*.R", "*.log", "docs2", "jekyll", "*.ows"]
-twitter:
-      site: "@serdarbalci"
-      creator: "@serdarbalci"
-base_url: https://sbalci.github.io/
-repository_url: https://github.com/sbalci/sbalci.github.io
-creative_commons: CC BY
+exclude: ["cv", "jekyll"]
 site: distill::distill_website
 author:
   - first_name: "Serdar"
@@ -43,7 +47,16 @@ author:
     orcid_id: 0000-0002-7852-3851
 bibliography: bibliography.bib
 theme: theme.css
-toc: true
-toc_depth: 2
-toc_float: true
-slug: serdarbalcimdpathologist
+creative_commons: CC BY
+twitter:
+    site: "@serdarbalci"
+    creator: "@serdarbalci"
+repository_url: https://github.com/sbalci/sbalci.github.io
+
+# base_url: https://sbalci.github.io/
+# collections:
+#   posts:
+#     disqus: serdar-balci-md-pathologist
+#     share: [twitter, linkedin]
+#     citation: true
+

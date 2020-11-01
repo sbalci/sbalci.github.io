@@ -1,0 +1,70 @@
+[
+  {
+    "path": "posts/2020-11-01-begin2/",
+    "title": "begin2",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-11-01",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-11-01T19:25:09+03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2020-11-01-startblog/",
+    "title": "startblog",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-11-01",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-11-01T19:20:26+03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/BibliographicStudies/",
+    "title": "Bibliometric Studies",
+    "description": {},
+    "author": [
+      {
+        "name": "Serdar Balcı, MD, Pathologist",
+        "url": {}
+      }
+    ],
+    "date": "2020-11-01",
+    "categories": [],
+    "contents": "\nIntroduction\nIt is a very common bibliometric study type to retrospectively analyse the number of peer reviewed articles written from a country to view the amount of contribution made in a specific scientific discipline.\nThese studies require too much effort, since the data is generally behind paywalls and restrictions.\nI have previously contributed to a research to identify the Articles from Turkey Published in Pathology Journals Indexed in International Indexes; which is published here: Turk Patoloji Derg. 2010, 26(2):107-113 doi: 10.5146/tjpath.2010.01006\nThis study had required manual investigation of many excel files, which was time consuming; also redoing and updating the data and results require a similar amount of effort.\nIf you want to see the code used in the analysis please click the code button on the right upper corner or throughout the page.\nI would like to hear your feedback: https://goo.gl/forms/YjGZ5DHgtPlR1RnB3\nThis document will be continiously updated and the last update was on 2020-11-01.\nAnalysis\nCountry Based Comparison\nTo see the analysis comparing number of pathology articles from Turkey, German and Japan see this analysis: Country Based Comparison\nArticles per Journals per Country\nIn this analysis we aimed to compare number articles per journals per country. We tried to identify if articles from a country is published in certain journals: Articles Per Journals Per Country\nMost Common MeSH Terms and Keywords used in Pathology Articles from Turkey\nIn this analysis we aimed to identify the common research topics Turkish pathologists are interested. We extracted most common MeSH terms and keywords from PubMed articles using EDirect: MeSH Terms Pathology Articles From Turkey\nPancreas Studies with Various Bibliometric Tools - Pancreas Studies in Pathology Journals\nPancreas Studies with Various Bibliometric Tools - Pancreas Studies in Pathology Journals\nSources Used For Analysis\nHere are the sources used in these analysis: Sources Used For Analysis\nFeedback\nSerdar Balcı, MD, Pathologist would like to hear your feedback: https://goo.gl/forms/YjGZ5DHgtPlR1RnB3\nThis document will be continiously updated and the last update was on 2020-11-01.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-11-01T19:32:46+03:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to My Blog",
+    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-11-01",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-11-01T17:48:09+03:00",
+    "input_file": {}
+  }
+]

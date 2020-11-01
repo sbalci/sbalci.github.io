@@ -1,9 +1,12 @@
 ---
 title: "Serdar Balci, MD, Pathologist, CV"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 4
+    toc_float: true
 ---
 
-<!-- Open all links in new tab -->
-<base target="_blank"/> 
 
 <script async="" charset="utf-8" src="https://badge.dimensions.ai/badge.js"></script>
 
@@ -43,23 +46,54 @@ knitr::opts_chunk$set(fig.width = 12, fig.height = 8, fig.path = 'Figs/', echo =
 ```
 
 
-
-Dr. Serdar Balcı Patoloji Uzmanı
-===========================
-
-<br>
-<br>
+## Biyografi
 
 
-**Serdar Balcı**  
-*Türk Hekim ve Araştırmacı. Patoloji Uzmanı.*  
-2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.  
-İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.  
-Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.  
+**Serdar Balcı**
+*Türk Hekim ve Araştırmacı. Patoloji Uzmanı.*
+2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.
+İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
+Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.
+
+# Biography
+
+I am a Medical Doctor and Pathologist. I graduated from Hacettepe University Faculty of Medicine, Ankara, Turkey, the top medical institution in Turkey. I completed my pathology residency in the Department of Pathology in Hacettepe and then worked at Emory University, Atlanta, GA, USA as a research scholar, and had the opportunity to participate in numerous studies. Since I have always been interested in research, I took statistics and introductory bioinformatics courses at Hacettepe University Biostatistics Department.
+
+<aside>
+```{r img SerdarBalci-MD-Pathologist.jpg}
+knitr::include_graphics("img/SerdarBalci-MD-Pathologist.jpg")
+```
+</aside>
 
 
 
-### Genel Uğraşılar {#guncel-ugrasilar}
+I have more than 50 articles published in peer-reviewed journals. I have participated in many international studies. For these studies, I have not only participated as a pathologist but was also actively involved in project planning and I have been the main person responsible for data preparation, data cleaning, data analyses, and reporting. I have experience in bibliography programs and image editing software. I have also used SEER data for cancer research.
+
+I am interested in the application of statistical and bioinformatic methods in anatomic and digital pathology. I am also interested in publication metrics and have done some research on bibliometrics. I am using vosviewer and citespace for side projects, and used PubMed data for bibliography and text mining studies.
+
+I have reviewed research papers as you can see on my Publons profile.
+
+Currently, I am on the website committee of Pancreatobiliary Pathology Society and I am actively preparing the Journal Watch for this society.
+https://pbpath.org/our-committees/
+http://pbpath.org/current-journal-watch/
+
+Serdar Balcı, MD, Pathologist
+
+http://www.serdarbalci.com/
+https://twitter.com/serdarbalci
+https://github.com/sbalci
+
+CV: https://drive.google.com/file/d/0B4x15l9fUIsjMm01UTAyTkJvNm8/
+Google Scholar: http://scholar.google.com/citations?user=q40DcqYAAAAJ
+PubMed: http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/
+ORCID: http://orcid.org/0000-0002-7852-3851
+Research Gate: http://www.researchgate.net/profile/Serdar_Balci/
+Scopus: https://www.scopus.com/authid/detail.uri?authorId=22933834600
+Loop: http://loop.frontiersin.org/people/306241/overview
+ImpactStory: https://impactstory.org/u/0000-0002-7852-3851/
+Publons: https://publons.com/a/467202/
+
+# General Uğraşılar {#guncel-ugrasilar}
 
 
 [Genel Uğraşılarım]( # "Eşyanın isimleri bize Dede mirasıdır 2/31")
@@ -73,25 +107,25 @@ Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.
 
 
 <a class="twitter-follow-button" data-show-count="false"
-  href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+  href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)
 [![HitCount](http://hits.dwyl.io/sbalci/sbalci.github.io.svg)](http://hits.dwyl.io/sbalci/sbalci.github.io)
 
 
 
-### Güncel Uğraşılar {#genel-ugrasilar}
+## Güncel Uğraşılar {#genel-ugrasilar}
 
-- [Histopathology Research Template](https://github.com/sbalci/histopathology-template)  
+- [Histopathology Research Template](https://github.com/sbalci/histopathology-template)
 
-- [(Para) Pathology Notes](https://sbalci.gitbooks.io/pathology-notes/content/)  
+- [(Para) Pathology Notes](https://sbalci.gitbooks.io/pathology-notes/content/)
 
 
-- [Patoloji Notları](https://sites.google.com/view/drserdarbalci/)  
+- [Patoloji Notları](https://sites.google.com/view/drserdarbalci/)
 
 - [ClinicoPath jamovi Module](https://sbalci.github.io/ClinicoPathJamoviModule/)
 
-- [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)  
+- [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)
 
 - [Open Knowledge Maps](https://openknowledgemaps.org/news#enthusiasts2020)
 
@@ -100,30 +134,30 @@ https://openknowledgemaps.org/news#enthusiasts2020
 https://openknowledgemaps.org/community
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are happy to announce our 2020 enthusiasts 😃 <br>Please welcome with us: Nancy Kwangwa, Daniel Deogratus, Paloma Marín Arraiza, Hamdan Hidayat &amp; Serdar Balci!<br><br>In light of COVID-19, we extended the program&#39;s time frame and added more support for webinars: <a href="https://t.co/111bH4AbRf">https://t.co/111bH4AbRf</a> <a href="https://t.co/dk3e3DcEBJ">pic.twitter.com/dk3e3DcEBJ</a></p>&mdash; Open Knowledge Maps (@OK_Maps) <a href="https://twitter.com/OK_Maps/status/1252577217542045696?ref_src=twsrc%5Etfw">April 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are happy to announce our 2020 enthusiasts 😃 <br>Please welcome with us: Nancy Kwangwa, Daniel Deogratus, Paloma Marín Arraiza, Hamdan Hidayat &amp; Serdar Balci!<br><br>In light of COVID-19, we extended the program&#39;s time frame and added more support for webinars: <a href="https://t.co/111bH4AbRf">https://t.co/111bH4AbRf</a> <a href="https://t.co/dk3e3DcEBJ">pic.twitter.com/dk3e3DcEBJ</a></p>&mdash; Open Knowledge Maps (@OK_Maps) <a href="https://twitter.com/OK_Maps/status/1252577217542045696?ref_src=twsrc%5Etfw">April 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 - [lens2r package](https://sbalci.github.io/lens2r/)
 
 
-- [Coursera Turkish Language Community](http://www.serdarbalci.com/p/coursera-current-active-turkish.html)  
+- [Coursera Turkish Language Community](http://www.serdarbalci.com/p/coursera-current-active-turkish.html)
 
-- [PBPath Journal Watch](http://pbpath.org/pbpath-journal-watch/)  
-
-
-- [Endonews](https://www.endonews.com/author/serdar-balci)  
+- [PBPath Journal Watch](http://pbpath.org/pbpath-journal-watch/)
 
 
-- [Model İstatistik](https://www.modelistatistik.com/)  
+- [Endonews](https://www.endonews.com/author/serdar-balci)
 
 
-- [Peerwith](https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d)  
+- [Model İstatistik](https://www.modelistatistik.com/)
 
 
-<a target="_blank" href="https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d"><img src="https://assets.peerwith.com/content/network-share/peerwith-req-blue.png"></a>  
+- [Peerwith](https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d)
 
 
-- [Patreon](https://www.patreon.com/sbalci)  
+<a target="_blank" href="https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d"><img src="https://assets.peerwith.com/content/network-share/peerwith-req-blue.png"></a>
+
+
+- [Patreon](https://www.patreon.com/sbalci)
 
 
 
@@ -163,23 +197,23 @@ https://openknowledgemaps.org/community
 
 
 
-### Contact Me {#contact-me}
+## Contact Me {#contact-me}
 
-**Contact Me / İletişim Formu**  
-  
-  
-- _[Contact Form](https://drserdarbalci.wixsite.com/website)_  
+**Contact Me / İletişim Formu**
+
+
+- _[Contact Form](https://drserdarbalci.wixsite.com/website)_
 
 - _[feedback form](https://goo.gl/forms/YjGZ5DHgtPlR1RnB3)_
 
 
-- *Peerwith*  
+- *Peerwith*
 
 
 <a target="_blank" href="https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d"><img src="https://assets.peerwith.com/content/network-share/peerwith-req-blue.png"></a>
 
 
-- *Patreon*  
+- *Patreon*
 
 
 <a href="https://www.patreon.com/bePatron?u=11237306" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
@@ -195,38 +229,13 @@ https://www.paypal.me/serdarbalci
 
 
 
-- *Comment Here*  
 
 
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://https-sbalci-github-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+## Web & Social Media Accounts {#web-social-links}
 
 
 
-
-### Web & Social Media Accounts {#web-social-links}
-
-
-
-#### Blog {#blogs}
+### Blog {#blogs}
 
 
 - [about.me/serdarbalci](https://about.me/serdarbalci)
@@ -243,16 +252,12 @@ s.setAttribute('data-timestamp', +new Date());
 #### Social Media {#social-links}
 
 
-- [Google+](https://plus.google.com/u/0/+SERDARBALCIMD)
-
 - [Twitter](https://twitter.com/serdarbalci)
-
-- [Facebook](https://www.facebook.com/serdarbalcimd)
 
 - [Facebook Page](https://www.facebook.com/serdarbalcimdpathologist/)
 
 
-<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fserdarbalcimdpathologist%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>  
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fserdarbalcimdpathologist%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 
 <div id="fb-root"></div>
@@ -262,10 +267,10 @@ s.setAttribute('data-timestamp', +new Date());
   js = d.createElement(s); js.id = id;
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>  
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
-<div class="fb-page" data-href="https://www.facebook.com/serdarbalcimdpathologist/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/serdarbalcimdpathologist/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/serdarbalcimdpathologist/">Serdar Balcı MD Pathologist</a></blockquote></div>  
+<div class="fb-page" data-href="https://www.facebook.com/serdarbalcimdpathologist/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/serdarbalcimdpathologist/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/serdarbalcimdpathologist/">Serdar Balcı MD Pathologist</a></blockquote></div>
 
 
 
@@ -273,12 +278,12 @@ s.setAttribute('data-timestamp', +new Date());
 
 - [YouTube](https://www.youtube.com/c/SERDARBALCIMD)
 
-- [My Local Guide Footsteps on Google Maps](https://goo.gl/maps/er9WHy6EguG2)  
+- [My Local Guide Footsteps on Google Maps](https://goo.gl/maps/er9WHy6EguG2)
 
-- [LinkedIN](https://www.linkedin.com/in/serdar-balci-md-pathologist/)  
+- [LinkedIN](https://www.linkedin.com/in/serdar-balci-md-pathologist/)
 
 
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="tr_TR" data-type="vertical" data-theme="dark" data-vanity="serdar-balci-md-pathologist"><a class="LI-simple-link" href='https://tr.linkedin.com/in/serdar-balci-md-pathologist?trk=profile-badge'>Serdar Balcı</a></div>  
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script> <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="tr_TR" data-type="vertical" data-theme="dark" data-vanity="serdar-balci-md-pathologist"><a class="LI-simple-link" href='https://tr.linkedin.com/in/serdar-balci-md-pathologist?trk=profile-badge'>Serdar Balcı</a></div>
 
 
 
@@ -287,13 +292,13 @@ s.setAttribute('data-timestamp', +new Date());
 
 #### Other Research Accounts {#research-accounts}
 
-- [GitHub](https://github.com/sbalci)  
+- [GitHub](https://github.com/sbalci)
 
-- [OSF](https://osf.io/msnux/)  
+- [OSF](https://osf.io/msnux/)
 
-- [Resume](https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist)  
+- [Resume](https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist)
 
-- [RPubs](http://rpubs.com/sbalci)  
+- [RPubs](http://rpubs.com/sbalci)
 
 - [SourceForge](https://sourceforge.net/u/serdarbalci/profile/)
 
@@ -318,41 +323,41 @@ s.setAttribute('data-timestamp', +new Date());
 
 **Burslar**
 
-Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mart 2014, Emory University School of Medicine, Department of Pathology and Laboratory Medicine  
+Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mart 2014, Emory University School of Medicine, Department of Pathology and Laboratory Medicine
 
 
 #### Sınavlar {#boards}
 
 ---
 
-**Board Sınavı ve Yeterlilik Belgeleri**  
+**Board Sınavı ve Yeterlilik Belgeleri**
 
-18 Ekim 2015 Patoloji Dernekleri Federasyonu Tıbbi Patoloji Yeterlilik Sınavı  
+18 Ekim 2015 Patoloji Dernekleri Federasyonu Tıbbi Patoloji Yeterlilik Sınavı
 
-1 Nisan 2016 Doçentlik Sınavı, Üniversiteler Arası Kurul, Ankara  
+1 Nisan 2016 Doçentlik Sınavı, Üniversiteler Arası Kurul, Ankara
 
 
 
-#### Kurslar ve Diğer Eğitimler  {#courses}  
+#### Kurslar ve Diğer Eğitimler  {#courses}
 
 ---
 
-**Dil Kursları**  
+**Dil Kursları**
 
-- Deutschkurs im Goethe-Institut Ankara, A1.1, 18.07.2018-03.08.2018  
-- Deutschkurs im Goethe-Institut Ankara, A1.2, 06.08.2018-29.08.2018  
-- Deutschkurs im Goethe-Institut Ankara, A2.1, 10.09.2018-26.09.2018  
-- Deutschkurs im Goethe-Institut Ankara, A2.2, 15.10.2018-10.12.2018  
-- Deutschkurs im Goethe-Institut Ankara, B1.1-B1.3, 24.12.2018-15.02.2019  
-- Deutschkurs im Goethe-Institut Ankara, B2.1-B2.3, 04.03.2019-26.04.2019  
+- Deutschkurs im Goethe-Institut Ankara, A1.1, 18.07.2018-03.08.2018
+- Deutschkurs im Goethe-Institut Ankara, A1.2, 06.08.2018-29.08.2018
+- Deutschkurs im Goethe-Institut Ankara, A2.1, 10.09.2018-26.09.2018
+- Deutschkurs im Goethe-Institut Ankara, A2.2, 15.10.2018-10.12.2018
+- Deutschkurs im Goethe-Institut Ankara, B1.1-B1.3, 24.12.2018-15.02.2019
+- Deutschkurs im Goethe-Institut Ankara, B2.1-B2.3, 04.03.2019-26.04.2019
 - Deutschkurs im Goethe-Institut Ankara,
-C1.1-C1.2, 13.05.2019-11.07.2019  
+C1.1-C1.2, 13.05.2019-11.07.2019
 
 ---
 
-**Katıldığı uzaktan eğitim ve Online kurslar**  
+**Katıldığı uzaktan eğitim ve Online kurslar**
 
-- [DataCamp Introduction to Data Course](https://www.datacamp.com/statement-of-accomplishment/course/2700e289e1a666ba0e10fd09ec0d1297bd33c7c0)  
+- [DataCamp Introduction to Data Course](https://www.datacamp.com/statement-of-accomplishment/course/2700e289e1a666ba0e10fd09ec0d1297bd33c7c0)
 
 - [DataCamp Data Analysis with Spreadsheets](https://www.datacamp.com/statement-of-accomplishment/course/f48bd225f20f34ec927f61cd9e3992479bc98ec6)
 
@@ -405,7 +410,7 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 
 **Katıldığı Toplantı ve Kurslar**
 
-- Bibliyometri Eğitimi, 23-24 Mart 2019, Hacettepe Üniversitesi Yaşam Boyu Öğrenme Merkezi, Bilgi ve Belge Yönetimi Bölümü, Ankara  
+- Bibliyometri Eğitimi, 23-24 Mart 2019, Hacettepe Üniversitesi Yaşam Boyu Öğrenme Merkezi, Bilgi ve Belge Yönetimi Bölümü, Ankara
 
 - Böbrek ve Mesane Tümörlerine Güncel Bakış, 18-19 Haziran 2016, Acıbadem, İstanbul
 
@@ -596,11 +601,7 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 
 
 
-Yayın ve Atıflar
-==========================
-
-
-
+# Yayın ve Atıflar
 
 
 ### Yayın Listeleri {#publication-lists}
@@ -612,9 +613,9 @@ Yayın ve Atıflar
 
 - [GoogleScholar](http://scholar.google.com/citations?user=q40DcqYAAAAJ)
 
-- [ResearcherID: B-6401-2011](http://www.researcherid.com/rid/B-6401-2011)  
+- [ResearcherID: B-6401-2011](http://www.researcherid.com/rid/B-6401-2011)
 
-- [Publons](https://publons.com/researcher/467202/serdar-balci/)  
+- [Publons](https://publons.com/researcher/467202/serdar-balci/)
 
 - [PubMed My Bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/)
 
@@ -623,18 +624,18 @@ Yayın ve Atıflar
 - [PubMed My Bibliography Other Page 2](https://www.ncbi.nlm.nih.gov/labs/bibliography/serdar.balci.1/bibliography/public/)
 
 
-- [ORCID](http://orcid.org/0000-0002-7852-3851)  
+- [ORCID](http://orcid.org/0000-0002-7852-3851)
 
 
 
-<a content="https://orcid.org/0000-0002-7852-3851" href="https://orcid.org/0000-0002-7852-3851" itemprop="sameAs" rel="noopener noreferrer" style="vertical-align: top;" target="orcid.widget"><img alt="ORCID iD icon" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="margin-right: 0.5em; width: 1em;" />orcid.org/0000-0002-7852-3851</a>  
+<a content="https://orcid.org/0000-0002-7852-3851" href="https://orcid.org/0000-0002-7852-3851" itemprop="sameAs" rel="noopener noreferrer" style="vertical-align: top;" target="orcid.widget"><img alt="ORCID iD icon" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="margin-right: 0.5em; width: 1em;" />orcid.org/0000-0002-7852-3851</a>
 
 
 
-- [ResearchGate](https://www.researchgate.net/profile/Serdar_Balci)  
+- [ResearchGate](https://www.researchgate.net/profile/Serdar_Balci)
 
 
-<a href="https://www.researchgate.net/profile/Serdar_Balci?cp=shp" target="_blank" title="Follow me on ResearchGate"><img alt="Follow me on ResearchGate" src="https://www.researchgate.net/images/public/profile_share_badge.png" /></a>  
+<a href="https://www.researchgate.net/profile/Serdar_Balci?cp=shp" target="_blank" title="Follow me on ResearchGate"><img alt="Follow me on ResearchGate" src="https://www.researchgate.net/images/public/profile_share_badge.png" /></a>
 
 
 
@@ -649,7 +650,7 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 
 
 
-- [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)  
+- [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)
 
 
 - [Semantic Scholar](https://www.semanticscholar.org/author/Serdar-Balci/2755920)
@@ -686,7 +687,7 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 ---
 
 
--  Taskin OC, Bellolio E, Dursun N, Seven IE, Roa JC, Araya JC, Villaseca M, Tapia O, Vance C, Saka B, Balci S, Bagci P, Losada H, Sarmiento J, Memis B, Pehlivanoğlu B, Basturk O, Reid MD, Koshiol J, Cheng JD, Kapran Y, Adsay V. Non-neoplastic Polyps of the Gallbladder: A Clinicopathologic Analysis of 447 Cases. Am J Surg Pathol. 2019 Nov 12;. doi: 10.1097/PAS.0000000000001405. [Epub ahead of print] PubMed PMID: 31725469. 
+-  Taskin OC, Bellolio E, Dursun N, Seven IE, Roa JC, Araya JC, Villaseca M, Tapia O, Vance C, Saka B, Balci S, Bagci P, Losada H, Sarmiento J, Memis B, Pehlivanoğlu B, Basturk O, Reid MD, Koshiol J, Cheng JD, Kapran Y, Adsay V. Non-neoplastic Polyps of the Gallbladder: A Clinicopathologic Analysis of 447 Cases. Am J Surg Pathol. 2019 Nov 12;. doi: 10.1097/PAS.0000000000001405. [Epub ahead of print] PubMed PMID: 31725469.
 
 
 
@@ -696,7 +697,7 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 
 
 
--  Taskin OC, Akkas G, Memis B, Seven IE, Basturk O, Jang KT, Roa JC, Araya JC, Bellolio E, Losada H, Sarmiento J, Balci S, Pehlivanoglu B, Reid MD, Koshiol J, Adsay V. Sarcomatoid carcinomas of the gallbladder: clinicopathologic characteristics. Virchows Arch. 2019 Jun 8;. doi: 10.1007/s00428-019-02583-z. [Epub ahead of print] PubMed [PMID: 31177317](https://www.ncbi.nlm.nih.gov/pubmed/31177317). 
+-  Taskin OC, Akkas G, Memis B, Seven IE, Basturk O, Jang KT, Roa JC, Araya JC, Bellolio E, Losada H, Sarmiento J, Balci S, Pehlivanoglu B, Reid MD, Koshiol J, Adsay V. Sarcomatoid carcinomas of the gallbladder: clinicopathologic characteristics. Virchows Arch. 2019 Jun 8;. doi: 10.1007/s00428-019-02583-z. [Epub ahead of print] PubMed [PMID: 31177317](https://www.ncbi.nlm.nih.gov/pubmed/31177317).
 
 
 
@@ -1325,7 +1326,7 @@ LABORATORY INVESTIGATION, 96, 208A-208A
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="">
 </span>
 
-- <i>Balci S</i>, Saka B, Krasinskas A, Kim G, Dursun N, Shaib W, El-Rayes B, Quigley B, Reid M, Farris AB, Bandopadhyay S, Everett R, Knight J, Adsay V. Clinicopathologic Associations Of Mismatch Repair Protein Expressions In Ampullary Carcinomas USCAP 103rd Annual Meeting, 1-7 March 2014, San Diego, California Modern Pathology, 2014 Feb, 27 Supp 2, 164A. 
+- <i>Balci S</i>, Saka B, Krasinskas A, Kim G, Dursun N, Shaib W, El-Rayes B, Quigley B, Reid M, Farris AB, Bandopadhyay S, Everett R, Knight J, Adsay V. Clinicopathologic Associations Of Mismatch Repair Protein Expressions In Ampullary Carcinomas USCAP 103rd Annual Meeting, 1-7 March 2014, San Diego, California Modern Pathology, 2014 Feb, 27 Supp 2, 164A.
 
 https://www.youtube.com/watch?v=1jyiiG7vLn8
 
@@ -1769,7 +1770,7 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 ### Atıflar {#citations}
 
 
-- [Impact Story](https://impactstory.org/u/0000-0002-7852-3851/)  
+- [Impact Story](https://impactstory.org/u/0000-0002-7852-3851/)
 
 
 - [Google Scholar](http://scholar.google.com/citations?user=q40DcqYAAAAJ)
@@ -1798,7 +1799,7 @@ ggplot(cit,aes(x=year,y=cites))+
 - [Publons](https://publons.com/researcher/467202/serdar-balci/)
 
 
-- [ResearcherID](http://www.researcherid.com/rid/B-6401-2011)  
+- [ResearcherID](http://www.researcherid.com/rid/B-6401-2011)
 
 
 ### scholarometer{#scholarometer}
@@ -1858,14 +1859,14 @@ jsonDF <- dplyr::bind_rows(jsonDF$json_data, .id = "meta_information")
 
 
 ```{r ggplot, eval=FALSE, cache=TRUE, include=FALSE}
-df <- jsonDF %>% 
-    filter(total > 0) %>% 
+df <- jsonDF %>%
+    filter(total > 0) %>%
     select(doi,
            contradicting,
            mentioning,
            supporting,
            unclassified
-           ) %>% 
+           ) %>%
     gather(key = feature, value = number, -doi)
 
 suppressPackageStartupMessages(library(ggplot2))
@@ -1894,15 +1895,15 @@ ggplot(data = df) +
 
 <iframe frameborder="0" height="500" scrolling="no" src="https://books.google.com.tr/books?id=aIcZBAAAQBAJ&amp;lpg=PA1054&amp;vq=Serdar%20Balci&amp;hl=tr&amp;pg=PA1054&amp;output=embed" style="border: 0px;" width="500"></iframe>
 
-- Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors  
+- Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors
 <a href="http://pid.emory.edu/ark:/25593/rkcxs" target="_blank">http://pid.emory.edu/ark:/25593/rkcxs</a>
 
 - Reviews:
 
 Publons: https://publons.com/researcher/467202/serdar-balci/
 
-Acknowledgement to reviewers 2018 
-Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5 
+Acknowledgement to reviewers 2018
+Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5
 
 ### Diğer yazılar {#other-writings}
 
@@ -1910,17 +1911,17 @@ Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5
 #### Endonews {#endonews}
 
 
-- [Author Page](https://www.endonews.com/author/serdar-balci)  
+- [Author Page](https://www.endonews.com/author/serdar-balci)
 
-- [Progesterone Receptor Status in Endometriosis](https://www.endonews.com/progesterone-receptor-status-inendometriosis)  
+- [Progesterone Receptor Status in Endometriosis](https://www.endonews.com/progesterone-receptor-status-inendometriosis)
 
-- [Targeted therapy biomarkers in endometriosis associated ovarian carcinomas](https://www.endonews.com/targeted-therapy-biomarkers-in-endometriosis-associated-ovarian-carcinomas)  
+- [Targeted therapy biomarkers in endometriosis associated ovarian carcinomas](https://www.endonews.com/targeted-therapy-biomarkers-in-endometriosis-associated-ovarian-carcinomas)
 
-- [Does the presence of endometriosis increase the risk of gynecologic malignancies?](https://www.endonews.com/does-the-presence-of-endometriosis-increase-the-risk-of-gynecologic-malignancies)  
+- [Does the presence of endometriosis increase the risk of gynecologic malignancies?](https://www.endonews.com/does-the-presence-of-endometriosis-increase-the-risk-of-gynecologic-malignancies)
 
-- [A new theory in the pathogenesis of endometriosis](https://www.endonews.com/a-new-theory-in-the-pathogenesis-of-endometriosis)  
+- [A new theory in the pathogenesis of endometriosis](https://www.endonews.com/a-new-theory-in-the-pathogenesis-of-endometriosis)
 
-- [Clonal Proliferation and Cancer Associated Mutations in normal uterine endometrium and endometriosis](https://www.endonews.com/clonal-proliferation-and-cancer-associated-mutations-in-normal-uterine-endometrium-and-endometriosis)  
+- [Clonal Proliferation and Cancer Associated Mutations in normal uterine endometrium and endometriosis](https://www.endonews.com/clonal-proliferation-and-cancer-associated-mutations-in-normal-uterine-endometrium-and-endometriosis)
 
 - [PAX8 immunohistochemistry in the diagnosis of Extragenital Endometriosis](https://www.endonews.com/pax8-immunohistochemistry-in-the-diagnosis-of-extragenitalendometriosis)
 
@@ -1984,8 +1985,7 @@ http://www.vosviewer.com/vosviewer.php?map=https://raw.githubusercontent.com/sba
 
 
 
-Eğitim Aktiviteleri
-=======================
+# Eğitim Aktiviteleri
 
 
 ### Konuşmalar ve Sunumlar  {#presentations}

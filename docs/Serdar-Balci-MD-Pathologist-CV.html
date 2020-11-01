@@ -107,7 +107,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Serdar Balci, MD, Pathologist, CV"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Serdar Balci, MD, Pathologist, CV"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[4]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -470,22 +470,19 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
     return offset ? offset + '/' + url : url;
   }
 
-  function createIndex() {
-    var options = {
-      keys: [
-        "title",
-        "categories",
-        "description",
-        "contents"
-      ]
-    };
-    return new window.Fuse([],options);
-  }
-
   function createFuseIndex() {
 
     // create fuse index
-    var options = { keys: ["title", "description", "contents"] };
+    var options = {
+      keys: [
+        { name: 'title', weight: 20 },
+        { name: 'categories', weight: 15 },
+        { name: 'description', weight: 10 },
+        { name: 'contents', weight: 5 },
+      ],
+      ignoreLocation: true,
+      threshold: 0
+    };
     var fuse = new window.Fuse([], options);
 
     // fetch the main search.json
@@ -553,12 +550,6 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
               shouldSort: true,
               minMatchCharLength: 2,
               limit: 10,
-              keys: [
-                { name: 'title', weight: 20 },
-                { name: 'categories', weight: 15 },
-                { name: 'description', weight: 10 },
-                { name: 'contents', weight: 5 },
-              ],
             };
             var results = fuse.search(query, searchOptions);
             callback(results
@@ -856,7 +847,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
-    overflow: hidden;
+    overflow: auto;
   }
 
   d-article div.sourceCode {
@@ -2282,9 +2273,20 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a href="index.html" class="title">Serdar Balci, MD, Pathologist</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
+<a href="BlogPosts.html">Blog Posts</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Pathology
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="https://parapathology.com">(Para)Pathology</a>
+</div>
+</div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
 Websites
@@ -2292,7 +2294,17 @@ Websites
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="https://parapathology.com">(Para)Pathology</a>
+<a href="https://serdarbalci.com">serdarbalci.com</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Bibliometric
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="BibliographicStudies.html">Bibliometric Studies</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2303,9 +2315,10 @@ R packages
 </button>
 <div class="nav-dropdown-content">
 <span class="nav-dropdown-header">jamovi modules</span>
+<hr/>
+<span class="nav-dropdown-header">ClinicoPath</span>
 </div>
 </div>
-<a href="about.html">About</a>
 <a href="Serdar-Balci-MD-Pathologist-CV.html">CV</a>
 <span class="nav-dropdown-header"></span>
 <a href="https://github.com/sbalci/">
@@ -2313,6 +2326,9 @@ R packages
 </a>
 <a href="https://twitter.com/serdarbalci/">
 <i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="index.xml">
+<i class="fa fa-rss" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2331,8 +2347,85 @@ R packages
 
 
 <div class="d-article">
-<!-- Open all links in new tab -->
-<p><base target="_blank"/></p>
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#biyografi">Biyografi</a></li>
+<li><a href="#biography">Biography</a></li>
+<li><a href="#guncel-ugrasilar">General Uğraşılar</a>
+<ul>
+<li><a href="#genel-ugrasilar">Güncel Uğraşılar</a></li>
+<li><a href="#contact-me">Contact Me</a></li>
+<li><a href="#web-social-links">Web &amp; Social Media Accounts</a>
+<ul>
+<li><a href="#blogs">Blog</a>
+<ul>
+<li><a href="#social-links">Social Media</a></li>
+<li><a href="#research-accounts">Other Research Accounts</a></li>
+</ul></li>
+<li><a href="#education">Eğitim Hayatı</a>
+<ul>
+<li><a href="#bursaries">Burslar</a></li>
+<li><a href="#boards">Sınavlar</a></li>
+<li><a href="#courses">Kurslar ve Diğer Eğitimler</a></li>
+</ul></li>
+<li><a href="#work-experience">Çalışma Hayatı</a>
+<ul>
+<li><a href="#society">Dernek ve Çalışma Grupları</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#yayın-ve-atıflar">Yayın ve Atıflar</a>
+<ul>
+<li><a href="#publication-lists">Yayın Listeleri</a></li>
+<li><a href="#peer-reviewed-publications">Yayınlar</a>
+<ul>
+<li><a href="#international-publications">Uluslararası Yayınlar</a></li>
+<li><a href="#publications-in-Turkish">Türkiye dergilerinde yer alan yayınlar</a></li>
+<li><a href="#platform-presentations">Uluslararası kongrelerdeki sözel bildiriler</a></li>
+<li><a href="#platform-presentations-in-Turkey">Yurtiçi kongrelerdeki sözel bildiriler</a></li>
+<li><a href="#posters">Uluslararası kongrelerdeki poster sunumları</a></li>
+<li><a href="#posters-in-Turkey">Yurtiçi kongrelerdeki poster sunumları</a></li>
+<li><a href="#dissertation">Uzmanlık tezi</a></li>
+</ul></li>
+<li><a href="#citations">Atıflar</a></li>
+<li><a href="#scholarometer">scholarometer</a></li>
+<li><a href="#beamplot">beamplot</a></li>
+<li><a href="#scite">Atıfların özellikleri scite.ai ’ye göre</a></li>
+<li><a href="#contributions">Katkılar</a></li>
+<li><a href="#other-writings">Diğer yazılar</a>
+<ul>
+<li><a href="#endonews">Endonews</a></li>
+</ul></li>
+<li><a href="#r-project-codes">R-project Codes &amp; Projects</a>
+<ul>
+<li><a href="#r-project-pages">Pages</a></li>
+<li><a href="#r-project-presentations">Presentations</a></li>
+<li><a href="#r-project-shares">Shares</a></li>
+<li><a href="#r-project-github">Github</a></li>
+<li><a href="#r-project-docker">Docker Images</a></li>
+<li><a href="#r-project">Projects</a></li>
+<li><a href="#r-project-packages">Packages</a></li>
+</ul></li>
+<li><a href="#scholar-connections">Scholar Connections</a>
+<ul>
+<li><a href="#vosviewer">Download to view the interactive graph</a></li>
+<li><a href="#vosviewer1">Connections</a></li>
+<li><a href="#vosviewer2">Connections With Years</a></li>
+<li><a href="#vosviewer3">Connections Density</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#eğitim-aktiviteleri">Eğitim Aktiviteleri</a>
+<ul>
+<li><a href="#presentations">Konuşmalar ve Sunumlar</a></li>
+<li><a href="#dissertation-supervisor">Yönettiği Tezler</a></li>
+<li><a href="#research-projects">Araştırma Projeleri</a></li>
+<li><a href="#other-academic-activities">Diğer Akademik Aktiviteler</a></li>
+</ul></li>
+</ul>
+</nav>
+</div>
 <script async="" charset="utf-8" src="https://badge.dimensions.ai/badge.js"></script>
 <script src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js" type="text/javascript"></script>
 <div itemscope="" itemtype="https://schema.org/Person">
@@ -2361,14 +2454,23 @@ R packages
 }
 </script>
 </div>
-<h1 id="dr.-serdar-balcı-patoloji-uzmanı">Dr. Serdar Balcı Patoloji Uzmanı</h1>
-<p><br> <br></p>
-<p><strong>Serdar Balcı</strong><br />
-<em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br />
-2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi’nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD’de Emory Üniversitesi’nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.<br />
-İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.<br />
-Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.</p>
-<h3 id="guncel-ugrasilar">Genel Uğraşılar</h3>
+<h2 id="biyografi">Biyografi</h2>
+<p><strong>Serdar Balcı</strong> <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em> 2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi’nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD’de Emory Üniversitesi’nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır. Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.</p>
+<h1 id="biography">Biography</h1>
+<p>I am a Medical Doctor and Pathologist. I graduated from Hacettepe University Faculty of Medicine, Ankara, Turkey, the top medical institution in Turkey. I completed my pathology residency in the Department of Pathology in Hacettepe and then worked at Emory University, Atlanta, GA, USA as a research scholar, and had the opportunity to participate in numerous studies. Since I have always been interested in research, I took statistics and introductory bioinformatics courses at Hacettepe University Biostatistics Department.</p>
+<aside>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="img/SerdarBalci-MD-Pathologist.jpg" width="290" /></p>
+</div>
+</aside>
+<p>I have more than 50 articles published in peer-reviewed journals. I have participated in many international studies. For these studies, I have not only participated as a pathologist but was also actively involved in project planning and I have been the main person responsible for data preparation, data cleaning, data analyses, and reporting. I have experience in bibliography programs and image editing software. I have also used SEER data for cancer research.</p>
+<p>I am interested in the application of statistical and bioinformatic methods in anatomic and digital pathology. I am also interested in publication metrics and have done some research on bibliometrics. I am using vosviewer and citespace for side projects, and used PubMed data for bibliography and text mining studies.</p>
+<p>I have reviewed research papers as you can see on my Publons profile.</p>
+<p>Currently, I am on the website committee of Pancreatobiliary Pathology Society and I am actively preparing the Journal Watch for this society. <a href="https://pbpath.org/our-committees/" class="uri">https://pbpath.org/our-committees/</a> <a href="http://pbpath.org/current-journal-watch/" class="uri">http://pbpath.org/current-journal-watch/</a></p>
+<p>Serdar Balcı, MD, Pathologist</p>
+<p><a href="http://www.serdarbalci.com/" class="uri">http://www.serdarbalci.com/</a> <a href="https://twitter.com/serdarbalci" class="uri">https://twitter.com/serdarbalci</a> <a href="https://github.com/sbalci" class="uri">https://github.com/sbalci</a></p>
+<p>CV: <a href="https://drive.google.com/file/d/0B4x15l9fUIsjMm01UTAyTkJvNm8/" class="uri">https://drive.google.com/file/d/0B4x15l9fUIsjMm01UTAyTkJvNm8/</a> Google Scholar: <a href="http://scholar.google.com/citations?user=q40DcqYAAAAJ" class="uri">http://scholar.google.com/citations?user=q40DcqYAAAAJ</a> PubMed: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/" class="uri">http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/</a> ORCID: <a href="http://orcid.org/0000-0002-7852-3851" class="uri">http://orcid.org/0000-0002-7852-3851</a> Research Gate: <a href="http://www.researchgate.net/profile/Serdar_Balci/" class="uri">http://www.researchgate.net/profile/Serdar_Balci/</a> Scopus: <a href="https://www.scopus.com/authid/detail.uri?authorId=22933834600" class="uri">https://www.scopus.com/authid/detail.uri?authorId=22933834600</a> Loop: <a href="http://loop.frontiersin.org/people/306241/overview" class="uri">http://loop.frontiersin.org/people/306241/overview</a> ImpactStory: <a href="https://impactstory.org/u/0000-0002-7852-3851/" class="uri">https://impactstory.org/u/0000-0002-7852-3851/</a> Publons: <a href="https://publons.com/a/467202/" class="uri">https://publons.com/a/467202/</a></p>
+<h1 id="guncel-ugrasilar">General Uğraşılar</h1>
 <p><a href="#" title="Eşyanın isimleri bize Dede mirasıdır 2/31">Genel Uğraşılarım</a></p>
 <ul>
 <li>Gastrointestinal ve Pankreatobilier Patoloji</li>
@@ -2380,7 +2482,7 @@ Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.</p
   href="https://twitter.com/serdarbalci">Follow <span class="citation" data-cites="serdarbalci">@serdarbalci</span></a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p><a href="https://saythanks.io/to/sbalci"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="Say Thanks!" /></a> <a href="http://hits.dwyl.io/sbalci/sbalci.github.io"><img src="http://hits.dwyl.io/sbalci/sbalci.github.io.svg" alt="HitCount" /></a></p>
-<h3 id="genel-ugrasilar">Güncel Uğraşılar</h3>
+<h2 id="genel-ugrasilar">Güncel Uğraşılar</h2>
 <ul>
 <li><p><a href="https://github.com/sbalci/histopathology-template">Histopathology Research Template</a></p></li>
 <li><p><a href="https://sbalci.gitbooks.io/pathology-notes/content/">(Para) Pathology Notes</a></p></li>
@@ -2424,7 +2526,7 @@ We are happy to announce our 2020 enthusiasts 😃 <br>Please welcome with us: N
 <ul>
 <li><a href="https://lichess.org/@/sbalci">lichess</a></li>
 </ul>
-<h3 id="contact-me">Contact Me</h3>
+<h2 id="contact-me">Contact Me</h2>
 <p><strong>Contact Me / İletişim Formu</strong></p>
 <ul>
 <li><p><em><a href="https://drserdarbalci.wixsite.com/website">Contact Form</a></em></p></li>
@@ -2445,35 +2547,8 @@ We are happy to announce our 2020 enthusiasts 😃 <br>Please welcome with us: N
 <li><em>buymeacoffee</em></li>
 </ul>
 <p><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/bS0teIs"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a></p>
-<ul>
-<li><em>Comment Here</em></li>
-</ul>
-<div id="disqus_thread">
-
-</div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://https-sbalci-github-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>
-Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-</noscript>
-<h3 id="web-social-links">Web &amp; Social Media Accounts</h3>
-<h4 id="blogs">Blog</h4>
+<h2 id="web-social-links">Web &amp; Social Media Accounts</h2>
+<h3 id="blogs">Blog</h3>
 <ul>
 <li><p><a href="https://about.me/serdarbalci">about.me/serdarbalci</a></p></li>
 <li><p><a href="https://serdarbalci.netlify.com/">serdarbalci.netlify.com/</a></p></li>
@@ -2483,9 +2558,7 @@ Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">
 </ul>
 <h4 id="social-links">Social Media</h4>
 <ul>
-<li><p><a href="https://plus.google.com/u/0/+SERDARBALCIMD">Google+</a></p></li>
 <li><p><a href="https://twitter.com/serdarbalci">Twitter</a></p></li>
-<li><p><a href="https://www.facebook.com/serdarbalcimd">Facebook</a></p></li>
 <li><p><a href="https://www.facebook.com/serdarbalcimdpathologist/">Facebook Page</a></p></li>
 </ul>
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fserdarbalcimdpathologist%2F&amp;width=450&amp;layout=standard&amp;action=like&amp;size=small&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media">
@@ -2578,18 +2651,12 @@ Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">
 <hr />
 <p><strong>Dil Kursları</strong></p>
 <ul>
-<li>Deutschkurs im Goethe-Institut Ankara, A1.1, 18.07.2018-03.08.2018<br />
-</li>
-<li>Deutschkurs im Goethe-Institut Ankara, A1.2, 06.08.2018-29.08.2018<br />
-</li>
-<li>Deutschkurs im Goethe-Institut Ankara, A2.1, 10.09.2018-26.09.2018<br />
-</li>
-<li>Deutschkurs im Goethe-Institut Ankara, A2.2, 15.10.2018-10.12.2018<br />
-</li>
-<li>Deutschkurs im Goethe-Institut Ankara, B1.1-B1.3, 24.12.2018-15.02.2019<br />
-</li>
-<li>Deutschkurs im Goethe-Institut Ankara, B2.1-B2.3, 04.03.2019-26.04.2019<br />
-</li>
+<li>Deutschkurs im Goethe-Institut Ankara, A1.1, 18.07.2018-03.08.2018</li>
+<li>Deutschkurs im Goethe-Institut Ankara, A1.2, 06.08.2018-29.08.2018</li>
+<li>Deutschkurs im Goethe-Institut Ankara, A2.1, 10.09.2018-26.09.2018</li>
+<li>Deutschkurs im Goethe-Institut Ankara, A2.2, 15.10.2018-10.12.2018</li>
+<li>Deutschkurs im Goethe-Institut Ankara, B1.1-B1.3, 24.12.2018-15.02.2019</li>
+<li>Deutschkurs im Goethe-Institut Ankara, B2.1-B2.3, 04.03.2019-26.04.2019</li>
 <li>Deutschkurs im Goethe-Institut Ankara, C1.1-C1.2, 13.05.2019-11.07.2019</li>
 </ul>
 <hr />
@@ -3348,8 +3415,7 @@ Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">
 <iframe frameborder="0" height="500" scrolling="no" src="https://books.google.com.tr/books?id=aIcZBAAAQBAJ&amp;lpg=PA1054&amp;vq=Serdar%20Balci&amp;hl=tr&amp;pg=PA1054&amp;output=embed" style="border: 0px;" width="500">
 </iframe>
 <ul>
-<li><p>Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors<br />
-<a href="http://pid.emory.edu/ark:/25593/rkcxs" target="_blank">http://pid.emory.edu/ark:/25593/rkcxs</a></p></li>
+<li><p>Outcomes of Tumor-Directed Surgery in Cancers of Head of Pancreas, Ampulla and Extrahepatic Bile Ducts: Influence of Patient Demographics, Disease Characteristics and Geographic Factors <a href="http://pid.emory.edu/ark:/25593/rkcxs" target="_blank">http://pid.emory.edu/ark:/25593/rkcxs</a></p></li>
 <li><p>Reviews:</p></li>
 </ul>
 <p>Publons: <a href="https://publons.com/researcher/467202/serdar-balci/" class="uri">https://publons.com/researcher/467202/serdar-balci/</a></p>
@@ -3440,7 +3506,13 @@ Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p><a href="https://github.com/sbalci">Serdar Balcı, MD, Pathologist</a> would like to hear your feedback <a href="https://goo.gl/forms/YjGZ5DHgtPlR1RnB3"><strong>here</strong></a></p>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5bc36900a405090b"></script>
+</div>
 <!--/radix_placeholder_navigation_after_body-->
+
 
 </body>
 
