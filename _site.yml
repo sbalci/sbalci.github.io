@@ -55,5 +55,8 @@ collections:
     share: [twitter, linkedin, facebook]
     citation: true
     feed_items_max: false
+    categories: true
+    categories_metadata: true
+    authors_metadata: true
 rss:
   full_content: true

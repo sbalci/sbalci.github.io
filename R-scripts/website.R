@@ -1,5 +1,5 @@
 distill::import_post(
-    url = "https://sbalci.github.io/pubmed/BibliographicStudies.html",
+    url = "https://raw.githubusercontent.com/sbalci/pubmed/master/BibliographicStudies.Rmd",
     slug = "bibliometricstudies",
     # date = ,
     date_prefix = NULL,

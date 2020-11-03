@@ -1,12 +1,17 @@
 ---
 title: "Serdar Balci, MD, Pathologist"
 site: distill::distill_website
+listing: posts
 ---
 
+---
 
+<br>
+
+<aside>
 <a class="twitter-follow-button" data-show-count="false"
   href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sbalci/)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)
 [![HitCount](http://hits.dwyl.io/sbalci/sbalci.github.io.svg)](http://hits.dwyl.io/sbalci/sbalci.github.io)
-
+</aside>
