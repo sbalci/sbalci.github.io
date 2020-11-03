@@ -3,16 +3,3 @@ title: "Blog Posts"
 listing: posts
 ---
 
-
-
-
-
-
-
-
-
-
-These are just empty posts, I will start blogging soon :)
-
-
-

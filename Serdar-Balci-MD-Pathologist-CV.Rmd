@@ -81,9 +81,9 @@ http://pbpath.org/current-journal-watch/
 
 Serdar Balcı, MD, Pathologist
 
-http://www.serdarbalci.com/
-https://twitter.com/serdarbalci
-https://github.com/sbalci
+http://www.serdarbalci.com/  
+https://twitter.com/serdarbalci  
+https://github.com/sbalci  
 
 CV: https://drive.google.com/file/d/0B4x15l9fUIsjMm01UTAyTkJvNm8/
 Google Scholar: http://scholar.google.com/citations?user=q40DcqYAAAAJ
@@ -95,25 +95,23 @@ Loop: http://loop.frontiersin.org/people/306241/overview
 ImpactStory: https://impactstory.org/u/0000-0002-7852-3851/
 Publons: https://publons.com/a/467202/
 
+
 # Genel Uğraşılar {#genel-ugrasilar}
 
 
 [Genel Uğraşılarım]( # "Eşyanın isimleri bize Dede mirasıdır 2/31")
-
 
 - Gastrointestinal ve Pankreatobilier Patoloji
 - Anatomik patolojide istatistik ve biyoinformatik yöntemlerin uygulanması
 - Dijital patoloji
 - Patolojide kalite kontrol
 
-
-
+<aside>
 <a class="twitter-follow-button" data-show-count="false"
-  href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)
-[![HitCount](http://hits.dwyl.io/sbalci/sbalci.github.io.svg)](http://hits.dwyl.io/sbalci/sbalci.github.io)
-
+  href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)  
+[![HitCount](http://hits.dwyl.io/sbalci/sbalci.github.io.svg)](http://hits.dwyl.io/sbalci/sbalci.github.io)  
+</aside>
 
 
 ## Güncel Uğraşılar {#guncel-ugrasilar}
@@ -211,9 +209,9 @@ https://openknowledgemaps.org/community
 
 - *Peerwith*
 
-
+<aside>
 <a target="_blank" href="https://www.peerwith.com/services/directrequest/my/5af88e5ac1a5fe0007d4072d"><img src="https://assets.peerwith.com/content/network-share/peerwith-req-blue.png"></a>
-
+</aside>
 
 - *Patreon*
 
@@ -227,8 +225,9 @@ https://www.paypal.me/serdarbalci
 
 - *buymeacoffee*
 
+<aside>
 <a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/bS0teIs"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a>
-
+</aside>
 
 
 
@@ -305,9 +304,10 @@ https://www.paypal.me/serdarbalci
 - [SourceForge](https://sourceforge.net/u/serdarbalci/profile/)
 
 
-### Eğitim Hayatı {#education}
-
 ---
+
+## Eğitim Hayatı {#education}
+
 
 |  Öğrenim Dönemi|  Derece|  Üniversite|  Öğretim Alanı|
 |--:|--:|--:|--:|
@@ -319,18 +319,18 @@ https://www.paypal.me/serdarbalci
 ---
 
 
-#### Burslar {#bursaries}
+## Burslar {#bursaries}
 
----
 
 **Burslar**
 
 Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mart 2014, Emory University School of Medicine, Department of Pathology and Laboratory Medicine
 
 
-#### Sınavlar {#boards}
-
 ---
+
+## Sınavlar {#boards}
+
 
 **Board Sınavı ve Yeterlilik Belgeleri**
 
@@ -339,10 +339,10 @@ Yüksek Öğretim Kurumu Doktora Sonrası Araştırma Bursu: 15 Mart 2013-15 Mar
 1 Nisan 2016 Doçentlik Sınavı, Üniversiteler Arası Kurul, Ankara
 
 
-
-#### Kurslar ve Diğer Eğitimler  {#courses}
-
 ---
+
+## Kurslar ve Diğer Eğitimler {#courses}
+
 
 **Dil Kursları**
 
@@ -603,7 +603,7 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 
 
 
-# Yayın ve Atıflar
+## Yayın ve Atıflar
 
 
 ### Yayın Listeleri {#publication-lists}
@@ -678,12 +678,12 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 ---
 
 
-### Yayınlar {#peer-reviewed-publications}
+## Yayınlar {#peer-reviewed-publications}
 
 
-#### Uluslararası Yayınlar  {#international-publications}
+### Uluslararası Yayınlar  {#international-publications}
 
-##### Araştırma Makaleleri  {#research-publications}
+#### Araştırma Makaleleri  {#research-publications}
 
 
 ---
@@ -710,10 +710,11 @@ Sungu N, Dogan H, Kilicarslan A, Kilic M, Polat S, Tokac M, Akbaba S, Parlak Ome
 <a href="http://www.ijpmonline.org/article.asp?issn=0377-4929;year=2018;volume=61;issue=1;spage=22;epage=26;aulast=Sungu;type=0;aid=IndianJPatholMicrobiol_2018_61_1_22_228201" target="_blank">Indian Journal of Pathology and Microbiology 2018, 61:22-26</a>
 <a href="http://dx.doi.org/10.4103/ijpm.ijpm_85_17" target="_blank">doi: 10.4103/ijpm.ijpm_85_17</a>
 
+<aside>
 <span class="__dimensions_badge_embed__" data-doi="10.4103/ijpm.ijpm_85_17" data-style="small_circle"></span>
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.4103/ijpm.ijpm_85_17">
 </span>
-
+</aside>
 
 ---
 
@@ -1990,7 +1991,7 @@ http://www.vosviewer.com/vosviewer.php?map=https://raw.githubusercontent.com/sba
 # Eğitim Aktiviteleri
 
 
-### Konuşmalar ve Sunumlar  {#presentations}
+## Konuşmalar ve Sunumlar  {#presentations}
 
 
 - Pankreas Kisti ve Beyaz Elastik Birikimler. 14 Ocak 2016. Hepato-pankreato-bilier sistem çalışma grubu Ankara lokal toplantısı, Başkent Üniversitesi.
@@ -2056,7 +2057,7 @@ Dr. Özge Başaran Aydoğdu, Uzmanlık Tezi, Ankara Atatürk Eğitim ve Araştı
 - Yıldırım Beyazıt Üniversitesi Tıp Fakültesi Multidisipliner Araştırma Topluluğu bünyesinde Tıp Fakültesi öğrencileri ile haftalık makale saati ve proje grubu çalışmaları
 
 
-## Acknowledgments {.appendix}
+# Acknowledgments {.appendix}
 
 -
 

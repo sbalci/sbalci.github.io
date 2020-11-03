@@ -1,0 +1,40 @@
+---
+title: "GitHub Repository Collections"
+description: |
+  I use Organizations to collect GitHub Repositories.
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: 11-02-2020
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [RStats, GitHub, Collection]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I use [GitHub's organizations](https://github.com/settings/organizations) as a means to collect repositories. Please let me know if you have recommendations to add.
+
+Currently these are my organizations:
+
+| Organization                                                                      | Content                                                                                                 |
+|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [ClinicoPath](https://github.com/ClinicoPath)                                     | Repositories used for ClinicoPath jamovi module                                                         |
+| [PBPath](https://github.com/PBPath)                                               | Pancreatobiliary Pathology Society                                                                      |
+| [PathologyWeb](https://github.com/PathologyWeb)                                   | Information Technologies for the Practice of Pathology                                                  |
+| [bibliometrics](https://github.com/bibliometrics)                                 | Collection of Repositories Related to Bibliometrics, Bibliography, Knowledge Extraction and Text Mining |
+| [biostatistical](https://github.com/biostatistical)                               | Biostatistics Repositories                                                                              |
+| [dataeducation](https://github.com/dataeducation)                                 | Collection of Data Analysis Education Repositories                                                      |
+| [genomicanalysis](https://github.com/genomicanalysis)                             | Gene Analysis                                                                                           |
+| [histopathology](https://github.com/histopathology)                               | Collection of Repositories related to Histopathology and Image Analysis                                 |
+| [journalwatch](https://github.com/journalwatch)                                   | Repositories for Pathology Journal Watch                                                                |
+| [knowledgeextraction](https://github.com/knowledgeextraction)                     | Knowledge Discovery and Extraction from Text Data and Social Media                                      |
+| [seeranalysis](https://github.com/seeranalysis)                                   | Repositories and Codes for SEER Analysis                                                                |
+| [statisticial-modelling-center](https://github.com/statisticial-modelling-center) | Model İstatistik Merkezi (Statistical Modelling Center)                                                 |
