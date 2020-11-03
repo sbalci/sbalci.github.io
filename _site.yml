@@ -5,6 +5,7 @@ description: |
 output_dir: "docs"
 date: '`r Sys.Date()`'
 navbar:
+
   right:
     - text: "Blog Posts"
       href: BlogPosts.html
@@ -12,28 +13,67 @@ navbar:
       menu:
         - text: (Para)Pathology
           href: https://parapathology.com
+        - text: Patoloji Notları
+          href: http://www.patolojinotlari.com
+        - text: Tweet Collection
+          href: https://serdarbalci.netlify.com/
+        - text: PBPath Journal Watch
+          href: http://pbpath.org/pbpath-journal-watch/
+        - text: Endonews
+          href: https://www.endonews.com/author/serdar-balci
+
     - text: Websites  
       menu:
         - text: serdarbalci.com
           href: https://serdarbalci.com
+        - text: Daily Links
+          href: https://serdarbalci.wordpress.com/
+          
     - text: R packages  
       menu:
         - text: jamovi modules
         - text: "---"
-        - text: ClinicoPath
-          href: #
-    - text: "CV"
-      href: Serdar-Balci-MD-Pathologist-CV.html
-    - social: menu
-    - icon: fab fa-github
-      href: https://github.com/sbalci/
-    - icon: fab fa-twitter
-      href: https://twitter.com/serdarbalci/
+        - text: ClinicoPath jamovi Module
+          href: https://sbalci.github.io/ClinicoPathJamoviModule/
+        - text: R-project  
+        - text: "---"  
+        - text: Histopathology Research Template
+          href: https://github.com/sbalci/histopathology-template
+        - text: lens2r
+          href: https://sbalci.github.io/lens2r/
+          
+    - text: CV
+      menu:
+        - text: CV
+          href: Serdar-Balci-MD-Pathologist-CV.html
+        - text: resume
+          href: https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist
+          
+    - text: Social
+      menu:
+        - text: about me
+          href: https://about.me/serdarbalci
+        - icon: fab fa-github
+          href: https://github.com/sbalci/
+        - icon: fab fa-twitter
+          href: https://twitter.com/serdarbalci/
+        - icon: fab fa-facebook
+          href: https://www.facebook.com/serdarbalcimdpathologist/
+        - icon: fab fa-instagram
+          href: https://www.instagram.com/balciserdar/
+        - icon: fab fa-youtube
+          href: https://www.youtube.com/c/SERDARBALCIMD
+        - icon: fab fa-globe
+          href: https://goo.gl/maps/er9WHy6EguG2
+        - icon: fab fa-linkedin-in
+          href: https://www.linkedin.com/in/serdar-balci-md-pathologist/
     - icon: fa fa-rss
       href: index.xml
+      
 output: distill::distill_article
 exclude: ["cv", "jekyll", "R-scripts"]
 site: distill::distill_website
+
 author:
   - first_name: "Serdar"
     last_name: "Balci"
