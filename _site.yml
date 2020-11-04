@@ -28,6 +28,8 @@ navbar:
           href: https://serdarbalci.com
         - text: Daily Links
           href: https://serdarbalci.wordpress.com/
+        - text: RPubs
+          href: http://rpubs.com/sbalci
           
     - text: R packages  
       menu:
@@ -41,12 +43,16 @@ navbar:
           href: https://github.com/sbalci/histopathology-template
         - text: lens2r
           href: https://sbalci.github.io/lens2r/
+        - text: software
+        - text: "---"
+        - text: SourceForge
+          href: https://sourceforge.net/u/serdarbalci/profile/
           
     - text: CV
       menu:
         - text: CV
           href: Serdar-Balci-MD-Pathologist-CV.html
-        - text: resume
+        - text: Resume
           href: https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist
           
     - text: Social
@@ -67,6 +73,17 @@ navbar:
           href: https://goo.gl/maps/er9WHy6EguG2
         - icon: fab fa-linkedin-in
           href: https://www.linkedin.com/in/serdar-balci-md-pathologist/
+        - text: OSF
+          href: https://osf.io/msnux/
+        - text: Disqus
+          href: https://disqus.com/by/serdarbalci/favorites/
+        - icon: fab fa-chess-knight
+          href: https://lichess.org/@/sbalci
+        - text: contact form
+          href: https://drserdarbalci.wixsite.com/website
+        - text: feedback form
+          href: https://goo.gl/forms/YjGZ5DHgtPlR1RnB3 
+          
     - icon: fa fa-rss
       href: index.xml
       
@@ -81,6 +98,7 @@ author:
     affiliation: serdarbalci.com
     affiliation_url: https://www.serdarbalci.com
     orcid_id: 0000-0002-7852-3851
+    
 bibliography: bibliography.bib
 theme: theme.css
 creative_commons: CC BY
