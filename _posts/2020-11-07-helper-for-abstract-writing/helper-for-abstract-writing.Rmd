@@ -1,0 +1,59 @@
+---
+title: "Helper for Abstract Writing"
+description: |
+  A short description of the post.
+author:
+  - name: Serdar Balci
+    url: https://github.com/sbalci
+date: 11-07-2020
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+# Automatic Text Summarizer
+
+Automatic Text Summarizer  
+Multi-Language Summarizing & Paraphrasing AI Tool
+
+http://autosummarizer.com/
+
+# Free Online Automatic Text Summarization Tool
+
+https://www.textcompactor.com/
+
+
+# Free Online Summarizer Tool
+
+https://custom-writing.org/writing-tools/summarizer
+
+# Write me an abstract
+Enter a title and generate your own scientific abstract
+
+https://writemeanabstract.com/
+
+
+# Abstract Generator
+
+https://www.classgist.com/abstract-generator.aspx
+
+
+# Abstract Generator 
+
+https://www.phdthesiswriting.biz/best-abstract-generator/
+
+
+# scholarcy
+
+https://www.scholarcy.com/
+
+
+
+
+
+
+
+
+
+

@@ -4,6 +4,19 @@ site: distill::distill_website
 listing: posts
 ---
 
+```{r}
+gotop::use_gotop(
+  src = "fas fa-chevron-circle-up", # css class from Font Awesome
+  color = "tomato", # color
+  opacity = 0.8, # transparency
+  width = 30, # size
+  # appear = 100 # number of pixels before appearance
+  appear = 0
+  )
+```
+
+
+
 ---
 
 
