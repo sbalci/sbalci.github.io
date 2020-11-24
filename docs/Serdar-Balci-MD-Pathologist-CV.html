@@ -405,19 +405,22 @@
     return offset ? offset + '/' + url : url;
   }
 
+  function createIndex() {
+    var options = {
+      keys: [
+        "title",
+        "categories",
+        "description",
+        "contents"
+      ]
+    };
+    return new window.Fuse([],options);
+  }
+
   function createFuseIndex() {
 
     // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
+    var options = { keys: ["title", "description", "contents"] };
     var fuse = new window.Fuse([], options);
 
     // fetch the main search.json
@@ -485,6 +488,12 @@
               shouldSort: true,
               minMatchCharLength: 2,
               limit: 10,
+              keys: [
+                { name: 'title', weight: 20 },
+                { name: 'categories', weight: 15 },
+                { name: 'description', weight: 10 },
+                { name: 'contents', weight: 5 },
+              ],
             };
             var results = fuse.search(query, searchOptions);
             callback(results
@@ -782,7 +791,7 @@
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
-    overflow: auto;
+    overflow: hidden;
   }
 
   d-article div.sourceCode {
@@ -2181,7 +2190,7 @@
   	color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.5.3/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
   <script src="site_libs/goTop-2.0.0/htmlwidgets/jquery.gotop.js"></script>
   <link href="site_libs/fontawesome-5.1.0/htmlwidgets/fontawesome-5.1.0/css/all.css" rel="stylesheet" />
   <link href="site_libs/fontawesome-5.1.0/htmlwidgets/fontawesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
@@ -2431,7 +2440,7 @@ Social
 2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi’nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD’de Emory Üniversitesi’nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır. Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.</p>
 <aside>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="img/SerdarBalci-MD-Pathologist.jpg" width="290" /></p>
+<p><img src="img/SerdarBalci-MD-Pathologist.jpg" /><!-- --></p>
 </div>
 </aside>
 <h2 id="biography">Biography</h2>
@@ -2572,7 +2581,7 @@ We are happy to announce our 2020 enthusiasts 😃 <br>Please welcome with us: N
 <h3 id="beamplot">beamplot</h3>
 <aside>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="Figs/beamplot-1.png" width="1152" /></p>
+
 </div>
 </aside>
 <h3 id="scite">Atıfların özellikleri scite.ai ’ye göre</h3>

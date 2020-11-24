@@ -471,19 +471,22 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
     return offset ? offset + '/' + url : url;
   }
 
+  function createIndex() {
+    var options = {
+      keys: [
+        "title",
+        "categories",
+        "description",
+        "contents"
+      ]
+    };
+    return new window.Fuse([],options);
+  }
+
   function createFuseIndex() {
 
     // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
+    var options = { keys: ["title", "description", "contents"] };
     var fuse = new window.Fuse([], options);
 
     // fetch the main search.json
@@ -551,6 +554,12 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
               shouldSort: true,
               minMatchCharLength: 2,
               limit: 10,
+              keys: [
+                { name: 'title', weight: 20 },
+                { name: 'categories', weight: 15 },
+                { name: 'description', weight: 10 },
+                { name: 'contents', weight: 5 },
+              ],
             };
             var results = fuse.search(query, searchOptions);
             callback(results
@@ -848,7 +857,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
-    overflow: auto;
+    overflow: hidden;
   }
 
   d-article div.sourceCode {
@@ -2247,7 +2256,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   	color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.5.3/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
   <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
   <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>

@@ -234,10 +234,10 @@ ggplot(cit, aes(x = year, y = cites)) +
 
 <aside>
 ```{r beamplot, echo=FALSE, cache=TRUE}
-BibPlots::beamplot(
-  wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArticles.txt",
-  do_weight = FALSE
-)
+# BibPlots::beamplot(
+#   wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArticles.txt",
+#   do_weight = FALSE
+# )
 ```
 </aside>
 
@@ -254,7 +254,7 @@ suppressPackageStartupMessages(library("magicfor"))
 
 
 ```{r read DOI, include=FALSE, cache=TRUE}
-myDOI <- readr::read_csv(here::here("cv/data/BalciSdoi.txt"), col_names = "DOI", col_types = "c")
+# myDOI <- readr::read_csv(here::here("cv/data/BalciSdoi.txt"), col_names = "DOI", col_types = "c")
 ```
 
 
