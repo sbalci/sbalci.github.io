@@ -245,6 +245,7 @@ BibPlots::beamplot(
 ### Atıfların özellikleri scite.ai 'ye göre {#scite}
 
 
+
 ```{r load library, include=FALSE, cache=TRUE}
 suppressPackageStartupMessages(library("tidyverse"))
 suppressPackageStartupMessages(library("rjson"))
