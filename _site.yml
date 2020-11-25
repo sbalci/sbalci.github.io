@@ -5,31 +5,31 @@ description: |
 output_dir: "docs"
 date: '`r Sys.Date()`'
 navbar:
-
   right:
-    - text: "Blog Posts"
-      href: BlogPosts.html
+    - text: "Blogs and Posts"
+      menu:
+        - text: "Posts"
+          href: BlogPosts.html
+        - text: "Blog"
+          href: https://blog.serdarbalci.com
+        - text: "Press"
+          href: https://press.serdarbalci.com
+        - text: RPubs
+          href: https://rpubs.com/sbalci
+          
+          
     - text: Pathology  
       menu:
         - text: (Para)Pathology
-          href: https://parapathology.com
+          href: https://www.parapathology.com
         - text: Patoloji Notları
-          href: http://www.patolojinotlari.com
+          href: https://www.patolojinotlari.com
         - text: Tweet Collection
           href: https://serdarbalci.netlify.com/
         - text: PBPath Journal Watch
-          href: http://pbpath.org/pbpath-journal-watch/
+          href: https://pbpath.org/pbpath-journal-watch/
         - text: Endonews
           href: https://www.endonews.com/author/serdar-balci
-
-    - text: Websites  
-      menu:
-        - text: serdarbalci.com
-          href: https://serdarbalci.com
-        - text: Daily Links
-          href: https://serdarbalci.wordpress.com/
-        - text: RPubs
-          href: http://rpubs.com/sbalci
           
     - text: R packages  
       menu:
