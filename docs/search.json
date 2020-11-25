@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "path": "BlogPosts.html",
+      "title": "Blog Posts",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-11-25T22:04:34+03:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Serdar Balci, MD, Pathologist",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-11-25T22:04:35+03:00"
+    },
+    {
+      "path": "posts_RStats.html",
+      "title": "RStats Posts",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-11-25T22:04:36+03:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
