@@ -88,7 +88,7 @@ navbar:
       href: index.xml
       
 output: distill::distill_article
-exclude: ["cv", "jekyll", "R-scripts"]
+exclude: ["cv", "jekyll", "R-scripts", "willadd"]
 site: distill::distill_website
 
 author:
