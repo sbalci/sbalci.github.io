@@ -14,7 +14,7 @@ navbar:
           href: https://blog.serdarbalci.com
         - text: "Press"
           href: https://press.serdarbalci.com
-        - text: RPubs
+        - text: "RPubs"
           href: https://rpubs.com/sbalci
           
           
@@ -50,6 +50,8 @@ navbar:
           
     - text: CV
       menu:
+        - text: About
+          href: card.html
         - text: CV
           href: Serdar-Balci-MD-Pathologist-CV.html
         - text: Resume

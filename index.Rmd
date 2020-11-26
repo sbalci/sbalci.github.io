@@ -10,8 +10,6 @@ listing: posts
 *Türk Hekim ve Araştırmacı. Patoloji Uzmanı.*  
 2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.
 İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
-Halen serbest akademik danışman olarak araştırmalarına devam etmektedir.
-
 
 ---
 

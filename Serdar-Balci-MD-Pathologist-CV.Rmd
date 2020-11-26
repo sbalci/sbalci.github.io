@@ -26,15 +26,10 @@ output:
     "https://www.facebook.com/serdarbalcimdpathologist/",
     "https://www.instagram.com/balciserdar/",
     "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
-    "https://plus.google.com/u/0/+SERDARBALCIMD",
     "https://twitter.com/serdarbalci",
     "https://github.com/sbalci",
-    "http://sbalci.gitbooks.io/",
-    "https://sbalci.github.io/",
-    "https://serdarbalci.wordpress.com/",
-    "https://drserdarbalci.blogspot.com.tr/",
-    "https://sites.google.com/view/drserdarbalci/",
-    "https://drserdarbalci.wixsite.com/website"
+    "https://www.parapathology.com",
+    "https://www.patolojinotlari.com"
   ]
 }
 </script></div>
@@ -149,13 +144,14 @@ https://openknowledgemaps.org/community
 
 - [ResearcherID: B-6401-2011](http://www.researcherid.com/rid/B-6401-2011)
 
-- [Publons](https://publons.com/researcher/467202/serdar-balci/)
+- [Publons](https://publons.com/researcher/467202/serdar-balci/)  
+
 
 - [PubMed My Bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/14I_qdU6Oj6VsIwzi12Lbng/)
 
 <aside>
-[PubMed My Bibliography Other Page 1](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1n_xodb65Uqv226D6zhH5rj/?sort=date&amp;direction=ascending)  
-[PubMed My Bibliography Other Page 2](https://www.ncbi.nlm.nih.gov/labs/bibliography/serdar.balci.1/bibliography/public/)
+[PubMed My Bibliography](http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1n_xodb65Uqv226D6zhH5rj/?sort=date&amp;direction=ascending)  
+[PubMed My Bibliography](https://www.ncbi.nlm.nih.gov/labs/bibliography/serdar.balci.1/bibliography/public/)
 </aside>
 
 - [ORCID](http://orcid.org/0000-0002-7852-3851)
@@ -176,13 +172,17 @@ https://openknowledgemaps.org/community
 
 - [Microsoft Academic](https://academic.microsoft.com/#/profile/SerdarBalci)
 
+<aside>
 https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication
+</aside>
+
 
 - [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)
 
 - [Semantic Scholar](https://www.semanticscholar.org/author/Serdar-Balci/2755920)
 
-- [Lens Scholar](https://www.lens.org/lens/scholar/search/results?collectionId=170675)
+- [Lens Scholar](https://www.lens.org/lens/profile/311391349/scholar)
+
 
 <iframe width="100%" height="720" src="https://openknowledgemaps.org/map/cb13e14ef3ea4038280826bbaf87d9f1&embed=true"></iframe>
 
@@ -199,7 +199,7 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 
 - [Google Scholar](http://scholar.google.com/citations?user=q40DcqYAAAAJ)
 
-
+<aside>
 ```{r google scholar, cache=TRUE}
 suppressPackageStartupMessages(library(scholar))
 suppressPackageStartupMessages(library(ggplot2))
@@ -211,104 +211,17 @@ ggplot(cit, aes(x = year, y = cites)) +
   ylab("Google Scholar\n cites") +
   annotate("text", label = format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z"), x = -Inf, y = Inf, vjust = 1.5, hjust = -0.05, size = 3, colour = "gray")
 ```
-
-
-<aside>
-<a href="https://scholar.google.com.tr/citations?user=q40DcqYAAAAJ"><img alt="Serdar Balci Google Scholar" border="0" data-original-height="300" data-original-width="800" height="120" src="https://drive.google.com/uc?export=view&amp;id=1hehESwCzi_8cxPTU8HFcomP4xwUyF299" width="320" /></a>
 </aside>
+
+
+
+<!-- <a href="https://scholar.google.com.tr/citations?user=q40DcqYAAAAJ"><img alt="Serdar Balci Google Scholar" border="0" data-original-height="300" data-original-width="800" height="120" src="https://drive.google.com/uc?export=view&amp;id=1hehESwCzi_8cxPTU8HFcomP4xwUyF299" width="320" /></a> -->
 
 
 - [Publons](https://publons.com/researcher/467202/serdar-balci/)
 
 
 - [ResearcherID](http://www.researcherid.com/rid/B-6401-2011)
-
-
-### scholarometer{#scholarometer}
-
-<aside>
-<script src='//scholarometer.indiana.edu/Widget/SMWidget.js'></script><div id='scholarometer-widget' data-gid='q40DcqYAAAAJ' data-max-disciplines='4'></div>
-</aside>
-
-### beamplot {#beamplot}
-
-<aside>
-```{r beamplot, echo=FALSE, cache=TRUE}
-# BibPlots::beamplot(
-#   wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArticles.txt",
-#   do_weight = FALSE
-# )
-```
-</aside>
-
-
-### Atıfların özellikleri scite.ai 'ye göre {#scite}
-
-
-
-```{r load library, include=FALSE, cache=TRUE}
-suppressPackageStartupMessages(library("tidyverse"))
-suppressPackageStartupMessages(library("rjson"))
-suppressPackageStartupMessages(library("magicfor"))
-```
-
-
-```{r read DOI, include=FALSE, cache=TRUE}
-# myDOI <- readr::read_csv(here::here("cv/data/BalciSdoi.txt"), col_names = "DOI", col_types = "c")
-```
-
-
-```{r add api code, eval=FALSE, cache=TRUE, include=FALSE}
-myDOI <- myDOI %>%
-  mutate(apitallies = paste0("https://api.scite.ai/tallies/", DOI)) %>%
-  mutate(apipapers = paste0("https://api.scite.ai/papers/", DOI)) %>%
-  mutate(reportpages = paste0("https://scite.ai/reports/", DOI)) %>%
-  rownames_to_column()
-```
-
-
-```{r get json data, eval=FALSE, cache=TRUE, include=FALSE}
-magicfor::magic_for(silent = TRUE)
-json_data <- for (i in 1:(dim(myDOI)[1] - 1)) {
-  json_name <- paste0("Article", myDOI$rowname[i])
-  json_data <- rjson::fromJSON(file = myDOI$apitallies[i])
-  Sys.sleep(1)
-  put(json_name, json_data)
-}
-jsonDF <- magicfor::magic_result_as_dataframe()
-magicfor::magic_free()
-
-jsonDF <- dplyr::bind_rows(jsonDF$json_data, .id = "meta_information")
-```
-
-
-
-```{r ggplot, eval=FALSE, cache=TRUE, include=FALSE}
-df <- jsonDF %>%
-  filter(total > 0) %>%
-  select(
-    doi,
-    contradicting,
-    mentioning,
-    supporting,
-    unclassified
-  ) %>%
-  gather(key = feature, value = number, -doi)
-
-suppressPackageStartupMessages(library(ggplot2))
-
-ggplot(data = df) +
-  aes(x = doi, fill = feature, color = feature, weight = number) +
-  geom_bar(position = "fill") +
-  labs(
-    x = "DOI",
-    y = "Percentage Of Article Citation Features"
-  ) +
-  theme_minimal() +
-  coord_flip()
-```
-
-
 
 
 ## Uluslararası Yayınlar  {#international-publications}
@@ -339,12 +252,11 @@ Xue Y, <i>Balci S</i>, Aydin Mericoz C, Taskin OC, Jiang H, Pehlivanoglu B, Mura
 <aside>
 [doi: 10.1002/cncr.33135](https://doi.org/10.1002/cncr.33135)  
 [PMID: 32857459](https://pubmed.ncbi.nlm.nih.gov/32857459/)  
-<!-- [PMCID: PMC7485812](http://www.ncbi.nlm.nih.gov/pmc/articles/pmc7485812/)   -->
 <span class="__dimensions_badge_embed__" data-doi="10.1002/cncr.33135" data-style="small_circle"></span>  
 <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1002/cncr.33135"></span>  
 [Semantic](https://api.semanticscholar.org/10.1002/cncr.33135?include_unknown_references=true)  
 [Scite](https://scite.ai/reports/10.1002/cncr.33135)  
-<!-- [Connections](https://www.connectedpapers.com/main/534922d45f8bb38cc2499ddcb0dfb1a01814000d/Gallbladder-polyps-Correlation-of-size-and-clinicopathologic-characteristics-based-on-updated-definitions/graph) -->
+[Connections](https://www.connectedpapers.com/main/2f258c96e2bea4ed973b3ba67ffde9e0cc3d56c9/Frequency-and-clinicopathologic-associations-of-DNA-mismatch-repair-protein-deficiency-in-ampullary-carcinoma-Routine-testing-is-indicated/graph)
 <hr>
 </aside>
 
@@ -353,15 +265,14 @@ Virchows Arch. 2020 Jul 20.
 Pehlivanoglu B, <i>Balci S</i>, Basturk O, Bagci P, Erbarut Seven I, Memis B, Dursun N, Jang KT, Saka B, Ohike N, Tajiri T, Roa JC, Sarmiento JM, Reid MD, Adsay V. 
 
 <aside>
-doi: 10.1007/s00428-020-02877-7. PMID: 32691142.
-<!-- [doi: 10.1371/journal.pone.0237979](https://doi.org/10.1371/journal.pone.0237979)   -->
-<!-- [PMID: 32915805](https://pubmed.ncbi.nlm.nih.gov/32915805/)   -->
+[doi: 10.1007/s00428-020-02877-7](https://doi.org/10.1007/s00428-020-02877-7)
+[PMID: 32691142](https://pubmed.ncbi.nlm.nih.gov/32691142/)
 <!-- [PMCID: PMC7485812](http://www.ncbi.nlm.nih.gov/pmc/articles/pmc7485812/)   -->
-<!-- <span class="__dimensions_badge_embed__" data-doi="10.4103/ijpm.ijpm_85_17" data-style="small_circle"></span>   -->
-<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.4103/ijpm.ijpm_85_17"> -->
-<!-- </span>   -->
-<!-- [Semantic](https://api.semanticscholar.org/10.1371/journal.pone.0237979?include_unknown_references=true)   -->
-<!-- [Scite](https://scite.ai/reports/10.1371/journal.pone.0237979)   -->
+<span class="__dimensions_badge_embed__" data-doi="10.1007/s00428-020-02877-7" data-style="small_circle"></span>
+<span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s00428-020-02877-7">
+</span>
+[Semantic](https://api.semanticscholar.org/10.1007/s00428-020-02877-7?include_unknown_references=true)
+[Scite](https://scite.ai/reports/10.1007/s00428-020-02877-7)
 <!-- [Connections](https://www.connectedpapers.com/main/534922d45f8bb38cc2499ddcb0dfb1a01814000d/Gallbladder-polyps-Correlation-of-size-and-clinicopathologic-characteristics-based-on-updated-definitions/graph) -->
 <hr>
 </aside>
@@ -2700,34 +2611,12 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 <a href="http://pid.emory.edu/ark:/25593/rkcxs" target="_blank">http://pid.emory.edu/ark:/25593/rkcxs</a>
 
 - Reviews:
-
-Publons: https://publons.com/researcher/467202/serdar-balci/
-
-Acknowledgement to reviewers 2018
-Virchows Arch (2019). https://doi.org/10.1007/s00428-019-02537-5
+    - [Publons](https://publons.com/researcher/467202/serdar-balci/)
+    - [Acknowledgement to reviewers 2018 Virchows Arch (2019)](https://doi.org/10.1007/s00428-019-02537-5)
 
 
 
-# Scholar Connections {#scholar-connections}
 
-#### Download to view the interactive graph {#vosviewer}
-
-http://www.vosviewer.com/vosviewer.php?map=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewermap.txt&network=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewerNetwork.txt
-
-
-#### Connections {#vosviewer1}
-
-![](figures/VOSviewer-CV.png)
-
-#### Connections With Years {#vosviewer2}
-
-
-![](figures/VOSviewerOverlay-CV.png)
-
-#### Connections Density {#vosviewer3}
-
-
-![](figures/VOSviewerDensity-CV.png)
 
 
 
