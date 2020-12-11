@@ -6,6 +6,9 @@ output_dir: "docs"
 date: '`r Sys.Date()`'
 navbar:
   right:
+    - text: "patolojiAI"
+      href: https://www.patolojiai.com/
+          
     - text: "Blogs and Posts"
       menu:
         - text: "Posts"

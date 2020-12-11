@@ -19,7 +19,7 @@ output:
   "@context": "http://schema.org",
   "@type": "Person",
   "name": "Serdar Balcı",
-  "url": "http://www.serdarbalci.com/",
+  "url": "https://www.serdarbalci.com/",
   "jobTitle": "MD, Pathologist",
   "sameAs": [
     "https://www.facebook.com/serdarbalcimd",
@@ -29,7 +29,8 @@ output:
     "https://twitter.com/serdarbalci",
     "https://github.com/sbalci",
     "https://www.parapathology.com",
-    "https://www.patolojinotlari.com"
+    "https://www.patolojinotlari.com",
+    "https://www.patolojiai.com/"
   ]
 }
 </script></div>
