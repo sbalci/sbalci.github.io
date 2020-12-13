@@ -38,10 +38,23 @@ navbar:
       menu:
         - text: jamovi modules
         - text: "---"
-        - text: ClinicoPath jamovi Module
+        - text: ClinicoPath
           href: https://sbalci.github.io/ClinicoPathJamoviModule/
+        - text: jsurvival
+          href: https://github.com/sbalci/jsurvival
+        - text: jjstatsplot
+          href: https://github.com/sbalci/jjstatsplot
+        - text: meddecide
+          href: https://github.com/sbalci/meddecide
+        - text: ClinicoPathDescriptives
+          href: https://github.com/sbalci/ClinicoPathDescriptives
+        - text: ClinicoPathDescriptives for Linux
+          href: https://github.com/sbalci/ClinicoPathLinuxDescriptives
+
         - text: R-project  
         - text: "---"  
+        - text: My R Codes for Data Analysis
+          href: https://www.serdarbalci.com/MyRCodesForDataAnalysis/
         - text: Histopathology Research Template
           href: https://github.com/sbalci/histopathology-template
         - text: lens2r
