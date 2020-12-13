@@ -33,7 +33,14 @@ navbar:
           href: https://pbpath.org/pbpath-journal-watch/
         - text: Endonews
           href: https://www.endonews.com/author/serdar-balci
-          
+
+    - text: Bibliometrics  
+      menu:
+        - text: Pathology Articles from Turkey
+          href: http://www.serdarbalci.com/Pathology-Articles-from-Turkey/
+        - text: Pancreatobiliary Pathology Journal Watch
+          href: https://www.serdarbalci.com/pubmedarticles/
+
     - text: R packages  
       menu:
         - text: jamovi modules
@@ -59,6 +66,7 @@ navbar:
           href: https://github.com/sbalci/histopathology-template
         - text: lens2r
           href: https://sbalci.github.io/lens2r/
+          
         - text: software
         - text: "---"
         - text: SourceForge
