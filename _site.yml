@@ -8,7 +8,10 @@ navbar:
   right:
     - text: "patolojiAI"
       href: https://www.patolojiai.com/
-          
+
+    - text: "Consultation"
+      href: https://superpeer.com/serdarbalci
+
     - text: "Blogs and Posts"
       menu:
         - text: "Posts"
