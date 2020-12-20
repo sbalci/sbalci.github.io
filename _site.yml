@@ -5,12 +5,18 @@ description: |
 output_dir: "docs"
 date: '`r Sys.Date()`'
 navbar:
+  logo:
+    image: img/SerdarBalci-MD-Pathologist.jpg
+    href: https://www.serdarbalci.com
+  search: true
   right:
     - text: "patolojiAI"
       href: https://www.patolojiai.com/
 
     - text: "Consultation"
-      href: https://superpeer.com/serdarbalci
+      menu:
+        - text: "Video consultation via superpeer"
+          href: https://superpeer.com/serdarbalci
 
     - text: "Blogs and Posts"
       menu:
@@ -24,8 +30,10 @@ navbar:
           href: https://rpubs.com/sbalci
           
           
-    - text: Pathology  
+    - text: Research  
       menu:
+        - text: Pathology
+        - text: "---"
         - text: (Para)Pathology
           href: https://www.parapathology.com
         - text: Patoloji Notları
@@ -36,9 +44,9 @@ navbar:
           href: https://pbpath.org/pbpath-journal-watch/
         - text: Endonews
           href: https://www.endonews.com/author/serdar-balci
-
-    - text: Bibliometrics  
-      menu:
+          
+        - text: Bibliometrics  
+        - text: "---"
         - text: Pathology Articles from Turkey
           href: http://www.serdarbalci.com/Pathology-Articles-from-Turkey/
         - text: Pancreatobiliary Pathology Journal Watch
@@ -75,17 +83,19 @@ navbar:
         - text: SourceForge
           href: https://sourceforge.net/u/serdarbalci/profile/
           
-    - text: CV
+    - text: About
       menu:
+        - text: CV
+        - text: "---"
         - text: About
           href: card.html
         - text: CV
           href: Serdar-Balci-MD-Pathologist-CV.html
         - text: Resume
           href: https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist
-          
-    - text: Social
-      menu:
+      
+        - text: Social
+        - text: "---"
         - text: about me
           href: https://about.me/serdarbalci
         - icon: fab fa-github
@@ -115,6 +125,8 @@ navbar:
           
     - icon: fa fa-rss
       href: index.xml
+      
+  # source_url: https://github.com/sbalci
       
 output: distill::distill_article
 exclude: ["cv", "jekyll", "R-scripts", "willadd"]
