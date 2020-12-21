@@ -32,6 +32,13 @@ navbar:
           
     - text: Research  
       menu:
+        - text: CV
+        - text: "---"      
+        - text: CV
+          href: Serdar-Balci-MD-Pathologist-CV.html
+        - text: Resume
+          href: https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist
+      
         - text: Pathology
         - text: "---"
         - text: (Para)Pathology
@@ -85,14 +92,8 @@ navbar:
           
     - text: About
       menu:
-        - text: CV
-        - text: "---"
         - text: About
           href: card.html
-        - text: CV
-          href: Serdar-Balci-MD-Pathologist-CV.html
-        - text: Resume
-          href: https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist
       
         - text: Social
         - text: "---"
