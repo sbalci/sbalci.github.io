@@ -13,6 +13,13 @@ navbar:
     - text: "patolojiAI"
       href: https://www.patolojiai.com/
 
+    - text: "PathologyWeb"
+      menu:
+        - text: "PathologyWeb"
+          href: https://github.com/PathologyWeb
+        - text: "Patoloji Raporları"
+          href: https://pathologyweb.github.io/patolojiraporlari/
+
     - text: "Consultation"
       menu:
         - text: "Video consultation via superpeer"
