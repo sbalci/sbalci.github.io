@@ -3,7 +3,7 @@ title: "Serdar Balci MD Pathologist"
 description: |
   Serdar Balci, MD Pathologist
 output_dir: "docs"
-date: '`r Sys.Date()`'
+date: "`r Sys.Date()`"
 navbar:
   logo:
     image: img/SerdarBalci-MD-Pathologist.jpg
@@ -35,17 +35,16 @@ navbar:
           href: https://press.serdarbalci.com
         - text: "RPubs"
           href: https://rpubs.com/sbalci
-          
-          
-    - text: Research  
+
+    - text: Research
       menu:
         - text: CV
-        - text: "---"      
+        - text: "---"
         - text: CV
           href: Serdar-Balci-MD-Pathologist-CV.html
         - text: Resume
           href: https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist
-      
+
         - text: Pathology
         - text: "---"
         - text: (Para)Pathology
@@ -58,16 +57,19 @@ navbar:
           href: https://pbpath.org/pbpath-journal-watch/
         - text: Endonews
           href: https://www.endonews.com/author/serdar-balci
-          
-        - text: Bibliometrics  
+
+        - text: Bibliometrics
         - text: "---"
         - text: Pathology Articles from Turkey
           href: http://www.serdarbalci.com/Pathology-Articles-from-Turkey/
         - text: Pancreatobiliary Pathology Journal Watch
           href: https://www.serdarbalci.com/pubmedarticles/
 
-    - text: R packages  
+    - text: R packages
       menu:
+        - text: status
+          href: https://www.serdarbalci.com/status
+
         - text: jamovi modules
         - text: "---"
         - text: ClinicoPath
@@ -83,25 +85,25 @@ navbar:
         - text: ClinicoPathDescriptives for Linux
           href: https://github.com/sbalci/ClinicoPathLinuxDescriptives
 
-        - text: R-project  
-        - text: "---"  
+        - text: R-project
+        - text: "---"
         - text: My R Codes for Data Analysis
           href: https://www.serdarbalci.com/MyRCodesForDataAnalysis/
         - text: Histopathology Research Template
           href: https://github.com/sbalci/histopathology-template
         - text: lens2r
           href: https://sbalci.github.io/lens2r/
-          
+
         - text: software
         - text: "---"
         - text: SourceForge
           href: https://sourceforge.net/u/serdarbalci/profile/
-          
+
     - text: About
       menu:
         - text: About
           href: card.html
-      
+
         - text: Social
         - text: "---"
         - text: about me
@@ -129,13 +131,13 @@ navbar:
         - text: contact form
           href: https://drserdarbalci.wixsite.com/website
         - text: feedback form
-          href: https://goo.gl/forms/YjGZ5DHgtPlR1RnB3 
-          
+          href: https://goo.gl/forms/YjGZ5DHgtPlR1RnB3
+
     - icon: fa fa-rss
       href: index.xml
-      
+
   # source_url: https://github.com/sbalci
-      
+
 output: distill::distill_article
 exclude: ["cv", "jekyll", "R-scripts", "willadd"]
 site: distill::distill_website
@@ -147,13 +149,13 @@ author:
     affiliation: serdarbalci.com
     affiliation_url: https://www.serdarbalci.com
     orcid_id: 0000-0002-7852-3851
-    
+
 bibliography: bibliography.bib
 theme: theme.css
 creative_commons: CC BY
 twitter:
-    site: "@serdarbalci"
-    creator: "@serdarbalci"
+  site: "@serdarbalci"
+  creator: "@serdarbalci"
 repository_url: https://github.com/sbalci/sbalci.github.io
 base_url: https://sbalci.github.io/
 collections:
