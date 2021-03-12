@@ -24,6 +24,8 @@ navbar:
       menu:
         - text: "Video consultation via superpeer"
           href: https://superpeer.com/serdarbalci
+        - text: "Memorial Hospital Group Pathology Department"
+          href: https://www.memorial.com.tr/doktorlar/serdar-balci
 
     - text: "Blogs and Posts"
       menu:
@@ -59,6 +61,9 @@ navbar:
           href: https://www.endonews.com/author/serdar-balci
 
         - text: Bibliometrics
+        - text: "---"
+        - text: Bibliometry Studies
+          href: https://www.serdarbalci.com/bibliometrics/
         - text: "---"
         - text: Pathology Articles from Turkey
           href: http://www.serdarbalci.com/Pathology-Articles-from-Turkey/
