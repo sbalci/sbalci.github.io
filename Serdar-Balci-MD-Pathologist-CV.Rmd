@@ -71,6 +71,14 @@ knitr::include_graphics("img/SerdarBalci-MD-Pathologist.jpg")
 
 I am a Medical Doctor and Pathologist. I graduated from Hacettepe University Faculty of Medicine, Ankara, Turkey, the top medical institution in Turkey. I completed my pathology residency in the Department of Pathology in Hacettepe and then worked at Emory University, Atlanta, GA, USA as a research scholar, and had the opportunity to participate in numerous studies. Since I have always been interested in research, I took statistics and introductory bioinformatics courses at Hacettepe University Biostatistics Department.
 
+
+<aside>
+```{r img docdrserdarbalcijpg_b2d2.jpg}
+knitr::include_graphics("img/docdrserdarbalcijpg_b2d2.jpg")
+```
+</aside>
+
+
 I have more than 50 articles published in peer-reviewed journals. I have participated in many international studies. For these studies, I have not only participated as a pathologist but was also actively involved in project planning and I have been the main person responsible for data preparation, data cleaning, data analyses, and reporting. I have experience in bibliography programs and image editing software. I have also used SEER data for cancer research.
 
 I am interested in the application of statistical and bioinformatic methods in anatomic and digital pathology. I am also interested in publication metrics and have done some research on bibliometrics. I am using vosviewer and citespace for side projects, and used PubMed data for bibliography and text mining studies.
@@ -229,6 +237,23 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 ## Uluslararası Yayınlar  {#international-publications}
 
 ### Araştırma Makaleleri  {#research-publications}
+
+
+- T2 gallbladder cancer shows substantial survival variation between continents and this is not due to histopathologic criteria or pathologic sampling differences.  
+[Virchows Arch. 2021 Jan 7.](https://link.springer.com/article/10.1007%2Fs00428-020-02968-5)  
+DeSimone MS, Goodman M, Pehlivanoglu B, Memis B, Balci S, Roa JC, Jang KT, Jang JY, Hong SM, Lee K, Kim H, Choi HJ, Muraki T, Araya JC, Bellolio E, Sarmiento JM, Maithel SK, Losada HF, Basturk O, Reid MD, Koshiol J, Adsay V.  
+
+<aside>
+[doi: 10.1007/s00428-020-02968-5](https://doi.org/10.1007/s00428-020-02968-5)  
+[PMID: 33411027](https://pubmed.ncbi.nlm.nih.gov/33411027/)  
+<span class="__dimensions_badge_embed__" data-doi="10.1007/s00428-020-02968-5" data-style="small_circle"></span>  
+<span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s00428-020-02968-5"></span>  
+[Semantic](https://api.semanticscholar.org/10.1007/s00428-020-02968-5?include_unknown_references=true)  
+[Scite](https://scite.ai/reports/10.1007/s00428-020-02968-5)  
+[Connections](https://www.connectedpapers.com/main/d778f3589086bce9c0f0de257c8278df67ae3036/T2-gallbladder-cancer-shows-substantial-survival-variation-between-continents-and-this-is-not-due-to-histopathologic-criteria-or-pathologic-sampling-differences/graph)
+<hr>
+</aside>
+
 
 - Gallbladder polyps: Correlation of size and clinicopathologic characteristics based on updated definitions.  
 [PLoS One. 2020 Sep 11;15(9):e0237979.](https://dx.plos.org/10.1371/journal.pone.0237979)  
