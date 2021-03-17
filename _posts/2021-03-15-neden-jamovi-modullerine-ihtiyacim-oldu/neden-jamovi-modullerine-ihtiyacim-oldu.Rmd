@@ -1,0 +1,101 @@
+---
+title: "Neden jamovi modüllerine ihtiyacım oldu?"
+description: |
+  jamovi modülleri hakkında bir sunum hazırlıyorum. Orada da anlatacağım bazı kısımlara hazırlık için bu gönderiyi hazırladım.
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: 03-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [RStats, GitHub, template, jamovi, module, shiny]
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+Çok merkezli ve çok uluslu yaptığımız çalışmalarımız patoloji, histopatoloji ve klinikopatolojik değerlendirmelere yönelik^[https://scholar.google.com.tr/citations?user=q40DcqYAAAAJ&hl=en].  Tanımlayıcı istatistikler, gruplar arası karşılaştırmalar, gözlemciler arası uyum, ve sağkalım analizleri hemen her çalışmamızda kullandığımız teknikler. Yavaş yavaş veritabanları (SEER, TCGA), metin madenciliği ve görüntü analizine doğru ilerliyoruz.
+
+Uzun zamandır bu çok merkezli ve çok uluslu çalışmalarda verileri derleyip toparlama ve analize hazırlama işini üstleniyorum. Bu çalışmalarda sık kullandığımız metodlar neredeyse standart olacak hale geldi. 
+
+Patoloji dergilerinde yayınlanan çalışmalardaki istatistik yöntemlerini inceleyen araştırmalar
+^[ [Hokanson JA, Ladoulis CT, Quinn FB Jr, Bienkowski AC. Statistical techniques reported in pathology journals during 1983-1985. Implications for pathology educators. Arch Pathol Lab Med. 1987 Feb;111(2):202-7. PMID: 3813838.](https://pubmed.ncbi.nlm.nih.gov/3813838/) ]
+^[ [Statistical Literacy Among Academic Pathologists: A Survey Study to Gauge Knowledge of Frequently Used Statistical Tests Among Trainees and Faculty](https://doi.org/10.5858/arpa.2016-0200-OA) ]
+^[ [Cuff, Justin MD; Higgins, John P.T. MD Statistical Analysis of Surgical Pathology Data Using the R Program, Advances In Anatomic Pathology: May 2012 - Volume 19 - Issue 3 - p 131-139 doi: 10.1097/PAP.0b013e318254d842](https://pubmed.ncbi.nlm.nih.gov/22498578/) ]
+^[ [Bahar B, Pambuccian SE, Barkan GA, Akdas Y. The Use and Misuse of Statistical Methods in Cytopathology Studies: Review of 6 Journals. Lab Med. 2019 Jan 1;50(1):8-15. doi: 10.1093/labmed/lmy036. PMID: 30020520.](https://pubmed.ncbi.nlm.nih.gov/30020520/) ]
+ve bir patoloji çalışmasında olması gereken minimum değişkenlerin tanımlaması
+^[ [Knijn N, Simmer F, Nagtegaal ID. Recommendations for reporting histopathology studies: a proposal. Virchows Arch. 2015 Jun;466(6):611-5. doi: 10.1007/s00428-015-1762-3. Epub 2015 Apr 7. PMID: 25846513; PMCID: PMC4460276.](https://pubmed.ncbi.nlm.nih.gov/25846513/)  ]
+^[ [Guidelines for reporting histopathology studies Knijn N, Nagtegaal ID Correction Journal of Clinical Pathology 2015;68:173-174.](https://jcp.bmj.com/content/68/2/173) ] 
+bu standardizasyonun genele de yaygınlaşacağını gösteriyor. 
+
+
+![ Figure from [Statistical Literacy Among Academic Pathologists: A Survey Study to Gauge Knowledge of Frequently Used Statistical Tests Among Trainees and Faculty](https://doi.org/10.5858/arpa.2016-0200-OA) ](img/statistical-literacy-pathologists.png)
+
+![ Figure from [Knijn N, Simmer F, Nagtegaal ID. Recommendations for reporting histopathology studies: a proposal. Virchows Arch. 2015 Jun;466(6):611-5. doi: 10.1007/s00428-015-1762-3. Epub 2015 Apr 7. PMID: 25846513; PMCID: PMC4460276.](https://pubmed.ncbi.nlm.nih.gov/25846513/) ](img/recommendation-for-reporting-histopathology-studies.png)
+
+![ Figure from [Guidelines for reporting histopathology studies Knijn N, Nagtegaal ID Correction Journal of Clinical Pathology 2015;68:173-174.](https://jcp.bmj.com/content/68/2/173) ](img/guidelines-for-reporting-histopathology-studies.png)
+
+
+
+İtiraf etmeli ki bu veri temizleme işi çok vakit alıcı ve bu işi otomatize etmek işimi kolaylaştırıyor. Sadece farklı ülkelerden gelen tarihleri standardize etmenin bile ne kadar önemli olduğunu anlatmama gerek var mı? Bir de son anda eklenen vakalar, verilerde olan güncellemeler, yeni sağkalım bilgileri ... Analizlerin de sürekli yenilemesi ve güncellemesi gerekiyor.
+
+Uzun süre point and click software kullandım. Nâm-ı diğer SPSS. Tam onun syntax'ını öğrenmek üzereydirm ki R-project^[https://www.r-project.org/] ile tanıştım. Ama onda da kendimi rahat hissetmek epey vakit aldı. Arada R-Commander^[https://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/] işimi kolaylaştırdıysa da, uzun bir süre internetten ve forumlardan kodlar derledim.^[https://github.com/sbalci/MyRCodesForDataAnalysis] 
+
+En nihayetinde kendi workflow (iş akışı) kodlarımı hazırladım. Bu kodları bir şablon haline getirip GitHub'da kullanmaya başladım.^[https://www.serdarbalci.com/histopathology-template/]
+
+
+![ Figure from [Histopathology Research Template](https://www.serdarbalci.com/histopathology-template/) ](img/histopathology-template.png)
+
+
+
+Daha sonra beraber çalıştığım arkadaşlara da kolaylık olsun diye bu kodları shiny ile kullanmak istedim. ^[https://serdarbalci.shinyapps.io/histopathR/] ^[https://hub.docker.com/r/serdarbalci/clinicopathological] ^[https://twitter.com/serdarbalci/status/1197849208302252032] ^[https://mybinder.org/v2/gh/sbalci/histopathology-template/master?urlpath=rstudio]
+
+Shiny web üzerinden paylaşılabilse de bir masaüstü uygulaması şeklinde kullanabilme olanağı
+^[https://www.travishinkelman.com/deploy-shiny-electron/] ^[https://github.com/dirkschumacher/r-shiny-electron/] ^[https://foretodata.com/how-to-make-a-standalone-desktop-application-with-shiny-and-electron-on-windows/]
+^[https://chasemc.github.io/electricShine/]
+^[https://www.r-bloggers.com/2014/04/deploying-desktop-apps-with-r/]
+^[http://blog.analytixware.com/2014/03/packaging-your-shiny-app-as-windows.html]
+^[https://github.com/ColumbusCollaboratory/electron-quick-start]
+^[https://github.com/ColumbusCollaboratory/photon]
+^[https://www.travishinkelman.com/deploy-shiny-electron/]
+^[https://github.com/wleepang/DesktopDeployR]
+^[https://www.youtube.com/watch?v=ARrbbviGvjc]
+çok hoşuma gitti^[https://twitter.com/serdarbalci/status/1198348640294711296] ve electron ile bir küçük istatistik programı yazmaya başladım.^[https://github.com/sbalci/clinicopathological]
+
+
+![https://github.com/sbalci/clinicopathological](img/electron-shiny-app.png)
+
+
+
+Buradaki en büyük sorunum ise verileri sisteme aktarmak (import) oldu.
+
+Bunda oldukça zorlanınca veriyi aktarma, programı kurma gibi sorunlar yerine analiz içeriğine ve R kodlarına odaklanmak için jamovi^[https://www.jamovi.org/] modülleri^[https://www.jamovi.org/library.html] ile ilgilenmeye başladım.
+
+
+Geliştiriciler birkaç soruma sabırla cevap verdikten sonra^[https://github.com/jamovi/jamovi/issues] ^[https://forum.jamovi.org/] ^[https://dev.jamovi.org/] beni slack grubuna aldılar ve modülleri geliştirmemde hep yardımcı oldular ^[https://www.jamovi.org/about.html].
+
+
+İlk başta tek bir modül olarak tasarlasam da^[https://github.com/sbalci/ClinicoPathJamoviModule] büyüklüğü nedeniyle^[Paketlerdeki hazır kodları kullandığım için -ve R paketlerini kurarken tüm bağımlı paketleri de kurmak zorunda olduğumuz için- modüller epey büyük boyutta.] bu modülü alt gruplara bölmek daha uygun oldu:
+
+- Tanımlayıcı İstatistikler için: [ClinicoPathDescriptives](https://github.com/sbalci/ClinicoPathDescriptives/)^[https://github.com/sbalci/ClinicoPathDescriptives/]  
+
+- GGStatsPlot'u^[https://indrajeetpatil.github.io/ggstatsplot/] kullanmak için: [jjstatsplot](https://github.com/sbalci/jjstatsplot)^[https://github.com/sbalci/jjstatsplot]  
+
+- Sağkalım analizleri için: [jsurvival](https://github.com/sbalci/jsurvival)^[https://github.com/sbalci/jsurvival]  
+
+- Karar analizleri için: [meddecide](https://github.com/sbalci/meddecide/)^[https://github.com/sbalci/meddecide/]  
+
+
+Zaman içinde analizleri tablo olarak paylaşmanın da yeterli olmadığını farkettim. Günlük dille olmasa da makale diliyle bir açıklama yazmak gerekiyordu. Bu gibi özetleri yazan paketlerden de ilham alarak^[https://github.com/easystats/report/], tablolardaki değerleri alıp özetleyen kodlar ekledim^[https://github.com/sbalci/ClinicoPathJamoviModule/blob/master/R/summarydata.b.R#L103].
+
+Şimdilerde ihtiyaç duydukça ve talepler oldukça^[https://github.com/sbalci/ClinicoPathJamoviModule/issues] modülleri güncelliyorum. 
+
