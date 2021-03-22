@@ -4,13 +4,48 @@ site: distill::distill_website
 listing: posts
 ---
 
+::: {itemscope="" itemtype="https://schema.org/Person"}
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Serdar Balcı",
+  "url": "https://www.serdarbalci.com/",
+  "jobTitle": "MD, Pathologist",
+  "sameAs": [
+    "https://www.facebook.com/serdarbalcimd",
+    "https://www.facebook.com/serdarbalcimdpathologist/",
+    "https://www.instagram.com/balciserdar/",
+    "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
+    "https://twitter.com/serdarbalci",
+    "https://github.com/sbalci",
+    "https://www.parapathology.com",
+    "https://www.patolojinotlari.com",
+    "https://www.patolojiai.com/",
+    "https://www.memorial.com.tr/doktorlar/serdar-balci"
+  ]
+}
+</script>
+```
+:::
+
+<br><br>
+
+| r-project                                                                    | jamovi                                                                                                               | pathology |
+|------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-----------|
+| [MyRCodesForDataAnalysis](https://github.com/sbalci/MyRCodesForDataAnalysis) | [jamovi issues](https://github.com/jamovi/jamovi/issues)                                                             |           |
+| [R-bloggers](https://www.r-bloggers.com/)                                    | [recent releases](https://www.jamovi.org/download.html)                                                              |           |
+| [R-weekly](https://rweekly.org/)                                             | For development an unsigned version of jamovi [available here](https://www.jamovi.org/downloads/jamovi-unsigned.zip) |           |
+|                                                                              | [forum](https://forum.jamovi.org/)                                                                                   |           |
+|                                                                              |                                                                                                                      |           |
+|                                                                              |                                                                                                                      |           |
+|                                                                              |                                                                                                                      |           |
+|                                                                              |                                                                                                                      |           |
+|                                                                              |                                                                                                                      |           |
+
+: For Daily Visits
+
 <br>
 
-**Serdar Balcı**  
-*Türk Hekim ve Araştırmacı. Patoloji Uzmanı.*  
-2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.
-İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
-
----
-
-
+<hr>

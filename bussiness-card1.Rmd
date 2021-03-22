@@ -1,0 +1,58 @@
+---
+phone: "+90 533-447-2096"
+email: "serdar.balci@memorial.com.tr"
+url: | 
+  https://www.memorial.com.tr/
+  doktorlar/serdar-balci
+address: |
+  @MemorialSaglik
+logo: "img/memorial-logo.jpg"
+person: 
+  - name: Serdar Balci
+    title: MD, Pathologist, Assoc.Prof of Pathology
+    repeat: 12
+    # email: serdar.balci@memorial.com.tr
+    # url: https://www.memorial.com.tr/doktorlar/serdar-balci
+googlefonts: "Roboto Mono" # feel free to try other fonts at https://fonts.google.com
+paperwidth: 8.5in
+paperheight: 11in
+cols: 4
+rows: 3
+output: pagedown::business_card
+---
+
+<!-- if you prefer you can create cards in markdown instead of YAML declaration -->
+
+<!-- ::: {.wrapper data-repeat="12"} -->
+<!-- [Serdar Balcı]{slot="name"} -->
+<!-- [Doç. Dr., Patoloji Uzmanı]{slot="title"} -->
+<!-- [drserdarbalci@gmail.com]{slot="email"} -->
+<!-- ::: -->
+
+
+<!-- if you prefer black text on white background, set eval=TRUE on the chunk below -->
+
+```{css, eval=TRUE}
+.logo {
+  display: block;
+  height: 20%;
+  margin-right: .3in;
+  padding: .3in 0 0;
+  float: right;
+}
+.name {
+  margin-top: .1in;
+}
+.email {
+  font-size:3px;
+}
+.wrapper {
+  color: white;
+  background-color: black;
+  border: 1px dotted black;
+}
+.coordinates {
+  font-size:8px;
+  color: 333;
+}
+```

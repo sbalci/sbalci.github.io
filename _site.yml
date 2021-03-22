@@ -157,6 +157,7 @@ author:
 
 bibliography: bibliography.bib
 theme: theme.css
+google_analytics: "UA-114549488-2"
 creative_commons: CC BY
 twitter:
   site: "@serdarbalci"
@@ -165,12 +166,14 @@ repository_url: https://github.com/sbalci/sbalci.github.io
 base_url: https://sbalci.github.io/
 collections:
   posts:
-    disqus: serdar-balci-md-pathologist
+    disqus: https-sbalci-github-io
     share: [twitter, linkedin, facebook]
     citation: true
     feed_items_max: false
     categories: true
     categories_metadata: true
     authors_metadata: true
+    custom: _custom.html
+    # subscribe: _subscribe.html See: https://github.com/shannonpileggi/pipinghotdata_distill/blob/master/_subscribe.html
 rss:
   full_content: true

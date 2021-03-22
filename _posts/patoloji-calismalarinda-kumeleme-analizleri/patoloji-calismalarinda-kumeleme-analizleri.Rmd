@@ -1,0 +1,41 @@
+---
+title: "Patoloji çalışmalarında kümeleme analizleri"
+description: |
+  A short description of the post.
+author:
+  - name: Serdar Balci
+    url: https://github.com/sbalci
+date: 03-17-2021
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+- Cluster Analysis According to Immunohistochemistry is a Robust Tool for Non-Small Cell Lung Cancer and Reveals a Distinct, Immune Signature-defined Subgroup
+
+https://pubmed.ncbi.nlm.nih.gov/31058655/
+
+
+- From: Reproducibility of endometrial intraepithelial neoplasia diagnosis is good, but influenced by the diagnostic style of pathologists
+
+https://www.nature.com/articles/modpathol2011220/figures/1
+
+- clustMixType
+
+https://cran.r-project.org/web/packages/clustMixType/clustMixType.pdf
+
+- EnsCat: clustering of categorical data via ensembling
+
+https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1245-9
+
+
+
+
