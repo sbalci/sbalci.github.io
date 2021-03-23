@@ -2,34 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://sbalci.github.io/404.html</loc>
+<<<<<<< HEAD
     <lastmod>2021-03-23T15:00:47+03:00</lastmod>
+=======
+    <lastmod>2021-03-23T12:48:02+00:00</lastmod>
+>>>>>>> 361f07596abf14b941ddc45b1f002d4c604fa6bf
   </url>
   <url>
     <loc>https://sbalci.github.io/BlogPosts.html</loc>
-    <lastmod>2020-11-24T19:01:14+03:00</lastmod>
+    <lastmod>2021-03-23T12:48:02+00:00</lastmod>
   </url>
   <url>
     <loc>https://sbalci.github.io/bussiness-card1.html</loc>
-    <lastmod>2021-03-21T23:44:58+03:00</lastmod>
+    <lastmod>2021-03-23T12:48:02+00:00</lastmod>
   </url>
   <url>
     <loc>https://sbalci.github.io/</loc>
+<<<<<<< HEAD
     <lastmod>2021-03-23T12:53:23+03:00</lastmod>
+=======
+    <lastmod>2021-03-23T12:48:03+00:00</lastmod>
+>>>>>>> 361f07596abf14b941ddc45b1f002d4c604fa6bf
   </url>
   <url>
     <loc>https://sbalci.github.io/posts_RStats.html</loc>
-    <lastmod>2020-11-24T19:01:16+03:00</lastmod>
+    <lastmod>2021-03-23T12:48:03+00:00</lastmod>
   </url>
   <url>
     <loc>https://sbalci.github.io/Serdar-Balci-MD-Pathologist-CV.html</loc>
-    <lastmod>2021-03-14T19:16:31+03:00</lastmod>
+    <lastmod>2021-03-23T12:48:02+00:00</lastmod>
   </url>
   <url>
     <loc>https://sbalci.github.io/posts/2021-03-15-neden-jamovi-modullerine-ihtiyacim-oldu/</loc>
-    <lastmod>2021-03-17T16:06:37+03:00</lastmod>
+    <lastmod>2021-03-23T12:48:02+00:00</lastmod>
   </url>
   <url>
     <loc>https://sbalci.github.io/posts/2020-11-02-github-repository-collections/</loc>
-    <lastmod>2020-11-24T19:01:14+03:00</lastmod>
+    <lastmod>2021-03-23T12:48:02+00:00</lastmod>
   </url>
 </urlset>
