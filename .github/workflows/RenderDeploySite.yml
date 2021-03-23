@@ -21,6 +21,7 @@ jobs:
         run: |
           install.packages("rmarkdown")
           install.packages("distill")
+          install.packages("pagedown")
         shell: Rscript {0}
 
       - name: Render Site
