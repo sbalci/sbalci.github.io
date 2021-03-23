@@ -29,6 +29,8 @@ jobs:
         run: Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
       - name: Copy redirects
         run: Rscript -e 'fs::file_copy("404.md", "docs/404.md")'
+      - name: "Remove 404.html"
+        run: Rscript -e 'fs::file_delete("docs/404.html")'
       - name: Commit results
         run: |
           git add -A
