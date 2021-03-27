@@ -80,15 +80,15 @@ navbar:
         - text: ClinicoPath
           href: https://sbalci.github.io/ClinicoPathJamoviModule/
         - text: jsurvival
-          href: https://github.com/sbalci/jsurvival
+          href: https://sbalci.github.io/jsurvival
         - text: jjstatsplot
-          href: https://github.com/sbalci/jjstatsplot
+          href: https://sbalci.github.io/jjstatsplot
         - text: meddecide
-          href: https://github.com/sbalci/meddecide
+          href: https://sbalci.github.io/meddecide
         - text: ClinicoPathDescriptives
-          href: https://github.com/sbalci/ClinicoPathDescriptives
+          href: https://sbalci.github.io/ClinicoPathDescriptives
         - text: ClinicoPathDescriptives for Linux
-          href: https://github.com/sbalci/ClinicoPathLinuxDescriptives
+          href: https://sbalci.github.io/ClinicoPathLinuxDescriptives
 
         - text: R-project
         - text: "---"
@@ -136,7 +136,7 @@ navbar:
         - text: contact form
           href: https://drserdarbalci.wixsite.com/website
         - text: feedback form
-          href: https://goo.gl/forms/YjGZ5DHgtPlR1RnB3
+          href: https://forms.gle/aHcHpLYvzZaQqoMy5
 
     - icon: fa fa-rss
       href: index.xml
