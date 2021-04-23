@@ -2616,6 +2616,8 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 
 **Üye Olduğu Dernekler ve Çalışma Grupları**
 
+
+- Digital Pathology Association
 - European Society for Digital and Integrative Pathology (ESDIP)
 - Ankara Patoloji Derneği
 - Sitopatoloji Derneği
