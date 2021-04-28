@@ -1,0 +1,36 @@
+---
+title: "Kullanılası R paketleri"
+description: |
+  A short description of the post.
+author:
+  - name: Serdar Balci
+    url: https://github.com/sbalci
+date: 04-28-2021
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+
+Bu sayfada kullanabileceğim ya da kullanılası R paketlerini toparlayacağım.
+
+
+Power analizi:
+
+- Superpower:
+https://aaroncaldwell.us/Superpower/ 
+https://cloud.r-project.org/web/packages/Superpower/index.html
+
+
+Tablolar:
+
+
+
+
+
+
+
+
+
