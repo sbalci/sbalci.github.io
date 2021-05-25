@@ -2400,6 +2400,8 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 
 **Katıldığı uzaktan eğitim ve Online kurslar**
 
+- [Why R? Turkey 2021](https://verified.cv/en/verify/46445732978337)  
+
 - [DataCamp Introduction to Data Course](https://www.datacamp.com/statement-of-accomplishment/course/2700e289e1a666ba0e10fd09ec0d1297bd33c7c0)
 
 - [DataCamp Data Analysis with Spreadsheets](https://www.datacamp.com/statement-of-accomplishment/course/f48bd225f20f34ec927f61cd9e3992479bc98ec6)
