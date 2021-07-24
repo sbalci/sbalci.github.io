@@ -32,83 +32,13 @@ listing: posts
 
 <br><br>
 
-+--------+---------+-----------------+----+-----------------+-------+
-| R-p    | jamovi  | Pathology       | Im | Genes           | Pages |
-| roject |         |                 | ag |                 |       |
-|        |         |                 | es |                 |       |
-+========+=========+=================+====+=================+=======+
-| [      | [issues | [WHO Blue       | [  | [cBioPorta      | [     |
-| MyRCod | ](https | Books](https:   | Qu | l](http://www.c | patol |
-| es](ht | ://gith | //tumourclassif | Pa | bioportal.org/) | ojiAI |
-| tps:// | ub.com/ | ication.iarc.wh | th |                 | ](htt |
-| github | jamovi/ | o.int/welcome/) | ]( |                 | ps:// |
-| .com/s | jamovi/ |                 | ht |                 | www.p |
-| balci/ | issues) |                 | tp |                 | atolo |
-| MyRCod |         |                 | s: |                 | jiai. |
-| esForD |         |                 | // |                 | com/) |
-| ataAna |         |                 | qu |                 |       |
-| lysis) |         |                 | pa |                 |       |
-|        |         |                 | th |                 |       |
-|        |         |                 | .g |                 |       |
-|        |         |                 | it |                 |       |
-|        |         |                 | hu |                 |       |
-|        |         |                 | b. |                 |       |
-|        |         |                 | io |                 |       |
-|        |         |                 | /) |                 |       |
-+--------+---------+-----------------+----+-----------------+-------+
-| [R-bl  | [relea  | [CAP Cancer     | [  | [Coursera       | [droz |
-| oggers | ses](ht | Protocol](http  | Im | ](https://www.c | lemba |
-| ](http | tps://w | s://www.cap.org | ag | oursera.org/lea | lci]( |
-| s://ww | ww.jamo | /protocols-and- | eJ | rn/data-genes-m | https |
-| w.r-bl | vi.org/ | guidelines/canc | ]( | edicine/lecture | ://ww |
-| oggers | downloa | er-reporting-to | ht | /uVUus/working- | w.dro |
-| .com/) | d.html) | ols/cancer-prot | tp | with-cbioportal | zlemb |
-|        |         | ocol-templates) | s: | -gene-networks) | alci. |
-|        |         |                 | // |                 | com/) |
-|        |         |                 | im |                 |       |
-|        |         |                 | ag |                 |       |
-|        |         |                 | ej |                 |       |
-|        |         |                 | .g |                 |       |
-|        |         |                 | it |                 |       |
-|        |         |                 | hu |                 |       |
-|        |         |                 | b. |                 |       |
-|        |         |                 | io |                 |       |
-|        |         |                 | /) |                 |       |
-+--------+---------+-----------------+----+-----------------+-------+
-| [R     | [forum  |                 |    |                 | [     |
-| -weekl | ](https |                 |    |                 | patol |
-| y](htt | ://foru |                 |    |                 | ojino |
-| ps://r | m.jamov |                 |    |                 | tlari |
-| weekly | i.org/) |                 |    |                 | ](htt |
-| .org/) |         |                 |    |                 | ps:// |
-|        |         |                 |    |                 | www.p |
-|        |         |                 |    |                 | atolo |
-|        |         |                 |    |                 | jinot |
-|        |         |                 |    |                 | lari. |
-|        |         |                 |    |                 | com/) |
-+--------+---------+-----------------+----+-----------------+-------+
-|        | [de     |                 |    |                 | [p    |
-|        | v](http |                 |    |                 | arapa |
-|        | s://dev |                 |    |                 | tholo |
-|        | .jamovi |                 |    |                 | gy](h |
-|        | .org/tu |                 |    |                 | ttps: |
-|        | ts0101- |                 |    |                 | //www |
-|        | getting |                 |    |                 | .para |
-|        | -starte |                 |    |                 | patho |
-|        | d.html) |                 |    |                 | logy. |
-|        |         |                 |    |                 | com/) |
-+--------+---------+-----------------+----+-----------------+-------+
-|        | [Cli    |                 |    |                 | [PBP  |
-|        | nicoPat |                 |    |                 | ath]( |
-|        | h](http |                 |    |                 | https |
-|        | s://www |                 |    |                 | ://pb |
-|        | .serdar |                 |    |                 | path. |
-|        | balci.c |                 |    |                 | org/) |
-|        | om/Clin |                 |    |                 |       |
-|        | icoPath |                 |    |                 |       |
-|        | JamoviM |                 |    |                 |       |
-|        | odule/) |                 |    |                 |       |
-+--------+---------+-----------------+----+-----------------+-------+
+| R-project                                                     | jamovi                                                              | Pathology                                                                                                            | Images                              | Genes                                                                                                              | Pages                                               |
+|---------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| [MyRCodes](https://github.com/sbalci/MyRCodesForDataAnalysis) | [issues](https://github.com/jamovi/jamovi/issues)                   | [WHO Blue Books](https://tumourclassification.iarc.who.int/welcome/)                                                 | [QuPath](https://qupath.github.io/) | [cBioPortal](http://www.cbioportal.org/)                                                                           | [patolojiAI](https://www.patolojiai.com/)           |
+| [R-bloggers](https://www.r-bloggers.com/)                     | [releases](https://www.jamovi.org/download.html)                    | [CAP Cancer Protocol](https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates) | [ImageJ](https://imagej.github.io/) | [Coursera](https://www.coursera.org/learn/data-genes-medicine/lecture/uVUus/working-with-cbioportal-gene-networks) | [drozlembalci](https://www.drozlembalci.com/)       |
+| [R-weekly](https://rweekly.org/)                              | [dev version](https://www.jamovi.org/downloads/jamovi-unsigned.zip) |                                                                                                                      |                                     |                                                                                                                    | [patolojinotlari](https://www.patolojinotlari.com/) |
+|                                                               | [forum](https://forum.jamovi.org/)                                  |                                                                                                                      |                                     |                                                                                                                    | [parapathology](https://www.parapathology.com/)     |
+|                                                               | [dev](https://dev.jamovi.org/tuts0101-getting-started.html)         |                                                                                                                      |                                     |                                                                                                                    | [PBPath](https://pbpath.org/)                       |
 
 : For My Daily Visits
 
