@@ -1,0 +1,48 @@
+---
+title: "R ile topluca dosya ismi değiştirme"
+description: |
+  Bir grup fotoğrafın ismini değiştirmemiz lazımdı. Bu küçük kodu onun için yazdım.
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: 09-06-2021
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [RStats]
+---
+
+
+**Tatilde olsak da kod yazmaya devam:**
+
+Elimizde bir grup fotoğraf vardı. Karşısında da kimin fotoğrafı olduğu yazıyordu. Dosyaların isimlerini karşılarındakine göre değiştirmek için bu küçük kodu yazdım.
+
+
+<script src="https://gist.github.com/sbalci/d1ec08be18d6a021772a6ff7cad19ef7.js"></script>
+
+
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">batch rename files <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a><a href="https://t.co/AWUNd5OEiU">https://t.co/AWUNd5OEiU</a><br>Created with <a href="https://twitter.com/carbon_app?ref_src=twsrc%5Etfw">@carbon_app</a> <a href="https://t.co/ffbnTNTdSo">pic.twitter.com/ffbnTNTdSo</a></p>&mdash; Serdar Balcı (@serdarbalci) <a href="https://twitter.com/serdarbalci/status/1434589046186074116?ref_src=twsrc%5Etfw">September 5, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+
+
+
+Bu da tatilden :)
+
+<iframe src="https://www.google.com/maps/embed?pb=!4v1630914170182!6m8!1m7!1sCAoSLEFGMVFpcE56dUxyQndDWnYxbHVIai1nTlVLWmJfY2ptcWFRcW82eld6anJw!2m2!1d37.0013408!2d27.7324849!3f271!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+
+
+
+
+
+
+

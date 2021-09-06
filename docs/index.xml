@@ -7,7 +7,16 @@
     <description>Serdar Balci, MD Pathologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 15 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>R ile topluca dosya ismi değiştirme</title>
+      <dc:creator>Serdar Balci</dc:creator>
+      <link>https://sbalci.github.io/posts/2021-09-06-r-ile-topluca-dosya-ismi-degistirme</link>
+      <description>Bir grup fotoğrafın ismini değiştirmemiz lazımdı. Bu küçük kodu onun için yazdım.</description>
+      <category>RStats</category>
+      <guid>https://sbalci.github.io/posts/2021-09-06-r-ile-topluca-dosya-ismi-degistirme</guid>
+      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Neden jamovi modüllerine ihtiyacım oldu?</title>
       <dc:creator>Serdar Balci</dc:creator>
