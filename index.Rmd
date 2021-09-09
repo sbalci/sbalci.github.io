@@ -40,7 +40,7 @@ listing: posts
 |                                                               | [forum](https://forum.jamovi.org/)                                  |                                                                                                                      |                                     |                                                                                                                    | [parapathology](https://www.parapathology.com/)     |
 |                                                               | [dev](https://dev.jamovi.org/tuts0101-getting-started.html)         |                                                                                                                      |                                     |                                                                                                                    | [PBPath](https://pbpath.org/)                       |
 
-: For My Daily Visits
+: List For My Daily Visits
 
 <br>
 
@@ -53,5 +53,13 @@ listing: posts
 <https://digitalpathologyassociation.org/>
 
 <https://digitalpathologysociety.org/>
+
+</details>
+
+<hr>
+
+<details>
+
+<summary>Journals</summary>
 
 </details>
