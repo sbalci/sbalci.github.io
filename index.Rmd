@@ -45,3 +45,13 @@ listing: posts
 <br>
 
 <hr>
+
+<details>
+
+<summary>Digital Pathology</summary>
+
+<https://digitalpathologyassociation.org/>
+
+<https://digitalpathologysociety.org/>
+
+</details>
