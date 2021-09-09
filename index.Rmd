@@ -41,25 +41,3 @@ listing: posts
 |                                                               | [dev](https://dev.jamovi.org/tuts0101-getting-started.html)         |                                                                                                                      |                                     |                                                                                                                    | [PBPath](https://pbpath.org/)                       |
 
 : List For My Daily Visits
-
-<br>
-
-<hr>
-
-<details>
-
-<summary>Digital Pathology</summary>
-
-<https://digitalpathologyassociation.org/>
-
-<https://digitalpathologysociety.org/>
-
-</details>
-
-<hr>
-
-<details>
-
-<summary>Journals</summary>
-
-</details>
