@@ -2312,6 +2312,12 @@ Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 # Konuşmalar ve Sunumlar  {#presentations}
 
 
+- Patolojide Yapay Zeka. 8 Ekim 2021 Memorial Patoloji Online Toplantı
+
+- Klinikopatolojik çalışmalarda kullanılabilecek Jamovi Modülleri. Haziran 2021. Memorial Şişli Hastanesi Online Toplantı
+
+- Klinikopatolojik çalışmalarda kullanılabilecek Jamovi Modülleri. Mayıs 2021. HÜTF Biyoistatistik Anabilim Dalı Online Seminer
+
 - Pankreas Kisti ve Beyaz Elastik Birikimler. 14 Ocak 2016. Hepato-pankreato-bilier sistem çalışma grubu Ankara lokal toplantısı, Başkent Üniversitesi.
 
 - Ampulla Tümörü ve T Evresi. 9 Ocak 2016. Çukurova Patoloji Derneği Slayt Semineri, Adana.
