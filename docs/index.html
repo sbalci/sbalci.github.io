@@ -57,7 +57,7 @@ code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -78,13 +78,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>Serdar Balci MD Pathologist: Serdar Balci, MD, Pathologist</title>
@@ -1863,7 +1864,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2494,7 +2498,7 @@ function init_posts_list() {
     var src = $(img).attr('data-src');
     if (src) {
       $(img).attr('src', src);
-      $(img).load(function() {
+      $(img).on("load", function() {
         img.removeAttribute('data-src');
       });
     }
@@ -2540,6 +2544,7 @@ function init_posts_list() {
 
       // mark posts that match the category visible
       var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
       var posts = $('.post-metadata').map(function(idx, script) {
         var metadata = $.parseJSON($(script).html());
         var post = null;
@@ -2555,7 +2560,7 @@ function init_posts_list() {
       set_posts_visible(posts, true);
 
       // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
 
       // update the list_caption
       var list_caption = $('.posts-list-caption');
@@ -2685,120 +2690,237 @@ function init_posts_list() {
 </div>
 <div class="posts-sidebar">
 <div><div class="sidebar-section custom">
+  <h3>Hakkımda</h3>
+  <b>Serdar Balcı</b><br />
+  <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br />
+  2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı
+  yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve
+  2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem
+  tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör
+  sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi
+  alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite
+  kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project
+  yer almaktadır.
+  <hr />
 
-<h3>Hakkımda</h3>
-<b>Serdar Balcı</b><br>  
-<em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br>  
-2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu.
-İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
-<hr>
+  <h3>List For My Daily Visits</h3>
 
-<h3>List For My Daily Visits</h3>
+  <details>
+    <summary>Educational</summary>
+    <a href="http://www.cbioportal.org/" target="_blank">cBioPortal</a>
+    <br />
+    <a
+      href="https://www.coursera.org/learn/data-genes-medicine/"
+      target="_blank"
+      >Data Genes Medicine</a
+    >
 
-<details><summary>Ongoing Projects</summary>
-<a href="https://memorialpath.github.io/" target="_blank">Memorial Patoloji İstatistikler</a>
-<br>
-<a href="https://www.patolojinotlari.com/" target="_blank">Patoloji Notları</a>
-<br>
-<a href="https://www.parapathology.com/" target="_blank">(Para)Pathology</a>
-<br>
-<a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank">MyRCodes</a>
-<br>
-<a href="https://github.com/PathologyWeb" target="_blank">PathologyWeb</a>
-<br>
-<a href="https://pathologyweb.github.io/patolojiraporlari/" target="_blank">Patoloji Raporlari</a>
-<br>
-<a href="http://www.cbioportal.org/" target="_blank">cBioPortal</a>
-<br>
-<a href="https://www.coursera.org/learn/data-genes-medicine/" target="_blank">Data Genes Medicine</a>
-</details>
+    <a
+      hfer="https://learning.edx.org/course/course-v1:HarvardX+PH525.5x+2T2018/home"
+      target="_blank"
+      >Bioconductor</a
+    >
+    <a
+      hfer="https://www.coursera.org/learn/galaxy-project/home/welcome"
+      target="_blank"
+      >Galaxy</a
+    >
 
-<details><summary>Pathology</summary>
-<a href="https://tumourclassification.iarc.who.int/welcome/" target="_blank">WHO Blue Books</a>
-<br>
-<a href="https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates" target="_blank">CAP Cancer Protocol</a>
-<br>
-<a href="https://journals.lww.com/ajsp/pages/default.aspx" target="_blank">AJSP</a>
-<br>
-<a href="https://www.nature.com/modpathol/" target="_blank">Modern Pathology</a>
-<br>
-<a href="https://www.nature.com/labinvest/" target="_blank">Laboratory Investigation</a>
-<br>
-<a href="https://www.sciencedirect.com/journal/seminars-in-diagnostic-pathology" target="_blank">Seminars in Diagnostic Pathology</a>
-<br>
-<a href="https://www.sciencedirect.com/journal/surgical-pathology-clinics" target="_blank">Surgical Pathology Clinics</a>
-</details>
+    <a
+      hfer="https://www.coursera.org/learn/dna-analysis/home/welcome"
+      target="_blank"
+      >Bioinformatics and Computational Biology</a
+    >
 
+    <a
+      hfer="https://learning.edx.org/course/course-v1:UCSanDiegoX+CSE181.1x+1T2017/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@sequential+block@ac6339babf6c462dae4af6ace76aad28/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@vertical+block@ece64430a491452386214aad3802467b"
+      target="_blank"
+      >Genomic Data Science</a
+    >
 
-<details><summary>Digital Pathology</summary>
-<a href="https://digitalpathologyassociation.org/" target="_blank">Digital Pathology Association</a>
-<br>
-<a href="https://digitalpathologysociety.org/" target="_blank">Digital Pathology Society</a>
-<br>
-<a href="https://qupath.github.io/" target="_blank">QuPath</a>
-<br>
-<a href="https://imagej.github.io/" target="_blank">ImageJ</a>
-</details>
+    <a
+      hfer="https://learning.edx.org/course/course-v1:USMx+BIF003x+3T2016/home"
+      target="_blank"
+      >Statistical Analysis in Bioinformatics</a
+    >
 
-<details><summary>R-project</summary>
-<a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank">MyRCodes</a>
-<br>
-<a href="https://www.r-bloggers.com/" target="_blank">R-bloggers</a>
-<br>
-<a href="https://rweekly.org/" target="_blank">R-weekly</a>
-</details>
+    <a
+      hfer="https://learning.edx.org/course/course-v1:EPFLx+IPA4LSx+3T2018/home"
+      target="_blank"
+      >Image Processing</a
+    >
 
+    <a
+      hfer="https://learning.edx.org/course/course-v1:EPFLx+NiC1.0x+3T2016/home"
+      target="_blank"
+      >Biology in JavaScript</a
+    >
 
+    <a hfer="https://qupath.readthedocs.io/en/stable/" target="_blank"
+      >QuPath</a
+    >
+    <a hfer="https://digitalpathologysociety.org/" target="_blank">DPS</a>
+    <a
+      hfer="https://digitalpathologyassociation.org/past-webinar-presentations"
+      target="_blank"
+      >DPA-Webinars</a
+    >
+    <a hfer="https://elearning.uscap.org/" target="_blank">USCAP-Courses</a>
+    <a
+      hfer="https://www.esp-pathology.org/educational-portal.html"
+      target="_blank"
+      >ESP</a
+    >
+  </details>
 
-<details><summary>jamovi</summary>
-<a href="https://www.jamovi.org/download.html" target="_blank">releases</a>
-<br>
-<a href="https://forum.jamovi.org/" target="_blank">forum</a>
-<br>
-<a href="https://dev.jamovi.org/tuts0101-getting-started.html" target="_blank">development</a>
-<br>
-<a href="https://www.jamovi.org/downloads/jamovi-unsigned.zip" target="_blank">dev version</a>
-</details>
+  <details>
+    <summary>Ongoing Projects</summary>
+    <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br />
+    <a href="https://www.patolojinotlari.com/" target="_blank"
+      >Patoloji Notları</a
+    >
+    <br />
+    <a href="https://www.parapathology.com/" target="_blank">(Para)Pathology</a>
+    <br />
+    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
+      >MyRCodes</a
+    >
+    <br />
+    <a href="https://github.com/PathologyWeb" target="_blank">PathologyWeb</a>
+    <br />
+    <a href="https://pathologyweb.github.io/patolojiraporlari/" target="_blank"
+      >Patoloji Raporlari</a
+    >
+  </details>
 
+  <details>
+    <summary>Pathology</summary>
+    <a href="https://tumourclassification.iarc.who.int/welcome/" target="_blank"
+      >WHO Blue Books</a
+    >
+    <br />
+    <a
+      href="https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+      target="_blank"
+      >CAP Cancer Protocol</a
+    >
+    <br />
+    <a href="https://journals.lww.com/ajsp/pages/default.aspx" target="_blank"
+      >AJSP</a
+    >
+    <br />
+    <a href="https://www.nature.com/modpathol/" target="_blank"
+      >Modern Pathology</a
+    >
+    <br />
+    <a href="https://www.nature.com/labinvest/" target="_blank"
+      >Laboratory Investigation</a
+    >
+    <br />
+    <a
+      href="https://www.sciencedirect.com/journal/seminars-in-diagnostic-pathology"
+      target="_blank"
+      >Seminars in Diagnostic Pathology</a
+    >
+    <br />
+    <a
+      href="https://www.sciencedirect.com/journal/surgical-pathology-clinics"
+      target="_blank"
+      >Surgical Pathology Clinics</a
+    >
+  </details>
 
+  <details>
+    <summary>Digital Pathology</summary>
+    <a href="https://digitalpathologyassociation.org/" target="_blank"
+      >Digital Pathology Association</a
+    >
+    <br />
+    <a href="https://digitalpathologysociety.org/" target="_blank"
+      >Digital Pathology Society</a
+    >
+    <br />
+    <a href="https://qupath.github.io/" target="_blank">QuPath</a>
+    <br />
+    <a href="https://imagej.github.io/" target="_blank">ImageJ</a>
+  </details>
 
-<details><summary>Pages</summary>
-<a href="https://www.patolojiai.com/" target="_blank">patolojiAI</a>
-<br>
-<a href="https://pbpath.org/" target="_blank">PBPath</a>
-<br>
-<a href="https://www.drozlembalci.com/" target="_blank">drozlembalci</a>
-<br>
-<a href="https://memorialpath.github.io/" target="_blank">Memorial Patoloji İstatistikler</a>
-<br>
-<a href="https://www.patolojinotlari.com/" target="_blank">Patoloji Notları</a>
-<br>
-<a href="https://www.parapathology.com/" target="_blank">(Para)Pathology</a>
-</details>
-<hr>
+  <details>
+    <summary>R-project</summary>
+    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
+      >MyRCodes</a
+    >
+    <br />
+    <a href="https://www.r-bloggers.com/" target="_blank">R-bloggers</a>
+    <br />
+    <a href="https://rweekly.org/" target="_blank">R-weekly</a>
+  </details>
+
+  <details>
+    <summary>jamovi</summary>
+    <a href="https://www.jamovi.org/download.html" target="_blank">releases</a>
+    <br />
+    <a href="https://forum.jamovi.org/" target="_blank">forum</a>
+    <br />
+    <a
+      href="https://dev.jamovi.org/tuts0101-getting-started.html"
+      target="_blank"
+      >development</a
+    >
+    <br />
+    <a
+      href="https://www.jamovi.org/downloads/jamovi-unsigned.zip"
+      target="_blank"
+      >dev version</a
+    >
+  </details>
+
+  <details>
+    <summary>Pages</summary>
+    <a href="https://www.patolojiai.com/" target="_blank">patolojiAI</a>
+    <br />
+    <a href="https://pbpath.org/" target="_blank">PBPath</a>
+    <br />
+    <a href="https://www.drozlembalci.com/" target="_blank">drozlembalci</a>
+    <br />
+    <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br />
+    <a href="https://www.patolojinotlari.com/" target="_blank"
+      >Patoloji Notları</a
+    >
+    <br />
+    <a href="https://www.parapathology.com/" target="_blank">(Para)Pathology</a>
+  </details>
+  <hr />
 </div>
 <div itemscope="" itemtype="https://schema.org/Person">
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "name": "Serdar Balcı",
-  "url": "https://www.serdarbalci.com/",
-  "jobTitle": "MD, Pathologist",
-  "sameAs": [
-    "https://www.facebook.com/serdarbalcimd",
-    "https://www.facebook.com/serdarbalcimdpathologist/",
-    "https://www.instagram.com/balciserdar/",
-    "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
-    "https://twitter.com/serdarbalci",
-    "https://github.com/sbalci",
-    "https://www.parapathology.com",
-    "https://www.patolojinotlari.com",
-    "https://www.patolojiai.com/",
-    "https://www.memorial.com.tr/doktorlar/serdar-balci"
-  ]
-}
-</script></div>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Serdar Balcı",
+      "url": "https://www.serdarbalci.com/",
+      "jobTitle": "MD, Pathologist",
+      "sameAs": [
+        "https://www.facebook.com/serdarbalcimd",
+        "https://www.facebook.com/serdarbalcimdpathologist/",
+        "https://www.instagram.com/balciserdar/",
+        "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
+        "https://twitter.com/serdarbalci",
+        "https://github.com/sbalci",
+        "https://www.parapathology.com",
+        "https://www.patolojinotlari.com",
+        "https://www.patolojiai.com/",
+        "https://www.memorial.com.tr/doktorlar/serdar-balci"
+      ]
+    }
+  </script>
+</div>
 </div>
 <div class="sidebar-section categories">
 <h3>Categories</h3>

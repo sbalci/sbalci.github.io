@@ -19,6 +19,7 @@
  <!--/radix_placeholder_import_source-->
 
 
+
   <!--radix_placeholder_meta_tags-->
   <title>Serdar Balci MD Pathologist: Serdar Balci, MD, Pathologist, CV</title>
   
@@ -1796,7 +1797,10 @@
   
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
