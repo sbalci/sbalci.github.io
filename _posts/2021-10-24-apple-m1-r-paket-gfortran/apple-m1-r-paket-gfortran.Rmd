@@ -1,0 +1,52 @@
+---
+title: "Apple M1 Chip bilgisayarda R paketleri için gfortran yükleme"
+description: |
+  Apple M1 Chip bilgisayarda R paketleri için gfortran yüklemek gerekiyor. Onun için bulabildiğim en kısa yol
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: 2021-10-24
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [RStats, package, gfortran, mac, apple, M1]
+
+---
+
+R ile gfortranı M1 chipli bilgisayarda buluşturmaya çalıştım. Benim bulduğum kısayol şu oldu.
+
+Bu R'da `Hmisc` paketini yüklerken aldığım hata mesajı:
+
+
+```r
+make: /opt/R/arm64/bin/gfortran: Permission denied
+```
+
+Bu sorunu çözmek için:
+
+
+- `xcode` yüklü olmalı  
+
+```bash
+xcode-select --install
+```
+  
+<br>
+
+- `brew` ile `gfortan`'ı kurun
+```zsh
+brew install gcc
+```
+
+<br>
+
+- sonra R'ın gfortran'ı bulamıyorum dediği yere link koyun:
+```zsh
+sudo ln -s /opt/homebrew/bin/gfortran /opt/R/arm64/bin
+```
+
+
