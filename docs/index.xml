@@ -7,7 +7,21 @@
     <description>Serdar Balci, MD Pathologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 06 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Apple M1 Chip bilgisayarda R paketleri için gfortran yükleme</title>
+      <dc:creator>Serdar Balci</dc:creator>
+      <link>https://sbalci.github.io/posts/2021-10-24-apple-m1-r-paket-gfortran</link>
+      <description>Apple M1 Chip bilgisayarda R paketleri için gfortran yüklemek gerekiyor. Onun için bulabildiğim en kısa yol</description>
+      <category>RStats</category>
+      <category>package</category>
+      <category>gfortran</category>
+      <category>mac</category>
+      <category>apple</category>
+      <category>M1</category>
+      <guid>https://sbalci.github.io/posts/2021-10-24-apple-m1-r-paket-gfortran</guid>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>R ile topluca dosya ismi değiştirme</title>
       <dc:creator>Serdar Balci</dc:creator>
