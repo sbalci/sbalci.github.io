@@ -1,0 +1,39 @@
+
+<meta charset="utf-8"/>
+<div id="openseadragon1" style="width: 100%; height: 95%;"></div>
+<p style="font-family:Sans-serif;font-size: 10">native resolution: 0.5044 um/px</p>
+<script src="openseadragon/openseadragon.min.js"></script>
+<script src="openseadragon/openseadragon-scalebar.js"></script>
+<script type="text/javascript">
+ var viewer = OpenSeadragon({
+ id: 'openseadragon1',
+ prefixUrl : 'openseadragon/images/',
+ showHomeControl : false,
+ showRotationControl : true,
+ showNavigator : true,
+ showFlipControl: true,
+ navigatorBackground: 'rgb(240, 240, 240)',
+ tileSources: { 
+ Image: {
+Url: 'z_0_files/', 
+TileSize: '1024', 
+Overlap: '0', 
+Format: 'jpg', 
+ServerFormat: 'Default', 
+xmlns: 'http://schemas.microsoft.com/deepzoom/2009', 
+Size: {
+ Width: '81694.5',
+ Height: '40859'
+ } 
+ }}});
+viewer.scalebar({ 
+minWidth: '100px', 
+pixelsPerMeter : '1.98255e+06', 
+fontFamily : 'Arial', 
+backgroundColor : 'rgba(255, 255, 255, 0.5)', 
+fontSize : 'small', 
+barThickness : '2', 
+xOffset : '10', 
+yOffset : '10' 
+});
+</script>
