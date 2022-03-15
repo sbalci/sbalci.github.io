@@ -121,7 +121,7 @@ In GOTT vertrauen wir, alle anderen müssen Daten bringen.
 - [Patoloji Atlası](https://www.patolojiatlasi.com/)
 
 <aside>
-<iframe width="160" height="400" src="https://leanpub.com/patolojiatlasi/embed" frameborder="0" allowtransparency="true"></iframe>
+<iframe src="https://leanpub.com/patolojiatlasi/embed"></iframe>
 </aside>
 
 - [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)
