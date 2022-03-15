@@ -56,3 +56,7 @@ output: pagedown::business_card
   color: 333;
 }
 ```
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.315122572471!2d28.971432050097803!3d41.062103979193644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77500bbab5f%3A0x4e5c9efdf6925c87!2sDo%C3%A7.%20Dr.%20Serdar%20Balc%C4%B1%20Patoloji%20Uzman%C4%B1!5e0!3m2!1sen!2str!4v1646745748883!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
