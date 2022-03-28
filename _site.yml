@@ -10,16 +10,6 @@ navbar:
     href: https://www.serdarbalci.com
   search: true
   right:
-    - text: "patolojiAI"
-      href: https://www.patolojiai.com/
-
-    - text: "PathologyWeb"
-      menu:
-        - text: "PathologyWeb"
-          href: https://github.com/PathologyWeb
-        - text: "Patoloji Raporları"
-          href: https://pathologyweb.github.io/patolojiraporlari/
-
     - text: "Consultation"
       menu:
         - text: "Video consultation via superpeer"
@@ -55,6 +45,8 @@ navbar:
           href: https://www.parapathology.com
         - text: Patoloji Notları
           href: https://www.patolojinotlari.com
+        - text: Patoloji Atlası
+          href: https://www.patolojatlasi.com
         - text: Tweet Collection
           href: https://serdarbalci.netlify.com/
         - text: PBPath Journal Watch
@@ -71,6 +63,12 @@ navbar:
           href: http://www.serdarbalci.com/Pathology-Articles-from-Turkey/
         - text: Pancreatobiliary Pathology Journal Watch
           href: https://www.serdarbalci.com/pubmedarticles/
+
+        - text: "PathologyWeb"
+          href: https://github.com/PathologyWeb
+        - text: "Patoloji Raporları"
+          href: https://pathologyweb.github.io/patolojiraporlari/
+
 
     - text: R packages
       menu:
@@ -108,7 +106,9 @@ navbar:
 
     - text: About
       menu:
-        - text: About
+        - text: "patolojiAI"
+          href: https://www.patolojiai.com/
+        - text: About Me
           href: card.html
 
         - text: Social
