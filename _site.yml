@@ -165,7 +165,8 @@ twitter:
   site: "@serdarbalci"
   creator: "@serdarbalci"
 repository_url: https://github.com/sbalci/sbalci.github.io
-base_url: https://sbalci.github.io/
+# base_url: https://sbalci.github.io/
+base_url: https://www.serdarbalci.com
 collections:
   posts:
     share: [twitter, linkedin, facebook]
