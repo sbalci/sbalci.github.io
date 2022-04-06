@@ -168,7 +168,6 @@ repository_url: https://github.com/sbalci/sbalci.github.io
 base_url: https://sbalci.github.io/
 collections:
   posts:
-    disqus: https-sbalci-github-io
     share: [twitter, linkedin, facebook]
     citation: true
     feed_items_max: false

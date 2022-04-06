@@ -1,0 +1,34 @@
+---
+title: "Patoloji Notları"
+description: |
+  Sosyal medya paylaşımlarından derlenen bir patoloji kitabı.
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: 2022-04-05
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [patoloji, ders notları, patolojinotlari, R, sosyal medya, twitter]
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+Sosyal meyada paylaşılan patoloji görüntüleri o kadar zengin ki, çoğu textbook'tan daha açıklayıcı bilgiler içerebiliyor. Bunları yakından takip etmek için bir dönem [rtweet](https://docs.ropensci.org/rtweet/) paketi ile günlük olarak twitter'ı tarayıp bunları web sayfası halinde düzenliyordum:  
+
+- [pathtweets](https://press.serdarbalci.com/category/pathtweets/)  
+- [pathtweets](https://serdarbalci.netlify.app/#PathTweets)  
+
+İleride [tidytags](https://docs.ropensci.org/tidytags/) paketi ile bu projeye devam etmeye niyetim var.
+
+Bu arada manuel olarak hazırladığım sayfa da güzel bir örnek oldu diye düşünüyorum: [**Patoloji Notları**](https://www.patolojinotlari.com/)
+
+

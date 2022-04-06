@@ -1,5 +1,29 @@
 [
   {
+    "path": "posts/patolojinotlari/",
+    "title": "Patoloji Notları",
+    "description": "Sosyal medya paylaşımlarından derlenen bir patoloji kitabı.",
+    "author": [
+      {
+        "name": "Serdar Balci",
+        "url": "https://github.com/sbalci"
+      }
+    ],
+    "date": "2022-04-05",
+    "categories": [
+      "patoloji",
+      "ders notları",
+      "patolojinotlari",
+      "R",
+      "sosyal medya",
+      "twitter"
+    ],
+    "contents": "\nSosyal meyada paylaşılan patoloji görüntüleri o kadar zengin ki, çoğu\ntextbook’tan daha açıklayıcı bilgiler içerebiliyor. Bunları yakından\ntakip etmek için bir dönem rtweet paketi ile günlük\nolarak twitter’ı tarayıp bunları web sayfası halinde düzenliyordum:\npathtweets\npathtweets\nİleride tidytags\npaketi ile bu projeye devam etmeye niyetim var.\nBu arada manuel olarak hazırladığım sayfa da güzel bir örnek oldu\ndiye düşünüyorum: Patoloji\nNotları\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-04-06T23:45:28+03:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-10-24-apple-m1-r-paket-gfortran/",
     "title": "Apple M1 Chip bilgisayarda R paketleri için gfortran yükleme",
     "description": "Apple M1 Chip bilgisayarda R paketleri için gfortran yüklemek gerekiyor. Onun için bulabildiğim en kısa yol",
