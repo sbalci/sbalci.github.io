@@ -1,5 +1,5 @@
 ---
-title: "Patoloji Notları"
+title: "Patoloji Atlası"
 description: |
   Sosyal medya paylaşımlarından derlenen bir patoloji kitabı.
 author:
@@ -24,11 +24,13 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+https://www.patolojiatlasi.com/
 
+https://www.patolojiatlasi.com/yonetim-gelistirme.html
 
-(https://serdarbalci.wordpress.com/category/pathtweets/)
+https://github.com/pathologyatlas/make-html-WSI
 
+https://github.com/pathologyatlas/template
 
-[Patoloji Notları](https://www.patolojinotlari.com/)
 
 
