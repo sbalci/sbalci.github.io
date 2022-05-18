@@ -964,10 +964,6 @@
     margin-top: 1.5em;
   }
   
-  .figure img {
-    width: 100%;
-  }
-  
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
@@ -1797,6 +1793,12 @@
   
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1811,6 +1813,31 @@
           placement: 'bottom-start'
         });
       });
+  
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+  
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
   
       // clear polling timer
       clearInterval(tid);
@@ -1910,6 +1937,8 @@
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1932,7 +1961,7 @@
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
   
@@ -2455,7 +2484,9 @@ About
 <li><a href="#posters-in-Turkey">Yurtiçi kongrelerdeki poster sunumları</a></li>
 </ul></li>
 <li><a href="#dissertation">Uzmanlık tezi</a></li>
-<li><a href="#çeviriler">Çeviriler</a></li>
+<li><a href="#ceviriler">Çeviriler</a><ul>
+<li><a href="#bölüm-çevirisi">Bölüm Çevirisi</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#presentations">Konuşmalar ve Sunumlar</a></li>
 <li><a href="#dissertation-supervisor">Yönettiği Tezler</a></li>
@@ -2625,11 +2656,14 @@ We are happy to announce our 2020 enthusiasts 😃 <br>Please welcome with us: N
 <ul>
 <li><p><a href="https://www.scopus.com/authid/detail.uri?authorId=22933834600">Scopus</a></p></li>
 <li><p><a href="http://loop.frontiersin.org/people/306241/overview">Loop</a></p></li>
-<li><p><a href="https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/serdarbalci/">Microsoft Academic</a></p></li>
 </ul>
+<!-- 
+- [Microsoft Academic](https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/serdarbalci/)
+
 <aside>
-<a href="https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication" class="uri">https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication</a>
+https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication
 </aside>
+-->
 <ul>
 <li><p><a href="https://europepmc.org/authors/0000-0002-7852-3851">Europe PMC</a></p></li>
 <li><p><a href="https://www.semanticscholar.org/author/Serdar-Balci/2755920">Semantic Scholar</a></p></li>
@@ -3991,7 +4025,8 @@ doi: 10.5146/tjpath.2012.01125 PMID: 23011821 <span class="__dimensions_badge_em
 <i>Immunohistochemical evaluation of B-RAF, pMEK1 and pERK1/2 expression in pilocytic and pilomyxoid astrocytomas according to histomorphologic findings and localization.</i><br />
 Tez Danışmanı: Prof.Dr. Ayşe Figen Söylemezoğlu<br />
 Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.</p>
-<h2 id="çeviriler">Çeviriler</h2>
+<h2 id="ceviriler">Çeviriler</h2>
+<h3 id="bölüm-çevirisi">Bölüm Çevirisi</h3>
 <figure>
 <img src="img/Beyin-Hasari-Sonrasi-Yasam-Kurtulanlarin-Oykuleri.png" alt="" /><figcaption>Beyin Hasarı Sonrası YAşam: Kurtulanların Öyküleri</figcaption>
 </figure>
@@ -4221,6 +4256,12 @@ Dr. Özge Başaran Aydoğdu, Uzmanlık Tezi, Ankara Atatürk Eğitim ve Araşt�
 <td style="text-align: right;">Doç.Dr.</td>
 <td style="text-align: right;"></td>
 <td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Aralık 2021 - Halen</td>
+<td style="text-align: right;">Doç.Dr.</td>
+<td style="text-align: right;">Patoloji Uzmanı</td>
+<td style="text-align: right;">Memorial Sağlık Grubu</td>
 </tr>
 </tbody>
 </table>
