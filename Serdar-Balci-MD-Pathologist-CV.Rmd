@@ -190,19 +190,19 @@ https://openknowledgemaps.org/community
 
 - [Loop](http://loop.frontiersin.org/people/306241/overview)
 
+<!-- 
 - [Microsoft Academic](https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/serdarbalci/)
 
 <aside>
 https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication
 </aside>
-
+-->
 
 - [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)
 
 - [Semantic Scholar](https://www.semanticscholar.org/author/Serdar-Balci/2755920)
 
 - [Lens Scholar](https://www.lens.org/lens/profile/311391349/scholar)
-
 
 - [openknowledgemaps](https://openknowledgemaps.org/map/cb13e14ef3ea4038280826bbaf87d9f1&embed=true)
 
@@ -2318,7 +2318,9 @@ Tez Danışmanı: Prof.Dr. Ayşe Figen Söylemezoğlu
 Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 
 
-## Çeviriler
+## Çeviriler {#ceviriler}
+
+### Bölüm Çevirisi
 
 ![Beyin Hasarı Sonrası YAşam: Kurtulanların Öyküleri](./img/Beyin-Hasari-Sonrasi-Yasam-Kurtulanlarin-Oykuleri.png)
 
@@ -2627,6 +2629,7 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 |  Mart 2014 – Kasım 2015|  Patoloji AD Başkanı|  Yıldırım Beyazıt Üniversitesi	|  Tıp Fakültesi Patoloji Anabilim Dalı|
 |  Nisan 2014 – Kasım 2015|  Eğitim Sorumlusu|  Ankara Atatürk Eğitim ve Araştırma Hastanesi|  Patoloji Kliniği|
 |  1 Nisan 2016|  Doç.Dr.|  |  |
+| Aralık 2021 - Halen|Doç.Dr.| Patoloji Uzmanı | Memorial Sağlık Grubu|  Patoloji Laboratuvarı|
 
 
 ---
