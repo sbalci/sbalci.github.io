@@ -1,0 +1,29 @@
+---
+title: "ParaPathology"
+description: |
+  Patoloji etrafında dolaşan fikirler.
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: 2022-04-05
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [patoloji, ders notları, patolojinotlari]
+draft: true
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+https://www.parapathology.com/
+
+

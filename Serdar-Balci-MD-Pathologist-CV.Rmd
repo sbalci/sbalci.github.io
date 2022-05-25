@@ -87,6 +87,10 @@ I have reviewed research papers as you can see on my Publons profile.
 
 Currently, I am on [the website committee](https://pbpath.org/our-committees/) of Pancreatobiliary Pathology Society and I am actively preparing [the Journal Watch](http://pbpath.org/current-journal-watch/) for this society.
 
+<aside>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.315122572471!2d28.971432050097803!3d41.062103979193644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77500bbab5f%3A0x4e5c9efdf6925c87!2sDo%C3%A7.%20Dr.%20Serdar%20Balc%C4%B1%20Patoloji%20Uzman%C4%B1!5e0!3m2!1sen!2str!4v1646745748883!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</aside>
+
 
 # Genel Uğraşılar {#genel-ugrasilar}
 
@@ -113,6 +117,12 @@ In GOTT vertrauen wir, alle anderen müssen Daten bringen.
 
 
 # Güncel Uğraşılar {#guncel-ugrasilar}
+
+- [Patoloji Atlası](https://www.patolojiatlasi.com/)
+
+<aside>
+<iframe width='160' height='400' src='https://leanpub.com/patolojiatlasi/embed' frameborder='0' allowtransparency='true'></iframe>
+</aside>
 
 - [Bibliographic Çalışmalar](https://sbalci.github.io/pubmed/BibliographicStudies.html)
 
@@ -180,19 +190,19 @@ https://openknowledgemaps.org/community
 
 - [Loop](http://loop.frontiersin.org/people/306241/overview)
 
+<!-- 
 - [Microsoft Academic](https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/serdarbalci/)
 
 <aside>
 https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication
 </aside>
-
+-->
 
 - [Europe PMC](https://europepmc.org/authors/0000-0002-7852-3851)
 
 - [Semantic Scholar](https://www.semanticscholar.org/author/Serdar-Balci/2755920)
 
 - [Lens Scholar](https://www.lens.org/lens/profile/311391349/scholar)
-
 
 - [openknowledgemaps](https://openknowledgemaps.org/map/cb13e14ef3ea4038280826bbaf87d9f1&embed=true)
 
@@ -2308,7 +2318,9 @@ Tez Danışmanı: Prof.Dr. Ayşe Figen Söylemezoğlu
 Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.
 
 
-## Çeviriler
+## Çeviriler {#ceviriler}
+
+### Bölüm Çevirisi
 
 ![Beyin Hasarı Sonrası YAşam: Kurtulanların Öyküleri](./img/Beyin-Hasari-Sonrasi-Yasam-Kurtulanlarin-Oykuleri.png)
 
@@ -2617,6 +2629,7 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 |  Mart 2014 – Kasım 2015|  Patoloji AD Başkanı|  Yıldırım Beyazıt Üniversitesi	|  Tıp Fakültesi Patoloji Anabilim Dalı|
 |  Nisan 2014 – Kasım 2015|  Eğitim Sorumlusu|  Ankara Atatürk Eğitim ve Araştırma Hastanesi|  Patoloji Kliniği|
 |  1 Nisan 2016|  Doç.Dr.|  |  |
+| Aralık 2021 - Halen|Doç.Dr.| Patoloji Uzmanı | Memorial Sağlık Grubu|  Patoloji Laboratuvarı|
 
 
 ---

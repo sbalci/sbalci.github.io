@@ -963,11 +963,15 @@
     margin-bottom: 2.5em;
     margin-top: 1.5em;
   }
+<<<<<<< HEAD
 
   .figure img {
     width: 100%;
   }
 
+=======
+  
+>>>>>>> 6cd4cc14d670bec26f9a8b66fc29b2ab8c4a2655
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
@@ -1797,6 +1801,12 @@
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1811,7 +1821,36 @@
           placement: 'bottom-start'
         });
       });
+<<<<<<< HEAD
 
+=======
+  
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+  
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
+  
+>>>>>>> 6cd4cc14d670bec26f9a8b66fc29b2ab8c4a2655
       // clear polling timer
       clearInterval(tid);
 
@@ -1910,6 +1949,8 @@
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1932,7 +1973,7 @@
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2281,18 +2322,6 @@
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="https://www.patolojiai.com/">patolojiAI</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-PathologyWeb
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="https://github.com/PathologyWeb">PathologyWeb</a>
-<a href="https://pathologyweb.github.io/patolojiraporlari/">Patoloji Raporları</a>
-</div>
-</div>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
 Consultation
@@ -2329,10 +2358,12 @@ Research
 <hr/>
 <a href="Serdar-Balci-MD-Pathologist-CV.html">CV</a>
 <a href="https://uptowork.com/mycv/Serdar-Balci-MD-Pathologist">Resume</a>
+<a href="https://resume.github.io/?sbalci">Github - Auto Resume</a>
 <span class="nav-dropdown-header">Pathology</span>
 <hr/>
 <a href="https://www.parapathology.com">(Para)Pathology</a>
 <a href="https://www.patolojinotlari.com">Patoloji Notları</a>
+<a href="https://www.patolojatlasi.com">Patoloji Atlası</a>
 <a href="https://serdarbalci.netlify.com/">Tweet Collection</a>
 <a href="https://pbpath.org/pbpath-journal-watch/">PBPath Journal Watch</a>
 <a href="https://www.endonews.com/author/serdar-balci">Endonews</a>
@@ -2342,6 +2373,8 @@ Research
 <hr/>
 <a href="http://www.serdarbalci.com/Pathology-Articles-from-Turkey/">Pathology Articles from Turkey</a>
 <a href="https://www.serdarbalci.com/pubmedarticles/">Pancreatobiliary Pathology Journal Watch</a>
+<a href="https://github.com/PathologyWeb">PathologyWeb</a>
+<a href="https://pathologyweb.github.io/patolojiraporlari/">Patoloji Raporları</a>
 </div>
 </div>
 <div class="nav-dropdown">
@@ -2377,7 +2410,8 @@ About
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="card.html">About</a>
+<a href="https://www.patolojiai.com/">patolojiAI</a>
+<a href="card.html">About Me</a>
 <span class="nav-dropdown-header">Social</span>
 <hr/>
 <a href="https://about.me/serdarbalci">about me</a>
@@ -2476,7 +2510,9 @@ sunumları</a></li>
 sunumları</a></li>
 </ul></li>
 <li><a href="#dissertation">Uzmanlık tezi</a></li>
-<li><a href="#çeviriler">Çeviriler</a></li>
+<li><a href="#ceviriler">Çeviriler</a><ul>
+<li><a href="#bölüm-çevirisi">Bölüm Çevirisi</a></li>
+</ul></li>
 </ul></li>
 <li><a href="#presentations">Konuşmalar ve Sunumlar</a></li>
 <li><a href="#dissertation-supervisor">Yönettiği Tezler</a></li>
@@ -2551,6 +2587,7 @@ Department.</p>
 <p><img src="img/docdrserdarbalcijpg_b2d2.jpg" /><!-- --></p>
 </div>
 </aside>
+<<<<<<< HEAD
 <p>I have more than 50 articles published in peer-reviewed journals. I
 have participated in many international studies. For these studies, I
 have not only participated as a pathologist but was also actively
@@ -2570,6 +2607,16 @@ website committee</a> of Pancreatobiliary Pathology Society and I am
 actively preparing <a
 href="http://pbpath.org/current-journal-watch/">the Journal Watch</a>
 for this society.</p>
+=======
+<p>I have more than 50 articles published in peer-reviewed journals. I have participated in many international studies. For these studies, I have not only participated as a pathologist but was also actively involved in project planning and I have been the main person responsible for data preparation, data cleaning, data analyses, and reporting. I have experience in bibliography programs and image editing software. I have also used SEER data for cancer research.</p>
+<p>I am interested in the application of statistical and bioinformatic methods in anatomic and digital pathology. I am also interested in publication metrics and have done some research on bibliometrics. I am using vosviewer and citespace for side projects, and used PubMed data for bibliography and text mining studies.</p>
+<p>I have reviewed research papers as you can see on my Publons profile.</p>
+<p>Currently, I am on <a href="https://pbpath.org/our-committees/">the website committee</a> of Pancreatobiliary Pathology Society and I am actively preparing <a href="http://pbpath.org/current-journal-watch/">the Journal Watch</a> for this society.</p>
+<aside>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3008.315122572471!2d28.971432050097803!3d41.062103979193644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77500bbab5f%3A0x4e5c9efdf6925c87!2sDo%C3%A7.%20Dr.%20Serdar%20Balc%C4%B1%20Patoloji%20Uzman%C4%B1!5e0!3m2!1sen!2str!4v1646745748883!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen loading="lazy">
+</iframe>
+</aside>
+>>>>>>> 6cd4cc14d670bec26f9a8b66fc29b2ab8c4a2655
 <h1 id="genel-ugrasilar">Genel Uğraşılar</h1>
 <p><a href="#" title="Eşyanın isimleri bize Dede mirasıdır 2/31">Genel
 Uğraşılarım</a></p>
@@ -2591,6 +2638,7 @@ ictinâb.</p></li>
 </ul>
 <h1 id="guncel-ugrasilar">Güncel Uğraşılar</h1>
 <ul>
+<<<<<<< HEAD
 <li><p><a
 href="https://sbalci.github.io/pubmed/BibliographicStudies.html">Bibliographic
 Çalışmalar</a></p></li>
@@ -2599,6 +2647,18 @@ href="https://sbalci.github.io/ClinicoPathJamoviModule/">ClinicoPath
 Jamovi Module</a></p></li>
 <li><p><a href="https://openknowledgemaps.org/news#enthusiasts2020">Open
 Knowledge Maps</a></p></li>
+=======
+<li><a href="https://www.patolojiatlasi.com/">Patoloji Atlası</a></li>
+</ul>
+<aside>
+<iframe width="160" height="400" src="https://leanpub.com/patolojiatlasi/embed" frameborder="0" allowtransparency="true">
+</iframe>
+</aside>
+<ul>
+<li><p><a href="https://sbalci.github.io/pubmed/BibliographicStudies.html">Bibliographic Çalışmalar</a></p></li>
+<li><p><a href="https://sbalci.github.io/ClinicoPathJamoviModule/">ClinicoPath Jamovi Module</a></p></li>
+<li><p><a href="https://openknowledgemaps.org/news#enthusiasts2020">Open Knowledge Maps</a></p></li>
+>>>>>>> 6cd4cc14d670bec26f9a8b66fc29b2ab8c4a2655
 </ul>
 <aside>
 <p><a href="https://openknowledgemaps.org/news#enthusiasts2020"
@@ -2701,6 +2761,7 @@ href="https://www.researchgate.net/profile/Serdar_Balci">ResearchGate</a></li>
 <a href="https://www.researchgate.net/profile/Serdar_Balci?cp=shp" target="_blank" title="Follow me on ResearchGate"><img alt="Follow me on ResearchGate" src="https://www.researchgate.net/images/public/profile_share_badge.png" /></a>
 </aside>
 <ul>
+<<<<<<< HEAD
 <li><p><a
 href="https://www.scopus.com/authid/detail.uri?authorId=22933834600">Scopus</a></p></li>
 <li><p><a
@@ -2708,12 +2769,24 @@ href="http://loop.frontiersin.org/people/306241/overview">Loop</a></p></li>
 <li><p><a
 href="https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/serdarbalci/">Microsoft
 Academic</a></p></li>
+=======
+<li><p><a href="https://www.scopus.com/authid/detail.uri?authorId=22933834600">Scopus</a></p></li>
+<li><p><a href="http://loop.frontiersin.org/people/306241/overview">Loop</a></p></li>
+>>>>>>> 6cd4cc14d670bec26f9a8b66fc29b2ab8c4a2655
 </ul>
+<!-- 
+- [Microsoft Academic](https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/serdarbalci/)
+
 <aside>
+<<<<<<< HEAD
 <a
 href="https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication"
 class="uri">https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication</a>
+=======
+https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/SerdarBALCI/publication
+>>>>>>> 6cd4cc14d670bec26f9a8b66fc29b2ab8c4a2655
 </aside>
+-->
 <ul>
 <li><p><a
 href="https://europepmc.org/authors/0000-0002-7852-3851">Europe
@@ -5395,9 +5468,15 @@ incelenmesi.</i><br />
 in pilocytic and pilomyxoid astrocytomas according to histomorphologic
 findings and localization.</i><br />
 Tez Danışmanı: Prof.Dr. Ayşe Figen Söylemezoğlu<br />
+<<<<<<< HEAD
 Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara,
 2010.</p>
 <h2 id="çeviriler">Çeviriler</h2>
+=======
+Hacettepe Üniversitesi Tıp Fakültesi Patoloji Anabilim Dalı, Ankara, 2010.</p>
+<h2 id="ceviriler">Çeviriler</h2>
+<h3 id="bölüm-çevirisi">Bölüm Çevirisi</h3>
+>>>>>>> 6cd4cc14d670bec26f9a8b66fc29b2ab8c4a2655
 <figure>
 <img src="img/Beyin-Hasari-Sonrasi-Yasam-Kurtulanlarin-Oykuleri.png"
 alt="Beyin Hasarı Sonrası YAşam: Kurtulanların Öyküleri" />
@@ -5791,6 +5870,12 @@ Hastanesi</td>
 <td style="text-align: right;">Doç.Dr.</td>
 <td style="text-align: right;"></td>
 <td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">Aralık 2021 - Halen</td>
+<td style="text-align: right;">Doç.Dr.</td>
+<td style="text-align: right;">Patoloji Uzmanı</td>
+<td style="text-align: right;">Memorial Sağlık Grubu</td>
 </tr>
 </tbody>
 </table>
