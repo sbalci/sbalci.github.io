@@ -1,0 +1,165 @@
+div.column {
+  border-style: none groove none none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+form {
+  display: table;
+}
+
+p {
+  display: table-row;
+}
+
+label {
+  display: table-cell;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 45%;
+}
+
+input {
+  display: table-cell;
+  width: 55%;
+}
+
+.darkmode d-article,
+.darkmode d-appendix,
+.darkmode body {
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+.dark-mode {
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+
+textarea {
+  width: 800px;
+  height: 600px;
+}
+
+
+
+.addcheck[type="checkbox"]:before {
+  position: relative;
+  display: block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #808080;
+  content: "";
+  background: #FFF;
+}
+
+.addcheck[type="checkbox"]:after {
+  position: relative;
+  display: block;
+  left: 2px;
+  top: -11px;
+  width: 7px;
+  height: 7px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #B3B3B3 #dcddde #dcddde #B3B3B3;
+  content: "";
+  background-image: linear-gradient(135deg, #B1B6BE 0%, #FFF 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.addcheck[type="checkbox"]:checked:after {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAQAAABuW59YAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAB2SURBVHjaAGkAlv8A3QDyAP0A/QD+Dam3W+kCAAD8APYAAgTVZaZCGwwA5wr0AvcA+Dh+7UX/x24AqK3Wg/8nt6w4/5q71wAAVP9g/7rTXf9n/+9N+AAAtpJa/zf/S//DhP8H/wAA4gzWj2P4lsf0JP0A/wADAHB0Ngka6UmKAAAAAElFTkSuQmCC'), linear-gradient(135deg, #B1B6BE 0%, #FFF 100%);
+}
+
+select {
+  width: 50%;
+  max-width: 75%;
+  /* So it doesn't overflow from it's parent */
+}
+
+option {
+  /* wrap text in compatible browsers */
+  -moz-white-space: pre-wrap;
+  -o-white-space: pre-wrap;
+  white-space: pre-wrap;
+  /* hide text that can't wrap with an ellipsis */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* add border after every option */
+  border-bottom: 1px solid #DDD;
+}
+
+
+#diger {
+  width: 60%;
+  height: auto;
+}
+
+#yorum {
+  width: 60%;
+  height: auto;
+}
+
+#invazivtumorboyutu {
+  width: 20%;
+  height: auto;
+}
+
+#invazivtumorboyutubirim {
+  width: 20%;
+  height: auto;
+}
+
+#tumorboyutu {
+  width: 20%;
+  height: auto;
+}
+
+#tumorboyutubirim {
+  width: 20%;
+  height: auto;
+}
+
+#metastatikln {
+  width: 20%;
+  height: auto;
+}
+
+#reaktifln {
+  width: 20%;
+  height: auto;
+}
+
+#tumordepozit {
+  width: 20%;
+  height: auto;
+}
+
+#tumordepozitsayi {
+  width: 20%;
+  height: auto;
+}
+
+#pN {
+  width: 20%;
+  height: auto;
+}
