@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pankreas Ekzokrin Tümör Raporu</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/commonscripts.js"></script>
+
+
+    <link rel="stylesheet" href="./css/report.css" />
+
+    <link rel="stylesheet" href="./css/tumor-genel.css" />
+    <script src="./js/tumor-genel.js"></script>
+</head>
+
+<body>
+
+    <button onclick="location.href='./';">Ana Sayfa</button>
+    <button onclick="darkMode()">Koyu</button>
+    <button
+        onclick="location.href='https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates';">CAP
+        Templates</button>
+    <button onclick="location.href='https://tumourclassification.iarc.who.int/welcome/';">WHO Blue Books</button>
+
+    <h1>Pankreas Ekzokrin Tümör Raporu</h1>
+    <hr>
+
+    <div class="row">
+        <div class="column">
+            <form id="pankreas-ekzokrin" action="">
+                <p>
+                    <label for="tani">Tanı:</label>
+                    <input type="text" id="tani" />
+                    <br>
+                </p>
+
+                <p>
+                    <label for="spesmen">Spesmen:</label>
+                    <input type="text" id="spesmen" />
+                    <br>
+                </p>
+
+                <p>
+                    <label for="ameliyat">Yapılan İşlem (Ameliyat Şekli):</label>
+                    <input name="Yapılan İşlem" id="ameliyat" list="ameliyatlist" placeholder="double click or write" />
+                    <datalist id="ameliyatlist">
+                        <option>Pankreatikoduodenektomi</option>
+                        <option>Total Pankreatikoduodenektomi ve Splenektomi</option>
+                        <option>Distal pankreatektomi ve Splenektomi</option>
+                        <option>Distal pankreatektomi</option>
+                        <option>Enükleasyon</option>
+                    </datalist>
+                    <br>
+                </p>
+                <br>
+                <p>
+                    <label for="lokalizasyon">Tümör Lokalizasyonu:</label>
+                    <select id="lokalizasyon" name="lokalizasyon" multiple>
+                        <option value="Pankreas Başı">Pankreas Başı</option>
+                        <option value="Unsinat">Unsinat</option>
+                        <option value="Gövde">Gövde</option>
+                        <option value="Kuyruk">Kuyruk</option>
+                    </select>
+                    <br>
+
+
+                </p>
+
+                <p>
+                    <label for="perforasyon">Makroskopik Perforasyon:</label>
+                    <select id="perforasyon" name="perforasyon">
+                        <option value="yok">Görülmedi</option>
+                        <option value="var">Var</option>
+                    </select>
+                    <br>
+                </p>
+                <br>
+                <p>
+                    <label for="histolojiktip">Histolojik Tip:</label>
+                    <input name="Histolojik Tip" id="histolojiktip" list="histolojiktiplist"
+                        placeholder="double click or write" />
+                    <datalist id="histolojiktiplist">
+                        <option>Duktal adenokarsinom (NOS)</option>
+                        <option>Kolloid karsinom (müsinöz nonkistik karsinom)</option>
+                        <option>Taşlı yüzük hücreli karsinom (Zayıf koheziv karsinom)</option>
+                        <option>İntraduktal papiller müsinöz neoplazm (IPMN) zemininde gelişmiş invaz karsinom</option>
+                        <option>İntraduktal onkositik papiller neoplazm (IOPN) zemininde gelişmiş invaz karsinom
+                        </option>
+                        <!-- <option>İntraduktal papiller neoplazm zemininde gelişmiş invaz karsinom</option> -->
+                        <option>Müsinöz kistik neoplazm (MCN) zemininde gelişmiş invaz karsinom</option>
+                        <option>Medüller karsinom</option>
+                        <option>Adenoskuamöz karsinom</option>
+                        <!-- <option>Hepatoid karsinom</option> -->
+                        <!-- <option>Rabdoid fenotipte büyük hücreli karsinom</option> -->
+                        <option>Undiferansiye karsinom</option>
+                        <option>Osteoklast benzeri dev hücreler içeren Undiferansiye karsinom</option>
+                        <option>Asiner hücreli karsinom (NOS)</option>
+                        <!-- <option>Asiner hücreli kistadenokarsinom</option> -->
+                        <!-- <option>Mikst asiner-nöroendokrin karsinom</option> -->
+                        <!-- <option>Mikst duktal-nöroendokrin karsinom</option> -->
+                        <option>Mikst asiner-endokrin-duktal karsinom</option>
+                        <!-- <option>Mikst asiner-duktal karsinom</option> -->
+                        <option>Pankreatoblastom</option>
+                        <option>Solid psödopapiller neoplazm (SPN)</option>
+                        <!-- <option>Solid psödopapiller neoplazm (SPN) zemininde yüksek dereceli karsinom</option> -->
+                        <option>Büyük hücreli nöroendokrin karsinom</option>
+                        <option>Küçük hücreli nöroendokrin karsinom</option>
+                        <option>Mikst nöroendokrin-nonnöroendokrin neoplazm</option>
+                    </datalist>
+                    <br>
+
+
+                </p>
+                <p><label for="derece">Derece (duktal karsinom için):</label>
+                    <select id="derece" name="derece">
+                        <option value="" disabled selected hidden>Derece / Grade</option>
+                        <option value="grade1">Grade 1, iyi diferansiye</option>
+                        <option value="grade2">Grade 2, orta derecede diferansiye</option>
+                        <option value="grade3">Grade 3, az diferansiye</option>
+                    </select>
+
+                    <br>
+
+                </p>
+
+                <p>
+                    <label for="lvi">Lenfovasküler İnvazyon:</label>
+                    <select id="lvi" name="lvi">
+                        <option value="yok">Görülmedi</option>
+                        <option value="var">Var</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="vi">Venöz İnvazyon</label>
+                    <select id="venozinvazyon" name="venozinvazyon">
+                        <option value="yok">Görülmedi</option>
+                        <option value="var">Var</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="pni">Perinöryal İnvazyon:</label>
+                    <select id="pni" name="pni">
+                        <option value="yok">Görülmedi</option>
+                        <option value="var">Var</option>
+                    </select>
+                    <br>
+                </p>
+                <br>
+                <p>
+                    <label for="tumorboyutu">Tümör Boyutu:</label>
+                    <input type="number" id="tumorboyutu" />
+                    <select id="tumorboyutubirim" name="tumorboyutubirim">
+                        <option value="cm">cm</option>
+                        <option value="mm">mm</option>
+                    </select>
+                    <br>
+
+
+                </p>
+                <p>
+                    <label for="invazivtumorboyutu">İnvaziv Tümör Boyutu:</label>
+                    <input type="number" id="invazivtumorboyutu" />
+                    <select id="invazivtumorboyutubirim" name="invazivtumorboyutubirim">
+                        <option value="cm">cm</option>
+                        <option value="mm">mm</option>
+                    </select>
+                    <br>
+
+
+                </p>
+                <p>
+                    <label for="mikroskopikyayilim">Mikroskopik Tümör Yayılımı:</label>
+                    <select id="mikroskopikyayilim" name="mikroskopikyayilim" multiple>
+                        <option value="panIN">CIS, high grade panIN</option>
+                        <option value="pankreas">Pankreasa sınırlı</option>
+                        <option value="pankreasanterior">Pankreas anterior yüz</option>
+                        <option value="pankreasposterior">Pankreas posterior yüz</option>
+                        <option value="vaskuleryatak">Vasküler yatak</option>
+                        <option value="ampulla">Ampulla Vater, Oddi</option>
+                        <option value="duodenumduvari">Duodenum duvarı</option>
+                        <option value="peripankreatik">Peripankratik Yumuşak Doku</option>
+                        <option value="retroperitoneal">Retroperitoneal Yumuşak Doku</option>
+                        <option value="mezenterikyag">Mezenterik Yağ Doku</option>
+                        <option value="mezokolon">Mezokolon</option>
+                        <option value="ekstrapankreatikCBD">Ekstrapankratik ana safra kanalı</option>
+                        <option value="mide">Mide</option>
+                        <option value="smv">Süperior mezenterik ven</option>
+                        <option value="portalven">Portal ven</option>
+                        <option value="colyak">Çölyak</option>
+                        <option value="sma">Süperior mezenterik arter</option>
+                        <option value="hepatikarter">Ana hepatik arter</option>
+                    </select>
+                    <br>
+                </p>
+                <p>
+                    <label for="tumorevresi">Tümör Evresi:</label>
+                    <select id="tumorevresi" name="tumorevresi">
+                        <option value="" disabled selected hidden>pT evre</option>
+                        <option value="pTx">pTx: Patolojik evre tespit edilemedi.</option>
+                        <option value="pT0">pT0: Primer tümör bulgusu yok</option>
+                        <option value="pTis">pTis: CIS (yüksek dereceli PanIN-3 / yüksek dereceli IPMN / yüksek dereceli
+                            displazi içeren ITPN/ yüksek dereceli displazi içeren MCN)</option>
+                        <option value="pT1a">pT1a: Tümör boyutu 0.5cm'ye eşit ya da küçük </option>
+                        <option value="pT1b">pT1b: Tümör boyutu 0.5-1cm arası </option>
+                        <option value="pT1c">pT1c: Tümör boyutu 1-2cm arası</option>
+                        <option value="pT2">pT2: Tümör boyutu 2-4cm arası</option>
+                        <option value="pT3">pT3: Tümör boyutu 4cm'ye eşit ya da büyük</option>
+                        <option value="pT4">pT4: Boyuttan bağımsız olarak tümör çölyak, süperior mezenterik arter,
+                            hepatik artere invaze</option>
+                    </select>
+                    <br>
+                </p>
+
+                <br>
+                <p>
+                    <label for="toplamln">Bölgesel Lenf Nodları</label>
+                </p>
+                <p>
+                    <label for="metastatikln">Metastatik Lenf Nodları:</label>
+                    <input type="number" id="metastatikln" />
+                    <select id="pN" name="pN">
+                        <option value="" disabled selected hidden>pN evre</option>
+                        <option value="pN0">pN0: Metastaz saptanmadı</option>
+                        <option value="pN1">pN1: 1-3 metastatik lenf nodu</option>
+                        <option value="pN2">pN2: 4'ten fazla metastatik lenf nodu</option>
+                    </select>
+                    <br>
+                </p>
+
+                <p>
+                    <label for="reaktifln">Reaktif Lenf Nodları:</label>
+                    <input type="number" id="reaktifln" />
+                    <br>
+
+
+                </p>
+                <p>
+                    <label for="tumordepozit">Tümör Depoziti:</label>
+                    <input type="text" id="tumordepozit" />
+                    <input type="number" id="tumordepozitsayi" />
+                    <br>
+                </p>
+                <br>
+                <p>
+                    <label for="uzakmetastaz">Uzak metastaz:</label>
+                    <input name="Uzak metastaz" id="uzakmetastaz" list="uzakmetastazlist"
+                        placeholder="double click or write" />
+                    <datalist id="uzakmetastazlist">
+                        <option>Bilinmiyor</option>
+                        <option>Bilinen uzak metastaz yok</option>
+                        <option>Uzak metastaz var: </option>
+                    </datalist>
+                    <br>
+                </p>
+                <br>
+                <p>
+                    <label for="cerrahioncesitedavi">Cerrahi Öncesi Tedavi:</label>
+                    <select id="cerrahioncesitedavi" name="cerrahioncesitedavi">
+                        <option value="bilinmiyor">Bilinmiyor</option>
+                        <option value="yok">Yok</option>
+                        <option value="skor0">Var, viabl kanser hücresi yok (tam yanıt, skor 0)</option>
+                        <option value="skor1">Var, tek tek hücre halinde ya da ender küçük gruplar halinde
+                            rezidü tümör mevcut (tama yakın yanıt, skor 1)</option>
+                        <option value="skor2">Var, belirgin tümör regresyon bulgusu ile birlikte tek tek hücreden ya da
+                            ender küçük gruplar halinde rezidü tümörden fazla miktarda rezidü tümör mevcut (kısmi yanıt,
+                            skor 2)</option>
+                        <option value="skor3">Var, yaygın rezidü tümör, regresyon bulgusu mevcut değil (zayıf yanıt ya
+                            da yanıt yok, skor 3)
+                        </option>
+                    </select>
+                    <br>
+
+
+                </p>
+                <p>
+                    <label for="tumortomurcuk">Tümör Tomurcuklanması:</label>
+                    <input type="text" id="tumortomurcuk" />
+                    <br>
+
+                </p>
+                <br>
+                <p>
+                    <label for="cerrahisinir">Cerrahi Sınırlar:</label>
+
+                    <br>
+
+
+                </p>
+                <p>
+                    <label for="proksimalmukozalcerrahisinir">Proksimal Mukozal (Mide/Duodenum) Cerrahi Sınır:</label>
+                    <select id="proksimalmukozalcerrahisinir" name="proksimalmukozalcerrahisinir">
+                        <option value="intact">İn-situ ya da invaziv tümör saptanmadı</option>
+                        <option value="highgrade">Yüksek dereceli displazi mevcuttur</option>
+                        <option value="invasive">İnvaziv tümör mevcut</option>
+                    </select>
+                    <br>
+
+                </p>
+                <p>
+                    <label for="distalmukozalcerrahisinir">Distal Mukozal (Duodenum/Jejunum) Cerrahi Sınır:</label>
+                    <select id="distalmukozalcerrahisinir" name="distalmukozalcerrahisinir">
+                        <option value="intact">İn-situ ya da invaziv tümör saptanmadı</option>
+                        <option value="highgrade">Yüksek dereceli displazi mevcuttur</option>
+                        <option value="invasive">İnvaziv tümör mevcut</option>
+                    </select>
+
+                    <br>
+                </p>
+
+                <p>
+                    <label for="pankreasparankimcerrahisinir">Pankreas Parankim Cerrahi Sınır:</label>
+                    <select id="pankreasparankimcerrahisinir" name="pankreasparankimcerrahisinir">
+                        <option value="intact">İn-situ ya da invaziv tümör saptanmadı</option>
+                        <option value="highgrade">Yüksek dereceli displazi mevcuttur</option>
+                        <option value="invasive">İnvaziv tümör mevcut</option>
+                    </select>
+                    <br>
+                </p>
+
+                <p>
+                    <label for="duktuscerrahisinir">Safra Duktus Cerrahi Sınır:</label>
+                    <select id="duktuscerrahisinir" name="duktuscerrahisinir">
+                        <option value="intact">İn-situ ya da invaziv tümör saptanmadı</option>
+                        <option value="highgrade">Yüksek dereceli displazi mevcuttur</option>
+                        <option value="invasive">İnvaziv tümör mevcut</option>
+                    </select>
+                    <br>
+                </p>
+
+                <p>
+                    <label for="retroperitoncerrahisinir">Retroperiton Cerrahi Sınır:</label>
+                    <select id="retroperitoncerrahisinir" name="retroperitoncerrahisinir">
+                        <option value="intact">İn-situ ya da invaziv tümör saptanmadı</option>
+                        <option value="highgrade">Yüksek dereceli displazi mevcuttur</option>
+                        <option value="invasive">İnvaziv tümör mevcut</option>
+                    </select>
+                    <br>
+                </p>
+
+                <p>
+                    <label for="yakincs">En yakın cerrahi sınır ve uzaklık:</label>
+                    <input type="text" id="yakincs" />
+                    <br>
+                </p>
+
+                <br>
+                <p>
+                    <label for="diger">Çevre Doku (Diğer bulgular):</label>
+                    <textarea name="diger" id="diger" form="pankreas-ekzokrin">panIN, kronik pankreatit, yağ nekrozu
+                    </textarea>
+                    <br>
+                </p>
+
+
+                <p>
+                    <label for="yorum">Yorum:</label>
+                    <textarea name="yorum" id="yorum" form="pankreas-ekzokrin"></textarea>
+                    <br>
+                </p>
+
+
+            </form>
+        </div>
+
+
+        <div class="column">
+            <form>
+                <button id="RaporOlustur" type="button" onclick="generateTumorReport()">Rapor
+                    Oluştur</button>
+                <button type="button" onclick="copyReport()">Kopyala</button>
+                <button type="button" onclick="eraseAll();">Temizle</button><br />
+                <textarea id="plainReport" name="plainReport" rows="15"></textarea><br>
+            </form>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+</html>
