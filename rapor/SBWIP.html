@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>WIP Patoloji Raporu</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+    <script src="./js/commonscripts.js"></script>
+
+
+    <link rel="stylesheet" href="./css/report.css" />
+    <!-- <link rel="stylesheet" href="./css/commoncss.css" /> -->
+
+    <link rel="stylesheet" href="./css/SBWIP.css" />
+    <script src="./js/SBWIP.js"></script>
+
+
+</head>
+
+<body>
+    <button onclick="location.href='./';">Ana Sayfa</button>
+    <button onclick="darkMode()">Koyu</button>
+    <button
+        onclick="location.href='https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates';">CAP
+        Templates</button>
+    <button onclick="location.href='https://tumourclassification.iarc.who.int/welcome/';">WHO Blue Books</button>
+
+    <hr>
+    <br>
+
+
+    <div class="row">
+        <div class="column">
+            <h4 style="text-align: left">Üst GIS Endoskopik</h4>
+            <form action="">
+                <p>
+                    <label for="lokalizasyon">Lokalizasyon:</label>
+                    <input type="text" id="lokalizasyon" maxlength=1 oninput="moveOnMax(this,'mukoza')" />
+                    (1-3)
+                    <br>
+                </p>
+                <p>
+                    <label for="mukoza">Mukoza:</label>
+                    <input type="text" id="mukoza" maxlength=1 oninput="moveOnMax(this,'krinflamasyon')" />
+                    (1-3)
+                    <br>
+                </p>
+                <p>
+                    <label for="krinflamasyon">Kronik İnflamasyon:</label>
+                    <input type="text" id="krinflamasyon" maxlength=1 oninput="moveOnMax(this,'aktivite')" />
+                    (0-3)
+                    <br>
+                </p>
+                <p>
+                    <label for="aktivite">Aktivite:</label><input type="text" id="aktivite" maxlength=1
+                        oninput="moveOnMax(this,'atrofi')" />
+                    (0-3)
+                    <br>
+                </p>
+                <p><label for="atrofi">Atrofi:</label><input type="text" id="atrofi" maxlength=1
+                        oninput="moveOnMax(this,'intestinalmetaplazi')" />
+                    (0-3)
+                    <br>
+                </p>
+                <p>
+                    <label for="intestinalmetaplazi">İntestinal Metaplazi:</label>
+                    <input type="text" id="intestinalmetaplazi" maxlength=1 oninput="moveOnMax(this,'hpylori')" />
+                    (0-3)
+                    <br>
+                </p>
+                <p><label for="hpylori">H. pylori:</label>
+                    <input type="text" id="hpylori" maxlength=1 oninput="moveOnMax2(this,'RaporOlustur')" />
+                    (0-3)
+                    <br>
+                </p>
+            </form>
+
+
+            <h4 style="text-align: left">Duodenum</h4>
+            <form action="">
+                <p>
+                    <label for="epitel">Epitel:</label>
+                    <input type="text" id="lokalizasyon" maxlength=1 oninput="moveOnMax(this,'dmukoza')" />
+                </p>
+                <p>
+                    <label for="dmukoza">Mukoza:</label>
+                    <input type="text" id="dmukoza" maxlength=1 oninput="moveOnMax(this,'villus')" /><br>
+                </p>
+                <p>
+                    <label for="villus">H. pylori:</label>
+                    <input type="text" id="villus" maxlength=1 oninput="moveOnMaxDuodenum(this,'RaporOlustur')" />
+                </p>
+            </form>
+
+
+        </div>
+
+        <div class="column">
+            <h4 style="text-align: left">Hazır Raporlar</h4>
+            <form action="">
+                <p>
+                    <label for="TubularAdenomaCheck">Tübüler Adenom:</label>
+                    <input type="checkbox" id="TubularAdenomaCheck"
+                        onclick="getSablon('TubularAdenomaText', 'TubularAdenomaCheck')">
+                </p>
+                <br>
+                <p>
+                    <label for="HiperplastikPolipCheck">Hiperplastik Polip:</label>
+                    <input type="checkbox" id="HiperplastikPolipCheck"
+                        onclick="getSablon('HiperplastikPolipText', 'HiperplastikPolipCheck')">
+                </p>
+                <br>
+                <p>
+                    <label for="DuodenumDogalCheck">Doğal Duodenum:</label>
+                    <input type="checkbox" id="DuodenumDogalCheck"
+                        onclick="getSablon('DuodenumDogalText', 'DuodenumDogalCheck')">
+                </p>
+                <br>
+                <p>
+                    <label for="MinimumTumorCheck">Minimum Tümör Raporu:</label>
+                    <input type="checkbox" id="MinimumTumorCheck"
+                        onclick="getSablon('MinimumTumorText', 'MinimumTumorCheck')">
+
+                </p>
+                <br>
+                <p>
+                    <label for="SleeveCheck">Sleeve Gastrektomi:</label>
+                    <input type="checkbox" id="SleeveCheck" onclick="getSablon('SleeveText', 'SleeveCheck')">
+
+                </p>
+                <br>
+                <p>
+                    <label for="SafraKesesiCheck">Safra Kesesi:</label>
+                    <input type="checkbox" id="SafraKesesiCheck"
+                        onclick="getSablon('SafraKesesiText', 'SafraKesesiCheck')">
+
+                </p>
+
+
+            </form>
+
+        </div>
+
+
+        <div class="column">
+            <h4 style="text-align: left">IHK</h4>
+            <form action="">
+                <p>
+                    <label for="HER2Check">HER2:</label>
+                    <input type="checkbox" id="HER2Check" onclick="getSablon('HER2Text', 'HER2Check')">
+                    <input type="checkbox" class="addcheck" name="IHK" id="HER2CheckAdd" onclick="getAddReport()">+
+                </p>
+                <br>
+                <p>
+                    <label for="MSICheck">MSI:</label>
+                    <input type="checkbox" id="MSICheck" onclick="getSablon('MSIText', 'MSICheck')">
+                    <input type="checkbox" class="addcheck" name="IHK" id="MSICheckAdd" onclick="getAddReport()">+
+                </p>
+                <br>
+                <p>
+                    <label for="PDL1Check">PDL1:</label>
+                    <input type="checkbox" id="PDL1Check" onclick="getSablon('PDL1Text', 'PDL1Check')">
+                    <input type="checkbox" class="addcheck" name="IHK" id="PDL1CheckAdd" onclick="getAddReport()">+
+                </p>
+                <br>
+                <p>
+                    <label for="MUCCheck">MUC paneli:</label>
+                    <input type="checkbox" id="MUCCheck" onclick="getSablon('MUCText', 'MUCCheck')">
+                    <input type="checkbox" class="addcheck" name="IHK" id="MUCCheckAdd" onclick="getAddReport()">+
+
+                </p>
+                <br>
+                <p>
+                    <label for="NETCheck">NET:</label>
+                    <input type="checkbox" id="NETCheck" onclick="getSablon('NETText', 'NETCheck')">
+                    <input type="checkbox" class="addcheck" name="IHK" id="NETCheckAdd" onclick="getAddReport()">+
+                </p>
+                <br>
+                <p>
+                    <label for="PrimerCheck">CK7, CK19, CK20, CDX2, SATB2, <br> Pax8, GATA3, NKX3.1:</label>
+                    <input type="checkbox" id="PrimerCheck" onclick="getSablon('PrimerText', 'PrimerCheck')">
+                    <input type="checkbox" class="addcheck" name="IHK" id="PrimerCheckAdd" onclick="getAddReport()">+
+                </p>
+            </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <br>
+    <hr>
+
+    <div>
+        <form>
+            <button id="RaporOlustur" type="button" onclick="generateMideEndoskopiReportBeta()">Rapor
+                Oluştur</button>
+            <button type="button" onclick="copyReport()">Kopyala</button>
+            <button type="button" onclick="eraseAll();">Temizle</button><br />
+            <textarea id="plainReport" name="plainReport" rows="15"></textarea><br>
+        </form>
+    </div>
+
+
+
+
+    <!-- <body onload="setStates();" <label>State :</label>
+        <select style="width:auto;" name="state" id="state">
+            <option value="">Please select a Country</option>
+        </select><br> -->
+
+
+
+</body>
+
+<footer>
+
+</footer>
+
+
+
+
+
+
+
+
+
+</html>
