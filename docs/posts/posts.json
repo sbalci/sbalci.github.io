@@ -106,9 +106,9 @@
       "GitHub",
       "Collection"
     ],
-    "contents": "\nI use GitHub’s organizations as a means to collect repositories. Please let me know if you have recommendations to add.\nCurrently these are my organizations:\nOrganization\nContent\nClinicoPath\nRepositories used for ClinicoPath jamovi module\nPBPath\nPancreatobiliary Pathology Society\nPathologyWeb\nInformation Technologies for the Practice of Pathology\nbibliometrics\nCollection of Repositories Related to Bibliometrics, Bibliography, Knowledge Extraction and Text Mining\nbiostatistical\nBiostatistics Repositories\ndataeducation\nCollection of Data Analysis Education Repositories\ngenomicanalysis\nGene Analysis\nhistopathology\nCollection of Repositories related to Histopathology and Image Analysis\njournalwatch\nRepositories for Pathology Journal Watch\nknowledgeextraction\nKnowledge Discovery and Extraction from Text Data and Social Media\nseeranalysis\nRepositories and Codes for SEER Analysis\nstatisticial-modelling-center\nModel İstatistik Merkezi (Statistical Modelling Center)\n\n\n\n",
+    "contents": "\nUpdate on 9 July 2022:\nNow GitHub has star collections, and it is easier:\nhttps://github.com/sbalci?tab=stars\nI use GitHub’s\norganizations as a means to collect repositories. Please let me know\nif you have recommendations to add.\nCurrently these are my organizations:\nOrganization\nContent\nClinicoPath\nRepositories used for ClinicoPath jamovi module\nPBPath\nPancreatobiliary Pathology Society\nPathologyWeb\nInformation Technologies for the Practice of Pathology\nbibliometrics\nCollection of Repositories Related to Bibliometrics, Bibliography,\nKnowledge Extraction and Text Mining\nbiostatistical\nBiostatistics Repositories\ndataeducation\nCollection of Data Analysis Education Repositories\ngenomicanalysis\nGene Analysis\nhistopathology\nCollection of Repositories related to Histopathology and Image\nAnalysis\njournalwatch\nRepositories for Pathology Journal Watch\nknowledgeextraction\nKnowledge Discovery and Extraction from Text Data and Social\nMedia\nseeranalysis\nRepositories and Codes for SEER Analysis\nstatisticial-modelling-center\nModel İstatistik Merkezi (Statistical Modelling Center)\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-07-06T12:43:37+00:00",
-    "input_file": {}
+    "last_modified": "2022-07-09T18:33:20+03:00",
+    "input_file": "github-repository-collections.knit.md"
   }
 ]

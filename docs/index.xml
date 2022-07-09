@@ -63,12 +63,93 @@
       <title>GitHub Repository Collections</title>
       <dc:creator>Serdar Balci</dc:creator>
       <link>https://www.serdarbalci.com/posts/2020-11-02-github-repository-collections</link>
-      <description>I use Organizations to collect GitHub Repositories.</description>
+      <description>
+
+
+&lt;p&gt;Update on 9 July 2022:&lt;/p&gt;
+&lt;p&gt;Now GitHub has star collections, and it is easier:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/sbalci?tab=stars"
+class="uri"&gt;https://github.com/sbalci?tab=stars&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;I use &lt;a href="https://github.com/settings/organizations"&gt;GitHub’s
+organizations&lt;/a&gt; as a means to collect repositories. Please let me know
+if you have recommendations to add.&lt;/p&gt;
+&lt;p&gt;Currently these are my organizations:&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width="44%" /&gt;
+&lt;col width="55%" /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class="header"&gt;
+&lt;th&gt;Organization&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;a href="https://github.com/ClinicoPath"&gt;ClinicoPath&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Repositories used for ClinicoPath jamovi module&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;&lt;a href="https://github.com/PBPath"&gt;PBPath&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Pancreatobiliary Pathology Society&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;a href="https://github.com/PathologyWeb"&gt;PathologyWeb&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Information Technologies for the Practice of Pathology&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;&lt;a href="https://github.com/bibliometrics"&gt;bibliometrics&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Collection of Repositories Related to Bibliometrics, Bibliography,
+Knowledge Extraction and Text Mining&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;a href="https://github.com/biostatistical"&gt;biostatistical&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Biostatistics Repositories&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;&lt;a href="https://github.com/dataeducation"&gt;dataeducation&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Collection of Data Analysis Education Repositories&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;a
+href="https://github.com/genomicanalysis"&gt;genomicanalysis&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Gene Analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;&lt;a href="https://github.com/histopathology"&gt;histopathology&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Collection of Repositories related to Histopathology and Image
+Analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;a href="https://github.com/journalwatch"&gt;journalwatch&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Repositories for Pathology Journal Watch&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;&lt;a
+href="https://github.com/knowledgeextraction"&gt;knowledgeextraction&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Knowledge Discovery and Extraction from Text Data and Social
+Media&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td&gt;&lt;a href="https://github.com/seeranalysis"&gt;seeranalysis&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Repositories and Codes for SEER Analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td&gt;&lt;a
+href="https://github.com/statisticial-modelling-center"&gt;statisticial-modelling-center&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Model İstatistik Merkezi (Statistical Modelling Center)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
+      <distill:md5>d9c1f3c09f173ee4e717c6809e74b5f9</distill:md5>
       <category>RStats</category>
       <category>GitHub</category>
       <category>Collection</category>
       <guid>https://www.serdarbalci.com/posts/2020-11-02-github-repository-collections</guid>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

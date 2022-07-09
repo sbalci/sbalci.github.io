@@ -16,9 +16,23 @@ output:
 categories: [RStats, GitHub, Collection]
 ---
 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
+Update on 9 July 2022:
+
+Now GitHub has star collections, and it is easier:
+
+https://github.com/sbalci?tab=stars
+
+
+
+
+---
+
 
 I use [GitHub's organizations](https://github.com/settings/organizations) as a means to collect repositories. Please let me know if you have recommendations to add.
 
