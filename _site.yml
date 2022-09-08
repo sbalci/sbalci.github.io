@@ -132,9 +132,7 @@ navbar:
           href: https://www.linkedin.com/in/serdar-balci-md-pathologist/
         - text: OSF
           href: https://osf.io/msnux/
-        - text: Disqus
-          href: https://disqus.com/by/serdarbalci/favorites/
-        - icon: fab fa-chess-knight
+        - text: lichess
           href: https://lichess.org/@/sbalci
         - text: contact form
           href: https://drserdarbalci.wixsite.com/website
@@ -145,14 +143,10 @@ navbar:
       menu:
         - text: "Doç.Dr. Serdar Balcı Patoloji Uzmanı"
           href: https://g.page/r/CYdckvb9nlxOEAE
-          icon: fab fa-map
         - text: "patolojiAI"
           href: https://g.page/r/CeBm5WPEFRjnEAE       
-          icon: fab fa-map
         - text: "patolojiAI"
           href: https://www.patolojiai.com/
-          icon: fab fa-globe
-
 
     - icon: fa fa-rss
       href: index.xml
