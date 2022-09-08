@@ -106,9 +106,8 @@ navbar:
 
     - text: About
       menu:
-        - text: "Knowledge"
+        - text: Knowledge Panel
           href: https://www.google.com/search?kgmid=/g/11fkbdq2jb
-          icon: fab fa-info-circle
         - text: About Me
           href: card.html
 
@@ -132,7 +131,7 @@ navbar:
           href: https://www.linkedin.com/in/serdar-balci-md-pathologist/
         - text: OSF
           href: https://osf.io/msnux/
-        - text: "lichess"
+        - text: lichess
           href: https://lichess.org/@/sbalci
         - text: contact form
           href: https://drserdarbalci.wixsite.com/website
