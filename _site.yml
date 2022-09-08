@@ -108,6 +108,7 @@ navbar:
       menu:
         - text: "Knowledge Panel"
           href: https://www.google.com/search?kgmid=/g/11fkbdq2jb
+          icon: fab fa-info-circle
         - text: About Me
           href: card.html
 
@@ -144,10 +145,14 @@ navbar:
       menu:
         - text: "Doç.Dr. Serdar Balcı Patoloji Uzmanı"
           href: https://g.page/r/CYdckvb9nlxOEAE
+          icon: fab fa-map
         - text: "patolojiAI"
           href: https://g.page/r/CeBm5WPEFRjnEAE       
+          icon: fab fa-map
         - text: "patolojiAI"
           href: https://www.patolojiai.com/
+          icon: fab fa-globe
+
 
     - icon: fa fa-rss
       href: index.xml
