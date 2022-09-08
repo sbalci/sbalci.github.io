@@ -98,8 +98,6 @@ navbar:
           href: https://www.serdarbalci.com/MyRCodesForDataAnalysis/
         - text: Histopathology Research Template
           href: https://github.com/sbalci/histopathology-template
-        - text: lens2r
-          href: https://sbalci.github.io/lens2r/
 
         - text: software
         - text: "---"
@@ -108,8 +106,8 @@ navbar:
 
     - text: About
       menu:
-        - text: "patolojiAI"
-          href: https://www.patolojiai.com/
+        - text: "Knowledge Panel"
+          href: https://www.google.com/search?kgmid=/g/11fkbdq2jb
         - text: About Me
           href: card.html
 
@@ -141,6 +139,15 @@ navbar:
           href: https://drserdarbalci.wixsite.com/website
         - text: feedback form
           href: https://forms.gle/aHcHpLYvzZaQqoMy5
+
+    - text: "Business"
+      menu:
+        - text: "Doç.Dr. Serdar Balcı Patoloji Uzmanı"
+          href: https://g.page/r/CYdckvb9nlxOEAE
+        - text: "patolojiAI"
+          href: https://g.page/r/CeBm5WPEFRjnEAE       
+        - text: "patolojiAI"
+          href: https://www.patolojiai.com/
 
     - icon: fa fa-rss
       href: index.xml
