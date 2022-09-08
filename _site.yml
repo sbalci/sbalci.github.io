@@ -106,7 +106,7 @@ navbar:
 
     - text: About
       menu:
-        - text: "Knowledge Panel"
+        - text: Knowledge Panel
           href: https://www.google.com/search?kgmid=/g/11fkbdq2jb
           icon: fab fa-info-circle
         - text: About Me
@@ -126,7 +126,7 @@ navbar:
           href: https://www.instagram.com/balciserdar/
         - icon: fab fa-youtube
           href: https://www.youtube.com/c/SERDARBALCIMD
-        - icon: fab fa-globe
+        - icon: fab fa-map
           href: https://goo.gl/maps/er9WHy6EguG2
         - icon: fab fa-linkedin-in
           href: https://www.linkedin.com/in/serdar-balci-md-pathologist/
