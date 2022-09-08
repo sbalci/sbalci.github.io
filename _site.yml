@@ -125,10 +125,10 @@ navbar:
           href: https://www.instagram.com/balciserdar/
         - icon: fab fa-youtube
           href: https://www.youtube.com/c/SERDARBALCIMD
-        - icon: fab fa-map
-          href: https://goo.gl/maps/er9WHy6EguG2
         - icon: fab fa-linkedin-in
           href: https://www.linkedin.com/in/serdar-balci-md-pathologist/
+        - text: Local Guide
+          href: https://goo.gl/maps/er9WHy6EguG2
         - text: OSF
           href: https://osf.io/msnux/
         - text: lichess
