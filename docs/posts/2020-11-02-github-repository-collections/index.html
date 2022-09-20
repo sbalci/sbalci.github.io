@@ -809,6 +809,7 @@ d-title .dt-tags {
 d-article table.gt_table td,
 d-article table.gt_table th {
   border-bottom: none;
+  font-size: 100%;
 }
 
 .html-widget {
@@ -1881,15 +1882,21 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-        var fn = $(this).children()[0]
+      const citeChild = $(this).children()[0]
+      // Do not process if @xyz has been used without escaping and without bibliography activated
+      // https://github.com/rstudio/distill/issues/466
+      if (citeChild === undefined) return true
+
+      if (citeChild.nodeName == "D-FOOTNOTE") {
+        var fn = citeChild
         $(this).html(fn.shadowRoot.querySelector("sup"))
         $(this).id = fn.id
         fn.remove()
       }
       var refs = $(this).attr('data-cites').split(" ");
       var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
+        // Could use CSS.escape too here, we insure backward compatibility in navigator
+        return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
       }).join("\n");
       window.tippy(this, {
         allowHTML: true,
@@ -2474,7 +2481,6 @@ R packages
 <hr/>
 <a href="https://www.serdarbalci.com/MyRCodesForDataAnalysis/">My R Codes for Data Analysis</a>
 <a href="https://github.com/sbalci/histopathology-template">Histopathology Research Template</a>
-<a href="https://sbalci.github.io/lens2r/">lens2r</a>
 <span class="nav-dropdown-header">software</span>
 <hr/>
 <a href="https://sourceforge.net/u/serdarbalci/profile/">SourceForge</a>
@@ -2487,7 +2493,7 @@ About
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="https://www.patolojiai.com/">patolojiAI</a>
+<a href="https://www.google.com/search?kgmid=/g/11fkbdq2jb">Knowledge Panel</a>
 <a href="../../card.html">About Me</a>
 <span class="nav-dropdown-header">Social</span>
 <hr/>
@@ -2507,19 +2513,26 @@ About
 <a href="https://www.youtube.com/c/SERDARBALCIMD">
 <i class="fab fa-youtube" aria-hidden="true"></i>
 </a>
-<a href="https://goo.gl/maps/er9WHy6EguG2">
-<i class="fab fa-globe" aria-hidden="true"></i>
-</a>
 <a href="https://www.linkedin.com/in/serdar-balci-md-pathologist/">
 <i class="fab fa-linkedin-in" aria-hidden="true"></i>
 </a>
+<a href="https://goo.gl/maps/er9WHy6EguG2">Local Guide</a>
 <a href="https://osf.io/msnux/">OSF</a>
-<a href="https://disqus.com/by/serdarbalci/favorites/">Disqus</a>
-<a href="https://lichess.org/@/sbalci">
-<i class="fab fa-chess-knight" aria-hidden="true"></i>
-</a>
+<a href="https://lichess.org/@/sbalci">lichess</a>
 <a href="https://drserdarbalci.wixsite.com/website">contact form</a>
 <a href="https://forms.gle/aHcHpLYvzZaQqoMy5">feedback form</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Business
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="https://g.page/r/CYdckvb9nlxOEAE">Doç.Dr. Serdar Balcı Patoloji Uzmanı</a>
+<a href="https://g.page/r/CeBm5WPEFRjnEAE">patolojiAI</a>
+<a href="https://www.patolojiai.com/">patolojiAI</a>
 </div>
 </div>
 <a href="../../index.xml">
