@@ -1,7 +1,7 @@
 ---
 title: "Patoloji Atlası"
 description: |
-  Tüm yüzey taranmış (whole slide image) preparatlardan oluşan bir atlas.
+  Sosyal medya paylaşımlarından derlenen bir patoloji kitabı.
 author:
   - first_name: "Serdar"
     last_name: "Balci"
@@ -13,7 +13,7 @@ date: 2022-04-05
 output:
   distill::distill_article:
     self_contained: false
-categories: [patoloji, ders notları, patolojinotlari, patolojiatlasi]
+categories: [patoloji, ders notları, patolojinotlari]
 draft: true
 
 ---
