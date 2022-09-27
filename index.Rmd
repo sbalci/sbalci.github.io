@@ -22,8 +22,10 @@ listing: posts
     "https://github.com/sbalci",
     "https://www.parapathology.com",
     "https://www.patolojinotlari.com",
-    "https://www.patolojiai.com/",
-    "https://www.memorial.com.tr/doktorlar/serdar-balci"
+    "https://www.patolojiatlasi.com",
+    "https://www.patolojiai.com",
+    "https://www.memorial.com.tr/doktorlar/serdar-balci",
+    "https://www.google.com/search?kgmid=/g/11fkbdq2jb"
   ]
 }
 </script>
