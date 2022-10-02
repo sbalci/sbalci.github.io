@@ -1,0 +1,68 @@
+---
+title: "Dijital Patoloji Hakkında"
+description: |
+  Dijital Patoloji Hakkında / Dijital Patolojiye Dair
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: 2022-10-02
+doi: "10.17605/OSF.IO/9345U"
+slug: "dijital-patoloji-hakkinda"
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [patoloji, dijital patoloji, patolojinin geleceği]
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7135447.svg)](https://doi.org/10.5281/zenodo.7135447) 
+
+https://doi.org/10.5281/zenodo.7135447
+
+[DOI: 10.17605/OSF.IO/9345U](https://osf.io/9345u/)
+
+
+## Dijital Patoloji nedir?
+
+Dijital patolojiyi patoloji incelemesinde kullanılan preparatların yüksek çözünürlükte taranarak bilgisayar ortamına aktarılması ve bu görüntülerin iletilme ve işlenme süreci olarak tanımlayabiliriz.
+
+## Dijital patoloji hangi alanlarda kullanılır?
+
+Dijital patoloji ilk etapta araştırma ve eğitim amacıyla kullanılmaya başlanmış, daha sonra uzak merkezlerdeki uzman patologlara vaka danışmada (konsültasyon) ve frozenda (ameliyat sırasında hızlı tanı) yerini almıştır. Bir hastanın ilk tanısı için mikroskop yerine kullanımı yakın zamanda ABD ve Avrupa’da onaylandığından, şu an rutin işleyişte de yer almaktadır. Özellikle pandeminin getirdiği uzaktan çalışma zorunluluğu dijital patolojinin gelişmesi için hızlandırıcı bir etken olmuştur.
+
+## Dijital patoloji kullanımı ne kadar yaygındır?
+
+Aslında ameliyatta alınan dokuların makroskopik görüntülerinin, endoskopik görüntülerin ve mikroskopla çekilen fotoğrafların işlenmesi üzerinde uzun zamandır devam eden morfometrik çalışmalar dijital patolojinin başlangıcı sayılabileceğinden, dijital patolojinin bilinen ve oldukça yaygın kullanım alanı olduğunu söyleyebiliriz. Ancak hasta tanısı için ilk etapta mikroskop yerine kullanımı henüz daha yeni olduğundan, bu amaçla kullanılan dijital patoloji daha çok büyük laboratuvar ve üniversite hastaneleri ile sınırlıdır.
+
+## Dijital patoloji hastalık tanısında kullanılır mı?
+
+Dijital patoloji, hastalıkların tanısına yardımcı özelliklerin tespit edilmesinde yaygın olarak kullanılmaktadır. Karaciğer yağlanmasının ölçülmesi, tümör büyüklüğünün ve derinliğinin ölçülmesi, tümörün cerrahi sınırlara olan uzaklıklarının tespiti, tümör ile çevre dokunun ayrılması ve immünohistokimyasal belirteçlerin sayısal olarak doğru raporlanması gibi alanlarda geliştirilmiş yazılım ve karar destek sistemleri mevcuttur.
+
+Sitolojik örneklerin patolog tarafından incelenmesinden önce ilk değerlendirmesini yapan yapay zeka algoritmaları klinik pratikte yer bulmaya başlamıştır. Prostat iğne biyopsilerinin ve meme biyopsilerinin de yapay zeka ile ön incelemeden geçirilmesi ve şüpheli alanların işaretlenmesi yakın zamanda rutin kullanım için onaylanmıştır. Google gibi büyük yazılım firmaları lenf düğümlerindeki küçük metastazların tespiti konusunda önemli çalışmalar yapmaktadırlar. 
+
+## Karar destek sistemleri nasıl geliştiriliyor?
+
+Daha önce tanı almış onbinlerce olgunun görüntüleri ve tanıları yapay zeka (artificial intelligence) ve makina öğrenmesi (machine learning) algoritmaları ile işlenmektedir. Bu şekilde ‘öğrenen’ algoritma yeni gelen olgunun tanısında ya da özelliklerinin tespitinde kullanılmaktadır.
+
+## Yapay zekanın, yani bir makinanın verdiği tanıya güvenebilir miyiz?
+
+Dijital patolojiye ve genel olarak yapay zekaya yöneltilen en büyük eleştiri algoritmaların genelde ‘kapalı kutu’ (black box) şeklinde olmasıdır. Şüpheli bir alanın tespit edildiğinde bu alanın neden şüpheli olduğunu bu algoritmalar açıklayamamaktadır. Ancak bu durum insan beyni için de geçerlidir (araç kullanırken, ya da yemek yerken yaptığımız her hareketi açıklayamayışımız gibi).
+
+Eksiklik gibi görünen bu durum aslında yeni tanı yöntemleri geliştirilmesine olanak tanımakta ve patologların kendilerini de geliştirmelerine katkı sağlamaktadır. Bu durumu Go ve satranç oyuncularının kendilerini yapay zeka ile geliştirmelerine benzetebiliriz.
+
+Benzer şekilde yapay zekanın yaptığı hatalar patologlar tarafından tespit edilmekte (kanama pigmenti ile immünohistokimyasal incelemelerin karıştırılması gibi) ve algoritmalar güçlendirilmektedir.
+
+Açıklanabilir yapay zeka konusunda da araştırma ve geliştirme çalışmaları çok hızlı bir şekilde devam etmektedir.
+
+## Dijital patoloji patologların yerini mi alacak?
+
+Geliştirilen her yeni teknolojide sorulan ilk sorulardan birisi de makinaların insanların yerini alacağı konusundaki endişelerdir. Bu konu spekülasyona açık olmakla birlikte uzmanların öngörüleri ‘dijital patolojiyi etkin kullanabilen patologların’ diğer patologların yerini alacağı ve dijital patolojinin rutin kullanıldığı ve geliştirildiği laboratuvarların diğer laboratuvarlara önderlik edeceği yönündedir.

@@ -23,3 +23,98 @@ https://g.page/r/CeBm5WPEFRjnEAE
 
 Doç. Dr. Serdar Balcı Patoloji Uzmanı
 https://g.page/r/CYdckvb9nlxOEAE
+
+
+
+
+      <style>
+        .libutton {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 7px;
+          text-align: center;
+          outline: none;
+          text-decoration: none !important;
+          color: #ffffff !important;
+          width: 200px;
+          height: 32px;
+          border-radius: 16px;
+          background-color: #0A66C2;
+          font-family: "SF Pro Text", Helvetica, sans-serif;
+        }
+      </style>
+<a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=serdar-balci-md-pathologist" target="_blank">Follow on LinkedIn</a>
+
+
+
+<hr/>
+
+
+
+
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fserdarbalcimdpathologist%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+
+<hr/>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-page" data-href="https://www.facebook.com/serdarbalcimdpathologist/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/serdarbalcimdpathologist/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/serdarbalcimdpathologist/">Serdar Balcı MD Pathologist</a></blockquote></div>
+
+
+<hr/>
+
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="tr_TR" data-type="vertical" data-theme="dark" data-vanity="serdar-balci-md-pathologist"><a class="LI-simple-link" href='https://tr.linkedin.com/in/serdar-balci-md-pathologist?trk=profile-badge'>Serdar Balcı</a></div>
+
+
+<hr/>
+
+
+
+<a class="twitter-timeline" data-height="800" href="https://twitter.com/serdarbalci?ref_src=twsrc%5Etfw">Tweets by serdarbalci</a> <script async="async" src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
+
+
+
+
+<hr/>
+
+
+
+
+<script src='//scholarometer.indiana.edu/Widget/SMWidget.js'></script>
+<div id='scholarometer-widget' data-gid='q40DcqYAAAAJ' data-max-disciplines='5'></div>
+
+
+<hr/>
+
+
+
+<a title="Follow me on ResearchGate" href="https://www.researchgate.net/profile/Serdar_Balci?cp=shp" target="_blank"><img src="https://www.researchgate.net/images/public/profile_share_badge.png" alt="Follow me on ResearchGate" /></a>
+
+
+<hr/>
+
+<span id="badgeCont590"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont590&rid=B-6401-2011&size=small"></script></span>
+
+
+<hr/>
+
+<span id="badgeCont495"><script type="text/javascript" src="https://publons.com/mashlets?el=badgeCont495&rid=B-6401-2011"></script></span>
+
+
+
+
+
+<hr/>
