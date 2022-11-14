@@ -1,0 +1,144 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+gotop::use_gotop(
+  src = "fas fa-chevron-circle-up", # css class from Font Awesome
+  color = "tomato", # color
+  opacity = 0.8, # transparency
+  width = 30, # size
+  # appear = 100 # number of pixels before appearance
+  appear = 0
+  )
+```
+
+
+
+<br>
+
+<aside>
+<a class="twitter-follow-button" data-show-count="false"
+  href="https://twitter.com/serdarbalci">Follow @serdarbalci</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</aside>
+
+
+
+
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sbalci/)  
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/sbalci)  
+[![HitCount](http://hits.dwyl.io/sbalci/sbalci.github.io.svg)](http://hits.dwyl.io/sbalci/sbalci.github.io)  
+
+
+
+
+### scholarometer{#scholarometer}
+
+<aside>
+<script src='//scholarometer.indiana.edu/Widget/SMWidget.js'></script><div id='scholarometer-widget' data-gid='q40DcqYAAAAJ' data-max-disciplines='4'></div>
+</aside>
+
+### beamplot {#beamplot}
+
+<aside>
+```{r beamplot, echo=FALSE, cache=TRUE}
+# BibPlots::beamplot(
+#   wos_file = "~/PubMed/data/BalciSerdar-B-6401-2011-WOS-OnlyArticles.txt",
+#   do_weight = FALSE
+# )
+```
+</aside>
+
+
+### Atıfların özellikleri scite.ai 'ye göre {#scite}
+
+
+
+```{r load library, include=FALSE, cache=TRUE}
+suppressPackageStartupMessages(library("tidyverse"))
+suppressPackageStartupMessages(library("rjson"))
+suppressPackageStartupMessages(library("magicfor"))
+```
+
+
+```{r read DOI, include=FALSE, cache=TRUE}
+# myDOI <- readr::read_csv(here::here("cv/data/BalciSdoi.txt"), col_names = "DOI", col_types = "c")
+```
+
+
+```{r add api code, eval=FALSE, cache=TRUE, include=FALSE}
+myDOI <- myDOI %>%
+  mutate(apitallies = paste0("https://api.scite.ai/tallies/", DOI)) %>%
+  mutate(apipapers = paste0("https://api.scite.ai/papers/", DOI)) %>%
+  mutate(reportpages = paste0("https://scite.ai/reports/", DOI)) %>%
+  rownames_to_column()
+```
+
+
+```{r get json data, eval=FALSE, cache=TRUE, include=FALSE}
+magicfor::magic_for(silent = TRUE)
+json_data <- for (i in 1:(dim(myDOI)[1] - 1)) {
+  json_name <- paste0("Article", myDOI$rowname[i])
+  json_data <- rjson::fromJSON(file = myDOI$apitallies[i])
+  Sys.sleep(1)
+  put(json_name, json_data)
+}
+jsonDF <- magicfor::magic_result_as_dataframe()
+magicfor::magic_free()
+
+jsonDF <- dplyr::bind_rows(jsonDF$json_data, .id = "meta_information")
+```
+
+
+
+```{r ggplot, eval=FALSE, cache=TRUE, include=FALSE}
+df <- jsonDF %>%
+  filter(total > 0) %>%
+  select(
+    doi,
+    contradicting,
+    mentioning,
+    supporting,
+    unclassified
+  ) %>%
+  gather(key = feature, value = number, -doi)
+
+suppressPackageStartupMessages(library(ggplot2))
+
+ggplot(data = df) +
+  aes(x = doi, fill = feature, color = feature, weight = number) +
+  geom_bar(position = "fill") +
+  labs(
+    x = "DOI",
+    y = "Percentage Of Article Citation Features"
+  ) +
+  theme_minimal() +
+  coord_flip()
+```
+
+
+# Scholar Connections {#scholar-connections}
+
+#### Download to view the interactive graph {#vosviewer}
+
+http://www.vosviewer.com/vosviewer.php?map=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewermap.txt&network=https://raw.githubusercontent.com/sbalci/sbalci.github.io/master/cv/data/VOSviewerNetwork.txt
+
+
+#### Connections {#vosviewer1}
+
+![](figures/VOSviewer-CV.png)
+
+#### Connections With Years {#vosviewer2}
+
+
+![](figures/VOSviewerOverlay-CV.png)
+
+#### Connections Density {#vosviewer3}
+
+
+![](figures/VOSviewerDensity-CV.png)
+
+
