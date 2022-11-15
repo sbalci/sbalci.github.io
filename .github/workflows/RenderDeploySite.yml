@@ -17,8 +17,6 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@v2
 
-      - uses: r-lib/actions/setup-r-dependencies@v2
-
       - name: Install dependencies
         run: |
           if (!requireNamespace("rmarkdown", quietly = TRUE)) install.packages("rmarkdown", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
