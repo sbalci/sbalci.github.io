@@ -120,7 +120,7 @@ navbar:
         - icon: fab fa-twitter
           href: https://twitter.com/serdarbalci/
         - icon: fab fa-mastodon
-          href: https://mastodon.social/@serdarbalci
+          href: /social/mastodon.html
         - icon: fab fa-facebook
           href: https://www.facebook.com/serdarbalcimdpathologist/
         - icon: fab fa-instagram

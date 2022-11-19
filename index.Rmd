@@ -19,6 +19,7 @@ listing: posts
     "https://www.instagram.com/balciserdar/",
     "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
     "https://twitter.com/serdarbalci",
+    "https://mastodon.social/@serdarbalci",
     "https://github.com/sbalci",
     "https://www.parapathology.com",
     "https://www.patolojinotlari.com",
