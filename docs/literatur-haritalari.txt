@@ -1,1 +1,34 @@
-jamovi zip file blog
+Literatüre farklı bakış yolları: Haritalar
+
+Open Knowledge Maps
+
+Litmaps
+
+connectedpapers
+
+Scite.ai
+
+Lens.org
+
+semanticscholar
+
+https://researchrabbitapp.com/home
+
+
+Özetleme pluginleri
+
+    Dimensions
+
+    Vosviewer
+
+    Citespace
+
+    Google Scholar
+
+    PublishorPerish
+
+    ORCID
+
+    Publons
+
+    PAFT
