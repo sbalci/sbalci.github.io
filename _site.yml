@@ -121,6 +121,8 @@ navbar:
           href: https://twitter.com/serdarbalci/
         - icon: fab fa-mastodon
           href: /social/mastodon.html
+        - text: post news
+          href: https://post.news/serdarbalci
         - icon: fab fa-facebook
           href: https://www.facebook.com/serdarbalcimdpathologist/
         - icon: fab fa-instagram
