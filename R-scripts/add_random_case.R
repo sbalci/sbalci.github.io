@@ -1,3 +1,5 @@
+`%>%` <- magrittr:::`%>%`
+
 
 case_list <-
   jsonlite::fromJSON(txt = "https://www.patolojiatlasi.com/search.json",
@@ -47,29 +49,40 @@ caselink <-
 
 
 random_case_string <- glue::glue(
-  "---",
+  "<hr>",
   "
 <br>
 <br>
 <br>
 ",
-"\n",
-"\n",
 "{casetitle}",
 ": ",
 "{casesection}",
-"\n",
-"\n",
-"<iframe src='{caselink}' style='height:400px;width:100%;' data-external='1'></iframe>",
-"\n",
-"\n",
-"<https://www.patolojiatlasi.com/{random_case$href}>",
-"\n",
-"\n",
+"<br>
+<br>
+<br>",
+"<iframe src='{caselink}' style='width:200px;' data-external='1'></iframe>",
+"<br>
+<br>
+<br>",
+"<a href = 'https://www.patolojiatlasi.com/{random_case$href}' target = '_blank'>https://www.patolojiatlasi.com/{random_case$href}</a>",
+"<br>
+<br>
+<br>",
 .sep = ""
 )
 
 
 readr::write_lines(x = random_case_string,
-                   file = "./custom_2.html",)
+                   file = "./_custom_2.html")
+
+
+custom_1_html <- readLines(con = "./_custom_1.html")
+
+
+custom_html <- c(custom_1_html, random_case_string)
+
+
+readr::write_lines(x = custom_html,
+                   file = "./_custom.html",)
 
