@@ -2,8 +2,7 @@
 phone: "+90 533-447-2096"
 email: "serdar.balci@memorial.com.tr"
 url: | 
-  https://www.memorial.com.tr/
-  doktorlar/serdar-balci
+  https://www.memorial.com.tr/doktorlar/serdar-balci-k
 address: |
   @MemorialSaglik
 logo: "img/memorial-logo.jpg"
@@ -12,7 +11,7 @@ person:
     title: MD, Pathologist, Assoc.Prof of Pathology
     repeat: 12
     # email: serdar.balci@memorial.com.tr
-    # url: https://www.memorial.com.tr/doktorlar/serdar-balci
+    # url: https://www.memorial.com.tr/doktorlar/serdar-balci-k
 googlefonts: "Roboto Mono" # feel free to try other fonts at https://fonts.google.com
 paperwidth: 8.5in
 paperheight: 11in

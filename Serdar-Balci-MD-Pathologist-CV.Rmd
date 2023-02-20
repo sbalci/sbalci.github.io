@@ -31,7 +31,7 @@ output:
     "https://www.parapathology.com",
     "https://www.patolojinotlari.com",
     "https://www.patolojiai.com/",
-    "https://www.memorial.com.tr/doktorlar/serdar-balci"
+    "https://www.memorial.com.tr/doktorlar/serdar-balci-k"
   ]
 }
 </script></div>
@@ -154,7 +154,7 @@ https://openknowledgemaps.org/community
 - https://www.parapathology.com
 - https://www.patolojinotlari.com
 - https://www.patolojiai.com/
-- https://www.memorial.com.tr/doktorlar/serdar-balci
+- https://www.memorial.com.tr/doktorlar/serdar-balci-k
 
 
 # Eğitim {#education}

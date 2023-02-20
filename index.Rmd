@@ -25,7 +25,7 @@ listing: posts
     "https://www.patolojinotlari.com",
     "https://www.patolojiatlasi.com",
     "https://www.patolojiai.com",
-    "https://www.memorial.com.tr/doktorlar/serdar-balci",
+    "https://www.memorial.com.tr/doktorlar/serdar-balci-k",
     "https://www.google.com/search?kgmid=/g/11fkbdq2jb"
   ]
 }
