@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir/",
+    "title": "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?",
+    "description": "Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.",
+    "author": [
+      {
+        "name": "Serdar Balci",
+        "url": "https://github.com/sbalci"
+      }
+    ],
+    "date": "2023-02-28",
+    "categories": [],
+    "contents": "\r\nÖnümüzdeki haftalarda bir toplantı serisine başlayacağız. İlk konumuz “Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?” Bu konuda beklentilerinizi paylaşır mısınız: https://forms.gle/qhQ7aGpdC6Pn7f1c9\r\n\r\nLoading…\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-02-28T10:17:24+03:00",
+    "input_file": "patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir.knit.md"
+  },
+  {
     "path": "posts/molekuler-patoloji-hakkinda/",
     "title": "Moleküler Patoloji Hakkında",
     "description": "Moleküler Patoloji Hakkında / Moleküler Patolojiye Dair",

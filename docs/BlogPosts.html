@@ -2529,141 +2529,156 @@ Business
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 <!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
 
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Blog Posts">Blog Posts</h1>
+<a href="posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 27, 2023</div>
+<div class="dt-authors">
+<div class="dt-author">Serdar Balci</div>
+</div>
+</div>
+<div class="thumbnail"></div>
+<div class="description">
+<h2>Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?</h2>
+<div class="dt-tags"></div>
+<p>Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.</p>
+</div>
+</a>
 <a href="posts/molekuler-patoloji-hakkinda/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["patoloji","moleküler patoloji","patolojinin geleceği"]}</script>
 <div class="metadata">
@@ -2820,289 +2835,289 @@ function init_posts_list() {
 </a>
 </div>
 <div class="posts-sidebar">
-<div><div class="sidebar-section custom">
-  <h3>Hakkımda</h3>
-  <b>Serdar Balcı</b><br />
-  <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br />
-2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi  alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite  kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
-  <hr />
-
-
-<a href="/patolojinotlari/"><img src = "img/patoloji-notlari.png" width="200px"></a>
-
-
-<hr/>
-
-
-<a href="/patolojiatlasi/"><img src = "img/patoloji-atlasi.png" width="200px"></a>
-
-<hr/>
-
-
-  <h3>Patoloji Atlası</h3>
-
-<a href = "/patolojiatlasi/">Patoloji Atlası</a>
-<br>
-
-<iframe width='160' height='400' src='https://leanpub.com/patolojiatlasi/embed' frameborder='0' allowtransparency='true'></iframe>
-
-<hr/>
-
-
-  <h3>List of Projects</h3>
-<a href="https://github.com/patolojiAI/LOP"> http://lop.patolojiAI.com</a>
-
-
-<hr/>
-
-
-
-  <h3>List For My Daily Visits</h3>
-
-  <details>
-    <summary>Educational</summary>
-    <a href="http://www.cbioportal.org/" target="_blank">cBioPortal</a>
-    <br />
-    <a
-      href="https://www.coursera.org/learn/data-genes-medicine/"
-      target="_blank"
-      >Data Genes Medicine</a
-    >
-    <br />
-    <a
-      href="https://learning.edx.org/course/course-v1:HarvardX+PH525.5x+2T2018/home"
-      target="_blank"
-      >Bioconductor</a
-    >
-    <br />
-    <a
-      href="https://www.coursera.org/learn/galaxy-project/home/welcome"
-      target="_blank"
-      >Galaxy</a
-    >
-    <br />
-    <a
-      href="https://www.coursera.org/learn/dna-analysis/home/welcome"
-      target="_blank"
-      >Bioinformatics and Computational Biology</a
-    >
-    <br />
-    <a
-      href="https://learning.edx.org/course/course-v1:UCSanDiegoX+CSE181.1x+1T2017/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@sequential+block@ac6339babf6c462dae4af6ace76aad28/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@vertical+block@ece64430a491452386214aad3802467b"
-      target="_blank"
-      >Genomic Data Science</a
-    >
-    <br />
-    <a
-      href="https://learning.edx.org/course/course-v1:USMx+BIF003x+3T2016/home"
-      target="_blank"
-      >Statistical Analysis in Bioinformatics</a
-    >
-    <br />
-    <a
-      href="https://learning.edx.org/course/course-v1:EPFLx+IPA4LSx+3T2018/home"
-      target="_blank"
-      >Image Processing</a
-    >
-    <br />
-    <a
-      href="https://learning.edx.org/course/course-v1:EPFLx+NiC1.0x+3T2016/home"
-      target="_blank"
-      >Biology in JavaScript</a
-    >
-    <br />
-    <a href="https://qupath.readthedocs.io/en/stable/" target="_blank"
-      >QuPath</a
-    >
-    <br />
-    <a href="https://orangedatamining.com/docs/" target="_blank">Orange</a>
-    <br />
-    <a href="https://digitalpathologysociety.org/" target="_blank">DPS</a>
-    <br />
-    <a
-      href="https://digitalpathologyassociation.org/past-webinar-presentations"
-      target="_blank"
-      >DPA-Webinars</a
-    >
-    <br />
-    <a href="https://elearning.uscap.org/" target="_blank">USCAP-Courses</a>
-    <br />
-    <a
-      href="https://www.esp-pathology.org/educational-portal.html"
-      target="_blank"
-      >ESP</a
-    >
-  </details>
-
-  <details>
-    <summary>Ongoing Projects</summary>
-    <!-- <a href="https://memorialpath.github.io/" target="_blank"
-      >Memorial Patoloji İstatistikler</a
-    >
-    <br /> -->
-    <a href="/patolojinotlari/" target="_blank"
-      >Patoloji Notları</a
-    >
-    <br />
-    <a href="/parapathology/" target="_blank">(Para)Pathology</a>
-    <br />
-    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
-      >MyRCodes</a
-    >
-    <br />
-    <a href="https://github.com/PathologyWeb" target="_blank">PathologyWeb</a>
-    <br />
-    <a href="https://pathologyweb.github.io/patolojiraporlari/" target="_blank"
-      >Patoloji Raporlari</a
-    >
-  </details>
-
-  <details>
-    <summary>Pathology</summary>
-    <a href="https://tumourclassification.iarc.who.int/welcome/" target="_blank"
-      >WHO Blue Books</a
-    >
-    <br />
-    <a
-      href="https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
-      target="_blank"
-      >CAP Cancer Protocol</a
-    >
-    <br />
-    <a href="https://journals.lww.com/ajsp/pages/default.aspx" target="_blank"
-      >AJSP</a
-    >
-    <br />
-    <a href="https://www.nature.com/modpathol/" target="_blank"
-      >Modern Pathology</a
-    >
-    <br />
-    <a href="https://www.nature.com/labinvest/" target="_blank"
-      >Laboratory Investigation</a
-    >
-    <br />
-    <a
-      href="https://www.sciencedirect.com/journal/seminars-in-diagnostic-pathology"
-      target="_blank"
-      >Seminars in Diagnostic Pathology</a
-    >
-    <br />
-    <a
-      href="https://www.sciencedirect.com/journal/surgical-pathology-clinics"
-      target="_blank"
-      >Surgical Pathology Clinics</a
-    >
-  </details>
-
-  <details>
-    <summary>Digital Pathology</summary>
-    <a href="https://digitalpathologyassociation.org/" target="_blank"
-      >Digital Pathology Association</a
-    >
-    <br />
-    <a href="https://digitalpathologysociety.org/" target="_blank"
-      >Digital Pathology Society</a
-    >
-    <br />
-    <a href="https://qupath.github.io/" target="_blank">QuPath</a>
-    <br />
-    <a href="https://imagej.github.io/" target="_blank">ImageJ</a>
-  </details>
-
-  <details>
-    <summary>R-project</summary>
-    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
-      >MyRCodes</a
-    >
-    <br />
-    <a href="https://www.r-bloggers.com/" target="_blank">R-bloggers</a>
-    <br />
-    <a href="https://rweekly.org/" target="_blank">R-weekly</a>
-  </details>
-
-  <details>
-    <summary>jamovi</summary>
-    <a href="https://www.jamovi.org/download.html" target="_blank">releases</a>
-    <br />
-    <a href="https://forum.jamovi.org/" target="_blank">forum</a>
-    <br />
-    <a
-      href="https://dev.jamovi.org/tuts0101-getting-started.html"
-      target="_blank"
-      >development</a
-    >
-    <br />
-    <a
-      href="https://www.jamovi.org/downloads/jamovi-unsigned.zip"
-      target="_blank"
-      >dev version</a
-    >
-  </details>
-
-  <details>
-    <summary>Pages</summary>
-    <a href="https://www.patolojiai.com/" target="_blank">patolojiAI</a>
-    <br />
-    <a href="https://pbpath.org/" target="_blank">PBPath</a>
-    <br />
-    <a href="https://www.drozlembalci.com/" target="_blank">drozlembalci</a>
-    <br />
-    <!--
-    <a href="https://memorialpath.github.io/" target="_blank"
-      >Memorial Patoloji İstatistikler</a
-    >
-    <br /> -->
-    <a href="/patolojinotlari/" target="_blank"
-      >Patoloji Notları</a
-    >
-    <br />
-    <a href="/parapathology/" target="_blank">(Para)Pathology</a>
-  </details>
-  <hr />
-</div>
-<div itemscope="" itemtype="https://schema.org/Person">
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "Serdar Balcı",
-      "url": "https://www.serdarbalci.com/",
-      "jobTitle": "MD, Pathologist",
-      "sameAs": [
-        "https://www.facebook.com/serdarbalcimd",
-        "https://www.facebook.com/serdarbalcimdpathologist/",
-        "https://www.instagram.com/balciserdar/",
-        "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
-        "https://twitter.com/serdarbalci",
-        "https://mastodon.social/@serdarbalci",
-        "https://github.com/sbalci",
-        "https://www.parapathology.com",
-        "https://www.patolojinotlari.com",
-        "https://www.patolojiai.com/",
-        "https://www.memorial.com.tr/doktorlar/serdar-balci",
-        "https://www.google.com/search?kgmid=/g/11fkbdq2jb"
-      ]
-    }
-  </script>
-</div>
-<hr>
-<br>
-<br>
-<br>
-Tamir Mekanizmaları: Keloid - Skar<br>
-<br>
-<br><iframe src='https://images.patolojiatlasi.com/keloid-scar/HE.html' style='width:200px;' data-external='1'></iframe><br>
-<br>
-<br><a href = 'https://www.patolojiatlasi.com/tamir.html#keloid---skar' target = '_blank'>https://www.patolojiatlasi.com/tamir.html#keloid---skar</a><br>
-<br>
-<br>
+<div><div class="sidebar-section custom">
+  <h3>Hakkımda</h3>
+  <b>Serdar Balcı</b><br />
+  <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br />
+2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi'nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD'de Emory Üniversitesi'nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi  alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite  kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.
+  <hr />
+
+
+<a href="/patolojinotlari/"><img src = "./img/patoloji-notlari.png" width="200px"></a>
+
+
+<hr/>
+
+
+<a href="/patolojiatlasi/"><img src = "./img/patoloji-atlasi.png" width="200px"></a>
+
+<hr/>
+
+
+  <h3>Patoloji Atlası</h3>
+
+<a href = "/patolojiatlasi/">Patoloji Atlası</a>
+<br>
+
+<iframe width='160' height='400' src='https://leanpub.com/patolojiatlasi/embed' frameborder='0' allowtransparency='true'></iframe>
+
+<hr/>
+
+
+  <h3>List of Projects</h3>
+<a href="https://github.com/patolojiAI/LOP"> http://lop.patolojiAI.com</a>
+
+
+<hr/>
+
+
+
+  <h3>List For My Daily Visits</h3>
+
+  <details>
+    <summary>Educational</summary>
+    <a href="http://www.cbioportal.org/" target="_blank">cBioPortal</a>
+    <br />
+    <a
+      href="https://www.coursera.org/learn/data-genes-medicine/"
+      target="_blank"
+      >Data Genes Medicine</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:HarvardX+PH525.5x+2T2018/home"
+      target="_blank"
+      >Bioconductor</a
+    >
+    <br />
+    <a
+      href="https://www.coursera.org/learn/galaxy-project/home/welcome"
+      target="_blank"
+      >Galaxy</a
+    >
+    <br />
+    <a
+      href="https://www.coursera.org/learn/dna-analysis/home/welcome"
+      target="_blank"
+      >Bioinformatics and Computational Biology</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:UCSanDiegoX+CSE181.1x+1T2017/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@sequential+block@ac6339babf6c462dae4af6ace76aad28/block-v1:UCSanDiegoX+CSE181.1x+1T2017+type@vertical+block@ece64430a491452386214aad3802467b"
+      target="_blank"
+      >Genomic Data Science</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:USMx+BIF003x+3T2016/home"
+      target="_blank"
+      >Statistical Analysis in Bioinformatics</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:EPFLx+IPA4LSx+3T2018/home"
+      target="_blank"
+      >Image Processing</a
+    >
+    <br />
+    <a
+      href="https://learning.edx.org/course/course-v1:EPFLx+NiC1.0x+3T2016/home"
+      target="_blank"
+      >Biology in JavaScript</a
+    >
+    <br />
+    <a href="https://qupath.readthedocs.io/en/stable/" target="_blank"
+      >QuPath</a
+    >
+    <br />
+    <a href="https://orangedatamining.com/docs/" target="_blank">Orange</a>
+    <br />
+    <a href="https://digitalpathologysociety.org/" target="_blank">DPS</a>
+    <br />
+    <a
+      href="https://digitalpathologyassociation.org/past-webinar-presentations"
+      target="_blank"
+      >DPA-Webinars</a
+    >
+    <br />
+    <a href="https://elearning.uscap.org/" target="_blank">USCAP-Courses</a>
+    <br />
+    <a
+      href="https://www.esp-pathology.org/educational-portal.html"
+      target="_blank"
+      >ESP</a
+    >
+  </details>
+
+  <details>
+    <summary>Ongoing Projects</summary>
+    <!-- <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br /> -->
+    <a href="/patolojinotlari/" target="_blank"
+      >Patoloji Notları</a
+    >
+    <br />
+    <a href="/parapathology/" target="_blank">(Para)Pathology</a>
+    <br />
+    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
+      >MyRCodes</a
+    >
+    <br />
+    <a href="https://github.com/PathologyWeb" target="_blank">PathologyWeb</a>
+    <br />
+    <a href="https://pathologyweb.github.io/patolojiraporlari/" target="_blank"
+      >Patoloji Raporlari</a
+    >
+  </details>
+
+  <details>
+    <summary>Pathology</summary>
+    <a href="https://tumourclassification.iarc.who.int/welcome/" target="_blank"
+      >WHO Blue Books</a
+    >
+    <br />
+    <a
+      href="https://www.cap.org/protocols-and-guidelines/cancer-reporting-tools/cancer-protocol-templates"
+      target="_blank"
+      >CAP Cancer Protocol</a
+    >
+    <br />
+    <a href="https://journals.lww.com/ajsp/pages/default.aspx" target="_blank"
+      >AJSP</a
+    >
+    <br />
+    <a href="https://www.nature.com/modpathol/" target="_blank"
+      >Modern Pathology</a
+    >
+    <br />
+    <a href="https://www.nature.com/labinvest/" target="_blank"
+      >Laboratory Investigation</a
+    >
+    <br />
+    <a
+      href="https://www.sciencedirect.com/journal/seminars-in-diagnostic-pathology"
+      target="_blank"
+      >Seminars in Diagnostic Pathology</a
+    >
+    <br />
+    <a
+      href="https://www.sciencedirect.com/journal/surgical-pathology-clinics"
+      target="_blank"
+      >Surgical Pathology Clinics</a
+    >
+  </details>
+
+  <details>
+    <summary>Digital Pathology</summary>
+    <a href="https://digitalpathologyassociation.org/" target="_blank"
+      >Digital Pathology Association</a
+    >
+    <br />
+    <a href="https://digitalpathologysociety.org/" target="_blank"
+      >Digital Pathology Society</a
+    >
+    <br />
+    <a href="https://qupath.github.io/" target="_blank">QuPath</a>
+    <br />
+    <a href="https://imagej.github.io/" target="_blank">ImageJ</a>
+  </details>
+
+  <details>
+    <summary>R-project</summary>
+    <a href="https://github.com/sbalci/MyRCodesForDataAnalysis" target="_blank"
+      >MyRCodes</a
+    >
+    <br />
+    <a href="https://www.r-bloggers.com/" target="_blank">R-bloggers</a>
+    <br />
+    <a href="https://rweekly.org/" target="_blank">R-weekly</a>
+  </details>
+
+  <details>
+    <summary>jamovi</summary>
+    <a href="https://www.jamovi.org/download.html" target="_blank">releases</a>
+    <br />
+    <a href="https://forum.jamovi.org/" target="_blank">forum</a>
+    <br />
+    <a
+      href="https://dev.jamovi.org/tuts0101-getting-started.html"
+      target="_blank"
+      >development</a
+    >
+    <br />
+    <a
+      href="https://www.jamovi.org/downloads/jamovi-unsigned.zip"
+      target="_blank"
+      >dev version</a
+    >
+  </details>
+
+  <details>
+    <summary>Pages</summary>
+    <a href="https://www.patolojiai.com/" target="_blank">patolojiAI</a>
+    <br />
+    <a href="https://pbpath.org/" target="_blank">PBPath</a>
+    <br />
+    <a href="https://www.drozlembalci.com/" target="_blank">drozlembalci</a>
+    <br />
+    <!--
+    <a href="https://memorialpath.github.io/" target="_blank"
+      >Memorial Patoloji İstatistikler</a
+    >
+    <br /> -->
+    <a href="/patolojinotlari/" target="_blank"
+      >Patoloji Notları</a
+    >
+    <br />
+    <a href="/parapathology/" target="_blank">(Para)Pathology</a>
+  </details>
+  <hr />
+</div>
+<div itemscope="" itemtype="https://schema.org/Person">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Serdar Balcı",
+      "url": "https://www.serdarbalci.com/",
+      "jobTitle": "MD, Pathologist",
+      "sameAs": [
+        "https://www.facebook.com/serdarbalcimd",
+        "https://www.facebook.com/serdarbalcimdpathologist/",
+        "https://www.instagram.com/balciserdar/",
+        "https://www.linkedin.com/in/serdar-balci-md-pathologist/",
+        "https://twitter.com/serdarbalci",
+        "https://mastodon.social/@serdarbalci",
+        "https://github.com/sbalci",
+        "https://www.parapathology.com",
+        "https://www.patolojinotlari.com",
+        "https://www.patolojiai.com/",
+        "https://www.memorial.com.tr/doktorlar/serdar-balci",
+        "https://www.google.com/search?kgmid=/g/11fkbdq2jb"
+      ]
+    }
+  </script>
+</div>
+<hr>
+<br>
+<br>
+<br>
+Tamir Mekanizmaları: Keloid - Skar<br>
+<br>
+<br><iframe src='https://images.patolojiatlasi.com/keloid-scar/HE.html' style='width:200px;' data-external='1'></iframe><br>
+<br>
+<br><a href = 'https://www.patolojiatlasi.com/tamir.html#keloid---skar' target = '_blank'>https://www.patolojiatlasi.com/tamir.html#keloid---skar</a><br>
+<br>
+<br>
 </div>
 <div class="sidebar-section categories">
 <h3>Categories</h3>
 <ul>
 <li>
 <a href="#category:Articles">Articles</a>
-<span class="category-count">(7)</span>
+<span class="category-count">(8)</span>
 </li>
 <li>
 <a href="#category:apple">apple</a>
@@ -3195,7 +3210,7 @@ Tamir Mekanizmaları: Keloid - Skar<br>
 <a href="#">More articles &raquo;</a>
 </div>
 </div>
-<!--/radix_placeholder_article_listing-->
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
 <h1>Blog Posts</h1>
