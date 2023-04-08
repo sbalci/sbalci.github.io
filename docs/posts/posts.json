@@ -2,7 +2,7 @@
   {
     "path": "posts/dijital-patoloji-akreditasyonu-ve-quarto-sunumu/",
     "title": "dijital patoloji akreditasyonu ve quarto sunumu",
-    "description": "A short description of the post.",
+    "description": "Makale saatinde dijital patoloji akreditasyonu ile ilgili sunum.",
     "author": [
       {
         "name": "Serdar Balci",
@@ -11,9 +11,9 @@
     ],
     "date": "2023-04-08",
     "categories": [],
-    "contents": "\r\nDijital patolojide akreditasyon ile ilgili bölümde yaptığım sunumu ve kodu paylaşıyorum. Bu sunumu Quarto ve reveal.js ile hazırladım. Herhangi bir kişiselleştirme yapmadan da güzel html sunum hazırlanabiliyormuş.\r\n\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\nDijital patolojide akreditasyon ile ilgili bölümde yaptığım sunumu ve kodu paylaşıyorum. Bu sunumu Quarto ve reveal.js ile hazırladım. Herhangi bir kişiselleştirme yapmadan da güzel html sunum hazırlanabiliyormuş.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-04-08T15:18:28+03:00",
+    "last_modified": "2023-04-08T15:25:47+03:00",
     "input_file": "dijital-patoloji-akreditasyonu-ve-quarto-sunumu.knit.md"
   },
   {

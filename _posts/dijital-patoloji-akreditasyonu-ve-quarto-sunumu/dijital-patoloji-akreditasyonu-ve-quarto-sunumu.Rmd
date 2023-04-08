@@ -1,7 +1,7 @@
 ---
 title: "dijital patoloji akreditasyonu ve quarto sunumu"
 description: |
-  A short description of the post.
+  Makale saatinde dijital patoloji akreditasyonu ile ilgili sunum.
 author:
   - name: Serdar Balci
     url: https://github.com/sbalci

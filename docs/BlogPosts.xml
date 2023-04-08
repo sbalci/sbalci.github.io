@@ -23,8 +23,10 @@ paylaşıyorum. Bu sunumu &lt;a href="https://quarto.org/"&gt;Quarto&lt;/a&gt; v
 href="https://quarto.org/docs/presentations/revealjs/"&gt;reveal.js&lt;/a&gt; ile
 hazırladım. Herhangi bir kişiselleştirme yapmadan da güzel html sunum
 hazırlanabiliyormuş.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html"&gt;
 &lt;/iframe&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
       <distill:md5>57f2c44539819ff2aeead27f5cb6b454</distill:md5>
       <guid>https://www.serdarbalci.com/posts/dijital-patoloji-akreditasyonu-ve-quarto-sunumu</guid>
