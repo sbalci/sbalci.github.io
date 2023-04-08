@@ -1,0 +1,21 @@
+---
+title: "dijital patoloji akreditasyonu ve quarto sunumu"
+description: |
+  A short description of the post.
+author:
+  - name: Serdar Balci
+    url: https://github.com/sbalci
+date: 2023-04-08
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+Dijital patolojide akreditasyon ile ilgili bölümde yaptığım [sunumu](https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html) ve [kodu](https://github.com/sbalci/makalesaati/blob/main/ISO-accreditation-digital-pathology.qmd) paylaşıyorum. Bu sunumu [Quarto](https://quarto.org/) ve [reveal.js](https://quarto.org/docs/presentations/revealjs/) ile hazırladım. Herhangi bir kişiselleştirme yapmadan da güzel html sunum hazırlanabiliyormuş. 
+
+<br>
+
+<iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html"></iframe>
+
+<br>

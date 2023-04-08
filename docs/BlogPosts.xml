@@ -7,7 +7,29 @@
     <description>Serdar Balci, MD Pathologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>dijital patoloji akreditasyonu ve quarto sunumu</title>
+      <dc:creator>Serdar Balci</dc:creator>
+      <link>https://www.serdarbalci.com/posts/dijital-patoloji-akreditasyonu-ve-quarto-sunumu</link>
+      <description>
+
+
+&lt;p&gt;Dijital patolojide akreditasyon ile ilgili bölümde yaptığım &lt;a
+href="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html"&gt;sunumu&lt;/a&gt;
+ve &lt;a
+href="https://github.com/sbalci/makalesaati/blob/main/ISO-accreditation-digital-pathology.qmd"&gt;kodu&lt;/a&gt;
+paylaşıyorum. Bu sunumu &lt;a href="https://quarto.org/"&gt;Quarto&lt;/a&gt; ve &lt;a
+href="https://quarto.org/docs/presentations/revealjs/"&gt;reveal.js&lt;/a&gt; ile
+hazırladım. Herhangi bir kişiselleştirme yapmadan da güzel html sunum
+hazırlanabiliyormuş.&lt;/p&gt;
+&lt;iframe src="https://www.serdarbalci.com/makalesaati/ISO-accreditation-digital-pathology.html"&gt;
+&lt;/iframe&gt;
+&lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
+      <distill:md5>57f2c44539819ff2aeead27f5cb6b454</distill:md5>
+      <guid>https://www.serdarbalci.com/posts/dijital-patoloji-akreditasyonu-ve-quarto-sunumu</guid>
+      <pubDate>Fri, 07 Apr 2023 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?</title>
       <dc:creator>Serdar Balci</dc:creator>

@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/dijital-patoloji-akreditasyonu-ve-quarto-sunumu/",
+    "title": "dijital patoloji akreditasyonu ve quarto sunumu",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Serdar Balci",
+        "url": "https://github.com/sbalci"
+      }
+    ],
+    "date": "2023-04-08",
+    "categories": [],
+    "contents": "\r\nDijital patolojide akreditasyon ile ilgili bölümde yaptığım sunumu ve kodu paylaşıyorum. Bu sunumu Quarto ve reveal.js ile hazırladım. Herhangi bir kişiselleştirme yapmadan da güzel html sunum hazırlanabiliyormuş.\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-04-08T15:18:28+03:00",
+    "input_file": "dijital-patoloji-akreditasyonu-ve-quarto-sunumu.knit.md"
+  },
+  {
     "path": "posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir/",
     "title": "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?",
     "description": "Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.",
