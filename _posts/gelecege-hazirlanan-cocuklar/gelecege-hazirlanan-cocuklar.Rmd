@@ -1,0 +1,32 @@
+---
+title: "Geleceğe Hazırlanan Çocuklar"
+description: |
+  Yapay zeka çağına doğan çocuklar için.
+author:
+  - name: Serdar Balci
+    url: https://github.com/sbalci
+date: 2023-05-01
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Son aylarda gittikçe artan AI, yapay zeka, model bombardımanından çıkardığım sonuç şu ki;
+
+Geleceğe hazırlanan bir çocuk:
+
+- Boolean (mantıksal) ifadeleri öğrenmeli.
+  - VE
+  - VEYA
+  - DEĞİL
+  - EŞİT
+  - EŞİT DEĞİL
+
+- Matematik ve geometri ilişkisi öğrenmeli.
+
+- Tasvir yapabilmeli (prompt engineer dedikleri)
+
+- Başka bir dil öğrennmeli (farklı düşünebilmek için)
+
+- Hayal kurabilmeli. 
+
