@@ -69,6 +69,8 @@ random_case_string <- glue::glue(
 "<br>
 <br>
 <br>",
+as.character(Sys.time()),
+"<br>",
 .sep = ""
 )
 
