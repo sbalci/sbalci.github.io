@@ -9,7 +9,7 @@ on:
     - cron: '5 20 * * 6'
 
 
-name: Render & Deploy Site
+name: Render & Deploy sbalci.github.io Site
 
 jobs:
   build:
