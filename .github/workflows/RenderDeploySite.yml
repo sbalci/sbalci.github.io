@@ -35,6 +35,12 @@ jobs:
           source("./R-scripts/add_random_case.R")
         shell: Rscript {0}
 
+      - name: Render Pages
+        run: |
+          markdown::render('./patoloji-ders-notlari/patoloji-ders-notlari.Rmd')
+        shell: Rscript {0}
+
+
       - name: Render Site
         run: Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
       - name: Copy redirects
