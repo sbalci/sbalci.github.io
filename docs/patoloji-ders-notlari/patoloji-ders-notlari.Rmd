@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Patoloji Ders Notları"
 description: |
   A new article created using the Distill format.
 author:
