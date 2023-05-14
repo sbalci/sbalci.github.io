@@ -38,7 +38,7 @@ jobs:
 
       - name: Render Pages
         run: |
-          markdown::render('./patoloji-ders-notlari/patoloji-ders-notlari.Rmd')
+          rmarkdown::render('./patoloji-ders-notlari/patoloji-ders-notlari.Rmd')
         shell: Rscript {0}
 
 
