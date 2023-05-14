@@ -25,6 +25,7 @@ jobs:
         run: |
           options(repos = "https://cran.r-project.org")
           if (!requireNamespace("rmarkdown", quietly = TRUE)) install.packages("rmarkdown", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
+          if (!requireNamespace("markdown", quietly = TRUE)) install.packages("markdown", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
           if (!requireNamespace("distill", quietly = TRUE)) install.packages("distill", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
           if (!requireNamespace("pagedown", quietly = TRUE)) install.packages("pagedown", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
           if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs", dependencies = TRUE, quiet = TRUE, verbose = FALSE)
