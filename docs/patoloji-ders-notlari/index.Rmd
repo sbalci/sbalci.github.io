@@ -15,7 +15,7 @@ output: distill::distill_article
 
 
 
-```{r}
+```{r echo=FALSE}
 htmltools::includeMarkdown(path = 
                              "https://raw.githubusercontent.com/sbalci/patoloji-ders-notlari/main/README.md"
                              )
