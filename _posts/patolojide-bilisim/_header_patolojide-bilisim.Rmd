@@ -16,7 +16,7 @@ slug: "patolojide-bilisim"
 output:
   distill::distill_article:
     self_contained: false
-categories: [patoloji, bilişim, patolojinin geleceği]
+categories: [patoloji, bilişim, patolojinin geleceği, yapay zeka, otomasyon, bilgi yönetim sistemi, dijital patoloji]
 ---
 
 
