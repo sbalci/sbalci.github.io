@@ -34,6 +34,7 @@ jobs:
       - name: Update Pages
         run: |
           source("./R-scripts/add_random_case.R")
+          source("./R-scripts/website.R")
         shell: Rscript {0}
 
       - name: Render Pages
