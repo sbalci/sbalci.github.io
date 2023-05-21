@@ -20,3 +20,12 @@ writeLines(text = post_text, con = "./_posts/patolojide-bilisim/patolojide-bilis
 #     overwrite = TRUE,
 #     view = TRUE
 # )
+
+
+# my_repos <- gh::gh("GET /users/{username}/repos", username = "sbalci")
+# 
+# 
+# my_gists <- gh::gh("GET https://api.github.com/users/{username}/gists", username = "sbalci")
+# 
+# my_stars <- gh::gh("GET https://api.github.com/users/{username}/starred", username = "sbalci")
+
