@@ -15,19 +15,33 @@ jobs:
   build:
     runs-on: macOS-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
+#      - uses: actions/checkout@v3
+#        with:
 #          submodules: none
+#          submodules: recursive
+
+#      - name: Configure sparse-checkout
+#        run: |
+#          cd cv-files
+#          git config core.sparsecheckout true
+#          echo '*' > .git/info/sparse-checkout
+#          echo '!.gitmodules' >> .git/info/sparse-checkout
+#          git read-tree -mu HEAD
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
           submodules: recursive
 
-      - name: Configure sparse-checkout
+      - name: Disable submodule initialization
         run: |
-          cd cv-files
-          git config core.sparsecheckout true
-          echo '*' > .git/info/sparse-checkout
-          echo '!.gitmodules' >> .git/info/sparse-checkout
-          git read-tree -mu HEAD
-          
+          git submodule deinit --all
+          echo > .gitmodules
+
+      - name: Update submodule reference
+        run: |
+          git submodule update --init --recursive --remote --checkout
+
       - uses: r-lib/actions/setup-r@v2
 
       - uses: r-lib/actions/setup-pandoc@v2
