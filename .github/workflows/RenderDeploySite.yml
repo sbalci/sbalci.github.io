@@ -22,7 +22,7 @@ jobs:
 
       - name: Configure sparse-checkout
         run: |
-          cd <path-to-submodule-directory>
+          cd cv-files
           git config core.sparsecheckout true
           echo '*' > .git/info/sparse-checkout
           echo '!.gitmodules' >> .git/info/sparse-checkout
