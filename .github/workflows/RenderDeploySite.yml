@@ -28,21 +28,20 @@ jobs:
 #          echo '!.gitmodules' >> .git/info/sparse-checkout
 #          git read-tree -mu HEAD
 
-
-      - name: Disable submodule initialization
-        run: |
-          git submodule deinit --all
-          echo > .gitmodules
-
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          submodules: recursive
+          submodules: none
 
 
-      - name: Update submodule reference
-        run: |
-          git submodule update --init --recursive --remote --checkout
+#     - name: Disable submodule initialization
+#       run: |
+#         git submodule deinit --all
+#         echo > .gitmodules
+
+#       - name: Update submodule reference
+#         run: |
+#           git submodule update --init --recursive --remote --checkout
 
       - uses: r-lib/actions/setup-r@v2
 
