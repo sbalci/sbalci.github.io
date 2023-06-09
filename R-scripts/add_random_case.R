@@ -2,53 +2,55 @@
 
 
 case_list <-
-  readLines(con = "https://www.patolojiatlasi.com/webpages.txt")
-  
-  jsonlite::fromJSON(txt = "https://www.patolojiatlasi.com/search.json",
-                     simplifyDataFrame = TRUE) %>%
+  readLines(con = "https://www.patolojiatlasi.com/webpages.txt") %>% 
   as.data.frame()
+  
+  # jsonlite::fromJSON(txt = "https://www.patolojiatlasi.com/search.json",
+  #                    simplifyDataFrame = TRUE) %>%
 
 
 
-case_list <- case_list %>%
-  dplyr::filter(grepl(pattern = "html", x = text))
-
-case_list <- case_list %>%
-  dplyr::filter(!grepl(pattern = "Appendix ", x = title))
-
-case_list <- case_list %>%
-  dplyr::filter(grepl(pattern = "^\\d", x = title))
+# case_list <- case_list %>%
+#   dplyr::filter(grepl(pattern = "html", x = text))
+# 
+# case_list <- case_list %>%
+#   dplyr::filter(!grepl(pattern = "Appendix ", x = title))
+# 
+# case_list <- case_list %>%
+#   dplyr::filter(grepl(pattern = "^\\d", x = title))
 
 
 random_case <- dplyr::sample_n(case_list, 1)
 
 
-casetitle <-
-  trimws(gsub(
-    pattern = "\\d|.\\d",
-    replacement = "",
-    x = random_case$title
-  ))
+# casetitle <-
+#   trimws(gsub(
+#     pattern = "\\d|.\\d",
+#     replacement = "",
+#     x = random_case$title
+#   ))
 
-casetitle <- stringr::str_trim(casetitle)
+# casetitle <- stringr::str_trim(casetitle)
 
-casesection <-
-  trimws(gsub(
-    pattern = "\\d|.\\d",
-    replacement = "",
-    x = random_case$section
-  ))
+# casesection <-
+#   trimws(gsub(
+#     pattern = "\\d|.\\d",
+#     replacement = "",
+#     x = random_case$section
+#   ))
 
-casesection <- stringr::str_trim(casesection)
+# casesection <- stringr::str_trim(casesection)
+# 
+# caselink <- random_case$text
+# 
+# pattern <- "https://images.patolojiatlasi.com/\\s*(.*?)\\s*html"
+# result <- regmatches(caselink, regexec(pattern, caselink))
+# 
+# caselink <-
+#   paste0("https://images.patolojiatlasi.com/", result[[1]][2], "html")
 
-caselink <- random_case$text
-
-pattern <- "https://images.patolojiatlasi.com/\\s*(.*?)\\s*html"
-result <- regmatches(caselink, regexec(pattern, caselink))
-
-caselink <-
-  paste0("https://images.patolojiatlasi.com/", result[[1]][2], "html")
-
+caselink <- random_case %>% 
+  dplyr::pull(".")
 
 random_case_string <- glue::glue(
   "<hr>",
@@ -57,9 +59,9 @@ random_case_string <- glue::glue(
 <br>
 <br>
 ",
-"{casetitle}",
-": ",
-"{casesection}",
+# "{casetitle}",
+# ": ",
+# "{casesection}",
 "<br>
 <br>
 <br>",
@@ -67,7 +69,7 @@ random_case_string <- glue::glue(
 "<br>
 <br>
 <br>",
-"<a href = 'https://www.patolojiatlasi.com/{random_case$href}' target = '_blank'>https://www.patolojiatlasi.com/{random_case$href}</a>",
+# "<a href = 'https://www.patolojiatlasi.com/{random_case$href}' target = '_blank'>https://www.patolojiatlasi.com/{random_case$href}</a>",
 "<br>
 <br>
 <br>",
