@@ -7,12 +7,311 @@
     <description>Serdar Balci, MD Pathologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>2023-08-01</lastBuildDate>
+    <lastBuildDate>2023-07-31</lastBuildDate>
     <item>
       <title>Patolojide Bilişim</title>
       <dc:creator>Serdar Balci</dc:creator>
       <link>https://www.serdarbalci.com/posts/patolojide-bilisim</link>
-      <description>Bu yazı *Prof. Dr. Alp Usubütün* editörlüğünde hazırlanan *"Sağlık Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu 2. Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN: 978-625-7564-70-0"* adlı kitaptaki *"8. Bölüm: Patolojide Yeni Yöntemler ve Gelecek"* için hazırlanmıştır. Ancak bu alanın çok hızlı ilerlemesi nedeniyle bu metni güncel tutmak (ve bir sonraki baskı için gerekirse hazır bulunmak için) metin içeriği burada güncellenecektir.</description>
+      <description>
+
+
+&lt;h1 id="patoloji-ve-bilişim"&gt;Patoloji ve Bilişim&lt;/h1&gt;
+&lt;p&gt;Serdar Balcı 2023-08-01&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#sec-patoloji-ve-bilisim"&gt;Patoloji ve Bilişim&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#sec-patolojide-bilisimin-yeri-nedir"&gt;Patolojide Bilişimin
+yeri nedir?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sec-patolojideki-bilgi-turleri-nelerdir"&gt;Patolojideki
+Bilgi Türleri Nelerdir?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sec-dijital-patoloji-nedir"&gt;Dijital Patoloji
+Nedir?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sec-dijital-patolojinin-gelecegi"&gt;Dijital Patolojinin
+Geleceği&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sec-yapay-zekanin-dijital-patolojideki-yeri"&gt;Yapay Zekanın
+Dijital Patolojideki Yeri&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sec-ilginc-ve-ornek-calismalar"&gt;İlginç ve örnek
+çalışmalar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#referanslar-ve-okuma-önerileri"&gt;Referanslar ve okuma
+Önerileri&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#referanslar"&gt;Referanslar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sec-okuma-onerileri"&gt;Okuma önerileri:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#sec-programlar"&gt;Açık kaynak kodlu veya ücretsiz dijital
+patoloji programları:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="patoloji-ve-bilişim-1"&gt;Patoloji ve Bilişim&lt;/h2&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;a href="https://zenodo.org/badge/latestdoi/594820002"&gt;&lt;img
+src="https://zenodo.org/badge/594820002.svg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DOI&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://zenodo.org/badge/latestdoi/594820002"
+class="uri"&gt;https://zenodo.org/badge/latestdoi/594820002&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://osf.io/brzuf/"&gt;DOI 10.17605/OSF.IO/BRZUF&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bu yazı &lt;em&gt;Prof. Dr. Alp Usubütün&lt;/em&gt; editörlüğünde hazırlanan
+&lt;em&gt;“Sağlık Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama
+Kılavuzu 2. Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN:
+978-625-7564-70-0”&lt;/em&gt;&lt;a href="#fn1" class="footnote-ref"
+id="fnref1"&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; &lt;a href="#fn2" class="footnote-ref"
+id="fnref2"&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; adlı kitaptaki &lt;em&gt;“8. Bölüm: Patolojide
+Yeni Yöntemler ve Gelecek”&lt;/em&gt;&lt;a href="#fn3" class="footnote-ref"
+id="fnref3"&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; için hazırlanmıştı r. Ancak bu alanın çok
+hızlı ilerlemesi nedeniyle bu metni güncel tutmak (ve bir sonraki baskı
+için gerekirse hazır bulunmak için) metin içeriği burada güncellenecekti
+r. &lt;strong&gt;Doç. Dr. Serdar Balcı&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="patolojide-bilişimin-yeri-nedir"&gt;Patolojide Bilişimin yeri
+nedir?&lt;/h3&gt;
+&lt;p&gt;Patologları, hastanın klinik bilgilerini, makroskopi ve mikroskopik
+görüntüler ile işleyip, literatür ve bilimsel bilgiler ışığında
+yorumlayan ve rapor adlı yazılı bilgiyi üreten bilgi uzmanları olarak
+tanımlayabiliriz. Abartılı bir tarif gibi görünse de çoğu hasta
+dosyasında, hasta hakkında en çok ve en doğru (hatta hala daha altın
+standart) bilgiler patologların ürettiği patoloji raporlarında yer
+almaktadır.&lt;/p&gt;
+&lt;p&gt;Bilginin teknoloji kullanılarak işlenmesindeki gelişmeleri, patoloji
+disiplini, bazen geriden bazen öncü olarak, ama emin adımlarla takip
+etmekte ve kendi işleyişine katmaktadır. (Computational Pathology: A
+Path Ahead &lt;a href="https://pubmed.ncbi.nlm.nih.gov/26098131/"
+class="uri"&gt;https://pubmed.ncbi.nlm.nih.gov/26098131/&lt;/a&gt;)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bilimsel bilginin sürekli artması,&lt;/li&gt;
+&lt;li&gt;hemen her yıl yeni bir DSÖ sınıflama kitabının çıkması,&lt;/li&gt;
+&lt;li&gt;yeni çıkan antikorların ve yöntemlerin tanısal test olarak
+kullanımındaki istatistiksel yöntemler,&lt;/li&gt;
+&lt;li&gt;tümörlerin taksonomisi,&lt;/li&gt;
+&lt;li&gt;“ben buna displazi derim” gibi sezgisel yaklaşımlar,&lt;/li&gt;
+&lt;li&gt;klinik bilgilerin elde edilmesi,&lt;/li&gt;
+&lt;li&gt;makroskopik ve mikroskopik görüntülerin elde edilmesi, işlenmesi ve
+saklanması,&lt;/li&gt;
+&lt;li&gt;rapor yazılması,&lt;/li&gt;
+&lt;li&gt;diktasyon,&lt;/li&gt;
+&lt;li&gt;raporların saklanması,&lt;/li&gt;
+&lt;li&gt;arşivleme,&lt;/li&gt;
+&lt;li&gt;laboratuvar iş akışının düzenlenmesi ve takibi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;gibi bir çok basamakta yer alan bilişim teknolojileri, dijital
+patolojinin yaygınlaşması ile makina öğrenmesi, derin öğrenme ve yapay
+zeka ile karar destek sistemleri olarak günlük pratiğe daha da
+girmektedir.&lt;/p&gt;
+&lt;p&gt;Patoloji raporları ve görüntüleri için kullanılan yazılımlar (Rosai
+1. chapter)’da belirtildiği gibi çoğu zaman diğer laboratuvar branşları
+ya da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler.
+Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman
+bir metin işlemcisi ve faturalandırma aracı olarak kalmaktadırlar.&lt;/p&gt;
+&lt;div class="float"&gt;
+&lt;img src="https://www.serdarbalci.com/posts/patolojide-bilisim/resimler/resim1.png" title="Resim 1"
+alt="Patoloji raporları ve görüntüleri için kullanılan yazılımlar (Rosai 1. chapter)’da belirtildiği gibi çoğu zaman diğer laboratuvar branşları ya da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler. Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman bir metin işlemcisi ve faturalandırma aracı olarak kalmaktadırlar." /&gt;
+&lt;div class="figcaption"&gt;Patoloji raporları ve görüntüleri için
+kullanılan yazılımlar (Rosai 1. chapter)’da belirtildiği gibi çoğu zaman
+diğer laboratuvar branşları ya da radyoloji için hazırlanmış
+platformlara eklemlenmiş gibidirler. Patolojinin işleyişi ile çoğu zaman
+örtüşmeyen yazılımlar, çoğu zaman bir metin işlemcisi ve faturalandırma
+aracı olarak kalmaktadırlar.&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id="patolojideki-bilgi-türleri-nelerdir"&gt;Patolojideki Bilgi Türleri
+Nelerdir?&lt;/h3&gt;
+&lt;p&gt;Patolojide bilgi türleri temel olarak &lt;em&gt;laboratuvar iş akışı&lt;/em&gt;,
+&lt;em&gt;metin&lt;/em&gt; ve &lt;em&gt;görüntülerden&lt;/em&gt; oluşmaktadır.&lt;/p&gt;
+&lt;h4 id="laboratuvar-iş-akışı"&gt;Laboratuvar İş Akışı&lt;/h4&gt;
+&lt;h4 id="metin-bilgileri"&gt;Metin Bilgileri&lt;/h4&gt;
+&lt;h4 id="görüntüler"&gt;Görüntüler&lt;/h4&gt;
+&lt;h3 id="dijital-patoloji-nedir"&gt;Dijital Patoloji Nedir?&lt;/h3&gt;
+&lt;h4 id="dijital-patolojinin-kullanım-alanları-nelerdir"&gt;Dijital
+Patolojinin Kullanım Alanları Nelerdir?&lt;/h4&gt;
+&lt;h5 id="tanı"&gt;Tanı&lt;/h5&gt;
+&lt;h5 id="eğitim"&gt;Eğitim&lt;/h5&gt;
+&lt;h5 id="konsültasyon"&gt;Konsültasyon&lt;/h5&gt;
+&lt;h5 id="rutin-raporlama-rutin-raporlama"&gt;Rutin Raporlama
+{rutin-raporlama}&lt;/h5&gt;
+&lt;p&gt;Şu an kullanılan ara yüzlerdeki farklılıklar da kullanım alışkanlığı
+geliştirmeyi zorlaştırmaktadır.&lt;/p&gt;
+&lt;p&gt;&amp;lt;–WIP–&amp;gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bilgisayar fare orta tuş kilidi olan ve olmayan arayüzler (&lt;a
+href="https://middleclick.app/"
+class="uri"&gt;https://middleclick.app/&lt;/a&gt;), büyütme ve küçültme (zoom
+in/out) hızlarının klasik mikroskoplardan farklı olması yanısıra klavye
+ve bilgisayar bileşenlerine (oyunlara) aşina neslin kullandığı oklar,
+&lt;code&gt;aswd&lt;/code&gt; tuşlarının …&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;navigasyon ok tuşları, aswdrz, +- middle click scroll resim,
+görüntü kaydetme&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sectra, ViraSoft ve OpenSeaDragon arayüzlerindeki
+farklılıklar.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;lt;–WIP–&amp;gt;&lt;/p&gt;
+&lt;p&gt;Nasıl bir ekran kullanılacağı ve ekranın &lt;em&gt;“tıbbi ekran”&lt;/em&gt;
+kategorisinde olup olmaması gerektiği de süregiden bir tartışma
+konusudur (Bkz. Leeds ekran testi)&lt;/p&gt;
+&lt;p&gt;&amp;lt;–WIP–&amp;gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tek ya da çoklu monitörde çalışma, dokunmatik ekranlar&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ekran çözünürlüğü, tepki süresi&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;sanal mape çeşitleri&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;lamın vertikal ya da horizontal taranması&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;taranan alanların işaretlenmesi (heatmap)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;lt;–WIP–&amp;gt;&lt;/p&gt;
+&lt;h4 id="dijital-patoloji-için-tarayıcıya-ihtiyacımız-var-mı"&gt;Dijital
+Patoloji İçin Tarayıcıya İhtiyacımız Var Mı?&lt;/h4&gt;
+&lt;h3 id="dijital-patolojinin-geleceği"&gt;Dijital Patolojinin Geleceği&lt;/h3&gt;
+&lt;h3 id="yapay-zekanın-dijital-patolojideki-yeri"&gt;Yapay Zekanın Dijital
+Patolojideki Yeri&lt;/h3&gt;
+&lt;h3 id="ilginç-ve-örnek-çalışmalar"&gt;İlginç ve örnek çalışmalar&lt;/h3&gt;
+&lt;h4 id="qupath"&gt;QuPath&lt;/h4&gt;
+&lt;h4 id="histoqc"&gt;HistoQC&lt;/h4&gt;
+&lt;h4 id="octopi"&gt;Octopi&lt;/h4&gt;
+&lt;p&gt;Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
+önerilerinde verilmiştir.&lt;/p&gt;
+&lt;h2 id="referanslar-ve-okuma-önerileri"&gt;Referanslar ve okuma
+Önerileri&lt;/h2&gt;
+&lt;h3 id="referanslar"&gt;Referanslar&lt;/h3&gt;
+&lt;div id="refs"&gt;
+
+&lt;/div&gt;
+&lt;h3 id="okuma-önerileri"&gt;Okuma önerileri:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;European Society for Digital and Integrative Pathology &lt;a
+href="https://digitalpathologysociety.org/"
+class="uri"&gt;https://digitalpathologysociety.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Digital Pathology Association &lt;a
+href="https://digitalpathologyassociation.org/"
+class="uri"&gt;https://digitalpathologyassociation.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;empaia Academy &lt;a href="https://en.empaia.org/academy-2-1"
+class="uri"&gt;https://en.empaia.org/academy-2-1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Patoloji Atlası &lt;a href="https://www.patolojiatlasi.com/"
+class="uri"&gt;https://www.patolojiatlasi.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Patoloji Notları &lt;a href="https://www.patolojinotlari.com/"
+class="uri"&gt;https://www.patolojinotlari.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;QuPath &lt;a href="https://qupath.github.io/"
+class="uri"&gt;https://qupath.github.io/&lt;/a&gt; Bankhead, P. et al. QuPath:
+Open source software for digital pathology image analysis. Scientific
+Reports (2017). &lt;a href="https://doi.org/10.1038/s41598-017-17204-5"
+class="uri"&gt;https://doi.org/10.1038/s41598-017-17204-5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pete Bankhead, 2022, Introduction to Bioimage Analysis &lt;a
+href="https://bioimagebook.github.io"
+class="uri"&gt;https://bioimagebook.github.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Best practice recommendations for implementing digital pathology,
+The Royal College of Pathologists &lt;a
+href="https://www.rcpath.org/uploads/assets/f465d1b3-797b-4297-b7fedc00b4d77e51/Best-practice-recommendations-for-implementing-digital-pathology.pdf"
+class="uri"&gt;https://www.rcpath.org/uploads/assets/f465d1b3-797b-4297-b7fedc00b4d77e51/Best-practice-recommendations-for-implementing-digital-pathology.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The Leeds Guide to Digital Pathology &lt;a
+href="https://www.virtualpathology.leeds.ac.uk/research/clinical/docs/2018/pdfs/18778_Leeds%20Guide%20to%20Digital%20Pathology_Brochure_A4_final_hi.pdf"
+class="uri"&gt;https://www.virtualpathology.leeds.ac.uk/research/clinical/docs/2018/pdfs/18778_Leeds%20Guide%20to%20Digital%20Pathology_Brochure_A4_final_hi.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Leeds ekran testi: &lt;a
+href="https://www.virtualpathology.leeds.ac.uk/research/systems/pouqa/pathology/"
+class="uri"&gt;https://www.virtualpathology.leeds.ac.uk/research/systems/pouqa/pathology/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Integrating digital pathology into clinical practice &lt;a
+href="https://pubmed.ncbi.nlm.nih.gov/34599281/"
+class="uri"&gt;https://pubmed.ncbi.nlm.nih.gov/34599281/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Artificial intelligence-the third revolution in pathology &lt;a
+href="https://pubmed.ncbi.nlm.nih.gov/30270453/"
+class="uri"&gt;https://pubmed.ncbi.nlm.nih.gov/30270453/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Grand Challenge A platform for end-to-end development of machine
+learning solutions in biomedical imaging. &lt;a
+href="https://grand-challenge.org/"
+class="uri"&gt;https://grand-challenge.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Manual Whole Slide Imaging &lt;a href="https://www.microvisioneer.com/"
+class="uri"&gt;https://www.microvisioneer.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PathoZoom Scan &lt;a
+href="https://www.smartinmedia.com/pathozoom-scan/"
+class="uri"&gt;https://www.smartinmedia.com/pathozoom-scan/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Pallua JD, Brunner A, Zelger B, Schirmer M, Haybaeck J. The future
+of pathology is digital Pathol Res Pract. 2020 Sep;216(9):153040. doi:
+10.1016/j.prp.2020.153040. Epub 2020 Jun 20. PMID: 32825928.&lt;/li&gt;
+&lt;li&gt;Petascale Computational Pathology - Prof Nasir Rajpoot at HMS-BWH
+Pathology Grand Rounds 5 Oct 2020 &lt;a
+href="https://www.youtube.com/watch?v=nVHRNn-nqMg"
+class="uri"&gt;https://www.youtube.com/watch?v=nVHRNn-nqMg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Advice from one of the world’s largest digital pathology
+implementations &lt;a
+href="https://medical.sectra.com/case/advice-from-one-of-the-worlds-largest-digital-pathology-implementations/"
+class="uri"&gt;https://medical.sectra.com/case/advice-from-one-of-the-worlds-largest-digital-pathology-implementations/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Octopi: Octopi: Open configurable high-throughput imaging platform
+for infectious disease diagnosis in the field Hongquan Li, Hazel
+Soto-Montoya, Maxime Voisin, Lucas Fuentes Valenzuela, Manu Prakash
+bioRxiv 684423; doi: &lt;a href="https://doi.org/10.1101/684423"
+class="uri"&gt;https://doi.org/10.1101/684423&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Octopi’nin tanıtımı: &lt;a
+href="https://twitter.com/prakashlab/status/1144453714637230083"
+class="uri"&gt;https://twitter.com/prakashlab/status/1144453714637230083&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lesson from the COVID-19 pandemic: pathologists need to build their
+confidence on working in a digital microscopy environment. Virchows Arch
+479, 227–229 (2021). &lt;a
+href="https://doi.org/10.1007/s00428-021-03123-4"
+class="uri"&gt;https://doi.org/10.1007/s00428-021-03123-4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Validating Whole Slide Imaging for Diagnostic Purposes in Pathology
+&lt;a
+href="https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology"
+class="uri"&gt;https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Validating Whole Slide Imaging Systems for Diagnostic Purposes in
+Pathology: Guideline Update From the College of American Pathologists in
+Collaboration With the American Society for Clinical Pathology and the
+Association for Pathology Informatics. Arch Pathol Lab Med 1 April 2022;
+146 (4): 440–450. doi: &lt;a
+href="https://doi.org/10.5858/arpa.2020-0723-CP"
+class="uri"&gt;https://doi.org/10.5858/arpa.2020-0723-CP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Digital Pathology &amp;amp; AI in routine clinical practice:From quality
+control to primary cancer diagnosis &lt;a
+href="https://www.youtube.com/watch?v=7pRmonus9iM"
+class="uri"&gt;https://www.youtube.com/watch?v=7pRmonus9iM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Atallah, N.M., Toss, M.S., Verrill, C. et al. Potential quality
+pitfalls of digitalized whole slide image of breast pathology in routine
+practice. Mod Pathol (2021). &lt;a
+href="https://doi.org/10.1038/s41379-021-01000-8"
+class="uri"&gt;https://doi.org/10.1038/s41379-021-01000-8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3
+id="açık-kaynak-kodlu-veya-ücretsiz-dijital-patoloji-programları"&gt;Açık
+kaynak kodlu veya ücretsiz dijital patoloji programları:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;QuickAnnotator &lt;a
+href="https://github.com/choosehappy/QuickAnnotator"
+class="uri"&gt;https://github.com/choosehappy/QuickAnnotator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;HistoQC &lt;a href="https://github.com/choosehappy/HistoQC"
+class="uri"&gt;https://github.com/choosehappy/HistoQC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;QuPath &lt;a href="https://qupath.github.io/"
+class="uri"&gt;https://qupath.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cytomine &lt;a href="https://cytomine.be/"
+class="uri"&gt;https://cytomine.be/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Orbit &lt;a href="https://www.orbit.bio/"
+class="uri"&gt;https://www.orbit.bio/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ASAP &lt;a href="https://computationalpathologygroup.github.io/ASAP/"
+class="uri"&gt;https://computationalpathologygroup.github.io/ASAP/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Micaia &lt;a href="http://www.micaia.ai"
+class="uri"&gt;http://www.micaia.ai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ImageJ/ Fiji &lt;a href="https://fiji.sc/"
+class="uri"&gt;https://fiji.sc/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ImageScope &lt;a
+href="https://www.leicabiosystems.com/digital-pathology/manage/aperio-imagescope/"
+class="uri"&gt;https://www.leicabiosystems.com/digital-pathology/manage/aperio-imagescope/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes footnotes-end-of-document"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li
+id="fn1"&gt;&lt;p&gt;&lt;img src="https://www.serdarbalci.com/posts/patolojide-bilisim/resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
+style="width:25.0%"
+alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" /&gt;&lt;a
+href="#fnref1" class="footnote-back"&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li
+id="fn2"&gt;&lt;p&gt;&lt;img src="https://www.serdarbalci.com/posts/patolojide-bilisim/resimler/patoloji-laboratuvarini-anlama-kilavuzu-2.jpg"
+style="width:50.0%"
+alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" /&gt;&lt;a
+href="#fnref2" class="footnote-back"&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li
+id="fn3"&gt;&lt;p&gt;&lt;img src="https://www.serdarbalci.com/posts/patolojide-bilisim/resimler/patoloji-laboratuvarini-anlama-kilavuzu-4.jpg"
+style="width:25.0%"
+alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" /&gt;&lt;/p&gt;
+&lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;a href="#fnref3" class="footnote-back"&gt;↩︎&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      <distill:md5>36c84d42c27aa9d1ba1a75964e0fed45</distill:md5>
       <category>patoloji</category>
       <category>bilişim</category>
       <category>patolojinin geleceği</category>
@@ -21,7 +320,7 @@
       <category>bilgi yönetim sistemi</category>
       <category>dijital patoloji</category>
       <guid>https://www.serdarbalci.com/posts/patolojide-bilisim</guid>
-      <pubDate>2023-08-01</pubDate>
+      <pubDate>2023-07-31</pubDate>
     </item>
     <item>
       <title>Geleceğe Hazırlanan Çocuklar</title>
