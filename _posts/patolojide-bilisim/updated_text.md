@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-08-01
+2023-08-03
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -32,14 +32,23 @@ DOI
 
 [DOI 10.17605/OSF.IO/BRZUF](https://osf.io/brzuf/)
 
-> Bu yazı *Prof. Dr. Alp Usubütün* editörlüğünde hazırlanan *“Sağlık
+> Bu yazı *Prof. Dr. Alp Usubütün* editörlüğünde hazırlanan [*“Sağlık
 > Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu 2.
 > Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN:
-> 978-625-7564-70-0”*[^1] [^2] adlı kitaptaki *“8. Bölüm: Patolojide
-> Yeni Yöntemler ve Gelecek”*[^3] için hazırlanmıştı r. Ancak bu alanın
-> çok hızlı ilerlemesi nedeniyle bu metni güncel tutmak (ve bir sonraki
-> baskı için gerekirse hazır bulunmak için) metin içeriği burada
-> güncellenecekti r. **Doç. Dr. Serdar Balcı**
+> 978-625-7564-70-0”*](https://www.ankaranobel.com/patoloji-ve-laboratuvarini-anlama-kilavuzu)
+> [^1] [^2] adlı kitaptaki *“8. Bölüm: Patolojide Yeni Yöntemler ve
+> Gelecek”*[^3] için hazırlanmıştı r. Ancak bu alanın çok hızlı
+> ilerlemesi nedeniyle bu metni güncel tutmak (ve bir sonraki baskı için
+> gerekirse hazır bulunmak için) metin içeriği burada güncellenecekti r.
+> **Doç. Dr. Serdar Balcı**
+
+<div>
+
+[<img
+src="https://percdn.com/f/108382/cG96WmFtNG0vcUp3ZUdGcEg4OG5icmdQYmNFPQ/images/urunler/patoloji-ve-patoloji-laboratuvarini-anlama-kilavuzu-2-baski-202569.webp"
+style="width:25.0%" />](https://www.ankaranobel.com/patoloji-ve-laboratuvarini-anlama-kilavuzu)
+
+</div>
 
 ### Patolojide Bilişimin yeri nedir?
 
@@ -181,6 +190,7 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
   <https://digitalpathologyassociation.org/>
 - empaia Academy <https://en.empaia.org/academy-2-1>
 - Patoloji Atlası <https://www.patolojiatlasi.com/>
+- Histopathology Atlas <https://www.histopathologyatlas.com/>
 - Patoloji Notları <https://www.patolojinotlari.com/>
 - QuPath <https://qupath.github.io/> Bankhead, P. et al. QuPath: Open
   source software for digital pathology image analysis. Scientific
