@@ -83,6 +83,8 @@ as.character(Sys.Date()),
 
 readr::write_lines(x = random_case_string,
                    file = "./_custom_2.html")
+  
+random_case_string <- readLines(con = "./_custom_2.html")
 
 
 custom_1_html <- readLines(con = "./_custom_1.html")
