@@ -90,9 +90,12 @@ random_case_string <- readLines(con = "./_custom_2.html")
 custom_1_html <- readLines(con = "./_custom_1.html")
 
 
-custom_html <- c(custom_1_html, random_case_string)
+# custom_html <- c(custom_1_html, random_case_string)
 
 
-readr::write_lines(x = custom_html,
-                   file = "./_custom.html",)
+readr::write_lines(
+  # x = custom_html,
+  x = custom_1_html,
+  file = "./_custom.html"
+  )
 
