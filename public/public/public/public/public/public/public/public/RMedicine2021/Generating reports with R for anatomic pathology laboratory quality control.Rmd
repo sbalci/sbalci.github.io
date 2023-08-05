@@ -1,0 +1,155 @@
+---
+title: "Generating reports with R for anatomic pathology laboratory quality control"
+subtitle: "R/Medicine 2021 Accepted Abstract"
+author: "Serdar Balci, MD, Pathologist"
+output: html_notebook
+---
+
+
+- Memorial Healthcare Group, Pathology Laboratory, Istanbul
+- serdar.balci@memorial.com.tr drserdarbalci@gmail.com 
+
+
+Abstract Drafts:
+
+```
+Anatomic pathology reports are semi-structured texts, with specific jargon that include sensitive patient information. Laboratory information systems provide statistics and quality control measures but more information is needed from a clinical view. R is a practical way to get more insight from pathology reports.
+
+Istanbul Memorial Healthcare Pathology, serves 8 hospitals in 5 cities. The hospitals use data systems from different vendors and extracted data are available in various formats (csv, json, excel and pdf), but which can be joined via unique patient and biopsy number.
+
+Reports are generated via bookdown. Data are pre-processed in the first chapters, saved as separate RDS files, then read in other chapters as necessary. Bookdown gives flexibility to add new analysis in any place. The reports are rendered with cron jobs.
+
+Various packages and regular expressions are used to label pathology reports, follow up of patients, and generate correlations between cytology-pathology and repeat biopsies. Specimen movements, transfer-reporting time measurements, and laboratory physician workload are calculated. Per disease patient survival analyses are also evaluated.
+```
+
+```
+This talk is describing an applied uses of R in clinical practice. Medical doctors and laboratory managers can use R and bookdown to generate reports for their own needs and get quality control measures that are specific for their work conditions. R packages that are used for publication quality tables and graphs can also be used for routine workflow. Cron jobs makes it easy to get most up to date data summaries without manual intervention. With this reduced workload, laboratory managers and physicians can focus on solutions.
+
+This talk is describing an applied use of R in clinical practice. Medical doctors and laboratory managers can use R and bookdown to generate reports for their own needs and get quality control measures that are specific for their work conditions. This example will show the use of R in an anatomic pathology laboratory.
+```
+
+```
+Anatomic pathology reports are semi-structured texts, have specific jargon, and include sensitive patient information. Laboratory information systems provide statistics and quality control measures but more information is needed from a clinical view. R is practical to get more insight from pathology reports.
+Istanbul Memorial Healthcare Pathology, serves 8 hospitals from 5 cities. The hospitals have data systems from different vendors and data could be gathered in pieces in csv, json, excel and pdf formats which could be joined via unique patient and biopsy number.
+The reports are generated via bookdown. First chapters are for preprocessing data. To reduce memory use data are saved as separate RDS files, then read in other chapters as necessary. Bookdown gives flexibility to add new analysis in any place. The reports are rendered with cron jobs.
+Various packages and regular expressions are used to label pathology reports, follow up patients, generate cytology-pathology and repeated biopsy correlations.
+Specimen movements, transfer-reporting time measurements, laboratory-physician workload are calculated. With follow-up of patients survival analysis per disease are evaluated.
+```
+
+
+
+---
+
+```
+Reading data files separately also lets one to render a single chapter quickly and see a specific result.
+
+
+In our laboratory the following packages are used to prepare daily and weekly quality control reports. 
+{lubridate} extracting day, hour of specimen movements, calculating transfer and reporting dates.
+{rmarkdown} and {bookdown} to prepare the final report as html and pdf.
+{cronR} for daily report update
+{fs} to locate common data folder
+{gt} {gtsummary} and {glue} to make tables
+{ggstatsplot} to generate plots
+{DiagrammeR} to generate workflow diagrams
+Readxl readr and jsonlite to read data
+{pdftools} to read pdf data, RegEx to label pathology report parts and convert them to dataframes. 
+stringr and regular expressions to categorize reports for organs systems, diagnosis, ancillary techniques used.
+Using patient number and biopsy date we can follow up patients when they get follow-up. Since the reports are labelled for organs and diagnoses we can make comparisons for cytology-pathology correlation, initial biopsy and radical resection comparisons. We can define discrepant cases and they are later reviewed for quality control.
+Defining hospitals, clinicians and pathologists as parameters it is possible to generate parameter based markdown reports.
+Workload calculation.
+
+In the future; as we continue to follow up patients we will be able to perform survival analysis per disease. We also plan to auto generate and publish statistics to our website.
+```
+
+
+    
+```
+other attached packages:
+ [1] rspivot_0.1.1.9003 shiny_1.6.0        networkD3_0.4      downlit_0.2.1     
+ [5] bslib_0.2.5.9000   sessioninfo_1.1.1  ggforce_0.3.3      magrittr_2.0.1    
+ [9] scales_1.1.1       forcats_0.5.1      stringr_1.4.0      dplyr_1.0.6       
+[13] purrr_0.3.4        readr_1.4.0        tidyr_1.1.3        tibble_3.1.2      
+[17] ggplot2_3.3.3      tidyverse_1.3.1   
+
+loaded via a namespace (and not attached):
+  [1] readxl_1.3.1              uuid_0.1-4               
+  [3] pairwiseComparisons_3.1.5 backports_1.2.1          
+  [5] tidytext_0.3.1            systemfonts_1.0.2        
+  [7] igraph_1.2.6              plyr_1.8.6               
+  [9] splines_4.1.0             gmp_0.6-2                
+ [11] SnowballC_0.7.0           TH.data_1.0-10           
+ [13] kSamples_1.2-9            ipmisc_6.0.2             
+ [15] digest_0.6.27             SuppDists_1.1-9.5        
+ [17] htmltools_0.5.1.1         fansi_0.5.0              
+ [19] checkmate_2.0.0           memoise_2.0.0            
+ [21] automagic_0.5.1           gtsummary_1.4.0          
+ [23] paletteer_1.3.0           openxlsx_4.2.3           
+ [25] modelr_0.1.8              officer_0.3.18           
+ [27] sandwich_3.0-0            colorspace_2.0-1         
+ [29] rvest_1.0.0               ggrepel_0.9.1            
+ [31] haven_2.4.1               xfun_0.23                
+ [33] callr_3.7.0               crayon_1.4.1             
+ [35] jsonlite_1.7.2            attachment_0.2.1         
+ [37] zeallot_0.1.0             zoo_1.8-9                
+ [39] survival_3.2-11           glue_1.4.2               
+ [41] polyclip_1.10-0           gtable_0.3.0             
+ [43] emmeans_1.6.0             webshot_0.5.2            
+ [45] MatrixModels_0.5-0        statsExpressions_1.0.1   
+ [47] Rmpfr_0.8-4               mvtnorm_1.1-1            
+ [49] DBI_1.1.1                 PMCMRplus_1.9.0          
+ [51] Rcpp_1.0.6                performance_0.7.2        
+ [53] xtable_1.8-4              htmlwidgets_1.5.3        
+ [55] httr_1.4.2                DiagrammeR_1.0.6.1       
+ [57] RColorBrewer_1.1-2        ellipsis_0.3.2           
+ [59] pkgconfig_2.0.3           reshape_0.8.8            
+ [61] farver_2.1.0              multcompView_0.1-8       
+ [63] sass_0.4.0.9000           dbplyr_2.1.1             
+ [65] utf8_1.2.1                janitor_2.1.0            
+ [67] here_1.0.1                later_1.2.0              
+ [69] labeling_0.4.2            effectsize_0.4.4-1       
+ [71] tidyselect_1.1.1          rlang_0.4.11             
+ [73] ggcorrplot_0.1.3          visNetwork_2.0.9         
+ [75] munsell_0.5.0             cellranger_1.1.0         
+ [77] tools_4.1.0               cachem_1.0.5             
+ [79] cli_2.5.0                 generics_0.1.0           
+ [81] broom_0.7.6               evaluate_0.14            
+ [83] fastmap_1.1.0             BWStest_0.2.2            
+ [85] yaml_2.2.1                rematch2_2.1.2           
+ [87] tufte_0.9                 processx_3.5.2           
+ [89] knitr_1.33                fs_1.5.0                 
+ [91] zip_2.1.1                 WRS2_1.1-1               
+ [93] pbapply_1.4-3             mime_0.10                
+ [95] formatR_1.9               xml2_1.3.2               
+ [97] correlation_0.6.1         tokenizers_0.2.1         
+ [99] compiler_4.1.0            rstudioapi_0.13          
+[101] ggsignif_0.6.1            gt_0.3.0                 
+[103] reprex_2.0.0              broom.helpers_1.3.0      
+[105] tweenr_1.0.2              stringi_1.6.2            
+[107] highr_0.9                 ps_1.6.0                 
+[109] parameters_0.13.0         desc_1.3.0               
+[111] gdtools_0.2.3             lattice_0.20-44          
+[113] Matrix_1.3-3              commonmark_1.7           
+[115] vctrs_0.3.8               pillar_1.6.1             
+[117] lifecycle_1.0.0           mc2d_0.1-19              
+[119] jquerylib_0.1.4           estimability_1.3         
+[121] data.table_1.14.0         insight_0.14.0           
+[123] flextable_0.6.6           httpuv_1.6.1             
+[125] patchwork_1.1.1           R6_2.5.0                 
+[127] bookdown_0.22.2           promises_1.2.0.1         
+[129] janeaustenr_0.1.5         BayesFactor_0.9.12-4.2   
+[131] codetools_0.2-18          MASS_7.3-54              
+[133] gtools_3.8.2              assertthat_0.2.1         
+[135] rprojroot_2.0.2           withr_2.4.2              
+[137] multcomp_1.4-17           bayestestR_0.9.0         
+[139] parallel_4.1.0            hms_1.1.0                
+[141] grid_4.1.0                coda_0.19-4              
+[143] rmarkdown_2.8.3           snakecase_0.11.0         
+[145] lubridate_1.7.10          base64enc_0.1-3          
+[147] ggstatsplot_0.7.2       
+
+```
+
+
+
+
