@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-08-03
+2023-08-19
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -107,6 +107,19 @@ Patolojide bilgi türleri temel olarak *laboratuvar iş akışı*, *metin* ve
 
 #### Metin Bilgileri
 
+Patolojideki metin bilgilerini:
+
+- patoloğa
+  - klinikten ve
+  - literatürden gelen bilgiler ile
+- patoloğun ürettiği raporlar oluşturmaktadır.
+
+Bu bilgi türlerine belki `sosyal medya`yı da eklemek uygun olacaktır.
+Sosyal medyada paylaşılan rutin ya da ilginç patoloji vakaları
+derlendiğinde bir patoloji kitabı oluşturmak mümkün olabilir [^4].
+Ayrıca bu veriler görüntü analizleri için bile kullanılabilmektedir
+[PMID:37592105](https://pubmed.ncbi.nlm.nih.gov/37592105/).
+
 #### Görüntüler
 
 ### Dijital Patoloji Nedir?
@@ -156,6 +169,14 @@ ekran testi)
 - taranan alanların işaretlenmesi (heatmap)
 
 \<–WIP–\>
+
+Günümüzde kaset, immünohistokimya ve tayarıcılardaki farklı barkod /
+karekod / datamatrix kullanımı ve bu içeriğin firmalara özgün ve
+değiştirilemez olarak tanımlanması, kesintisiz bir laboratuvar iş akışı
+önündeki önemli engellerden biridir. Bu konuda firmalar arası
+entegrasyonun sağlanabilmesi oldukça önemlidir. Yakın zamanda Memorial
+Patoloji’de tüm basamaklardaki datamatrix kodları birleştirilmiş olup,
+immünohistokimya cihazındaki entegrasyon da tamamlanmak üzeredir.
 
 #### Dijital Patoloji İçin Tarayıcıya İhtiyacımız Var Mı?
 
@@ -271,3 +292,5 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 [^3]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-4.jpg"
     style="width:25.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
+
+[^4]: [Patoloji Notları](https://www.patolojinotlari.com/)
