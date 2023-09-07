@@ -94,7 +94,7 @@ jobs:
           git config --global user.email "action@github.com"
           git remote add gitlab "https://oauth2:${{ secrets.GITLAB_PASSWORD }}@gitlab.com/MemorialPath/memorialpath.gitlab.io.git"
           git fetch --unshallow
-          git push --force gitlab main  # or the branch you want
+          git push --force gitlab main --no-tags
 
 
 
