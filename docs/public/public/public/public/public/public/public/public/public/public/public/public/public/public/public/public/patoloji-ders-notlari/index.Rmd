@@ -1,0 +1,25 @@
+---
+title: "Patoloji Ders Notları"
+description: |
+  Patoloji ders notları güncelleniyor.
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+
+
+```{r echo=FALSE}
+htmltools::includeMarkdown(path = 
+                             "https://raw.githubusercontent.com/sbalci/patoloji-ders-notlari/main/README.md"
+                             )
+```
+
+
+
