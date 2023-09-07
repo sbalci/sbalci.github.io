@@ -1,0 +1,4 @@
+- görüntü oluşturma, oküler görüntü, WSI oluşturma
+- standart görüntü
+- iş akışı, barkod
+- navigasyon
