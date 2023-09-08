@@ -79,6 +79,15 @@ jobs:
         run: Rscript -e 'fs::file_copy("404.md", "docs/404.md")'
       - name: "Remove 404.html"
         run: Rscript -e 'fs::file_delete("docs/404.html")'
+
+      - name: Organise Pages
+        run: |
+          if (dir.exists(paths = "./docs/public")) { fs::dir_delete(path = "./docs/public") }
+        shell: Rscript {0}  
+        
+                  
+
+        
       - name: "copy docs to public"
         run: Rscript -e 'if (dir.exists(paths = "./docs")) { fs::dir_copy(path = "./docs", new_path = "./public", overwrite = TRUE) }'
       - name: Commit results
