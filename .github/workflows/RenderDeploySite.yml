@@ -59,6 +59,7 @@ jobs:
 
       - name: Update Pages
         run: |
+          if (dir.exists(paths = "./public")) { fs::dir_delete(path = "./public") }
           if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
           source("./R-scripts/add_random_case.R")
           source("./R-scripts/website.R")
@@ -85,6 +86,17 @@ jobs:
           git add -A
           git commit -m 'Rebuild site' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
+
+
+
+      - name: Push to GitLab
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git remote add gitlab "https://oauth2:${{ secrets.GITLAB_PASSWORD }}@gitlab.com/sbalci/sbalci.gitlab.io.git"
+          git fetch --unshallow
+          git push --force gitlab master:main --no-tags
+
 
 
 
