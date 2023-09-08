@@ -59,6 +59,7 @@ jobs:
 
       - name: Update Pages
         run: |
+          if (dir.exists(paths = "./public")) { fs::dir_delete(path = "./public") }
           if (dir.exists(paths = "./docs")) { fs::dir_delete(path = "./docs") }
           source("./R-scripts/add_random_case.R")
           source("./R-scripts/website.R")
