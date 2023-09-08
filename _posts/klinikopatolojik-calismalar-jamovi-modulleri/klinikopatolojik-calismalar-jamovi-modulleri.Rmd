@@ -1,0 +1,33 @@
+---
+title: "Klinikopatolojik Çalışmalarda Kulanılabilecek Jamovi Modülleri"
+description: |
+  Klinikopatolojik çalışmalarda bu jamovi modülleri işinizi kolaylaştıracaktır.
+date: 2023-09-08
+output:
+  distill::distill_article:
+    self_contained: false
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: serdarbalci.com
+    affiliation_url: https://www.serdarbalci.com
+    orcid_id: 0000-0002-7852-3851
+categories: [RStats, GitHub, template, jamovi, module, shiny, sunum, istatistik]
+draft: true
+---
+
+
+Klinikopatolojik çalışmalarda bu jamovi modülleri işinizi kolaylaştıracaktır:  
+
+- <https://www.jamovi.org/>  
+
+- <https://www.serdarbalci.com/ClinicoPathJamoviModule/>  
+
+
+
+<iframe src="https://onedrive.live.com/embed?resid=818F0986FF7F2EB7%211243&amp;authkey=!AB5TbeOm8zBrh3M&amp;em=2&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">Bu <a target="_blank" href="https://office.com/webapps">Office</a> tarafından sağlanan eklenmiş bir <a target="_blank" href="https://office.com">Microsoft Office</a> belgesidir.</iframe>
+
+
+
+
