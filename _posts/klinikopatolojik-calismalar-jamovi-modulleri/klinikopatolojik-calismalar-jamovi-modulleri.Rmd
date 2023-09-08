@@ -14,7 +14,6 @@ author:
     affiliation_url: https://www.serdarbalci.com
     orcid_id: 0000-0002-7852-3851
 categories: [RStats, GitHub, template, jamovi, module, shiny, sunum, istatistik]
-draft: true
 ---
 
 

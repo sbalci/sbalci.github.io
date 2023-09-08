@@ -5,6 +5,11 @@ case_list <-
   readLines(con = "https://www.patolojiatlasi.com/webpages.txt") %>% 
   as.data.frame()
   
+case_list <- case_list %>% 
+  dplyr::filter(!grepl(pattern = "\\{|\\}", x = . ))
+
+
+
   # jsonlite::fromJSON(txt = "https://www.patolojiatlasi.com/search.json",
   #                    simplifyDataFrame = TRUE) %>%
 
