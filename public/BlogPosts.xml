@@ -7,7 +7,22 @@
     <description>Serdar Balci, MD Pathologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>2023-09-08</lastBuildDate>
+    <lastBuildDate>2023-09-09</lastBuildDate>
+    <item>
+      <title>Patolojide Bilişim</title>
+      <dc:creator>Serdar Balci</dc:creator>
+      <link>https://www.serdarbalci.com/posts/patolojide-bilisim</link>
+      <description>Bu yazı *Prof. Dr. Alp Usubütün* editörlüğünde hazırlanan *"Sağlık Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu 2. Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN: 978-625-7564-70-0"* adlı kitaptaki *"8. Bölüm: Patolojide Yeni Yöntemler ve Gelecek"* için hazırlanmıştır. Ancak bu alanın çok hızlı ilerlemesi nedeniyle bu metni güncel tutmak (ve bir sonraki baskı için gerekirse hazır bulunmak için) metin içeriği burada güncellenecektir.</description>
+      <category>patoloji</category>
+      <category>bilişim</category>
+      <category>patolojinin geleceği</category>
+      <category>yapay zeka</category>
+      <category>otomasyon</category>
+      <category>bilgi yönetim sistemi</category>
+      <category>dijital patoloji</category>
+      <guid>https://www.serdarbalci.com/posts/patolojide-bilisim</guid>
+      <pubDate>2023-09-09</pubDate>
+    </item>
     <item>
       <title>Klinikopatolojik Çalışmalarda Kulanılabilecek Jamovi Modülleri</title>
       <dc:creator>Serdar Balci</dc:creator>
@@ -22,21 +37,6 @@
       <category>sunum</category>
       <category>istatistik</category>
       <guid>https://www.serdarbalci.com/posts/klinikopatolojik-calismalar-jamovi-modulleri</guid>
-      <pubDate>2023-09-08</pubDate>
-    </item>
-    <item>
-      <title>Patolojide Bilişim</title>
-      <dc:creator>Serdar Balci</dc:creator>
-      <link>https://www.serdarbalci.com/posts/patolojide-bilisim</link>
-      <description>Bu yazı *Prof. Dr. Alp Usubütün* editörlüğünde hazırlanan *"Sağlık Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu 2. Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN: 978-625-7564-70-0"* adlı kitaptaki *"8. Bölüm: Patolojide Yeni Yöntemler ve Gelecek"* için hazırlanmıştır. Ancak bu alanın çok hızlı ilerlemesi nedeniyle bu metni güncel tutmak (ve bir sonraki baskı için gerekirse hazır bulunmak için) metin içeriği burada güncellenecektir.</description>
-      <category>patoloji</category>
-      <category>bilişim</category>
-      <category>patolojinin geleceği</category>
-      <category>yapay zeka</category>
-      <category>otomasyon</category>
-      <category>bilgi yönetim sistemi</category>
-      <category>dijital patoloji</category>
-      <guid>https://www.serdarbalci.com/posts/patolojide-bilisim</guid>
       <pubDate>2023-09-08</pubDate>
     </item>
     <item>
