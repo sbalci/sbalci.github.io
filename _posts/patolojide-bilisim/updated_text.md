@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-08-19
+2023-09-16
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -188,6 +188,9 @@ immünohistokimya cihazındaki entegrasyon da tamamlanmak üzeredir.
 
 #### QuPath
 
+QuPath’ın WSinfer adlı eklentisi ile literatürdeki yapay zeka
+modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^5]
+
 #### HistoQC
 
 #### Octopi
@@ -294,3 +297,9 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
 
 [^4]: [Patoloji Notları](https://www.patolojinotlari.com/)
+
+[^5]: [preprint](https://arxiv.org/abs/2309.04631)
+    [documentation-1](https://wsinfer.readthedocs.io/en/latest/)
+    [documentation-2](https://qupath.readthedocs.io/en/latest/docs/deep/wsinfer.html)
+    [image.sc](https://forum.image.sc/t/for-wsinfer-extension-how-can-i-find-model-documentations/85493)
+    [linkedIN](https://www.linkedin.com/feed/update/urn:li:activity:7108787522310184960/)
