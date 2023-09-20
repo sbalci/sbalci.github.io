@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-09-16
+2023-09-18
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -191,9 +191,24 @@ immünohistokimya cihazındaki entegrasyon da tamamlanmak üzeredir.
 QuPath’ın WSinfer adlı eklentisi ile literatürdeki yapay zeka
 modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^5]
 
+> I am really enthusiastic about the \#wsinfer plugin of \#qupath Now it
+> will be possible to try published models of digital pathology on my
+> cases without having to find data or code “upon reasonable request”,
+> or try correct the corrupt code on github. And now the “published
+> models” will face the real world scenario. This will change the
+> \#digitalpathology and distinguish those models that really work from
+> those that work only on the paper. There is one great barrier
+> remaining now, an open source program to make \#WSI with a camera
+> attached to a microscope. I wish I had the coding skills to do that :)
+
 #### HistoQC
 
 #### Octopi
+
+#### µManager {sec-micromanager}
+
+Open Source Software for Control and Automation of Microscope Hardware
+[^6]
 
 Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 önerilerinde verilmiştir.
@@ -303,3 +318,5 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
     [documentation-2](https://qupath.readthedocs.io/en/latest/docs/deep/wsinfer.html)
     [image.sc](https://forum.image.sc/t/for-wsinfer-extension-how-can-i-find-model-documentations/85493)
     [linkedIN](https://www.linkedin.com/feed/update/urn:li:activity:7108787522310184960/)
+
+[^6]: https://micro-manager.org/
