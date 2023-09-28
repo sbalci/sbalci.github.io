@@ -2375,6 +2375,8 @@ Bölümün güncellenen içeriği için: https://www.serdarbalci.com/posts/patol
 
 # Konuşmalar ve Sunumlar  {#presentations}
 
+- Rutinde Dijital Patoloji: Zorluklar ve Kolaylıklar. 27 Eylül 2023. Türk Patoloji Derneği Dijital Webinar Serisi-3 Dijital Patolojinin Rutinde Kullanımı
+![](./img/turk-patoloji-dernegi-dijital-patoloji-webinar-serisi-3-dijital-patolojinin-rutinde-kullanimi.jpg)
 
 - Patolojide Yapay Zeka. 8 Ekim 2021 Memorial Patoloji Online Toplantı
 
