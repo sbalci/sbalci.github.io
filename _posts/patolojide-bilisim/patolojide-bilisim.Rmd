@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-09-18
+2023-10-18
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -44,16 +44,11 @@ Serdar Balcı
   - [Okuma önerileri:](#sec-okuma-onerileri)
   - [Açık kaynak kodlu veya ücretsiz dijital patoloji
     programları:](#sec-programlar)
+  - [Videolar](#videolar)
 
 ## Patoloji ve Bilişim
 
-<div>
-
-[![](https://zenodo.org/badge/594820002.svg)](https://zenodo.org/badge/latestdoi/594820002)
-
-DOI
-
-</div>
+[![DOI](https://zenodo.org/badge/594820002.svg)](https://zenodo.org/badge/latestdoi/594820002)
 
 <https://zenodo.org/badge/latestdoi/594820002>
 
@@ -69,13 +64,9 @@ DOI
 > gerekirse hazır bulunmak için) metin içeriği burada güncellenecekti r.
 > **Doç. Dr. Serdar Balcı**
 
-<div>
-
 [<img
 src="https://percdn.com/f/108382/cG96WmFtNG0vcUp3ZUdGcEg4OG5icmdQYmNFPQ/images/urunler/patoloji-ve-patoloji-laboratuvarini-anlama-kilavuzu-2-baski-202569.webp"
 style="width:25.0%" />](https://www.ankaranobel.com/patoloji-ve-laboratuvarini-anlama-kilavuzu)
-
-</div>
 
 ### Patolojide Bilişimin yeri nedir?
 
@@ -118,12 +109,16 @@ da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler.
 Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman
 bir metin işlemcisi ve faturalandırma aracı olarak kalmaktadırlar.
 
-![Patoloji raporları ve görüntüleri için kullanılan yazılımlar (Rosai 1.
-chapter)’da belirtildiği gibi çoğu zaman diğer laboratuvar branşları ya
-da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler.
-Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman
-bir metin işlemcisi ve faturalandırma aracı olarak
-kalmaktadırlar.](./resimler/resim1.png "Resim 1")
+<figure>
+<img src="./resimler/resim1.png" title="Resim 1"
+alt="Patoloji raporları ve görüntüleri için kullanılan yazılımlar (Rosai 1. chapter)’da belirtildiği gibi çoğu zaman diğer laboratuvar branşları ya da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler. Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman bir metin işlemcisi ve faturalandırma aracı olarak kalmaktadırlar." />
+<figcaption aria-hidden="true">Patoloji raporları ve görüntüleri için
+kullanılan yazılımlar (Rosai 1. chapter)’da belirtildiği gibi çoğu zaman
+diğer laboratuvar branşları ya da radyoloji için hazırlanmış
+platformlara eklemlenmiş gibidirler. Patolojinin işleyişi ile çoğu zaman
+örtüşmeyen yazılımlar, çoğu zaman bir metin işlemcisi ve faturalandırma
+aracı olarak kalmaktadırlar.</figcaption>
+</figure>
 
 ### Patolojideki Bilgi Türleri Nelerdir?
 
@@ -209,6 +204,35 @@ immünohistokimya cihazındaki entegrasyon da tamamlanmak üzeredir.
 
 ### Dijital Patolojinin Geleceği
 
+- Dijital patoloji sadece mikroskopik görüntülerin bilgisayar ortamına
+  aktarılması olarak düşünülmemeli. Dijital patoloji ile tüm patolojide
+  üretilen tüm bilginin kullanılabilir veri haline getirilmesi ve
+  bunların hastanın diğer bilgileri ile entegre edilmesi
+  hedeflenmelidir.
+
+- Yöneticilerin dijital patoloji kurulum hevesleri sırasında, patologlar
+  fırsatı ganimet bilip laboratuvarın eksiklerini tamamlatmalı ve
+  kaliteyi artırıcı düzenlemeleri uygulatmalıdırlar.
+
+- Yeni çıkan immünohistokimyasal tetkiklerin belli bir süre sonra
+  tanısal özgünlüklerini kaybetmeleri patologları yeni testlere karşı
+  şüpheli yaklaşmaya zorlamıştır. Aynı şüpheyi yapay zeka algoritmaları
+  için de kullanmak gereklidir. Yakın zamanda çok sayıda başarılı olduğu
+  iddia edilen algoritma yayınlanmış olmasına karşın bunların kliniğe
+  aktarımı hala kısıtlıdır. Yayın ve araştırma bolluğu ile birlikte;
+  yapay zeka modellerinin aynı laboratuvardaki tekrarlanabilirlikleri ve
+  başka laboratuvar verilerine aktarılabilirlikleri çok önemli bir
+  problem olarak ortaya çıkmaya başlamıştır.
+
+- Patoloji asistanları açık kaynak kodlu dijital patoloji programlarını
+  kullanmayı öğrenmeli ve açık kaynak kodlu yazılımlar konusunda dijital
+  okur yazarlıklarını geliştirmelidirler.
+
+- Meslek örgütleri radyolojide yaşanan “hizmet alımı” süreci ile
+  “uzaktan tanı” adı altında düşürülen sağlık hizmeti kalitesi ve
+  değersizleştirilen hekim emeğinin farkında olmalı ve buna yönelik
+  tedbir ve tavsiyeler için hazırlanmalıdırlar.
+
 ### Yapay Zekanın Dijital Patolojideki Yeri
 
 ### İlginç ve örnek çalışmalar
@@ -231,6 +255,13 @@ modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^5]
 #### HistoQC
 
 #### Octopi
+
+#### OpenFlexure Microscope {sec-openflexure-microscope}
+
+https://openflexure.org/projects/microscope/
+
+PATHOLOGY RESIDENT EXPERIENCE USING A LOW-COST 3D PRINTED MICROSCOPE FOR
+PORTABLE DIGITAL PATHOLOGY https://doi.org/10.1016/j.jpi.2022.100043
 
 #### µManager {sec-micromanager}
 
@@ -326,17 +357,75 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 - ImageScope
   <https://www.leicabiosystems.com/digital-pathology/manage/aperio-imagescope/>
 
-[^1]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
+### Videolar
+
+- [Introduction to Bioimage
+  Analysis](https://www.youtube.com/playlist?list=PL4ta8RxZklWk88KIspPfkYZBP7ZFoAzWs)
+
+- [QuPath tutorial \#1 - Getting
+  started](https://www.youtube.com/playlist?list=PL4ta8RxZklWkPB_pwW-ZDVAGPGktAlE5Y)
+
+- [QuPath tutorial \#2 - IHC
+  analysis](https://www.youtube.com/playlist?list=PL4ta8RxZklWk_O_Z7K0bZlhmHtaH73vlh)
+
+- [QuPath Spring
+  2022](https://www.youtube.com/playlist?list=PL87AjRiLthaRmXuSkNQfQKR4HSR0-DqOM)
+
+- [From Samples to Knowledge
+  2020](https://www.youtube.com/playlist?list=PLlGXRBscPbCD89fRULm4peopF57qugciN)
+
+- [PathLAKE Masterclasses
+  2021](https://www.youtube.com/playlist?list=PL33zGSM6CfFB_rezhCamTceNVZ0xazMSp)
+
+- [TIA Centre Seminar
+  Series](https://www.youtube.com/playlist?list=PL33zGSM6CfFCN3gbUFfZ5S0R1HrnMQS7-)
+
+- [Invited Talks &
+  Presentations](https://www.youtube.com/playlist?list=PL33zGSM6CfFDz2dXzirEWjefMGiLZOeOd)
+
+- [ECDP
+  2019](https://www.youtube.com/playlist?list=PL33zGSM6CfFAhERCNI6YVePePRuTk2YQt)
+
+- [Image processing with
+  python](https://www.youtube.com/playlist?list=PLZsOBAyNTZwYx-7GylDo3LSYpSompzsqW)
+
+- [Dijital Patoloji Webinar Serisi-1 Dr. Juan Retamero
+  (**memorialsaglik?**) \#memorialpatoloji
+  (**paige_ai?**)](https://www.youtube.com/watch?v=sHIQI-w87Tc&ab_channel=SERDARBALCI)
+
+- [Dijital Patoloji Webinar Serisi-2 Dijital Patolojide
+  Validasyon](https://www.youtube.com/watch?v=qgssA3XLSpU&ab_channel=SERDARBALCI)
+
+- [Dijital Patoloji Webinar Serisi-3 Dijital Patolojinin Rutinde
+  Kullanımı Dr. Serdar
+  Balcı](https://www.youtube.com/watch?v=xlxfSO-zSrA&ab_channel=SERDARBALCI)
+
+[^1]:
+    <figure>
+    <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
     style="width:25.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
+    <figcaption>Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını
+    Anlama Kılavuzu</figcaption>
+    </figure>
 
-[^2]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-2.jpg"
+[^2]:
+    <figure>
+    <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-2.jpg"
     style="width:50.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
+    <figcaption>Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını
+    Anlama Kılavuzu</figcaption>
+    </figure>
 
-[^3]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-4.jpg"
+[^3]:
+    <figure>
+    <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-4.jpg"
     style="width:25.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
+    <figcaption>Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını
+    Anlama Kılavuzu</figcaption>
+    </figure>
 
 [^4]: [Patoloji Notları](https://www.patolojinotlari.com/)
 

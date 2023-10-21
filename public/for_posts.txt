@@ -14,6 +14,19 @@ https://support.posit.co/hc/en-us/articles/360049776974-Using-RStudio-Server-in-
 
 task scheduler wsl -d Ubuntu
 
+netsh interface portproxy add v4tov4 `
+listenport=8787 `
+listenaddress=0.0.0.0 `
+connectport=8787 `
+connectaddress=172.23.59.103
+
+netsh interface portproxy show all
+
+https://www.youtube.com/watch?v=-0XgLRAQ6eE&ab_channel=BonGuides
+
+
+
+
 3) svs dosyaları svs-deidentifier kullandıktan sonra qupath ile açılmıyor
 
 4) localhost:3838
