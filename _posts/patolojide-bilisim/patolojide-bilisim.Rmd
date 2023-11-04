@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-10-18
+2023-11-01
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -204,6 +204,20 @@ immünohistokimya cihazındaki entegrasyon da tamamlanmak üzeredir.
 
 ### Dijital Patolojinin Geleceği
 
+Dijital patoloji hızla gelişen bir alan olduğundan patologların
+kendilerini bu gelişmelere hazırlamaları gerekmektedir.
+
+Altyapı yatırımları sırasında geliştirilebilir modüler yapıların tercih
+edilmesi; basit ekran paylaşımından öteye gitmeyen ve açık kaynak ile
+ulaşılabilecek programlar için masraf yapmadan önce yetkin görüş
+alınması önerilmektedir.
+
+Dijital patoloji görüntüleri şu an farklı firmalara ait farklı formatlar
+halindedir. Ancak yakın zamanda ortak bir format olan *DICOM*’a
+geçilmesi ile cihazlar arasındaki uyum da artacaktır. Bu ortak formata
+geçilmesi ile görüntülerin daha uygun saklanabilmesi için de
+geliştirmeler hızlanacaktır.
+
 - Dijital patoloji sadece mikroskopik görüntülerin bilgisayar ortamına
   aktarılması olarak düşünülmemeli. Dijital patoloji ile tüm patolojide
   üretilen tüm bilginin kullanılabilir veri haline getirilmesi ve
@@ -233,6 +247,22 @@ immünohistokimya cihazındaki entegrasyon da tamamlanmak üzeredir.
   değersizleştirilen hekim emeğinin farkında olmalı ve buna yönelik
   tedbir ve tavsiyeler için hazırlanmalıdırlar.
 
+- Tarayıcıların, PACS depolarının ve arayüzlerin birbiri ile uyumu
+  oldukça önemlidir. ICC profillerinin [^5] [^6] uyumu görüntülerin son
+  kullanıcı olan patolog tarafından değerlendirmesinde önem
+  taşımaktadır.
+
+<!-- -->
+
+- Yapay zeka algoritma sağlayıcılarının, laboratuvarda hali hazırda
+  bulunan PACS ve arayüz ile uyum sağlayamaması ve entegrasyon için ayrı
+  emek ve maliyet gerekmesi de dijital patolojinin gelişimindeki
+  engellerdendir.
+
+- Üretilen yapay zeka algoritmaları firmaların sadece kendi
+  arayüzlerinde ve bulut sistemlerinde çalışmaktadır. Bu sistemler
+  “vendor agnostic” hale henüz gelememişlerdir.
+
 ### Yapay Zekanın Dijital Patolojideki Yeri
 
 ### İlginç ve örnek çalışmalar
@@ -240,7 +270,7 @@ immünohistokimya cihazındaki entegrasyon da tamamlanmak üzeredir.
 #### QuPath
 
 QuPath’ın WSinfer adlı eklentisi ile literatürdeki yapay zeka
-modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^5]
+modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^7]
 
 > I am really enthusiastic about the \#wsinfer plugin of \#qupath Now it
 > will be possible to try published models of digital pathology on my
@@ -251,6 +281,11 @@ modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^5]
 > those that work only on the paper. There is one great barrier
 > remaining now, an open source program to make \#WSI with a camera
 > attached to a microscope. I wish I had the coding skills to do that :)
+
+Gelecekte oldukça fazla QuPath kullanacağımızın bir göstergesi de Apple
+bilgisayar sunumlarında QuPath’ın örnek olarak yerini almasıdır.  
+<https://www.linkedin.com/feed/update/urn:li:activity:7125049439831916544/>  
+<https://youtube.com/clip/UgkxMxu0lmNg-9TeX7W59sJXa1dm6nqysu6N?si=4uuz7qVoWqAhYuGp>
 
 #### HistoQC
 
@@ -266,7 +301,7 @@ PORTABLE DIGITAL PATHOLOGY https://doi.org/10.1016/j.jpi.2022.100043
 #### µManager {sec-micromanager}
 
 Open Source Software for Control and Automation of Microscope Hardware
-[^6]
+[^8]
 
 Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 önerilerinde verilmiştir.
@@ -389,9 +424,9 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 - [Image processing with
   python](https://www.youtube.com/playlist?list=PLZsOBAyNTZwYx-7GylDo3LSYpSompzsqW)
 
-- [Dijital Patoloji Webinar Serisi-1 Dr. Juan Retamero
-  (**memorialsaglik?**) \#memorialpatoloji
-  (**paige_ai?**)](https://www.youtube.com/watch?v=sHIQI-w87Tc&ab_channel=SERDARBALCI)
+- [Dijital Patoloji Webinar Serisi-1 Dr. Juan Retamero @memorialsaglik
+  \#memorialpatoloji
+  @paige_ai](https://www.youtube.com/watch?v=sHIQI-w87Tc&ab_channel=SERDARBALCI)
 
 - [Dijital Patoloji Webinar Serisi-2 Dijital Patolojide
   Validasyon](https://www.youtube.com/watch?v=qgssA3XLSpU&ab_channel=SERDARBALCI)
@@ -429,10 +464,14 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 
 [^4]: [Patoloji Notları](https://www.patolojinotlari.com/)
 
-[^5]: [preprint](https://arxiv.org/abs/2309.04631)
+[^5]: <https://en.wikipedia.org/wiki/ICC_profile>
+
+[^6]: <http://www.andrewjanowczyk.com/application-of-icc-profiles-to-digital-pathology-images/>
+
+[^7]: [preprint](https://arxiv.org/abs/2309.04631)
     [documentation-1](https://wsinfer.readthedocs.io/en/latest/)
     [documentation-2](https://qupath.readthedocs.io/en/latest/docs/deep/wsinfer.html)
     [image.sc](https://forum.image.sc/t/for-wsinfer-extension-how-can-i-find-model-documentations/85493)
     [linkedIN](https://www.linkedin.com/feed/update/urn:li:activity:7108787522310184960/)
 
-[^6]: https://micro-manager.org/
+[^8]: https://micro-manager.org/
