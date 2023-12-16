@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-11-01
+2023-12-12
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -117,6 +117,42 @@ Ayrıca bu veriler görüntü analizleri için bile kullanılabilmektedir
 
 #### Görüntüler
 
+Morfolojik analize dayanan anatomik patolojideki bilgilerden biri de
+görüntülerdir. Makroskopik ve mikroskopik görüntüler mevcuttur.
+
+**“Makroskopik”** görüntülerin net bir şekilde elde edilmesi ve
+saklanması giderek önem kazanmaktadır. Tariflenen bazı bulguların
+(mezorektal bütünlük gibi) daha sonra tekrar değerlendirilmesi, delici
+kesici yaralanmalar gibi mikroskopla belirlenemeyecek medikolegal
+dökümantasyonun sağlanması gibi nedenlerle, patoloji ve hastane bilgi
+sistemlerine entegre makroskopi resim saklama gerekliliği giderek
+artmaktadır.
+
+Makroskopik görüntülerin radyoloji ile korelasyonu ve üç boyutlu
+görüntülerle sanal gerçeklik uygulamaları makroskopik görüntü arşivinin
+önemini giderek artırmaktadır.
+
+**“Mikroskopik”** görüntülerin *tam yüzey taranması (whole slide
+imaging)* ile hızlanan dijital patolojiye bir sonraki bölümde detaylı
+değinilecektir. Artık günümüzde;
+
+- dokunun kesit almadan üç boyutlu haritalandırılması,
+- fiziksel olarak boyanmadan sanal boyalar ile incelenmesi
+- ve bunların örnek yeterliliğinde ve hızlı tanıda kullanılması oldukça
+  sık yapılan ve pratiğe geçeceği umulan çalışmalardır.
+
+İki boyutlu klasik mikroskopik görüntülerin çokça kesit alınarak 3
+boyutlu (3D) rekonstriksiyonu ile yapılan tümör modelleri, hastalıkların
+patofizyolojisinin anlaşılmasında yeni olanaklar sunacaktır.
+
+Patolojinin gelecegindeki yeni teknikler arasında
+
+- üç boyutlu görüntüleme [^5],
+- Raman spektroskopisi (Movahed-Ezazi vd. 2023),
+- FTIR (infrared spectroskop),
+- sanal HE boyama,
+- ve konfokal mikroskopi gibi tekniklerin yer alması beklenmektedir.
+
 ### Dijital Patoloji Nedir?
 
 #### Dijital Patolojinin Kullanım Alanları Nelerdir?
@@ -221,9 +257,9 @@ geliştirmeler hızlanacaktır.
   tedbir ve tavsiyeler için hazırlanmalıdırlar.
 
 - Tarayıcıların, PACS depolarının ve arayüzlerin birbiri ile uyumu
-  oldukça önemlidir. ICC profillerinin [^5] [^6] uyumu görüntülerin son
-  kullanıcı olan patolog tarafından değerlendirmesinde önem
-  taşımaktadır.
+  oldukça önemlidir. ICC profillerinin [^6] [^7] uyumu görüntülerin son
+  kullanıcı olan patolog tarafından değerlendirmesinde önem taşımaktadır
+  .
 
 <!-- -->
 
@@ -243,7 +279,7 @@ geliştirmeler hızlanacaktır.
 #### QuPath
 
 QuPath’ın WSinfer adlı eklentisi ile literatürdeki yapay zeka
-modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^7]
+modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^8]
 
 > I am really enthusiastic about the \#wsinfer plugin of \#qupath Now it
 > will be possible to try published models of digital pathology on my
@@ -274,7 +310,7 @@ PORTABLE DIGITAL PATHOLOGY https://doi.org/10.1016/j.jpi.2022.100043
 #### µManager {sec-micromanager}
 
 Open Source Software for Control and Automation of Microscope Hardware
-[^8]
+[^9]
 
 Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 önerilerinde verilmiştir.
@@ -283,7 +319,18 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 
 ### Referanslar
 
-<div id="refs">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+
+<div id="ref-Movahed-Ezazi2023" class="csl-entry">
+
+Movahed-Ezazi, Misha, Mustafa Nasir-Moin, Camila Fang, Isabella
+Pizzillo, Kristyn Galbraith, Steven Drexler, Olga A. Krasnozhen-Ratush,
+vd. 2023. “Clinical Validation of Stimulated Raman Histology for Rapid
+Intraoperative Diagnosis of CNS Tumors”. *Modern Pathology*, Mayıs,
+100219. <https://doi.org/10.1016/j.modpat.2023.100219>.
+
+</div>
 
 </div>
 
@@ -413,8 +460,8 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
     <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
     style="width:25.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
-    <figcaption>Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını
-    Anlama Kılavuzu</figcaption>
+    <figcaption aria-hidden="true">Sağlık Bilimleri için Patoloji ve
+    Patoloji Laboratuvarını Anlama Kılavuzu</figcaption>
     </figure>
 
 [^2]:
@@ -422,8 +469,8 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
     <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-2.jpg"
     style="width:50.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
-    <figcaption>Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını
-    Anlama Kılavuzu</figcaption>
+    <figcaption aria-hidden="true">Sağlık Bilimleri için Patoloji ve
+    Patoloji Laboratuvarını Anlama Kılavuzu</figcaption>
     </figure>
 
 [^3]:
@@ -431,20 +478,25 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
     <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-4.jpg"
     style="width:25.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
-    <figcaption>Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını
-    Anlama Kılavuzu</figcaption>
+    <figcaption aria-hidden="true">Sağlık Bilimleri için Patoloji ve
+    Patoloji Laboratuvarını Anlama Kılavuzu</figcaption>
     </figure>
 
 [^4]: [Patoloji Notları](https://www.patolojinotlari.com/)
 
-[^5]: <https://en.wikipedia.org/wiki/ICC_profile>
+[^5]: AI-driven efficient patient prognosis based on 3D pathology
+    samples TIA Centre Seminar Series Dr. Andrew Song
+    <https://mamba-demo.github.io/demo/>
+    <https://www.youtube.com/watch?v=rcNCHQnK454&ab_channel=TIAWarwick>
 
-[^6]: <http://www.andrewjanowczyk.com/application-of-icc-profiles-to-digital-pathology-images/>
+[^6]: <https://en.wikipedia.org/wiki/ICC_profile>
 
-[^7]: [preprint](https://arxiv.org/abs/2309.04631)
+[^7]: <http://www.andrewjanowczyk.com/application-of-icc-profiles-to-digital-pathology-images/>
+
+[^8]: [preprint](https://arxiv.org/abs/2309.04631)
     [documentation-1](https://wsinfer.readthedocs.io/en/latest/)
     [documentation-2](https://qupath.readthedocs.io/en/latest/docs/deep/wsinfer.html)
     [image.sc](https://forum.image.sc/t/for-wsinfer-extension-how-can-i-find-model-documentations/85493)
     [linkedIN](https://www.linkedin.com/feed/update/urn:li:activity:7108787522310184960/)
 
-[^8]: https://micro-manager.org/
+[^9]: https://micro-manager.org/
