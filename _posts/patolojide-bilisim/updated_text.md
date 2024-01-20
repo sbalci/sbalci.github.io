@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2023-12-12
+2024-01-14
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -82,16 +82,12 @@ da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler.
 Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman
 bir metin işlemcisi ve faturalandırma aracı olarak kalmaktadırlar.
 
-<figure>
-<img src="./resimler/resim1.png" title="Resim 1"
-alt="Patoloji raporları ve görüntüleri için kullanılan yazılımlar (Rosai 1. chapter)’da belirtildiği gibi çoğu zaman diğer laboratuvar branşları ya da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler. Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman bir metin işlemcisi ve faturalandırma aracı olarak kalmaktadırlar." />
-<figcaption aria-hidden="true">Patoloji raporları ve görüntüleri için
-kullanılan yazılımlar (Rosai 1. chapter)’da belirtildiği gibi çoğu zaman
-diğer laboratuvar branşları ya da radyoloji için hazırlanmış
-platformlara eklemlenmiş gibidirler. Patolojinin işleyişi ile çoğu zaman
-örtüşmeyen yazılımlar, çoğu zaman bir metin işlemcisi ve faturalandırma
-aracı olarak kalmaktadırlar.</figcaption>
-</figure>
+![Patoloji raporları ve görüntüleri için kullanılan yazılımlar (Rosai 1.
+chapter)’da belirtildiği gibi çoğu zaman diğer laboratuvar branşları ya
+da radyoloji için hazırlanmış platformlara eklemlenmiş gibidirler.
+Patolojinin işleyişi ile çoğu zaman örtüşmeyen yazılımlar, çoğu zaman
+bir metin işlemcisi ve faturalandırma aracı olarak
+kalmaktadırlar.](./resimler/resim1.png "Resim 1")
 
 ### Patolojideki Bilgi Türleri Nelerdir?
 
@@ -455,32 +451,17 @@ Intraoperative Diagnosis of CNS Tumors”. *Modern Pathology*, Mayıs,
   Kullanımı Dr. Serdar
   Balcı](https://www.youtube.com/watch?v=xlxfSO-zSrA&ab_channel=SERDARBALCI)
 
-[^1]:
-    <figure>
-    <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
+[^1]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
     style="width:25.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
-    <figcaption aria-hidden="true">Sağlık Bilimleri için Patoloji ve
-    Patoloji Laboratuvarını Anlama Kılavuzu</figcaption>
-    </figure>
 
-[^2]:
-    <figure>
-    <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-2.jpg"
+[^2]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-2.jpg"
     style="width:50.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
-    <figcaption aria-hidden="true">Sağlık Bilimleri için Patoloji ve
-    Patoloji Laboratuvarını Anlama Kılavuzu</figcaption>
-    </figure>
 
-[^3]:
-    <figure>
-    <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-4.jpg"
+[^3]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-4.jpg"
     style="width:25.0%"
     alt="Sağlık Bilimleri için Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu" />
-    <figcaption aria-hidden="true">Sağlık Bilimleri için Patoloji ve
-    Patoloji Laboratuvarını Anlama Kılavuzu</figcaption>
-    </figure>
 
 [^4]: [Patoloji Notları](https://www.patolojinotlari.com/)
 
