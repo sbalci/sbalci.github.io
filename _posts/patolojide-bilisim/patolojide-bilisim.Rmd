@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Patoloji ve Bilişim
 Serdar Balcı
-2024-01-14
+2024-01-30
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -297,6 +297,42 @@ geliştirmeler hızlanacaktır.
 
 ### Yapay Zekanın Dijital Patolojideki Yeri
 
+Yapay zekanın görüntüler üzerindeki tecrübesinin patolojiye aktarılması
+ile bilimsel çalışmalarda sık görmeye başladığımız yapay zeka (makina
+öğrenmesi, derin öğrenme) kullanımı giderek günlük pratiğe de
+uygulanabilecek özellikler kazanmaktadır. Yapay zeka ile ilgili
+çalışmalar literatürde hesaplamalı/sayısal patoloji (computational
+pathology), matematiksel patoloji olarak da geçmektedir.
+
+Yapay zeka ile ilgili beklentilerin realist olması, algoritmaların ise
+
+- tekrarlanabilir (kendi içinde ve dışarıyla tutarlı),
+- teknik olarak uygulanabilir,
+- klinik pratiğe aktarılabilir ve
+- yeni bilgiler ışığında güncellenebilir olması gerekmektedir.
+
+Yapay zeka modellerinin nasıl geliştirildiği oldukça önemlidir.
+
+- TCGA verisinde hatalar olduğu (Murat 2024 USCAP abstract)
+
+- Doku bulaşlarının model başarılarını etkilediği Irmakci vd. (2024)
+
+unutulmamalıdır.
+
+Gelecekte her mikroskopta bir kameranın olduğu, masabaşında hemen
+ulaşılabilecek tarama cihazlarının olduğu çalışma ortamı yanısıra,
+tamamen mikroskopsuz patoloji iş istasyonları da olacaktır.
+
+Algoritma destekli patoloji pratiğinde ‘Bu vakayı Alp Hoca’ya danışalım’
+yerine ‘Bu vakayı AlpApp v25’e yükleyelim’ gibi cümleler yer alacağı
+gibi, ihtiyaca göre uygulama indirilen / geliştirilen PathAppStore’ları
+da hayatımızdaki yeniliklerden olacaktır.
+
+Tüm bu gelişmeler ışığında gelecekte, bilişimin, metin-görüntü işleme ve
+yapay zekanın patoloji bölümleri içinde bir alt grup olarak
+yerleşeceğini ve patoloji laboratuvarlarında bilişim sektöründen de
+çalışanlar olacağı tahmin edilmektedir.
+
 ### İlginç ve örnek çalışmalar
 
 #### QuPath
@@ -344,6 +380,17 @@ Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">
+
+<div id="ref-Irmakci2024" class="csl-entry">
+
+Irmakci, Ismail, Ramin Nateghi, Rujoi Zhou, Mariavittoria Vescovo,
+Madeline Saft, Ashley E. Ross, Ximing J. Yang, Lee A. D. Cooper, ve
+Jeffery A. Goldstein. 2024. “Tissue Contamination Challenges the
+Credibility of Machine Learning Models in Real World Digital Pathology”.
+*Modern Pathology*, Ocak, 100422.
+<https://doi.org/10.1016/j.modpat.2024.100422>.
+
+</div>
 
 <div id="ref-Movahed-Ezazi2023" class="csl-entry">
 
@@ -467,16 +514,11 @@ Intraoperative Diagnosis of CNS Tumors”. *Modern Pathology*, Mayıs,
 - [Image processing with
   python](https://www.youtube.com/playlist?list=PLZsOBAyNTZwYx-7GylDo3LSYpSompzsqW)
 
-- [Dijital Patoloji Webinar Serisi-1 Dr. Juan Retamero @memorialsaglik
-  \#memorialpatoloji
-  @paige_ai](https://www.youtube.com/watch?v=sHIQI-w87Tc&ab_channel=SERDARBALCI)
+- [Dijital Patoloji Webinar
+  Serisi](https://youtube.com/playlist?list=PLxRBOaoEoP4L_skEApK2gt3Iyu3BZQwRh&si=KzgpKYd4Ty0u0Nsb)
 
-- [Dijital Patoloji Webinar Serisi-2 Dijital Patolojide
-  Validasyon](https://www.youtube.com/watch?v=qgssA3XLSpU&ab_channel=SERDARBALCI)
-
-- [Dijital Patoloji Webinar Serisi-3 Dijital Patolojinin Rutinde
-  Kullanımı Dr. Serdar
-  Balcı](https://www.youtube.com/watch?v=xlxfSO-zSrA&ab_channel=SERDARBALCI)
+- [Breast Cancer KI67 assessment using with the open source
+  QuPath](https://www.youtube.com/watch?v=Yemx9tIqRs0&ab_channel=Victor)
 
 [^1]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
     style="width:25.0%"
