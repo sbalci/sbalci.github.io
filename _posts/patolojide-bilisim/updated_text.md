@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2024-01-30
+2024-02-16
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -472,6 +472,9 @@ Intraoperative Diagnosis of CNS Tumors”. *Modern Pathology*, Mayıs,
 - [From Samples to Knowledge
   2020](https://www.youtube.com/playlist?list=PLlGXRBscPbCD89fRULm4peopF57qugciN)
 
+- [From Zero to QuPath
+  Hero](https://www.youtube.com/playlist?list=PLSCpSsEmyRpANBGQXB_oGslW9NIJz4A12)
+
 - [PathLAKE Masterclasses
   2021](https://www.youtube.com/playlist?list=PL33zGSM6CfFB_rezhCamTceNVZ0xazMSp)
 
@@ -492,6 +495,37 @@ Intraoperative Diagnosis of CNS Tumors”. *Modern Pathology*, Mayıs,
 
 - [Breast Cancer KI67 assessment using with the open source
   QuPath](https://www.youtube.com/watch?v=Yemx9tIqRs0&ab_channel=Victor)
+
+#### QuPath
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=qeAWY4If6EQbC99p&amp;list=PLSCpSsEmyRpANBGQXB_oGslW9NIJz4A12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+
+##### Proje Oluşturma
+
+[QuPath
+projects](https://www.youtube.com/watch?v=kCEp89ypmAY&ab_channel=QuPath)
+
+{{ video https://www.youtube.com/embed/wo9vZccmqwc title=“QuPath
+projects” }}
+
+##### Renkleri Ayırma
+
+{{ video https://www.youtube.com/embed/Oe0rfzLtTO0 }}
+
+{{ video https://www.youtube.com/embed/IpCDnPnFvDc }}
+
+##### Dokuların Tespiti
+
+{{ video https://www.youtube.com/embed/B03-TlH-yVU }}
+
+##### Segment Anything
+
+{{ video https://www.youtube.com/embed/J_ubK5x1vcU }}
+
+##### wsinfer
+
+{{ video https://www.youtube.com/embed/0Z589zWlFQQ }}
 
 [^1]: <img src="resimler/patoloji-laboratuvarini-anlama-kilavuzu-1.jpg"
     style="width:25.0%"
