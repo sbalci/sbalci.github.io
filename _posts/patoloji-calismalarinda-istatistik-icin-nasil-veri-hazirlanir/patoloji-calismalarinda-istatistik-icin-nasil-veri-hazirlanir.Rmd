@@ -5,13 +5,23 @@ description: |
 author:
   - name: Serdar Balci
     url: https://github.com/sbalci
-date: 2023-02-28
+date: 2024-04-16
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-Önümüzdeki haftalarda bir toplantı serisine başlayacağız. İlk konumuz "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?" Bu konuda beklentilerinizi paylaşır mısınız: https://forms.gle/qhQ7aGpdC6Pn7f1c9 
+Bir toplantı serisine başlayacağız. İlk konumuz "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?" Bu konuda beklentilerinizi paylaşır mısınız: https://forms.gle/qhQ7aGpdC6Pn7f1c9 
+
+
+Patoloji Çalışmalarında İstatistik İçin Veri Hazırlama
+Thursday, April 25 · 19:00 – 20:00
+Time zone: Europe/Istanbul
+Google Meet joining info
+Video call link: <https://meet.google.com/xwv-wjma-daq>
+
+<https://calendar.app.google/jwAyFfBt2crc1SHo7> 
+
 
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVF5FDGVzvbZwdN4MAsFnW18tSYSBhDWSzTIpdPfFRYYbBgQ/viewform?embedded=true" width="640" height="638" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

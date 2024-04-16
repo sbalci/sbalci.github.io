@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir/",
+    "title": "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?",
+    "description": "Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.",
+    "author": [
+      {
+        "name": "Serdar Balci",
+        "url": "https://github.com/sbalci"
+      }
+    ],
+    "date": "2024-04-16",
+    "categories": [],
+    "contents": "\r\nBir toplantı serisine başlayacağız. İlk konumuz “Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?” Bu konuda beklentilerinizi paylaşır mısınız: https://forms.gle/qhQ7aGpdC6Pn7f1c9\r\nPatoloji Çalışmalarında İstatistik İçin Veri Hazırlama\r\nThursday, April 25 · 19:00 – 20:00\r\nTime zone: Europe/Istanbul\r\nGoogle Meet joining info\r\nVideo call link: https://meet.google.com/xwv-wjma-daq\r\nhttps://calendar.app.google/jwAyFfBt2crc1SHo7\r\n\r\nLoading…\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-04-16T19:56:50+03:00",
+    "input_file": "patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir.knit.md"
+  },
+  {
     "path": "posts/patolojide-bilisim/",
     "title": "Patolojide Bilişim",
     "description": "Bu yazı *Prof. Dr. Alp Usubütün* editörlüğünde hazırlanan *\"Sağlık Bilimleri İçin Patoloji ve Patoloji Laboratuvarını Anlama Kılavuzu 2. Baskı - Ekim 2022 Ankara Nobel Tıp Kitabevleri ISBN: 978-625-7564-70-0\"* adlı kitaptaki *\"8. Bölüm: Patolojide Yeni Yöntemler ve Gelecek\"* için hazırlanmıştır. Ancak bu alanın çok hızlı ilerlemesi nedeniyle bu metni güncel tutmak (ve bir sonraki baskı için gerekirse hazır bulunmak için) metin içeriği burada güncellenecektir.",
@@ -97,23 +114,6 @@
     "date": "2023-04-08",
     "categories": [],
     "contents": "\nDijital patolojide akreditasyon ile ilgili bölümde yaptığım sunumu ve kodu paylaşıyorum. Bu sunumu Quarto ve reveal.js ile hazırladım. Herhangi bir kişiselleştirme yapmadan da güzel html sunum hazırlanabiliyormuş.\n\n\n\n\n\n\n\n",
-    "preview": {},
-    "last_modified": "2024-04-13T23:08:06+03:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir/",
-    "title": "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?",
-    "description": "Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.",
-    "author": [
-      {
-        "name": "Serdar Balci",
-        "url": "https://github.com/sbalci"
-      }
-    ],
-    "date": "2023-02-28",
-    "categories": [],
-    "contents": "\nÖnümüzdeki haftalarda bir toplantı serisine başlayacağız. İlk konumuz “Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?” Bu konuda beklentilerinizi paylaşır mısınız: https://forms.gle/qhQ7aGpdC6Pn7f1c9\n\nLoading…\n\n\n\n\n",
     "preview": {},
     "last_modified": "2024-04-13T23:08:06+03:00",
     "input_file": {}
