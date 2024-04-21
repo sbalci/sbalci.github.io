@@ -7,7 +7,7 @@
     <description>Serdar Balci, MD Pathologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Patolojide Bilişim</title>
       <dc:creator>Serdar Balci</dc:creator>
@@ -21,35 +21,15 @@
       <category>bilgi yönetim sistemi</category>
       <category>dijital patoloji</category>
       <guid>https://www.serdarbalci.com/posts/patolojide-bilisim</guid>
-      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?</title>
       <dc:creator>Serdar Balci</dc:creator>
       <link>https://www.serdarbalci.com/posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir</link>
-      <description>
-
-
-&lt;p&gt;Bir toplantı serisine başlayacağız. İlk konumuz “Patoloji
-çalışmalarında istatistik için nasıl veri hazırlanır?” Bu konuda
-beklentilerinizi paylaşır mısınız: &lt;a
-href="https://forms.gle/qhQ7aGpdC6Pn7f1c9"
-class="uri"&gt;https://forms.gle/qhQ7aGpdC6Pn7f1c9&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Patoloji Çalışmalarında İstatistik İçin Veri Hazırlama&lt;br /&gt;
-Thursday, April 25 · 19:00 – 20:00&lt;br /&gt;
-Time zone: Europe/Istanbul&lt;br /&gt;
-Google Meet joining info&lt;br /&gt;
-Video call link: &lt;a href="https://meet.google.com/xwv-wjma-daq"
-class="uri"&gt;https://meet.google.com/xwv-wjma-daq&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://calendar.app.google/jwAyFfBt2crc1SHo7"
-class="uri"&gt;https://calendar.app.google/jwAyFfBt2crc1SHo7&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVF5FDGVzvbZwdN4MAsFnW18tSYSBhDWSzTIpdPfFRYYbBgQ/viewform?embedded=true" width="640" height="638" frameborder="0" marginheight="0" marginwidth="0"&gt;
-Loading…
-&lt;/iframe&gt;
-&lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
-      <distill:md5>6b4223eb05154a17df3ae55c7e428eda</distill:md5>
+      <description>Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.</description>
       <guid>https://www.serdarbalci.com/posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir</guid>
-      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Rutinde Dijital Patoloji: Zorluklar ve Kolaylıklar</title>
