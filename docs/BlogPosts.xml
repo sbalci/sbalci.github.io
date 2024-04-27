@@ -7,7 +7,7 @@
     <description>Serdar Balci, MD Pathologist
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>2024-04-21</lastBuildDate>
     <item>
       <title>Patolojide Bilişim</title>
       <dc:creator>Serdar Balci</dc:creator>
@@ -21,15 +21,32 @@
       <category>bilgi yönetim sistemi</category>
       <category>dijital patoloji</category>
       <guid>https://www.serdarbalci.com/posts/patolojide-bilisim</guid>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>2024-04-21</pubDate>
     </item>
     <item>
       <title>Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?</title>
       <dc:creator>Serdar Balci</dc:creator>
       <link>https://www.serdarbalci.com/posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir</link>
-      <description>Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.</description>
+      <description>
+
+
+&lt;p&gt;“Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?”
+konulu toplantıyı yaptık:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/JEAjmvsZKVM?si=DcoT7EWsK5E5Hk37"&gt;Patoloji
+Çalışmalarında İstatistik İçin Veri Hazırlama&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/JEAjmvsZKVM?si=9eIPxtxdtYcKE0bU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;p&gt;Geri bildirimlerinizi ve ilerideki toplantılar için önerilerinizi
+bekliyorum:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://forms.gle/qhQ7aGpdC6Pn7f1c9"
+class="uri"&gt;https://forms.gle/qhQ7aGpdC6Pn7f1c9&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfVF5FDGVzvbZwdN4MAsFnW18tSYSBhDWSzTIpdPfFRYYbBgQ/viewform?embedded=true" width="640" height="638" frameborder="0" marginheight="0" marginwidth="0"&gt;
+Loading…
+&lt;/iframe&gt;
+&lt;pre class="r distill-force-highlighting-css"&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
+      <distill:md5>6b4223eb05154a17df3ae55c7e428eda</distill:md5>
       <guid>https://www.serdarbalci.com/posts/patoloji-calismalarinda-istatistik-icin-nasil-veri-hazirlanir</guid>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>2024-04-15</pubDate>
     </item>
     <item>
       <title>Rutinde Dijital Patoloji: Zorluklar ve Kolaylıklar</title>
@@ -37,7 +54,7 @@
       <link>https://www.serdarbalci.com/posts/rutinde-dijital-patoloji-zorluklar-kolayliklar</link>
       <description>Dijital Patoloji Webinar serisinin üçüncüsünde yaptığım sunum.</description>
       <guid>https://www.serdarbalci.com/posts/rutinde-dijital-patoloji-zorluklar-kolayliklar</guid>
-      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>2023-09-27</pubDate>
     </item>
     <item>
       <title>Klinikopatolojik Çalışmalarda Kulanılabilecek Jamovi Modülleri</title>
@@ -53,7 +70,7 @@
       <category>sunum</category>
       <category>istatistik</category>
       <guid>https://www.serdarbalci.com/posts/klinikopatolojik-calismalar-jamovi-modulleri</guid>
-      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>2023-09-08</pubDate>
     </item>
     <item>
       <title>Geleceğe Hazırlanan Çocuklar</title>
@@ -61,7 +78,7 @@
       <link>https://www.serdarbalci.com/posts/gelecege-hazirlanan-cocuklar</link>
       <description>Yapay zeka çağına doğan çocuklar için.</description>
       <guid>https://www.serdarbalci.com/posts/gelecege-hazirlanan-cocuklar</guid>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>2023-05-01</pubDate>
     </item>
     <item>
       <title>dijital patoloji akreditasyonu ve quarto sunumu</title>
@@ -69,7 +86,7 @@
       <link>https://www.serdarbalci.com/posts/dijital-patoloji-akreditasyonu-ve-quarto-sunumu</link>
       <description>Makale saatinde dijital patoloji akreditasyonu ile ilgili sunum.</description>
       <guid>https://www.serdarbalci.com/posts/dijital-patoloji-akreditasyonu-ve-quarto-sunumu</guid>
-      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>2023-04-08</pubDate>
     </item>
     <item>
       <title>Moleküler Patoloji Hakkında</title>
@@ -80,7 +97,7 @@
       <category>moleküler patoloji</category>
       <category>patolojinin geleceği</category>
       <guid>https://www.serdarbalci.com/posts/molekuler-patoloji-hakkinda</guid>
-      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>2022-10-10</pubDate>
     </item>
     <item>
       <title>Dijital Patoloji Hakkında</title>
@@ -91,7 +108,7 @@
       <category>dijital patoloji</category>
       <category>patolojinin geleceği</category>
       <guid>https://www.serdarbalci.com/posts/dijital-patoloji-hakkinda</guid>
-      <pubDate>Sun, 02 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>2022-10-02</pubDate>
     </item>
     <item>
       <title>Patoloji Notları</title>
@@ -105,7 +122,7 @@
       <category>sosyal medya</category>
       <category>twitter</category>
       <guid>https://www.serdarbalci.com/posts/patolojinotlari</guid>
-      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>2022-04-05</pubDate>
     </item>
     <item>
       <title>Apple M1 Chip bilgisayarda R paketleri için gfortran yükleme</title>
@@ -119,7 +136,7 @@
       <category>apple</category>
       <category>M1</category>
       <guid>https://www.serdarbalci.com/posts/2021-10-24-apple-m1-r-paket-gfortran</guid>
-      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>2021-10-24</pubDate>
     </item>
     <item>
       <title>R ile topluca dosya ismi değiştirme</title>
@@ -128,7 +145,7 @@
       <description>Bir grup fotoğrafın ismini değiştirmemiz lazımdı. Bu küçük kodu onun için yazdım.</description>
       <category>RStats</category>
       <guid>https://www.serdarbalci.com/posts/2021-09-06-r-ile-topluca-dosya-ismi-degistirme</guid>
-      <pubDate>Mon, 06 Sep 2021 00:00:00 +0000</pubDate>
+      <pubDate>2021-09-06</pubDate>
     </item>
     <item>
       <title>Neden jamovi modüllerine ihtiyacım oldu?</title>
@@ -142,7 +159,7 @@
       <category>module</category>
       <category>shiny</category>
       <guid>https://www.serdarbalci.com/posts/2021-03-15-neden-jamovi-modullerine-ihtiyacim-oldu</guid>
-      <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
+      <pubDate>2021-03-15</pubDate>
     </item>
     <item>
       <title>GitHub Repository Collections</title>
@@ -153,7 +170,7 @@
       <category>GitHub</category>
       <category>Collection</category>
       <guid>https://www.serdarbalci.com/posts/2020-11-02-github-repository-collections</guid>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>2020-11-02</pubDate>
     </item>
   </channel>
 </rss>

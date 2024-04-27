@@ -1,7 +1,7 @@
 ---
 title: "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?"
 description: |
-  Önümüzdeki dönem yapacağımız toplantı serisinin ilk konusu.
+  Toplantının video kaydı
 author:
   - name: Serdar Balci
     url: https://github.com/sbalci
@@ -11,16 +11,21 @@ output:
     self_contained: false
 ---
 
-Bir toplantı serisine başlayacağız. İlk konumuz "Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?" Bu konuda beklentilerinizi paylaşır mısınız: https://forms.gle/qhQ7aGpdC6Pn7f1c9   
+
+"Patoloji çalışmalarında istatistik için nasıl veri hazırlanır?" konulu toplantıyı yaptık: 
+
+[Patoloji Çalışmalarında İstatistik İçin Veri Hazırlama](https://youtu.be/JEAjmvsZKVM?si=DcoT7EWsK5E5Hk37)
 
 
-Patoloji Çalışmalarında İstatistik İçin Veri Hazırlama  
-Thursday, April 25 · 19:00 – 20:00  
-Time zone: Europe/Istanbul  
-Google Meet joining info  
-Video call link: <https://meet.google.com/xwv-wjma-daq>  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JEAjmvsZKVM?si=9eIPxtxdtYcKE0bU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<https://calendar.app.google/jwAyFfBt2crc1SHo7>   
+
+
+
+Geri bildirimlerinizi ve ilerideki toplantılar için önerilerinizi bekliyorum:
+
+https://forms.gle/qhQ7aGpdC6Pn7f1c9   
+
 
 
 
