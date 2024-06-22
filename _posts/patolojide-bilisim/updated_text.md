@@ -1,6 +1,6 @@
 # Patoloji ve Bilişim
 Serdar Balcı
-2024-02-16
+2024-06-19
 
 - [Patoloji ve Bilişim](#sec-patoloji-ve-bilisim)
   - [Patolojide Bilişimin yeri
@@ -292,6 +292,27 @@ Yapay zeka modellerinin nasıl geliştirildiği oldukça önemlidir.
 
 unutulmamalıdır.
 
+Geliştirilmekte olan, temel modeller (foundation models) üzerine inşa
+edilen modeller (fine-tuning) ile patolojide yapay zeka uygulamaları
+yaygınlaşacaktır.
+
+<https://doi.org/10.1016/j.jpi.2024.100375>
+
+<https://arxiv.org/abs/2312.07814>
+
+Çok modlu bir üretken yapay zeka modeli olan “PathChat 2”[^8] de
+patolojiye özel bir chatGPT[^9] olarak hayatımızda yer almaya aday
+modellerdendir .
+
+Towards a general-purpose foundation model for computational pathology
+<https://www.nature.com/articles/s41591-024-02857-3>
+
+A visual-language foundation model for computational pathology
+<https://www.nature.com/articles/s41591-024-02856-4>
+
+A Multimodal Generative AI Copilot for Human Pathology
+<https://www.nature.com/articles/s41586-024-07618-3>
+
 Gelecekte her mikroskopta bir kameranın olduğu, masabaşında hemen
 ulaşılabilecek tarama cihazlarının olduğu çalışma ortamı yanısıra,
 tamamen mikroskopsuz patoloji iş istasyonları da olacaktır.
@@ -311,7 +332,7 @@ yerleşeceğini ve patoloji laboratuvarlarında bilişim sektöründen de
 #### QuPath
 
 QuPath’ın WSinfer adlı eklentisi ile literatürdeki yapay zeka
-modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^8]
+modellerini kendi vakalarımızda kolayca uygulamak mümkün. [^10]
 
 > I am really enthusiastic about the \#wsinfer plugin of \#qupath Now it
 > will be possible to try published models of digital pathology on my
@@ -342,7 +363,7 @@ PORTABLE DIGITAL PATHOLOGY https://doi.org/10.1016/j.jpi.2022.100043
 #### µManager {sec-micromanager}
 
 Open Source Software for Control and Automation of Microscope Hardware
-[^9]
+[^11]
 
 Diğer açık kaynak kodlu ve ücretsiz programların listesi okuma
 önerilerinde verilmiştir.
@@ -550,10 +571,14 @@ projects” }}
 
 [^7]: <http://www.andrewjanowczyk.com/application-of-icc-profiles-to-digital-pathology-images/>
 
-[^8]: [preprint](https://arxiv.org/abs/2309.04631)
+[^8]: <https://www.modella.ai/intro.html>
+
+[^9]: <https://chatgpt.com/>
+
+[^10]: [preprint](https://arxiv.org/abs/2309.04631)
     [documentation-1](https://wsinfer.readthedocs.io/en/latest/)
     [documentation-2](https://qupath.readthedocs.io/en/latest/docs/deep/wsinfer.html)
     [image.sc](https://forum.image.sc/t/for-wsinfer-extension-how-can-i-find-model-documentations/85493)
     [linkedIN](https://www.linkedin.com/feed/update/urn:li:activity:7108787522310184960/)
 
-[^9]: https://micro-manager.org/
+[^11]: https://micro-manager.org/
