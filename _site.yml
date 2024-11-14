@@ -47,12 +47,7 @@ navbar:
           href: https://www.patolojinotlari.com
         - text: Patoloji Atlası
           href: https://www.patolojatlasi.com
-        - text: Tweet Collection
-          href: https://serdarbalci.netlify.com/
-        - text: PBPath Journal Watch
-          href: https://pbpath.org/pbpath-journal-watch/
-        - text: Endonews
-          href: https://www.endonews.com/author/serdar-balci
+
 
         - text: Bibliometrics
         - text: "---"
@@ -63,11 +58,6 @@ navbar:
           href: http://www.serdarbalci.com/Pathology-Articles-from-Turkey/
         - text: Pancreatobiliary Pathology Journal Watch
           href: https://www.serdarbalci.com/pubmedarticles/
-
-        - text: "PathologyWeb"
-          href: https://github.com/PathologyWeb
-        - text: "Patoloji Raporları"
-          href: https://pathologyweb.github.io/patolojiraporlari/
 
 
     - text: R packages
@@ -87,8 +77,7 @@ navbar:
           href: https://sbalci.github.io/meddecide
         - text: ClinicoPathDescriptives
           href: https://sbalci.github.io/ClinicoPathDescriptives
-        - text: ClinicoPathDescriptives for Linux
-          href: https://sbalci.github.io/ClinicoPathLinuxDescriptives
+
 
         - text: R-project
         - text: "---"
@@ -96,11 +85,6 @@ navbar:
           href: https://www.serdarbalci.com/MyRCodesForDataAnalysis/
         - text: Histopathology Research Template
           href: https://github.com/sbalci/histopathology-template
-
-        - text: software
-        - text: "---"
-        - text: SourceForge
-          href: https://sourceforge.net/u/serdarbalci/profile/
 
     - text: About
       menu:
@@ -119,8 +103,6 @@ navbar:
           href: https://twitter.com/serdarbalci/
         - icon: fab fa-mastodon
           href: /social/mastodon.html
-        - text: post news
-          href: https://post.news/serdarbalci
         - icon: fab fa-facebook
           href: https://www.facebook.com/serdarbalcimdpathologist/
         - icon: fab fa-instagram
