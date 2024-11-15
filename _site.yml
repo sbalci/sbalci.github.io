@@ -53,11 +53,6 @@ navbar:
         - text: "---"
         - text: Bibliometry Studies
           href: https://www.serdarbalci.com/bibliometrics/
-        - text: "---"
-        - text: Pathology Articles from Turkey
-          href: http://www.serdarbalci.com/Pathology-Articles-from-Turkey/
-        - text: Pancreatobiliary Pathology Journal Watch
-          href: https://www.serdarbalci.com/pubmedarticles/
 
 
     - text: R packages
@@ -103,6 +98,10 @@ navbar:
           href: https://twitter.com/serdarbalci/
         - icon: fab fa-mastodon
           href: /social/mastodon.html
+        - icon: fab fa-mastodon
+          href: https://fosstodon.org/@serdarbalci
+        - icon: fab fa-bluesky
+          href: https://bsky.app/profile/serdarbalci.com
         - icon: fab fa-facebook
           href: https://www.facebook.com/serdarbalcimdpathologist/
         - icon: fab fa-instagram
