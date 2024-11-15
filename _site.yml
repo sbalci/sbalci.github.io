@@ -15,9 +15,9 @@ navbar:
         - text: "Video consultation via superpeer"
           href: https://superpeer.com/serdarbalci
         - text: "Memorial Hospitals Group Pathology Department"
-          href: https://www.memorial.com.tr/en/doctors/serdar-balci
+          href: https://patoloji.memorial.com.tr/
         - text: "Memorial Sağlık Grubu Patoloji Laboratuvarı"
-          href: https://www.memorial.com.tr/doktorlar/serdar-balci
+          href: https://patoloji.memorial.com.tr/
 
     - text: "Blogs and Posts"
       menu:
