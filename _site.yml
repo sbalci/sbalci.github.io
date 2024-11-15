@@ -99,7 +99,7 @@ navbar:
         - icon: fab fa-mastodon
           href: /social/mastodon.html
         - icon: fab fa-mastodon
-          href: https://fosstodon.org/@serdarbalci
+          href: /social/fosstodon.html
         - icon: fab fa-bluesky
           href: https://bsky.app/profile/serdarbalci.com
         - icon: fab fa-facebook
