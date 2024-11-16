@@ -57,9 +57,6 @@ navbar:
 
     - text: R packages
       menu:
-        - text: status
-          href: https://www.serdarbalci.com/status
-
         - text: jamovi modules
         - text: "---"
         - text: ClinicoPath
