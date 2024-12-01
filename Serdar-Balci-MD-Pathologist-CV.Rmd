@@ -263,34 +263,218 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 ### Araştırma Makaleleri  {#research-publications}
 
 
-- Yavas A, Ozcan K, Adsay NV, Balci S, Tarcan ZC, Hechtman JF, Luchini C, Scarpa A, Lawlor RT, Mafficini A, Reid MD, Xue Y, Yang Z, Haye K, Bellizzi AM, Vanoli A, Benhamida J, Balachandran V, Jarnagin W, Park W, O'Reilly EM, Klimstra DS, Basturk O. SWI/SNF Complex-Deficient Undifferentiated Carcinoma of the Pancreas: Clinicopathologic and Genomic Analysis. Mod Pathol. 2024 Nov;37(11):100585. doi: 10.1016/j.modpat.2024.100585. Epub 2024 Jul 31. PMID: 39094734; PMCID: PMC11585460.
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
 
 
-- Memis B, Saka B, Pehlivanoglu B, Kim G, Balci S, Tajiri T, Ohike N, Bagci P, Akar KE, Muraki T, Jang KT, Maithel SK, Sarmiento J, Kooby DA, Esmer R, Tarcan ZC, Goodman M, Xue Y, Krasinskas A, Reid M, Basturk O, Adsay V. ASO Visual Abstract: Comparison of Ampullary and Pancreatic Adenocarcinomas-Smaller Invasion, Common Adenomatous Components, Resectability, and Histology are Factors for Improved Survival for Patients with Ampullary Adenocarcinoma. Ann Surg Oncol. 2024 Nov 16;. doi: 10.1245/s10434-024-16449-5. [Epub ahead of print] PubMed PMID: 39550484.
 
+- <b>SWI/SNF Complex-Deficient Undifferentiated Carcinoma of the Pancreas: Clinicopathologic and Genomic Analysis.</b>
+Mod Pathol. 2024 Nov;37(11):100585.
+doi: 10.1016/j.modpat.2024.100585.
+Epub 2024 Jul 31. PMID: 39094734; PMCID: PMC11585460.
+
+Yavas A, Ozcan K, Adsay NV, Balci S, Tarcan ZC, Hechtman JF, Luchini C, Scarpa A, Lawlor RT, Mafficini A, Reid MD, Xue Y, Yang Z, Haye K, Bellizzi AM, Vanoli A, Benhamida J, Balachandran V, Jarnagin W, Park W, O'Reilly EM, Klimstra DS, Basturk O.
+
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+- <b>ASO Visual Abstract: Comparison of Ampullary and Pancreatic Adenocarcinomas-Smaller Invasion, Common Adenomatous Components, Resectability, and Histology are Factors for Improved Survival for Patients with Ampullary Adenocarcinoma.</b>
+Memis B, Saka B, Pehlivanoglu B, Kim G, Balci S, Tajiri T, Ohike N, Bagci P, Akar KE, Muraki T, Jang KT, Maithel SK, Sarmiento J, Kooby DA, Esmer R, Tarcan ZC, Goodman M, Xue Y, Krasinskas A, Reid M, Basturk O, Adsay V.
+
+Ann Surg Oncol. 2024 Nov 16;.
+doi: 10.1245/s10434-024-16449-5. [Epub ahead of print] PubMed PMID: 39550484.
+
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
 
 - Memis B, Saka B, Pehlivanoglu B, Kim G, Balci S, Tajiri T, Ohike N, Bagci P, Akar KE, Muraki T, Jang KT, Maithel SK, Sarmiento J, Kooby DA, Esmer R, Tarcan ZC, Goodman M, Xue Y, Krasinskas A, Reid M, Basturk O, Adsay V. Comparison of Ampullary and Pancreatic Adenocarcinomas: Smaller Invasion, Common Adenomatous Components, Resectability, and Histology are Factors for Improved Survival for Patients with Ampullary Adenocarcinoma. Ann Surg Oncol. 2024 Oct 14;. doi: 10.1245/s10434-024-16355-w. [Epub ahead of print] PubMed PMID: 39402320.
 
+
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
 - Eren OC, Bagci P, Balci S, Ohike N, Saka B, Sokmensuer C, Leblebici CB, Xue Y, Reid MD, Krasinskas AM, Kooby D, Maithel SK, Sarmiento J, Cheng JD, Taskin OC, Kapran Y, Tarcan ZC, Luchini C, Scarpa A, Basturk O, Adsay NV. Subgrading of G2 Pancreatic Neuroendocrine Tumors as 2A (Ki67 3% to < 10%) Versus 2B (10% to ≤ 20%) Identifies Behaviorally Distinct Subsets in Keeping with the Evolving Management Protocols. Ann Surg Oncol. 2024 Oct;31(10):7001-7011. doi: 10.1245/s10434-024-15632-y. Epub 2024 Jul 2. PubMed PMID: 38955993; PubMed Central PMCID: PMC11413052.
+
+
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+
 
 - Eren OC, Bagci P, Balci S, Ohike N, Saka B, Sokmensuer C, Leblebici CB, Xue Y, Reid MD, Krasinskas AM, Kooby D, Maithel SK, Sarmiento J, Cheng JD, Taskin OC, Kapran Y, Tarcan Z, Luchini C, Scarpa A, Basturk O, Adsay NV. ASO Author Reflections: Prognostic Value of Subgrading G2 Pancreatic Neuroendocrine Tumors as 2A versus 2B. Ann Surg Oncol. 2024 Oct;31(10):7068-7069. doi: 10.1245/s10434-024-15728-5. Epub 2024 Jul 11. PubMed PMID: 38990222.
 
 
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+
+
 - Tarcan ZC, Esmer R, Akar KE, Bagci P, Bozkurtlar E, Saka B, Armutlu A, Sahin Ozkan H, Ozcan K, Taskin OC, Kapran Y, Aydin Mericoz C, Balci S, Yilmaz S, Cengiz D, Gurses B, Alper E, Tellioglu G, Bozkurt E, Bilge O, Cheng JD, Basturk O, Adsay NV. Intra-ampullary Papillary Tubular Neoplasm (IAPN): Clinicopathologic Analysis of 72 Cases Highlights the Distinctive Characteristics of a Poorly Recognized Entity. Am J Surg Pathol. 2024 Sep 1;48(9):1093-1107. doi: 10.1097/PAS.0000000000002275. Epub 2024 Jul 18. PubMed PMID: 38938087.
+
+
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+
 
 - Pehlivanoglu B, Araya JC, Lawrence S, Roa JC, Balci S, Andersen JB, Rashid A, Hsing AW, Zhu B, Gao YT, Koshiol J, Adsay V. TPPP-BRD9 fusion-related gallbladder carcinomas are frequently associated with intracholecystic neoplasia, neuroendocrine carcinoma, and a distinctive small tubular-type adenocarcinoma commonly accompanied with a syringomatous pattern. Hum Pathol. 2024 Aug;150:67-73. doi: 10.1016/j.humpath.2024.07.001. Epub 2024 Jul 5. PubMed PMID: 38972607.
 
 
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
 - Dursun N, Memis B, Pehlivanoglu B, Taskin OC, Okcu O, Akkas G, Bagci P, Balci S, Saka B, Araya JC, Bellolio E, Roa JC, Jang KT, Losada H, Maithel SK, Sarmiento J, Reid MD, Jang JY, Cheng JD, Basturk O, Koshiol J, Adsay NV. Adenomyomas of the Gallbladder: An Analysis of Frequency, Clinicopathologic Associations, and Relationship to Carcinoma of a Malformative Lesion. Arch Pathol Lab Med. 2024 Feb 1;148(2):206-214. doi: 10.5858/arpa.2022-0379-OA. PubMed PMID: 37134225.
+
+
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+
 
 
 - Sahin SI, Balci S, Guler G, Altundag K. Clinicopathological analysis of 38 male patients diagnosed with breast cancer. Breast Dis. 2024;43(1):1-8. doi: 10.3233/BD-230050. PubMed PMID: 38363600; PubMed Central PMCID: PMC10894578.
 
 
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+
+
+
 - Wang T, Askan G, Ozcan K, Rana S, Zehir A, Bhanot UK, Yantiss RK, Rao DS, Wahl SJ, Bagci P, Balci S, Balachandran V, Jarnagin WR, Adsay NV, Klimstra DS, Basturk O. Tumoral Intraductal Neoplasms of the Bile Ducts Comprise Morphologically and Genetically Distinct Entities. Arch Pathol Lab Med. 2023 Dec 1;147(12):1390-1401. doi: 10.5858/arpa.2022-0343-OA. PubMed PMID: 36821179.
 
 
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+
+
+
 - Pehlivanoglu B, Akkas G, Memis B, Basturk O, Reid MD, Saka B, Dursun N, Bagci P, Balci S, Sarmiento J, Maithel SK, Bandyopadhyay S, Escalona OT, Araya JC, Losada H, Goodman M, Knight JH, Roa JC, Adsay V. Reappraisal of T1b gallbladder cancer (GBC): clinicopathologic analysis of 473 in situ and invasive GBCs and critical review of the literature highlights its rarity, and that it has a very good prognosis. Virchows Arch. 2023 Feb;482(2):311-323. doi: 10.1007/s00428-022-03482-6. Epub 2022 Dec 29. Review. PubMed PMID: 36580138.
+
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
 
 
 
@@ -299,21 +483,69 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 - Medullary Carcinoma of the Ampulla Has Distinct Clinicopathologic Characteristics Including Common Association with Microsatellite Instability and PD-L1 Expression. Hum Pathol. 2022 Dec 8:S0046-8177(22)00282-9. doi: 10.1016/j.humpath.2022.12.004. Epub ahead of print. PMID: 36502926.  
 Xue Y, Balci S, Pehlivanoglu B, Muraki T, Memis B, Saka B, Kim G, Bandopadhyay S, Knight J, El-Rayes B, Kooby D, Maithel SK, Sarmiento J, Basturk O, Reid MD, Adsay V. 
 
-
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
 
 - Hepatic Cysts: Reappraisal of the Classification, Terminology, Differential Diagnosis, and Clinicopathologic Characteristics in 258 Cases. Am J Surg Pathol. 2022 Jul 4. doi: 10.1097/PAS.0000000000001930. Epub ahead of print. PMID: 35778790.
 Armutlu A, Quigley B, Choi H, Basturk O, Akkas G, Pehlivanoglu B, Memis B, Jang KT, Erkan M, Erkan B, Balci S, Saka B, Bagci P, Farris AB, Kooby DA, Martin D, Kalb B, Maithel SK, Sarmiento J, Reid MD, Adsay NV.
 
-
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
 
 - Infiltration pattern predicts metastasis and progression better than the T-stage and grade in pancreatic neuroendocrine tumors: a proposal for a novel infiltration-based morphologic grading. Mod Pathol. 2022 Jun;35(6):777-785. doi: 10.1038/s41379-021-00995-4. Epub 2021 Dec 30. PMID: 34969955.
 Taskin OC, Reid MD, Bagci P, Balci S, Armutlu A, Demirtas D, Pehlivanoglu B, Saka B, Memis B, Bozkurtlar E, Leblebici CB, Birceanu A, Xue Y, Erkan M, Kapran Y, Baygul A, Sokmensuer C, Scarpa A, Luchini C, Basturk O, Adsay V. 
 
 
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
+
+
+
 - Taskin OC, Bellolio E, Dursun N, Seven IE, Roa JC, Araya JC, Villaseca M, Tapia O, Vance C, Saka B, Balci S, Bagci P, Losada H, Sarmiento J, Memis B, Pehlivanoğlu B, Basturk O, Reid MD, Koshiol J, Cheng JD, Kapran Y, Adsay V. Non-neoplastic Polyps of the Gallbladder: A Clinicopathologic Analysis of 447 Cases. Am J Surg Pathol. 2020 Apr;44(4):467-476. doi: 10.1097/PAS.0000000000001405. PubMed PMID: 31725469; PubMed Central PMCID: PMC8693758.
 
 
-
+<!-- <aside>   -->
+<!-- [doi:doi_no](https://doi.org/doi_no)   -->
+<!-- [PMID:PMID_no](https://pubmed.ncbi.nlm.nih.gov/PMID_no/)   -->
+<!-- [PMCID:PMCID_no](http://www.ncbi.nlm.nih.gov/pmc/articles/PMCID_no/)   -->
+<!-- <span class="__dimensions_badge_embed__" data-doi="doi_no" data-style="small_circle"></span>   -->
+<!-- <span class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="doi_no"> -->
+<!-- </span>   -->
+<!-- [Semantic](https://api.semanticscholar.org/doi_no?include_unknown_references=true)   -->
+<!-- [Scite](https://scite.ai/reports/doi_no)   -->
+<!-- [Connections](https://www.connectedpapers.com/ ) -->
+<!-- <hr>   -->
+<!-- </aside>   -->
 
 - T2 gallbladder cancer shows substantial survival variation between continents and this is not due to histopathologic criteria or pathologic sampling differences.  
 [Virchows Arch. 2021 Jan 7.](https://link.springer.com/article/10.1007%2Fs00428-020-02968-5)  
@@ -2763,11 +2995,14 @@ C1.1-C1.2, 13.05.2019-11.07.2019
 
 - Digital Pathology Association 
 - European Society for Digital and Integrative Pathology (ESDIP) 
+- European Society of Pathology (ESP) 
+- Asian Society of Digital Pathology (ASDP) 
+- Associaiton of Pathology Informatics (API) 
 - Ankara Patoloji Derneği 
 - Sitopatoloji Derneği 
 - United States and Canadian Academy of Pathology (USCAP) 
 - Pancreatobiliary Pathology Society 
-- Pancreatobiliary Pathology Society Membership/Website Committee (2018 - 2020) 
+    - Pancreatobiliary Pathology Society Membership/Website Committee (2018 - 2025) 
 - Ankara Tabip Odası (Ankara Medical Chamber) 
 - İstanbul Tabip Odası (İstanbul Medical Chamber) 
 - Patoloji Dernekleri Federasyonu Standardizasyon Komisyonu 
