@@ -1,39 +1,4 @@
 ---
-title: "Miscellaneous - Ordan Burdan"
-author:
-  - first_name: "Serdar"
-    last_name: "Balci"
-    url: https://github.com/sbalci
-    affiliation: parapathology.com
-    affiliation_url: https://www.parapathology.com/
-date: "`r Sys.Date()`"
-slug: "miscellaneous"
-output:
-  distill::distill_article:
-    self_contained: false
-categories: [patoloji, patolojinin geleceği, dijital patoloji]
----
-
-
-
-
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-Düzenlenmiş koleksiyonlar için [tıklayın](https://www.parapathology.com/).  
-
-
-
-
-
-
-
-
-
-
----
 description: >-
   Miscellaneous links to be organised. Ordan burdan derlenmiş ama düzenlenmemiş
   güncel patoloji içerikleri.
