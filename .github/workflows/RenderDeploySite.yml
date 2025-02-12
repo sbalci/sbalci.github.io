@@ -69,6 +69,7 @@ jobs:
         run: |
           # rmarkdown::render('./patoloji-ders-notlari/index.Rmd')
           rmarkdown::render('./_posts/patolojide-bilisim/patolojide-bilisim.Rmd')
+          rmarkdown::render('./_posts/miscellaneous/miscellaneous.Rmd')
           rmarkdown::render('./Serdar-Balci-MD-Pathologist-CV.Rmd')
         shell: Rscript {0}
 
