@@ -16,7 +16,7 @@ writeLines(text = post_text, con = "./_posts/patolojide-bilisim/patolojide-bilis
 
 updated_text2 <- readLines(con = "https://raw.githubusercontent.com/sbalci/ParaPathology/refs/heads/master/appendix/miscellaneous.md")
 
-writeLines(text = updated_text2, con = "./_posts/miscellaneous/updated_text.md")
+writeLines(text = updated_text2, con = "./_posts/miscellaneous/updated_text2.md")
 
 header_text2 <- readLines(con = "./_posts/miscellaneous/_header_miscellaneous.Rmd")
 
