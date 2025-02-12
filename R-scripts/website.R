@@ -11,6 +11,21 @@ post_text <- c(paste0(header_text), paste0(updated_text))
 writeLines(text = post_text, con = "./_posts/patolojide-bilisim/patolojide-bilisim.Rmd")
 
 
+# miscellaneous
+
+
+updated_text2 <- readLines(con = "https://raw.githubusercontent.com/sbalci/ParaPathology/refs/heads/master/appendix/miscellaneous.md")
+
+writeLines(text = updated_text2, con = "./_posts/miscellaneous/updated_text.md")
+
+header_text2 <- readLines(con = "./_posts/miscellaneous/_header_miscellaneous.Rmd")
+
+post_text2 <- c(paste0(header_text2), paste0(updated_text2))
+
+writeLines(text = post_text2, con = "./_posts/miscellaneous/miscellaneous.Rmd")
+
+
+
 # distill::import_post(
 #     url = "https://raw.githubusercontent.com/sbalci/bibliometrics/master/BibliographicStudies.Rmd",
 #     slug = "bibliometricstudies",
