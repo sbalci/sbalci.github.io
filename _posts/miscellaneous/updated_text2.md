@@ -15,6 +15,24 @@ description: >-
 
 
 
+
+
+
+
+***
+
+Annotating for Artificial Intelligence Applications in Digital Pathology: A Practical Guide for Pathologists and Researchers [https://pubmed.ncbi.nlm.nih.gov/36788085/](https://pubmed.ncbi.nlm.nih.gov/36788085/) [https://linkinghub.elsevier.com/retrieve/pii/S0893-3952(22)05526-0](https://linkinghub.elsevier.com/retrieve/pii/S0893-3952\(22\)05526-0)&#x20;
+
+{% embed url="https://linkinghub.elsevier.com/retrieve/pii/S0893-3952(22)05526-0" %}
+
+
+
+***
+
+Future of Artificial Intelligence-Machine Learning Trends in Pathology and Medicine [https://pubmed.ncbi.nlm.nih.gov/39761872/](https://pubmed.ncbi.nlm.nih.gov/39761872/) [https://www.modernpathology.org/article/S0893-3952(25)00001-8/fulltext](https://www.modernpathology.org/article/S0893-3952\(25\)00001-8/fulltext)
+
+{% embed url="https://www.modernpathology.org/article/S0893-3952(25)00001-8/fulltext" %}
+
 ***
 
 [https://www.instagram.com/p/DIl8X6IuUIX/](https://www.instagram.com/p/DIl8X6IuUIX/)
