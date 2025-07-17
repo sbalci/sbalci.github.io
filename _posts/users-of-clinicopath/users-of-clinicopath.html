@@ -32,7 +32,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -88,638 +88,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Serdar Balci MD Pathologist: RStats Posts</title>
+  <title>Users of ClinicoPath</title>
+
+  <meta property="description" itemprop="description" content="This is a collection of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects."/>
 
 
-  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
-
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2025-07-17"/>
+  <meta property="article:created" itemprop="dateCreated" content="2025-07-17"/>
+  <meta name="article:author" content="Serdar Balci"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Serdar Balci MD Pathologist: RStats Posts"/>
+  <meta property="og:title" content="Users of ClinicoPath"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="This is a collection of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Serdar Balci MD Pathologist"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Serdar Balci MD Pathologist: RStats Posts"/>
-  <meta property="twitter:site" content="@serdarbalci"/>
-  <meta property="twitter:creator" content="@serdarbalci"/>
+  <meta property="twitter:title" content="Users of ClinicoPath"/>
+  <meta property="twitter:description" content="This is a collection of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories"]}},"value":[{"type":"character","attributes":{},"value":["RStats Posts"]},{"type":"character","attributes":{},"value":["RStats"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","doi","slug","output","categories"]}},"value":[{"type":"character","attributes":{},"value":["Users of ClinicoPath"]},{"type":"character","attributes":{},"value":["This is a collection of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects. \n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["first_name","last_name","url","affiliation","affiliation_url","orcid_id"]}},"value":[{"type":"character","attributes":{},"value":["Serdar"]},{"type":"character","attributes":{},"value":["Balci"]},{"type":"character","attributes":{},"value":["https://github.com/sbalci"]},{"type":"character","attributes":{},"value":["ClinicoPathJamoviModule"]},{"type":"character","attributes":{},"value":["https://www.serdarbalci.com/ClinicoPathJamoviModule/"]},{"type":"character","attributes":{},"value":["0000-0002-7852-3851"]}]}]},{"type":"character","attributes":{},"value":["2025-07-17"]},{"type":"character","attributes":{},"value":["10.17605/OSF.IO/9SZUD"]},{"type":"character","attributes":{},"value":["users-of-clinicopath"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["jamovi","jsurvival","ClinicoPathDescriptives","meddecide","ClinicoPathJamoviModule","jjstatsplot","statistics","biostatistics","R-package","RStats"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["users-of-clinicopath_files/anchor-4.2.2/anchor.min.js","users-of-clinicopath_files/bowser-1.9.3/bowser.min.js","users-of-clinicopath_files/distill-2.2.21/template.v2.js","users-of-clinicopath_files/header-attrs-2.29/header-attrs.js","users-of-clinicopath_files/jquery-3.6.0/jquery-3.6.0.js","users-of-clinicopath_files/jquery-3.6.0/jquery-3.6.0.min.js","users-of-clinicopath_files/jquery-3.6.0/jquery-3.6.0.min.map","users-of-clinicopath_files/popper-2.6.0/popper.min.js","users-of-clinicopath_files/tippy-6.2.7/tippy-bundle.umd.min.js","users-of-clinicopath_files/tippy-6.2.7/tippy-light-border.css","users-of-clinicopath_files/tippy-6.2.7/tippy.css","users-of-clinicopath_files/tippy-6.2.7/tippy.umd.min.js","users-of-clinicopath_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2098,302 +1499,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </script>
 
-  <style type="text/css">
-  /* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-
-
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    sans-serif;
-    --mono-font:       monospace;
-    --body-font:       sans-serif;
-    --navbar-font:     sans-serif;  /* websites + blogs only */
-  }
-
-  /*-- ARTICLE METADATA --*/
-  d-byline {
-    --heading-size:    0.6rem;
-    --heading-color:   rgba(0, 0, 0, 0.5);
-    --body-size:       0.8rem;
-    --body-color:      rgba(0, 0, 0, 0.8);
-  }
-
-  /*-- ARTICLE TABLE OF CONTENTS --*/
-  .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
-  }
-
-  /*-- ARTICLE APPENDIX --*/
-  d-appendix {
-    --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
-    --text-color:      rgba(0, 0, 0, 0.5);
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  /* These properties only apply to Distill sites and blogs  */
-
-  .distill-site-header {
-    --title-size:       18px;
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  .distill-site-footer {
-    --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #0F2E3D;
-  }
-
-  /*-- Additional custom styles --*/
-  /* Add any additional CSS rules below                      */
-  </style>
-  <style type="text/css">/* base variables */
-
-  /* Edit the CSS properties in this file to create a custom
-     Distill theme. Only edit values in the right column
-     for each row; values shown are the CSS defaults.
-     To return any property to the default,
-     you may set its value to: unset
-     All rows must end with a semi-colon.                      */
-
-  /* Optional: embed custom fonts here with `@import`          */
-  /* This must remain at the top of this file.                 */
-  @import url('https://fonts.googleapis.com/css2?family=Amiri');
-  @import url('https://fonts.googleapis.com/css2?family=Bitter');
-  @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
-
-  html {
-    /*-- Main font sizes --*/
-    --title-size:      50px;
-    --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
-    /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
-    --body-color:      rgba(0, 0, 0, 0.8);
-    --aside-color:     rgba(0, 0, 0, 0.6);
-    --fig-cap-color:   rgba(0, 0, 0, 0.6);
-    /*-- Specify custom fonts ~~~ must be imported above   --*/
-    --heading-font:    "Amiri", serif;
-    --mono-font:       "DM Mono", monospace;
-    --body-font:       "Bitter", sans-serif;
-    --navbar-font:     "Amiri", serif;
-  }
-
-  /* More properties ... */
-
-
-  /* CSS for the iframe and border */
-  #randomIframe {
-      border: 1px solid #ccc;
-      width: 100%;
-      height: 400px;
-      box-sizing: border-box;
-  }
-  </style>
-  <style type="text/css">
-  /* base style */
-
-  /* FONT FAMILIES */
-
-  :root {
-    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
-  }
-
-  body,
-  .posts-list .post-preview p,
-  .posts-list .description p {
-    font-family: var(--body-font), var(--body-default);
-  }
-
-  h1, h2, h3, h4, h5, h6,
-  .posts-list .post-preview h2,
-  .posts-list .description h2 {
-    font-family: var(--heading-font), var(--heading-default);
-  }
-
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-family: var(--mono-font), var(--mono-default);
-  }
-
-
-  /*-- TITLE --*/
-  d-title h1,
-  .posts-list > h1 {
-    color: var(--title-color, black);
-  }
-
-  d-title h1 {
-    font-size: var(--title-size, 50px);
-  }
-
-  /*-- HEADERS --*/
-  d-article h1,
-  d-article h2,
-  d-article h3,
-  d-article h4,
-  d-article h5,
-  d-article h6 {
-    color: var(--header-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- BODY --*/
-  d-article > p,  /* only text inside of <p> tags */
-  d-article > ul, /* lists */
-  d-article > ol {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-    font-size: var(--body-size, 1.06rem);
-  }
-
-
-  /*-- CODE --*/
-  d-article div.sourceCode code,
-  d-article pre code {
-    font-size: var(--code-size, 14px);
-  }
-
-  /*-- ASIDE --*/
-  d-article aside {
-    font-size: var(--aside-size, 12px);
-    color: var(--aside-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- FIGURE CAPTIONS --*/
-  figure .caption,
-  figure figcaption,
-  .figure .caption {
-    font-size: var(--fig-cap-size, 13px);
-    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
-  }
-
-  /*-- METADATA --*/
-  d-byline h3 {
-    font-size: var(--heading-size, 0.6rem);
-    color: var(--heading-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-byline {
-    font-size: var(--body-size, 0.8rem);
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  d-byline a,
-  d-article d-byline a {
-    color: var(--body-color, rgba(0, 0, 0, 0.8));
-  }
-
-  /*-- TABLE OF CONTENTS --*/
-  .d-contents nav h3 {
-    font-size: var(--heading-size, 18px);
-  }
-
-  .d-contents nav a {
-    font-size: var(--contents-size, 13px);
-  }
-
-  /*-- APPENDIX --*/
-  d-appendix h3 {
-    font-size: var(--heading-size, 15px);
-    color: var(--heading-color, rgba(0, 0, 0, 0.65));
-  }
-
-  d-appendix {
-    font-size: var(--text-size, 0.8em);
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  d-appendix d-footnote-list a.footnote-backlink {
-    color: var(--text-color, rgba(0, 0, 0, 0.5));
-  }
-
-  /*-- WEBSITE HEADER + FOOTER --*/
-  .distill-site-header .title {
-    font-size: var(--title-size, 18px);
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .distill-site-header a,
-  .nav-dropdown .nav-dropbtn {
-    font-family: var(--navbar-font), var(--heading-default);
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    font-size: var(--text-size, 15px);
-  }
-
-  .distill-site-header a:hover,
-  .nav-dropdown:hover .nav-dropbtn {
-    color: var(--hover-color, white);
-  }
-
-  .distill-site-header {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer {
-    font-size: var(--text-size, 15px);
-    color: var(--text-color, rgba(255, 255, 255, 0.8));
-    background-color: var(--bkgd-color, #0F2E3D);
-  }
-
-  .distill-site-footer a:hover {
-    color: var(--hover-color, white);
-  }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="users-of-clinicopath_files/header-attrs-2.29/header-attrs.js"></script>
+  <script src="users-of-clinicopath_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="users-of-clinicopath_files/popper-2.6.0/popper.min.js"></script>
+  <link href="users-of-clinicopath_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="users-of-clinicopath_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="users-of-clinicopath_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="users-of-clinicopath_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="users-of-clinicopath_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="users-of-clinicopath_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="users-of-clinicopath_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <script type="text/javascript" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=UA-114549488-2"></script>
-  <script type="text/javascript" cookie-consent="tracking">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-114549488-2');
-  </script>
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -2404,169 +1521,247 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"RStats Posts","authors":[]}
+{"title":"Users of ClinicoPath","description":"This is a collection of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects.","doi":"10.17605/OSF.IO/9SZUD","authors":[{"author":"Serdar Balci","authorURL":"https://github.com/sbalci","affiliation":"ClinicoPathJamoviModule","affiliationURL":"https://www.serdarbalci.com/ClinicoPathJamoviModule/","orcidID":"0000-0002-7852-3851"}],"publishedDate":"2025-07-17T00:00:00.000+03:00","citationText":"Balci, 2025"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a class="logo" href="https://www.serdarbalci.com">
-<img src="img/SerdarBalci-MD-Pathologist.jpg" alt="Logo"/>
-</a>
-<a href="index.html" class="title">Serdar Balci MD Pathologist</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Consultation
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="https://superpeer.com/serdarbalci">Video consultation via superpeer</a>
-<a href="https://patoloji.memorial.com.tr/">Memorial Hospitals Group Pathology Department</a>
-<a href="https://patoloji.memorial.com.tr/">Memorial Sağlık Grubu Patoloji Laboratuvarı</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Blogs and Posts
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="BlogPosts.html">Posts</a>
-<a href="https://blog.serdarbalci.com">Blog</a>
-<a href="https://press.serdarbalci.com">Press</a>
-<a href="https://rpubs.com/sbalci">RPubs</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Research
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<span class="nav-dropdown-header">CV</span>
-<hr/>
-<a href="Serdar-Balci-MD-Pathologist-CV.html">CV</a>
-<a href="https://resume.github.io/?sbalci">Github - Auto Resume</a>
-<span class="nav-dropdown-header">Pathology</span>
-<hr/>
-<a href="https://www.parapathology.com">(Para)Pathology</a>
-<a href="https://www.patolojinotlari.com">Patoloji Notları</a>
-<a href="https://www.patolojatlasi.com">Patoloji Atlası</a>
-<span class="nav-dropdown-header">Bibliometrics</span>
-<hr/>
-<a href="https://www.serdarbalci.com/bibliometrics/">Bibliometry Studies</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-R packages
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<span class="nav-dropdown-header">jamovi modules</span>
-<hr/>
-<a href="https://sbalci.github.io/ClinicoPathJamoviModule/">ClinicoPath</a>
-<a href="https://sbalci.github.io/jsurvival">jsurvival</a>
-<a href="https://sbalci.github.io/jjstatsplot">jjstatsplot</a>
-<a href="https://sbalci.github.io/meddecide">meddecide</a>
-<a href="https://sbalci.github.io/ClinicoPathDescriptives">ClinicoPathDescriptives</a>
-<span class="nav-dropdown-header">R-project</span>
-<hr/>
-<a href="https://www.serdarbalci.com/MyRCodesForDataAnalysis/">My R Codes for Data Analysis</a>
-<a href="https://github.com/sbalci/histopathology-template">Histopathology Research Template</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-About
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="https://www.google.com/search?kgmid=/g/11fkbdq2jb">Knowledge Panel</a>
-<a href="card.html">About Me</a>
-<span class="nav-dropdown-header">Social</span>
-<hr/>
-<a href="https://about.me/serdarbalci">about me</a>
-<a href="https://github.com/sbalci/">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="https://twitter.com/serdarbalci/">
-<i class="fab fa-twitter" aria-hidden="true"></i>
-</a>
-<a href="/social/mastodon.html">
-<i class="fab fa-mastodon" aria-hidden="true"></i>
-</a>
-<a href="/social/fosstodon.html">
-<i class="fab fa-mastodon" aria-hidden="true"></i>
-</a>
-<a href="https://bsky.app/profile/serdarbalci.com">
-<i class="fab fa-bluesky" aria-hidden="true"></i>
-</a>
-<a href="https://www.facebook.com/serdarbalcimdpathologist/">
-<i class="fab fa-facebook" aria-hidden="true"></i>
-</a>
-<a href="https://www.instagram.com/balciserdar/">
-<i class="fab fa-instagram" aria-hidden="true"></i>
-</a>
-<a href="https://www.youtube.com/c/SERDARBALCIMD">
-<i class="fab fa-youtube" aria-hidden="true"></i>
-</a>
-<a href="https://www.linkedin.com/in/serdar-balci-md-pathologist/">
-<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-</a>
-<a href="https://goo.gl/maps/er9WHy6EguG2">Local Guide</a>
-<a href="https://osf.io/msnux/">OSF</a>
-<a href="https://lichess.org/@/sbalci">lichess</a>
-<a href="https://drserdarbalci.wixsite.com/website">contact form</a>
-<a href="https://forms.gle/aHcHpLYvzZaQqoMy5">feedback form</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Business
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="https://g.page/r/CYdckvb9nlxOEAE">Doç.Dr. Serdar Balcı Patoloji Uzmanı</a>
-<a href="https://g.page/r/CeBm5WPEFRjnEAE">patolojiAI</a>
-<a href="https://www.patolojiai.com/">patolojiAI</a>
-</div>
-</div>
-<a href="index.xml">
-<i class="fa fa-rss" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>RStats Posts</h1>
+<h1>Users of ClinicoPath</h1>
 
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
+<div class="dt-tag">jamovi</div>
+<div class="dt-tag">jsurvival</div>
+<div class="dt-tag">ClinicoPathDescriptives</div>
+<div class="dt-tag">meddecide</div>
+<div class="dt-tag">ClinicoPathJamoviModule</div>
+<div class="dt-tag">jjstatsplot</div>
+<div class="dt-tag">statistics</div>
+<div class="dt-tag">biostatistics</div>
+<div class="dt-tag">R-package</div>
 <div class="dt-tag">RStats</div>
 </div>
 <!--/radix_placeholder_categories-->
-
+<p><p>This is a collection of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects.</p></p>
 </div>
 
+<div class="d-byline">
+  
+  true
+  
+<br/>2025-07-17
+</div>
 
 <div class="d-article">
+<h1 id="users-of-clinicopath">Users of ClinicoPath</h1>
+<p>Here is the list of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects. If you have used ClinicoPath in your work and would like to be included in this list,
+please let us know by creating an issue in the <a href="https://github.com/sbalci/ClinicoPathJamoviModule/issues">GitHub repository</a>.</p>
+<h1 id="general-references">General References</h1>
+<ul>
+<li>Jamovi ve Jasp Programı ile Temel ve İleri Düzey Nicel Veri Analizi <a href="https://depo.pegem.net/9786258044089.pdf" class="uri">https://depo.pegem.net/9786258044089.pdf</a></li>
+</ul>
+<h1 id="example-datasets">Example Datasets</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oMGEzrENE80?si=Wcv0c1XPSKVsIUJx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XFYuL8lXlx8?si=JgWLAP4dKwlCK2Jr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h1 id="clinicopathdescriptives">ClinicoPathDescriptives</h1>
+<ul>
+<li><p>COMPARATIVE MORPHOMETRIC ANALYSIS OF VARIOUS GROUPS - “OPTIMAL” AND “UNOPTIMAL” DICHOTOS OF THE INNER-ORDAINED ARTERIAL DRESS OF THE SPLEEN OF A PERSON
+<a href="https://discover-journal.ru/jour/index.php/sjlsa/article/view/925" class="uri">https://discover-journal.ru/jour/index.php/sjlsa/article/view/925</a></p></li>
+<li><p>Performance of the Wisconsin Card Sorting Test in Oncopediatric Patients in an Oncology Unit in Cali, Colombia: A Cross-Sectional Observational Study <a href="https://www.preprints.org/manuscript/202402.1056" class="uri">https://www.preprints.org/manuscript/202402.1056</a></p></li>
+<li><p>Multispectral UAV-Based Disease Identification Using Vegetation Indices for Maize Hybrids <a href="https://www.mdpi.com/2077-0472/14/11/2002" class="uri">https://www.mdpi.com/2077-0472/14/11/2002</a></p></li>
+<li><p>Prospective association of occupational and leisure-time physical activity with orthostatic blood pressure changes in older adults <a href="https://www.nature.com/articles/s41598-023-46947-7" class="uri">https://www.nature.com/articles/s41598-023-46947-7</a></p></li>
+<li><p>How Much Students in Primary School Know about Waste Sorting? (Pilot Research) <a href="https://www.researchgate.net/profile/Sarah-Haines-2/publication/380424067_Integrated_STEM_Professional_Development_Utilizing_Best_Practices_in_an_Online_Format/links/663ba28006ea3d0b744200a0/Integrated-STEM-Professional-Development-Utilizing-Best-Practices-in-an-Online-Format.pdf" class="uri">https://www.researchgate.net/profile/Sarah-Haines-2/publication/380424067_Integrated_STEM_Professional_Development_Utilizing_Best_Practices_in_an_Online_Format/links/663ba28006ea3d0b744200a0/Integrated-STEM-Professional-Development-Utilizing-Best-Practices-in-an-Online-Format.pdf</a></p></li>
+<li><p>BETWEEN LIKES AND ANXIETY: UNDERSTANDING INSTAGRAM ADDICTION’S ROLE IN APPEARANCE CONCERNS <a href="https://www.journals.aseiacademic.org/index.php/ijsei/article/view/395" class="uri">https://www.journals.aseiacademic.org/index.php/ijsei/article/view/395</a></p></li>
+<li><p>SATISFAÇÃO CORPORAL, TRANSTORNOS MENTAIS E PRÁTICA DE ATIVIDADE FÍSICA EM ESTUDANTES UNIVERSITÁRIOS</p></li>
+<li><p>‘Hippocampal innate inflammatory gliosis only’ in pharmacoresistant temporal lobe epilepsy <a href="https://doi.org/10.1093/brain/awac293" class="uri">https://doi.org/10.1093/brain/awac293</a></p></li>
+<li><p>Salmonella Typhi Vaccination Response as a Tool for the Stratification of Risk in Patients with Predominantly Antibody Deficiencies <a href="https://www.mdpi.com/2075-4418/12/10/2423" class="uri">https://www.mdpi.com/2075-4418/12/10/2423</a></p></li>
+<li><p>Análisis para datos biomédicos longitudinales: Análisis de supervivencia (jamovi) <a href="https://sites.google.com/iacs.es/analisis-supervivencia-jamovi/inicio" class="uri">https://sites.google.com/iacs.es/analisis-supervivencia-jamovi/inicio</a></p></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/scbWIr52FOc?si=F2Gut7vNxS-u0RDn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<p><a href="https://www.youtube.com/shorts/Tr852pDJahY">https://www.youtube.com/shorts/Tr852pDJahY</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yUGOURDFhmQ?si=ZmLE63c80hj53G4b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h2 id="table-one">Table One</h2>
+<ul>
+<li><p>A Systematic Review and Global Meta-analysis of Secondary Fungal Infections Associated with COVID-19
+<a href="https://www.medrxiv.org/content/10.1101/2024.10.25.24316125v1" class="uri">https://www.medrxiv.org/content/10.1101/2024.10.25.24316125v1</a></p></li>
+<li><p>Clinicopathological analysis of 38 male patients diagnosed with breast cancer <a href="https://journals.sagepub.com/doi/full/10.3233/BD-230050" class="uri">https://journals.sagepub.com/doi/full/10.3233/BD-230050</a></p></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f_Sn5muB98g?si=_I8rR0THAQkCLIqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YYqONM-fweQ?si=hBGIdMwIImh0yt_e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B7FSM19JoB8?si=K5Q4W5j6atPBrUsB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h2 id="cross-tables">Cross Tables</h2>
+<ul>
+<li><p>Evaluation of a Telemergency Service for Older People Living at Home: A Cross-Sectional Study <a href="https://www.mdpi.com/2079-9292/12/23/4786" class="uri">https://www.mdpi.com/2079-9292/12/23/4786</a></p></li>
+<li><p>Risk Factors for Cardiovascular-Specific Mortality in Patients With Prostate Cancer: A Surveillance, Epidemiology, and End Results (SEER)-Based Study <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10823189/" class="uri">https://pmc.ncbi.nlm.nih.gov/articles/PMC10823189/</a></p></li>
+<li><p>Maker training for teachers: competencies developed through didactical engineering <a href="https://revistas.utfpr.edu.br/actio/article/view/19194" class="uri">https://revistas.utfpr.edu.br/actio/article/view/19194</a></p></li>
+<li><p>Adenomyomas of the Gallbladder: An Analysis of Frequency, Clinicopathologic Associations, and Relationship to Carcinoma of a Malformative Lesion <a href="https://meridian.allenpress.com/aplm/article/148/2/206/492905/Adenomyomas-of-the-Gallbladder-An-Analysis-of" class="uri">https://meridian.allenpress.com/aplm/article/148/2/206/492905/Adenomyomas-of-the-Gallbladder-An-Analysis-of</a></p></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7X1LA69D2VI?si=MQaay1MpULNkS0lV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j9Y07jtWuFo?si=jOF2nuNa0FHGQC48" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h2 id="alluvial-plot">Alluvial Plot</h2>
+<ul>
+<li><p>Detecting Early Signs of Malignancy of Oral Leukoplakia in its Tissues and Saliva
+<a href="https://dspace.rsu.lv/jspui/bitstream/123456789/16943/1/2024-19_Dzudzilo-Madara_DTS_IPD-5242.pdf" class="uri">https://dspace.rsu.lv/jspui/bitstream/123456789/16943/1/2024-19_Dzudzilo-Madara_DTS_IPD-5242.pdf</a></p></li>
+<li><p>Relationship of the Behavior of Older Participants with Body Composition Change: Results of the Second Wave of the Cognition of Older People, Education, Recreational Activities, Nutrition, Comorbidities, and Functional Capacity Studies (COPERNICUS)
+<a href="https://www.mdpi.com/2072-6643/15/8/1834" class="uri">https://www.mdpi.com/2072-6643/15/8/1834</a></p></li>
+</ul>
+<h1 id="jsurvival">jsurvival</h1>
+<ul>
+<li><p>Prognostic significance of necrosis in ampullary carcinomas <a href="https://link.springer.com/article/10.1007/s11845-024-03740-3" class="uri">https://link.springer.com/article/10.1007/s11845-024-03740-3</a></p></li>
+<li><p>Bioinformatic Analysis of Gene Expression Related to Sialic Acid Biosynthesis in Patients With Medulloblastoma
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11162302/" class="uri">https://pmc.ncbi.nlm.nih.gov/articles/PMC11162302/</a></p></li>
+<li><p>Patient-derived organoids for prediction of treatment response in oesophageal adenocarcinoma
+<a href="https://academic.oup.com/bjs/article/111/1/znad408/7591126" class="uri">https://academic.oup.com/bjs/article/111/1/znad408/7591126</a></p></li>
+<li><p>Comprehensive frailty assessment with multidimensional frailty domains as a predictor of mortality among vascular and cardiac surgical patients
+<a href="https://akjournals.com/view/journals/2060/110/2/article-p191.xml" class="uri">https://akjournals.com/view/journals/2060/110/2/article-p191.xml</a></p></li>
+<li><p>Prognostic biomarker tumor-infiltrating lymphocytes failed to serve as a predictive biomarker for postoperative radiotherapy in completely resected pN2 non-small cell lung cancer: a retrospective analysis <a href="https://link.springer.com/article/10.1186/s12931-024-02863-6" class="uri">https://link.springer.com/article/10.1186/s12931-024-02863-6</a></p></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YY6Fs1F_2Xk?si=W48XwjZ7GxYTLs8h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gIPf4xIKAOU?si=nRHJZ2eK-g5nve8q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h2 id="single-arm-survival">Single Arm Survival</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UMjW6PM4c4U?si=Ik-PtvoUeZWqx0jQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n4-6a_99A0s?si=MxUlqusFjiI00QuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ne2lURUJoGE?si=VKgamRUX98O7bHOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h2 id="survival-analysis">Survival Analysis</h2>
+<ul>
+<li><p>Worse long-term renal outcome of lupus nephritis patients of African descent living in Europe
+<a href="https://rmdopen.bmj.com/content/8/2/e002386.abstract" class="uri">https://rmdopen.bmj.com/content/8/2/e002386.abstract</a></p></li>
+<li><p>Omission of intraoperative pyloric procedures in minimally invasive esophagectomy: assessing the impact on patients
+<a href="https://academic.oup.com/dote/article/36/3/doac061/6694033" class="uri">https://academic.oup.com/dote/article/36/3/doac061/6694033</a></p></li>
+<li><p>Integrating Red Blood Cell Features and Hemoglobin Levels in Metastatic Renal Cell Carcinoma Patients Treated with Pazopanib or Cabozantinib: An Easily Exploitable Prognostic Score
+<a href="https://flore.unifi.it/handle/2158/1355782" class="uri">https://flore.unifi.it/handle/2158/1355782</a></p></li>
+<li><p>Nodal Yield &lt;15 Is Associated With Reduced Survival in Esophagectomy and Is a Quality Metric
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0003497523002540" class="uri">https://www.sciencedirect.com/science/article/abs/pii/S0003497523002540</a></p></li>
+<li><p>Biomarkers of systemic treatment response: MR images of intratumoral fat deposition in colorectal liver metastases (CRLM) after chemotherapy <a href="https://link.springer.com/article/10.1007/s00384-024-04762-0" class="uri">https://link.springer.com/article/10.1007/s00384-024-04762-0</a></p></li>
+<li><p>Influence of time from admission to norepinephrine administration and volume of fluids received on outcomes of patients meeting sepsis-3 criteria: a retrospective study using the MIMIC-IV database <a href="https://tsaco.bmj.com/content/8/1/e001024" class="uri">https://tsaco.bmj.com/content/8/1/e001024</a></p></li>
+<li><p>SURVIVAL IN SPINAL CANCER SURGERY: ANALYSIS OF CASES OPERATED IN 2020 <a href="https://www.scielo.br/j/coluna/a/NmbGxGNSBnydKKJtXd9TK7M/" class="uri">https://www.scielo.br/j/coluna/a/NmbGxGNSBnydKKJtXd9TK7M/</a></p></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UJLHPPrued0?si=LOSDuqsv1SNZrh8S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Af5t483vZCQ?si=bRRYme8gK2bO2qK5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vElUhOods9o?si=lloQ_1GV881QQq8C&amp;start=3432" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QYJw7xm4Yxw?si=fgyFQvmtIq17RjV1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NoJK8aHcikk?si=N_YwxJ7gA4dsnaA4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h2 id="survival-analysis-for-continuous-variable">Survival analysis for Continuous Variable</h2>
+<ul>
+<li><p>The Role of Endovascular Repair Timing in Uncomplicated Acute Type B Intramural Hematoma Management <a href="https://www.sciencedirect.com/science/article/abs/pii/S0890509623006702" class="uri">https://www.sciencedirect.com/science/article/abs/pii/S0890509623006702</a></p></li>
+<li><p>Prognostic factors affecting long-term outcomes in patients with concurrent IgA nephropathy and membranous nephropathy <a href="https://www.cell.com/heliyon/fulltext/S2405-8440(23)10644-X" class="uri">https://www.cell.com/heliyon/fulltext/S2405-8440(23)10644-X</a></p></li>
+<li><p>Intratumoral spatial heterogeneity of tumor-infiltrating lymphocytes is a significant factor for precisely stratifying prognostic immune subgroups of microsatellite instability-high colorectal carcinomas <a href="https://www.sciencedirect.com/science/article/pii/S0893395222055132" class="uri">https://www.sciencedirect.com/science/article/pii/S0893395222055132</a></p></li>
+<li><p>RISK STRATIFICATION FOR VENTRICULAR TACHYARRHYTHMIAS AFTER CARDIOVERTER-DEFIBRILLATOR IMPLANTATION FOR PRIMARY PREVENTION OF SUDDEN CARDIAC DEATH: RESULTS OF THE IDEAL SINGLE-CENTER PROSPECTIVE STUDY <a href="https://doi.org/10.35336/VA-1409" class="uri">https://doi.org/10.35336/VA-1409</a></p></li>
+</ul>
+<h2 id="multivariable-survival-analysis">Multivariable Survival Analysis</h2>
+<ul>
+<li><p>Prognostic Significance of Tumor Budding in Ampullary Carcinomas <a href="https://journals.sagepub.com/doi/abs/10.1177/10668969241308204" class="uri">https://journals.sagepub.com/doi/abs/10.1177/10668969241308204</a></p></li>
+<li><p>Baseline Ultrasound Assessment Improves the Response to Apremilast in Patients with Psoriatic Arthritis: Results from a Multicentre Study <a href="http://www.mjrheum.org/assets/files/792/file614_2232.pdf" class="uri">http://www.mjrheum.org/assets/files/792/file614_2232.pdf</a></p></li>
+<li><p>The Importance of Stroma and Stromal SMA Expression in Pancreatic Ductal Adenocarcinoma <a href="https://turkjpath.org/text.php?id=2068" class="uri">https://turkjpath.org/text.php?id=2068</a></p></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6bBGgHWcnTA?si=A0dkqep9JQQC5eYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/owkduW39x94?si=8ZT4pLgi8LlB6LCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2b10k7je7A8?si=iRwJuu3sNj0wIJvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<p><img src="./images/jsurvival-course.jpg" /> <a href="https://stats-co.eu/analyse-de-survie_53/" class="uri">https://stats-co.eu/analyse-de-survie_53/</a></p>
+<h1 id="meddecide">meddecide</h1>
+<ul>
+<li><p>The Role of Kidney Function in Predicting COVID-19 Severity and Clinical Outcomes: A Retrospective Analysis
+<a href="https://www.mdpi.com/2036-7449/17/4/79" class="uri">https://www.mdpi.com/2036-7449/17/4/79</a></p></li>
+<li><p>The extent of neuroradiological findings in COVID-19 shows correlation with blood biomarkers, Glasgow coma scale score and days in intensive care
+<a href="https://www.sciencedirect.com/science/article/pii/S015098612100167X" class="uri">https://www.sciencedirect.com/science/article/pii/S015098612100167X</a></p></li>
+<li><p>Adipokines and Myokines as Markers of Malnutrition and Sarcopenia in Patients Receiving Kidney Replacement Therapy: An Observational, Cross-Sectional Study
+<a href="https://hal.science/hal-04720682v1/document" class="uri">https://hal.science/hal-04720682v1/document</a></p></li>
+<li><p>A review of user-friendly freely-available statistical analysis software for medical researchers and biostatisticians
+<a href="https://www.tandfonline.com/doi/full/10.1080/27684520.2024.2322630" class="uri">https://www.tandfonline.com/doi/full/10.1080/27684520.2024.2322630</a></p></li>
+<li><p>The extent of neuroradiological findings in COVID-19 shows correlation with blood biomarkers, Glasgow coma scale score and days in intensive care
+<a href="https://www.sciencedirect.com/science/article/pii/S015098612100167X" class="uri">https://www.sciencedirect.com/science/article/pii/S015098612100167X</a></p></li>
+<li><p>Exercise &amp; cardiopulmonary physiology in rheumatoid arthritis
+<a href="https://wlv.openrepository.com/handle/2436/624659" class="uri">https://wlv.openrepository.com/handle/2436/624659</a></p></li>
+<li><p>Comparing parent-child interaction during wordless book reading, print book reading and imaginative play
+<a href="https://www.cambridge.org/core/journals/journal-of-child-language/article/comparing-parentchild-interaction-during-wordless-book-reading-print-book-reading-and-imaginative-play/F1BB0E369ECE50AD4EA3906D9FF14710" class="uri">https://www.cambridge.org/core/journals/journal-of-child-language/article/comparing-parentchild-interaction-during-wordless-book-reading-print-book-reading-and-imaginative-play/F1BB0E369ECE50AD4EA3906D9FF14710</a></p></li>
+<li><p>RCOVID: AN ALGORITHM TO DETECT COVID-19 REINFECTIONS IN LARGE-ROUTINE EXAM DATABASE
+<a href="https://essopenarchive.org/doi/full/10.22541/au.169639932.29863502" class="uri">https://essopenarchive.org/doi/full/10.22541/au.169639932.29863502</a></p></li>
+<li><p>Variability of McMaster and Mini-FLOTAC techniques for equine strongyle eggs count: Novel analysis by Bland-Altman method
+<a href="https://www.researchsquare.com/article/rs-3133218/v1" class="uri">https://www.researchsquare.com/article/rs-3133218/v1</a></p></li>
+<li><p>Diagnostic reproducibility of the 2018 Classification of Gingival Recessions: Comparing photographic and in-person diagnoses
+<a href="https://aap.onlinelibrary.wiley.com/doi/full/10.1002/JPER.24-0173" class="uri">https://aap.onlinelibrary.wiley.com/doi/full/10.1002/JPER.24-0173</a></p></li>
+<li><p>Demodex mites among solid organ transplant recipients: a cross-sectional study <a href="https://www.termedia.pl/Demodex-mites-among-solid-organ-transplant-recipients-a-cross-sectional-study,7,55181,0,1.html" class="uri">https://www.termedia.pl/Demodex-mites-among-solid-organ-transplant-recipients-a-cross-sectional-study,7,55181,0,1.html</a></p></li>
+<li><p>Bilimsel Yazılım Geliştirme Süreçleri için bir Yazılım Mühendisliği Yetkinlik Envanteri <a href="https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1159443" class="uri">https://dergipark.org.tr/tr/pub/tbbmd/issue/80549/1159443</a></p></li>
+</ul>
+<h2 id="fagan-nomogram">Fagan Nomogram</h2>
+<ul>
+<li>Transcranial doppler in the non-invasive estimation of intracranial pressure in traumatic brain injury compared to other non-invasive methods in lower-middle income countries: Systematic review and meta-analysis
+<a href="https://www.sciencedirect.com/science/article/pii/S0967586823001224" class="uri">https://www.sciencedirect.com/science/article/pii/S0967586823001224</a></li>
+</ul>
+<h2 id="power-analysis">Power Analysis</h2>
+<ul>
+<li>Concurrent Validity and Inter-Rater Reliability Assessment of Two Mental Toughness Instruments in Firefighting: A Two-Wave Longitudinal Study
+<a href="https://www.mdpi.com/2076-328X/14/7/523" class="uri">https://www.mdpi.com/2076-328X/14/7/523</a></li>
+</ul>
+<h1 id="jjstatsplot">jjstatsplot</h1>
+<ul>
+<li><p>α-Klotho is associated with cardiovascular and all-cause mortality in patients with stage 3b and 4 chronic kidney disease (CKD): a long-term prospective cohort study <a href="https://link.springer.com/article/10.1007/s40620-024-02069-5" class="uri">https://link.springer.com/article/10.1007/s40620-024-02069-5</a></p></li>
+<li><p>Assess the effectiveness of digital platforms in facilitating content delivery and pedagogical strategies <a href="http://efsupit.ro/images/stories/septembrie2024/Art%20254.pdf" class="uri">http://efsupit.ro/images/stories/septembrie2024/Art%20254.pdf</a></p></li>
+<li><p>Clinical practice selectively follows acute appendicitis guidelines <a href="https://link.springer.com/article/10.1007/s00068-022-02208-2" class="uri">https://link.springer.com/article/10.1007/s00068-022-02208-2</a></p></li>
+<li><p>Neuropsychological and Neuroimaging Correlates of High-Altitude Hypoxia Trekking During the “Gokyo Khumbu/Ama Dablam” Expedition <a href="https://www.liebertpub.com/doi/full/10.1089/ham.2021.0029" class="uri">https://www.liebertpub.com/doi/full/10.1089/ham.2021.0029</a></p></li>
+<li><p>Endurance-dependent urinary extracellular vesicle signature: shape, metabolic miRNAs, and purine content distinguish triathletes from inactive people <a href="https://link.springer.com/article/10.1007/s00424-023-02815-x" class="uri">https://link.springer.com/article/10.1007/s00424-023-02815-x</a></p></li>
+<li><p>Greater severity of depressive symptoms is associated with changes to perceived sweating, preferred ambient temperature, and warmth-seeking behavior
+<a href="https://www.tandfonline.com/doi/full/10.1080/23328940.2024.2374097#abstract" class="uri">https://www.tandfonline.com/doi/full/10.1080/23328940.2024.2374097#abstract</a></p></li>
+<li><p>Empatía y conducta prosocial en estudiantes espectadores indiferentes culpabilizados de bullying de dos Instituciones Educativas de Lima Norte, 2023
+<a href="https://repositorio.ucv.edu.pe/handle/20.500.12692/135310" class="uri">https://repositorio.ucv.edu.pe/handle/20.500.12692/135310</a></p></li>
+<li><p>Inteligencia emocional y actitudes hacia la violencia escolar en estudiantes de secundaria de instituciones educativas del distrito de Ventanilla, 2023
+<a href="https://repositorio.ucv.edu.pe/handle/20.500.12692/139534" class="uri">https://repositorio.ucv.edu.pe/handle/20.500.12692/139534</a></p></li>
+<li><p>Violencia familiar y tolerancia a la frustración en adolescentes de dos instituciones educativas de Lima-2024
+<a href="https://repositorio.ucv.edu.pe/handle/20.500.12692/147454" class="uri">https://repositorio.ucv.edu.pe/handle/20.500.12692/147454</a></p></li>
+<li><p>Rol mediador de la autoeficacia entre la victimización por acoso escolar y la procrastinación en estudiantes de secundaria del Callao, 2024
+<a href="https://repositorio.ucv.edu.pe/handle/20.500.12692/146994" class="uri">https://repositorio.ucv.edu.pe/handle/20.500.12692/146994</a></p></li>
+<li><p>Violencia familiar y resiliencia en estudiantes de secundaria con y sin consciencia de las experiencias presentes de una institución educativa pública de Cutervo, 2022
+<a href="https://repositorio.ucv.edu.pe/handle/20.500.12692/94924" class="uri">https://repositorio.ucv.edu.pe/handle/20.500.12692/94924</a></p></li>
+<li><p>On the Willingness to Pay for social media/messenger services taking into account personality and sent/received messages among WhatsApp users
+<a href="https://www.cell.com/heliyon/fulltext/S2405-8440(24)04871-0" class="uri">https://www.cell.com/heliyon/fulltext/S2405-8440(24)04871-0</a></p></li>
+<li><p>Severity of depressive symptoms moderates the sympathoinhibitory effect of local skin warming following exposure to a social stressor
+<a href="https://www.sciencedirect.com/science/article/pii/S0306453023003980" class="uri">https://www.sciencedirect.com/science/article/pii/S0306453023003980</a></p></li>
+<li><p>Artificial Intelligence (AI) Reveals Ethnic Disparities in Cataract Detection and Treatment
+<a href="https://link.springer.com/article/10.1007/s40123-024-00945-8" class="uri">https://link.springer.com/article/10.1007/s40123-024-00945-8</a></p></li>
+<li><p>Parameter validation for a genomics population analysis <a href="https://dugi-doc.udg.edu/handle/10256/24270?show=full" class="uri">https://dugi-doc.udg.edu/handle/10256/24270?show=full</a></p></li>
+</ul>
+<p>Some of the functions in this video are outdated.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F8u_Xi58rBw?si=2U28xuhyuJFTCi9v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m3uInetiC8w?si=WBqj4Tg8FH-Q_tPt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-p6_K_l__N4?si=s36I1QDHu3aEz26h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<p>There were some bugs when these videos were created. The bugs have been fixed in the latest version of the package. It takes time and effort to update the modules.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mhtbOQJzKIw?si=sdBy_f83ZbQ-m3zK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0Yjg2E9aHJo?si=H7bTZH2k7QmdDFNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<h2 id="correlation">Correlation</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hfLpoc9myqI?si=Hbq-wGViQvfCqS6c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2579,21 +1774,10 @@ Business
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom">
-<h3 id="updates-and-corrections">Corrections</h3>
-<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/sbalci/sbalci.github.io/issues/new">create an issue</a> on the source repository.</p>
-<h3 id="reuse">Reuse</h3>
-<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/sbalci/sbalci.github.io">https://github.com/sbalci/sbalci.github.io</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
-</div>
+<div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
-<div class="distill-site-nav distill-site-footer">
-<p><a href="https://github.com/sbalci">Serdar Balcı, MD, Pathologist</a>
-would like to hear your feedback <a
-href="https://forms.gle/aHcHpLYvzZaQqoMy5"><strong>here</strong></a></p>
-</div>
 <!--/radix_placeholder_navigation_after_body-->
-
 
 </body>
 
