@@ -1,0 +1,27 @@
+---
+title: "Users of ClinicoPath"
+description: |
+  This is a collection of articles, videos, websites, and other resources that have used ClinicoPath in their research or projects. 
+author:
+  - first_name: "Serdar"
+    last_name: "Balci"
+    url: https://github.com/sbalci
+    affiliation: ClinicoPathJamoviModule
+    affiliation_url: https://www.serdarbalci.com/ClinicoPathJamoviModule/
+    orcid_id: 0000-0002-7852-3851
+date: "`r Sys.Date()`"
+doi: "10.17605/OSF.IO/9SZUD"
+slug: "users-of-clinicopath"
+output:
+  distill::distill_article:
+    self_contained: false
+categories: [jamovi, jsurvival, ClinicoPathDescriptives, meddecide, ClinicoPathJamoviModule, jjstatsplot, statistics, biostatistics, R-package, RStats]
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Users of ClinicoPath
+

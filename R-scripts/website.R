@@ -24,6 +24,38 @@ post_text2 <- c(paste0(header_text2), paste0(updated_text2))
 
 writeLines(text = post_text2, con = "./_posts/miscellaneous/miscellaneous.Rmd")
 
+# users of ClinicoPathJamoviModule
+
+
+# Read the .Rmd from GitHub
+updated_text3 <- readLines(
+  con = "https://raw.githubusercontent.com/sbalci/ClinicoPathJamoviModule/refs/heads/master/vignettes/users-of-ClinicoPath.Rmd",
+  warn = FALSE
+)
+
+# Collapse lines for multi-line regex handling
+updated_text3_combined <- paste(updated_text3, collapse = "\n")
+
+# Apply regex with dot-all mode (?s) to allow newlines in matching
+updated_text3_cleaned <- sub(
+  pattern = "(?s)^---.*?---\\s*```\\{r, include = FALSE\\}.*?```\\s*",
+  replacement = "",
+  x = updated_text3_combined,
+  perl = TRUE
+)
+
+
+
+# Split back into lines and overwrite the original file
+writeLines(text = strsplit(updated_text3_cleaned, "\n")[[1]],  con = "./_posts/users-of-clinicopath/updated_text3.md")
+
+
+header_text3 <- readLines(con = "./_posts/users-of-clinicopath/_header_users_of_clinicopath.Rmd")
+
+post_text3 <- c(paste0(header_text3), paste0(updated_text3_cleaned))
+
+writeLines(text = post_text3, con = "./_posts/users-of-clinicopath/users-of-clinicopath.Rmd")
+
 
 
 # distill::import_post(
