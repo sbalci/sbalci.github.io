@@ -12,8 +12,11 @@ description: >-
 
 
 
+***
 
+son IT toplantısı sonrası projeler için görüntü alabilme sürecinin özeti: https://x.com/reha37/status/1953387798607581439 
 
+{% embed url="https://x.com/reha37/status/1953387798607581439" %}
 
 
 
