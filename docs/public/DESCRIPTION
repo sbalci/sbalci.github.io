@@ -1,0 +1,62 @@
+Title: Serdar Balci Web Site
+Version: 0.0.0.9000
+Date: 2021-04-29
+Authors@R: 
+    person(given = "Serdar",
+           family = "Balci",
+           role = c("aut", "cre"),
+           email = "drserdarbalci@gmail.com",
+           comment = c(ORCID = "0000-0002-7852-3851"))
+Maintainer: Serdar Balci <serdar.balci@memorial.com.tr>
+Depends: 
+    R (>= 4.2.0)
+Imports:
+    attachment,
+    distill,
+    pagedown,
+    markdown,
+    blastula,
+    bookdown,
+    DiagrammeR,
+    dplyr,
+    forcats,
+    fs,
+    ggplot2,
+    ggstatsplot,
+    glue,
+    gt,
+    gtsummary,
+    here,
+    janitor,
+    jsonlite,
+    knitr,
+    lubridate,
+    magrittr,
+    networkD3,
+    openxlsx,
+    pdftools,
+    purrr,
+    qdapRegex,
+    qpdf,
+    readr,
+    readxl,
+    remotes,
+    rmarkdown,
+    scales,
+    stringr,
+    tibble,
+    tidyr,
+    tidytext,
+    xtable
+Suggests:
+    bslib,
+    downlit,
+    ggforce,
+    methods,
+    sessioninfo,
+    tidyverse
+Remotes:
+    ddsjoberg/gtsummary,
+    rstudio/bookdown,
+    rstudio/bslib
+RoxygenNote: 7.1.1
