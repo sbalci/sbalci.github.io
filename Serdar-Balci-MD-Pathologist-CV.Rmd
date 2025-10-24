@@ -2663,6 +2663,10 @@ Bölümün güncellenen içeriği için: https://www.serdarbalci.com/posts/patol
 
 # Konuşmalar ve Sunumlar  {#presentations}
 
+
+- [Mühendisler ve Hekimler Ortak Bir Dili Nasıl Kurar? Patologdan Mühendislere. Meme Kanserinde Geleceği Bugünden Kodlamak Memorial Bahçelievler Hastanesi 18 Ekim 2025](https://www.serdarbalci.com/posts/muhendis-hekim-ortak-dil/)  
+
+
 - Rutinde Dijital Patoloji: Zorluklar ve Kolaylıklar. 27 Eylül 2023. Türk Patoloji Derneği Dijital Webinar Serisi-3 Dijital Patolojinin Rutinde Kullanımı.  
 
 
