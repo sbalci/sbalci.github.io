@@ -9,6 +9,36 @@ description: >-
 
 [https://www.parapathology.com/appendix/miscellaneous](https://www.parapathology.com/appendix/miscellaneous)
 
+---
+
+Health care in the USA: money has become the mission https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)01669-1/abstract 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">From a new <a href="https://twitter.com/TheLancet?ref_src=twsrc%5Etfw">@TheLancet</a> article today entitled &quot;Health care in the USA: money has become the mission&quot; <a href="https://t.co/jAjrsgJ5Zn">https://t.co/jAjrsgJ5Zn</a> <a href="https://t.co/pCi21zDzpL">pic.twitter.com/pCi21zDzpL</a></p>&mdash; Eric Topol (@EricTopol) <a href="https://twitter.com/EricTopol/status/1980768183012516330?ref_src=twsrc%5Etfw">October 21, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+
+
+---
+
+Whenever I read a #pathology methylation study, that perfectly classifies tumors, I recall this scene from The Matrix:
+
+> Tank: Here you go, buddy; "Breakfast of Champions."
+> Mouse: If you close your eyes, it almost feels like you're eating runny eggs.
+> Apoc: Yeah, or a bowl of snot.
+> Mouse: Do you know what it really reminds me of? Tasty Wheat. Did you ever eat Tasty Wheat?
+> Switch: No, but technically, neither did you.
+> Mouse: That's exactly my point. Exactly. Because you have to wonder: how do the machines know what Tasty Wheat tasted like? Maybe they got it wrong. Maybe what I think Tasty Wheat tasted like actually tasted like oatmeal, or tuna fish. That makes you wonder about a lot of things. You take chicken, for example: maybe they couldn't figure out what to make chicken taste like, which is why chicken tastes like everything.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2oEnJfZ9joY?si=8LIDZTViBRaTFvsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+
+***
+
+Biomedical Natural Language Processing in the Era of Large Language Models   
+
+[https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095406](https://www.annualreviews.org/content/journals/10.1146/annurev-biodatasci-103123-095406)
 
 
 
@@ -405,7 +435,7 @@ A deep-learning framework to predict cancer treatment response from histopatholo
 
 {% embed url="https://www.youtube.com/watch?v=HFEN9C20ceQ" %}
 
-**GI Path 2nd Opinion Club** will meet on 2/11 at 8AM EST. Please bring any GI/panc/liver case which you'd like to get opinions about. All cases are welcome. There is no expectation that the cases be "interesting." Please forward to anyone who may be interested. [https://zoom.us/j/91358942539?pwd=gs1A5c2Ln3K8d90qV4kRAGjCv1X3T7.1](https://zoom.us/j/91358942539?pwd=gs1A5c2Ln3K8d90qV4kRAGjCv1X3T7.1)
+
 
 **Artificial intelligence in digital pathology — time for a reality check**
 
