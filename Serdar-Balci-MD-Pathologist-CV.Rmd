@@ -279,7 +279,9 @@ https://academic.microsoft.com/profile/302g2i05-e15h-492i-ff3f-029i0g14j5j4/Serd
 
 - <b>Metatypic Carcinoma of the Pancreas Delineation of a Clinicopathologically Distinct Entity, Characterized by Centrally Necrotic Demarcated High-Grade Carcinoma With Divergent Patterns, Basal Immunophenotype, and Altered Molecular Profile</b>
 
-Am J Surg Pathol. 2026 
+Atasoy D, Saka B, Armutlu A, Mericoz CA, Bagci P, Balci S, Tezcan N, Bakkaloglu IG, Altinmakas E, Bozkurt E, Pehlivanoglu B, Bozkurtlar E, Alper E, Luchini C, Mafficini A, Bevere M, Scarpa A, Tellioglu G, Yilmaz S, Bilge O, Esmer R, Cheng JD, Tarcan Z, Basturk O, Reid MD, Krasinskas A, Gurses B, Adsay NV. Metatypic Carcinoma of the Pancreas: Delineation of a Clinicopathologically Distinct Entity, Characterized by Centrally Necrotic Demarcated High-Grade Carcinoma With Divergent Patterns, Basal Immunophenotype, and Altered Molecular Profile. Am J Surg Pathol. 2026 Feb 2. doi: 10.1097/PAS.0000000000002513. Epub ahead of print. PMID: 41622468.
+
+https://journals.lww.com/ajsp/abstract/9900/metatypic_carcinoma_of_the_pancreas__delineation.618.aspx
 
 
 - <b>“Horses out of the barn”: pancreatic ductal adenocarcinoma frequently extends beyond the grossly visible tumour, requiring microscopic rectification for accurate T-staging</b> 
