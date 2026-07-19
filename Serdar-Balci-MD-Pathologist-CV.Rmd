@@ -48,7 +48,7 @@ gotop::use_gotop(
   width = 30, # size
   # appear = 100 # number of pixels before appearance
   appear = 0
-  )
+)
 ```
 
 
@@ -2688,6 +2688,12 @@ Bölümün güncellenen içeriği için: https://www.serdarbalci.com/posts/patol
 
 
 # Konuşmalar ve Sunumlar  {#presentations}
+
+
+- [Dijital Patoloji analiz programlarına giriş - Dijital Patoloji ve Yapay Zeka Toplantıları-1, Memorial Bahçelievler Hastanesi, 27 Haziran 2026, İstanbul. ](https://www.memorial.com.tr/etkinlikler/dijital-patoloji)
+
+- [Uygulamalı QuPath kullanım pratiği - Dijital Patoloji ve Yapay Zeka Toplantıları-1, Memorial Bahçelievler Hastanesi, 27 Haziran 2026, İstanbul.](https://atolye.patoloji.dev/)
+
 
 
 - [Mühendisler ve Hekimler Ortak Bir Dili Nasıl Kurar? Patologdan Mühendislere. Meme Kanserinde Geleceği Bugünden Kodlamak Memorial Bahçelievler Hastanesi 18 Ekim 2025](https://www.serdarbalci.com/posts/muhendis-hekim-ortak-dil/)  
