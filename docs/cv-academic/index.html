@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serdar Balcı, MD | Academic & Bibliometrics Research Dossier</title>
+  <meta name="description" content="Academic Curriculum Vitae & Bibliometrics Dossier of Assoc. Prof. Serdar Balcı, MD. Comprehensive publication record, citations, Emory research fellowship, and editorial appointments.">
+  
+  <!-- Academic Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CV Format Switcher Bar -->
+  <aside class="cv-switcher-bar" aria-label="CV Version Switcher">
+    <div class="switcher-container">
+      <span class="switcher-label"><i class="fa-solid fa-layer-group"></i> CV Formats:</span>
+      <nav class="switcher-links">
+        <a href="../cv-interactive/" class="switcher-btn" id="sw-interactive"><i class="fa-solid fa-sparkles"></i> Interactive Portfolio</a>
+        <a href="../cv-academic/" class="switcher-btn active" id="sw-academic"><i class="fa-solid fa-graduation-cap"></i> Academic Dossier</a>
+        <a href="../cv-developer/" class="switcher-btn" id="sw-developer"><i class="fa-solid fa-code"></i> Computational & AI</a>
+        <a href="../cv-compact/" class="switcher-btn" id="sw-compact"><i class="fa-solid fa-file-pdf"></i> Compact & Print</a>
+        <a href="../Serdar-Balci-MD-Pathologist-CV.html" class="switcher-btn legacy-link" id="sw-legacy"><i class="fa-solid fa-book"></i> Classic Rmd CV</a>
+      </nav>
+      <div class="theme-control">
+        <button id="themeToggleBtn" class="theme-btn" aria-label="Toggle Dark/Light Mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Scholarly Header -->
+  <header class="academic-masthead">
+    <div class="masthead-container">
+      <div class="masthead-content">
+        <span class="faculty-rank">Academic Curriculum Vitae</span>
+        <h1 class="scholar-name">Assoc. Prof. Serdar Balcı, MD</h1>
+        <p class="scholar-affil">
+          Department of Pathology, Memorial Healthcare Group, Istanbul, Turkey<br>
+          Former Postdoctoral Research Fellow, Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, GA, USA
+        </p>
+        <p class="scholar-meta">
+          <span><i class="fa-regular fa-envelope"></i> serdarbalci@serdarbalci.com</span>
+          <span><i class="fa-solid fa-globe"></i> <a href="https://www.serdarbalci.com">www.serdarbalci.com</a></span>
+          <span><i class="fa-solid fa-location-dot"></i> Istanbul, Turkey</span>
+        </p>
+      </div>
+      <div class="masthead-actions">
+        <button class="btn btn-outline" onclick="window.print()"><i class="fa-solid fa-print"></i> Print / Save PDF</button>
+        <a href="#bibtexModal" class="btn btn-primary" id="openBibtexModalBtn"><i class="fa-solid fa-code"></i> Export BibTeX</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Bibliometrics & Identifiers Strip -->
+  <section class="identifiers-strip">
+    <div class="strip-container">
+      <div class="identifier-item">
+        <span class="id-label">ORCID</span>
+        <a href="https://orcid.org/0000-0002-7852-3851" target="_blank" rel="noopener" class="id-val">0000-0002-7852-3851 <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="identifier-item">
+        <span class="id-label">Google Scholar</span>
+        <a href="https://scholar.google.com/citations?user=q40DcqYAAAAJ" target="_blank" rel="noopener" class="id-val">q40DcqYAAAAJ <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="identifier-item">
+        <span class="id-label">Scopus Author ID</span>
+        <a href="https://www.scopus.com/authid/detail.uri?authorId=22933834600" target="_blank" rel="noopener" class="id-val">22933834600 <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+      <div class="identifier-item">
+        <span class="id-label">ResearcherID</span>
+        <span class="id-val">B-6401-2011</span>
+      </div>
+      <div class="identifier-item">
+        <span class="id-label">PubMed ID</span>
+        <a href="https://www.ncbi.nlm.nih.gov/myncbi/serdar.balci.1/bibliography/public/" target="_blank" rel="noopener" class="id-val">serdar.balci.1 <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Layout -->
+  <main class="academic-main-layout">
+    <div class="academic-container">
+      
+      <!-- Academic Quick Navigation -->
+      <nav class="academic-subnav" id="academicSubnav">
+        <a href="#appointments">Appointments</a>
+        <a href="#education">Education</a>
+        <a href="#publications">Publications (85+)</a>
+        <a href="#grants">Grants & Projects</a>
+        <a href="#dissertations">Supervised Theses</a>
+        <a href="#presentations">Oral Presentations</a>
+        <a href="#service">Committees & Editorial</a>
+      </nav>
+
+      <!-- Section: Appointments -->
+      <section class="academic-section" id="appointments">
+        <h2 class="section-heading"><span class="heading-num">1.</span> Academic & Professional Appointments</h2>
+        <div class="table-responsive">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th style="width: 18%;">Period</th>
+                <th style="width: 28%;">Title / Position</th>
+                <th style="width: 34%;">Institution & Department</th>
+                <th style="width: 20%;">Location</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-mono">2021 – Present</td>
+                <td><strong>Associate Professor of Pathology</strong><br><span class="text-muted">Specialist Pathologist & Digital Pathology Lead</span></td>
+                <td>Memorial Healthcare Group, Pathology Department</td>
+                <td>Istanbul, Turkey</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2016 – 2021</td>
+                <td><strong>Associate Professor & Academic Consultant</strong></td>
+                <td>Independent Academic Consultancy & Research</td>
+                <td>Ankara / Istanbul</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2014 – 2015</td>
+                <td><strong>Department Chair & Program Director</strong></td>
+                <td>Yıldırım Beyazıt University & Ankara Atatürk Training and Research Hospital, Pathology</td>
+                <td>Ankara, Turkey</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2013 – 2014</td>
+                <td><strong>Postdoctoral Research Scholar</strong><br><span class="text-muted">YÖK National Research Fellowship</span></td>
+                <td>Emory University School of Medicine, Dept. of Pathology & Laboratory Medicine</td>
+                <td>Atlanta, GA, USA</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2012 – 2016</td>
+                <td><strong>Assistant Professor of Pathology</strong></td>
+                <td>Yıldırım Beyazıt University Faculty of Medicine</td>
+                <td>Ankara, Turkey</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2010 – 2012</td>
+                <td><strong>Pathology Specialist</strong></td>
+                <td>Ankara Atatürk Training and Research Hospital</td>
+                <td>Ankara, Turkey</td>
+              </tr>
+              <tr>
+                <td class="font-mono">June – Aug 2009</td>
+                <td><strong>Visiting Research Scholar</strong></td>
+                <td>Emory University School of Medicine</td>
+                <td>Atlanta, GA, USA</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2005 – 2010</td>
+                <td><strong>Pathology Resident / Research Assistant</strong></td>
+                <td>Hacettepe University Faculty of Medicine, Dept. of Pathology</td>
+                <td>Ankara, Turkey</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section: Education -->
+      <section class="academic-section" id="education">
+        <h2 class="section-heading"><span class="heading-num">2.</span> Education & Board Certifications</h2>
+        <div class="table-responsive">
+          <table class="academic-table">
+            <thead>
+              <tr>
+                <th style="width: 18%;">Year</th>
+                <th style="width: 32%;">Degree / Certification</th>
+                <th style="width: 50%;">Institution & Discipline</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-mono">2016</td>
+                <td><strong>Associate Professorship (Doçentlik)</strong></td>
+                <td>Interuniversity Board of Turkey (ÜAK), Surgical Pathology</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2010 – 2011</td>
+                <td><strong>Postgraduate Studies</strong></td>
+                <td>Hacettepe University Institute of Health Sciences, Biostatistics & Bioinformatics</td>
+              </tr>
+              <tr>
+                <td class="font-mono">2005 – 2010</td>
+                <td><strong>Medical Specialty (Pathology Residency)</strong></td>
+                <td>Hacettepe University Faculty of Medicine, Department of Pathology</td>
+              </tr>
+              <tr>
+                <td class="font-mono">1998 – 2005</td>
+                <td><strong>Medical Doctor (MD)</strong></td>
+                <td>Hacettepe University Faculty of Medicine (English Medium Curriculum)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section: Publications -->
+      <section class="academic-section" id="publications">
+        <div class="section-header-flex">
+          <h2 class="section-heading"><span class="heading-num">3.</span> Peer-Reviewed Scientific Publications</h2>
+          <span class="pub-count-badge" id="pubTotalBadge">Total: 85 Articles</span>
+        </div>
+
+        <!-- Scholarly Search & Filter Bar -->
+        <div class="scholar-filter-box">
+          <div class="scholar-search-wrapper">
+            <i class="fa-solid fa-filter"></i>
+            <input type="text" id="scholarSearchInput" placeholder="Filter articles by title, co-author (e.g., Adsay, Saka, Reid), journal, or keyword..." autocomplete="off">
+          </div>
+          <div class="category-tabs" id="categoryTabs">
+            <button class="tab-btn active" data-cat="all">All (85)</button>
+            <button class="tab-btn" data-cat="Research Article">Research Articles (69)</button>
+            <button class="tab-btn" data-cat="Review">Reviews & Consensus (5)</button>
+            <button class="tab-btn" data-cat="Case Report / Letter">Case Series & Letters (11)</button>
+          </div>
+        </div>
+
+        <div class="citation-copy-banner">
+          <span><i class="fa-solid fa-circle-info"></i> Click <strong>"Cite"</strong> on any article to copy APA, AMA, or BibTeX reference.</span>
+        </div>
+
+        <!-- Publication Entries List -->
+        <ol class="academic-pub-list" id="academicPubList">
+          <!-- Rendered dynamically via app.js -->
+        </ol>
+      </section>
+
+      <!-- Section: Grants & Projects -->
+      <section class="academic-section" id="grants">
+        <h2 class="section-heading"><span class="heading-num">4.</span> Research Grants & Fellowships</h2>
+        <ul class="academic-bullet-list">
+          <li>
+            <strong>YÖK Postdoctoral Research Fellowship (2013–2014)</strong>: Competitive national award for full-time research at Emory University School of Medicine, Atlanta, GA, USA on clinicopathologic and molecular characterization of pancreatobiliary neoplasms.
+          </li>
+          <li>
+            <strong>Hacettepe University Scientific Research Projects (BAP)</strong>: Investigative pathologist and data analyst on multiple university-supported molecular pathology studies.
+          </li>
+          <li>
+            <strong>Digital Pathology Implementation Initiative (Memorial Health Group, 2021–Present)</strong>: Primary diagnostic whole slide imaging deployment, validating slide scanners, LIS integration, and telepathology protocols.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section: Dissertations -->
+      <section class="academic-section" id="dissertations">
+        <h2 class="section-heading"><span class="heading-num">5.</span> Resident Dissertations Supervised</h2>
+        <ul class="academic-bullet-list">
+          <li>
+            <strong>Dr. Fatma Aktepe</strong>: Investigation of immunohistochemical expression of tumor markers in pancreatobiliary carcinomas and their prognostic relevance. Department of Pathology, Yıldırım Beyazıt University / Ankara Atatürk Training and Research Hospital.
+          </li>
+          <li>
+            <strong>Pathology Resident Training & Research Advisor</strong>: Supervised over 15 pathology residents in data cleaning, statistical analysis with R, and manuscript preparation for national and international pathology congresses.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section: Platform Presentations -->
+      <section class="academic-section" id="presentations">
+        <h2 class="section-heading"><span class="heading-num">6.</span> Selected International Platform Oral Presentations</h2>
+        <ul class="academic-bullet-list">
+          <li>
+            <strong>United States and Canadian Academy of Pathology (USCAP) Annual Meetings</strong>: Multiple accepted platform talks and abstracts on pancreatic ductal adenocarcinoma T-staging, ampullary carcinomas, and gallbladder lesions.
+          </li>
+          <li>
+            <strong>European Congress of Digital Pathology (ECDP)</strong>: Oral presentations on open-source digital pathology resources, webR client-side analytics, and Whole Slide Imaging workflows in routine diagnosis.
+          </li>
+          <li>
+            <strong>European Congress of Pathology (ESP)</strong>: Platform and poster presentations on pancreatobiliary pathology and gastrointestinal biopsy analysis.
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section: Professional Service -->
+      <section class="academic-section" id="service">
+        <h2 class="section-heading"><span class="heading-num">7.</span> Editorial, Committee & Society Leadership</h2>
+        <div class="two-column-list">
+          <div>
+            <h3 class="sub-heading">Societies & Working Groups</h3>
+            <ul class="academic-bullet-list">
+              <li><strong>Pancreatobiliary Pathology Society</strong> — Website Committee & Journal Watch (2018–2025)</li>
+              <li><strong>Digital Pathology Association (DPA)</strong> — International Member</li>
+              <li><strong>European Society for Digital & Integrative Pathology (ESDIP)</strong> — Member</li>
+              <li><strong>Association for Pathology Informatics (API)</strong> — Member</li>
+              <li><strong>European Society of Pathology (ESP)</strong> — Member</li>
+              <li><strong>United States and Canadian Academy of Pathology (USCAP)</strong> — Member</li>
+              <li><strong>Patoloji Dernekleri Federasyonu</strong> — Standardizasyon Komisyonu & HPB Grubu</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="sub-heading">Open Science & Scientific Community</h3>
+            <ul class="academic-bullet-list">
+              <li><strong>Open Knowledge Maps</strong> — 2020 Open Science Enthusiast Ambassador</li>
+              <li><strong>Patoloji Atlası</strong> — Founder & Lead Curator (Turkey's first open digital pathology atlas)</li>
+              <li><strong>Peer Reviewer</strong>: Modern Pathology, Annals of Diagnostic Pathology, Histopathology, Turkish Journal of Pathology, PLOS ONE.</li>
+              <li><strong>Publons & Web of Science</strong> verified peer review record.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Citation Modal -->
+  <div id="citationModal" class="modal-overlay" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modalTitle">Export Citation</h3>
+        <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="citation-format-tabs">
+          <button class="modal-tab active" data-fmt="apa">APA</button>
+          <button class="modal-tab" data-fmt="ama">AMA</button>
+          <button class="modal-tab" data-fmt="bibtex">BibTeX</button>
+        </div>
+        <textarea id="citationText" readonly class="citation-textarea"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" id="copyModalCitationBtn"><i class="fa-regular fa-copy"></i> Copy to Clipboard</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toastNotification" class="toast-notification"></div>
+
+  <!-- Footer -->
+  <footer class="academic-footer">
+    <div class="footer-inner">
+      <p><strong>Assoc. Prof. Serdar Balcı, MD</strong> &middot; Academic Curriculum Vitae</p>
+      <p class="text-muted">Updated from official records &middot; <a href="https://www.serdarbalci.com">www.serdarbalci.com</a></p>
+    </div>
+  </footer>
+
+  <script src="../cv-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

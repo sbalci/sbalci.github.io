@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serdar Balcı, MD | Computational Pathologist & Open Source Dossier</title>
+  <meta name="description" content="Computational Pathology, AI & Open Source Software Dossier of Assoc. Prof. Serdar Balcı, MD. Creator of ClinicoPath Jamovi module, Patoloji Atlası, webR in-browser analytics, and WSI pipelines.">
+  
+  <!-- Tech Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CV Format Switcher Bar -->
+  <aside class="cv-switcher-bar" aria-label="CV Version Switcher">
+    <div class="switcher-container">
+      <span class="switcher-label"><i class="fa-solid fa-terminal"></i> CV Formats:</span>
+      <nav class="switcher-links">
+        <a href="../cv-interactive/" class="switcher-btn" id="sw-interactive"><i class="fa-solid fa-sparkles"></i> Interactive Portfolio</a>
+        <a href="../cv-academic/" class="switcher-btn" id="sw-academic"><i class="fa-solid fa-graduation-cap"></i> Academic Dossier</a>
+        <a href="../cv-developer/" class="switcher-btn active" id="sw-developer"><i class="fa-solid fa-code"></i> Computational & AI</a>
+        <a href="../cv-compact/" class="switcher-btn" id="sw-compact"><i class="fa-solid fa-file-pdf"></i> Compact & Print</a>
+        <a href="../Serdar-Balci-MD-Pathologist-CV.html" class="switcher-btn legacy-link" id="sw-legacy"><i class="fa-solid fa-book"></i> Classic Rmd CV</a>
+      </nav>
+      <div class="theme-control">
+        <button id="themeToggleBtn" class="theme-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Hero Terminal Header -->
+  <header class="dev-hero">
+    <div class="dev-container">
+      <div class="terminal-window">
+        <div class="terminal-bar">
+          <div class="term-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="term-title">serdar-balci@computational-pathology:~ (zsh)</div>
+          <div class="term-badge"><span class="pulse-cyan"></span> live-environment</div>
+        </div>
+        <div class="terminal-body">
+          <div class="term-line prompt-line">
+            <span class="prompt-user">dr-balci</span><span class="prompt-symbol">@</span><span class="prompt-host">memorial</span>:<span class="prompt-path">~</span><span class="prompt-git"> (main)</span>$ <span class="term-cmd">whoami --verbose</span>
+          </div>
+          <div class="term-output">
+            <div class="term-profile-grid">
+              <div class="term-avatar-col">
+                <img src="../img/SerdarBalci-MD-Pathologist.jpg" alt="Doç. Dr. Serdar Balcı" class="term-avatar">
+                <div class="term-avatar-caption">[Doç. Dr. Serdar Balcı, MD]</div>
+              </div>
+              <div class="term-bio-col">
+                <h1 class="term-name">Doç. Dr. Serdar Balcı, MD</h1>
+                <p class="term-tagline">Pathology Specialist & Associate Professor · Computational Pathology Developer · Clinical Data Scientist</p>
+                <div class="term-kv-list">
+                  <div class="kv-item"><span class="kv-key">Specialties:</span> <span class="kv-val">Pancreatobiliary Pathology, GI Biopsies, Digital WSI Diagnosis</span></div>
+                  <div class="kv-item"><span class="kv-key">Affiliation:</span> <span class="kv-val">Memorial Healthcare Group (Istanbul) & Emory Alumni (Atlanta)</span></div>
+                  <div class="kv-item"><span class="kv-key">Software Stack:</span> <span class="kv-val">R (Tidyverse/Jamovi), Python, webR (Wasm), QuPath, OpenSlide</span></div>
+                  <div class="kv-item"><span class="kv-key">Open Source:</span> <span class="kv-val">ClinicoPath, Patoloji Atlası, jsurvival, meddecide, jjstatsplot</span></div>
+                </div>
+                <div class="term-links">
+                  <a href="https://github.com/sbalci" target="_blank" rel="noopener" class="term-btn"><i class="fa-brands fa-github"></i> github.com/sbalci</a>
+                  <a href="https://scholar.google.com/citations?user=q40DcqYAAAAJ" target="_blank" rel="noopener" class="term-btn"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
+                  <a href="https://www.linkedin.com/in/serdar-balci-md-pathologist/" target="_blank" rel="noopener" class="term-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Tech Grid -->
+  <main class="dev-main">
+    <div class="dev-container">
+
+      <!-- Section: Tech Stack Matrix -->
+      <section class="dev-section" id="stack">
+        <div class="dev-section-title">
+          <span class="cmd-prefix">$</span> cat tech-stack.json
+        </div>
+        <div class="stack-grid">
+          <div class="stack-card">
+            <div class="stack-header">
+              <i class="fa-brands fa-r-project stack-icon"></i>
+              <h3>R & Biomedical Data Science</h3>
+            </div>
+            <p>Advanced statistical modeling, survival analysis, biomarker evaluation, and reproducible reporting.</p>
+            <div class="stack-tags">
+              <span class="st-tag">R / Tidyverse</span>
+              <span class="st-tag">survival / survminer</span>
+              <span class="st-tag">pROC & DCA</span>
+              <span class="st-tag">Quarto / Rmd</span>
+              <span class="st-tag">ggplot2</span>
+              <span class="st-tag">Bioconductor</span>
+            </div>
+          </div>
+
+          <div class="stack-card">
+            <div class="stack-header">
+              <i class="fa-solid fa-microscope stack-icon"></i>
+              <h3>Digital Pathology & WSI</h3>
+            </div>
+            <p>Whole Slide Imaging (WSI) routine clinical primary diagnosis, telepathology, and virtual microscopy.</p>
+            <div class="stack-tags">
+              <span class="st-tag">WSI Primary Diagnosis</span>
+              <span class="st-tag">OpenSlide</span>
+              <span class="st-tag">QuPath</span>
+              <span class="st-tag">Aiforia AI Integration</span>
+              <span class="st-tag">Deep Zoom Microscopy</span>
+              <span class="st-tag">LIS Scanner Integration</span>
+            </div>
+          </div>
+
+          <div class="stack-card">
+            <div class="stack-header">
+              <i class="fa-solid fa-cubes stack-icon"></i>
+              <h3>Jamovi & Interactive GUIs</h3>
+            </div>
+            <p>Building intuitive point-and-click statistical modules enabling clinicians to run advanced analytics.</p>
+            <div class="stack-tags">
+              <span class="st-tag">jmvtools</span>
+              <span class="st-tag">R6 Classes</span>
+              <span class="st-tag">Electron Engine</span>
+              <span class="st-tag">Interactive HTML Tables</span>
+              <span class="st-tag">Dynamic Nomograms</span>
+            </div>
+          </div>
+
+          <div class="stack-card">
+            <div class="stack-header">
+              <i class="fa-solid fa-bolt stack-icon"></i>
+              <h3>WebAssembly & webR</h3>
+            </div>
+            <p>Running entire R runtimes client-side in the browser without server backends using WebAssembly.</p>
+            <div class="stack-tags">
+              <span class="st-tag">webR (Wasm)</span>
+              <span class="st-tag">ShinyLive</span>
+              <span class="st-tag">Zero Backend Setup</span>
+              <span class="st-tag">Client-Side Calc</span>
+              <span class="st-tag">Service Workers</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Open Source Software Repositories -->
+      <section class="dev-section" id="repositories">
+        <div class="dev-section-title">
+          <span class="cmd-prefix">$</span> ls -la /usr/local/software-projects/
+        </div>
+        
+        <div class="repos-grid" id="reposGrid">
+          <!-- Rendered dynamically from CV_DATA.software -->
+        </div>
+      </section>
+
+      <!-- Section: Interactive Code / CLI Runner -->
+      <section class="dev-section" id="interactive-cli">
+        <div class="dev-section-title">
+          <span class="cmd-prefix">$</span> ./interactive-quick-install.sh
+        </div>
+        
+        <div class="cli-box">
+          <div class="cli-tabs">
+            <button class="cli-tab active" data-tab="jamovi">Jamovi Module Install</button>
+            <button class="cli-tab" data-tab="r-install">R Package Install</button>
+            <button class="cli-tab" data-tab="wsi-atlas">Patoloji Atlası WSI</button>
+          </div>
+          <div class="cli-code-container">
+            <pre><code id="cliCodeDisplay"># In Jamovi Library:
+# Go to Modules -> Jamovi Library -> Search 'ClinicoPath' -> Click 'Install'
+# Or via R:
+devtools::install_github("sbalci/ClinicoPathJamoviModule")</code></pre>
+            <button class="copy-cli-btn" id="copyCliBtn"><i class="fa-regular fa-copy"></i> Copy</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Computational Pathology Publications -->
+      <section class="dev-section" id="ai-pubs">
+        <div class="dev-section-title">
+          <span class="cmd-prefix">$</span> grep -E "(digital|computational|ai|staging|biopsy)" publications.db
+        </div>
+
+        <div class="dev-filter-bar">
+          <input type="text" id="devPubSearch" placeholder="Search digital pathology, AI, and methodological papers..." autocomplete="off">
+          <span class="dev-match-count" id="devMatchCount">Loading...</span>
+        </div>
+
+        <div class="dev-pub-list" id="devPubList">
+          <!-- Rendered dynamically via app.js -->
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Toast Notification -->
+  <div id="toastNotification" class="toast-notification"></div>
+
+  <!-- Footer -->
+  <footer class="dev-footer">
+    <div class="dev-container footer-flex">
+      <div class="footer-code font-mono">
+        &gt; Serdar Balcı, MD &middot; <span class="cyan-text">git commit -m "Advancing Computational Pathology"</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/sbalci" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://patoloji.memorial.com.tr/" target="_blank" rel="noopener"><i class="fa-solid fa-hospital"></i> Memorial Health</a>
+        <a href="https://www.serdarbalci.com">www.serdarbalci.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../cv-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -32,9 +32,19 @@ navbar:
 
     - text: Research
       menu:
-        - text: CV
+        - text: CV & Portfolio Formats
         - text: "---"
-        - text: CV
+        - text: "✨ Interactive Portfolio"
+          href: cv-interactive/
+        - text: "🎓 Academic Dossier"
+          href: cv-academic/
+        - text: "💻 Computational & AI"
+          href: cv-developer/
+        - text: "📄 Compact & Print Resume"
+          href: cv-compact/
+        - text: "🌐 CV Format Hub"
+          href: cv/
+        - text: "🏛️ Comprehensive Classic CV"
           href: Serdar-Balci-MD-Pathologist-CV.html
         - text: Github - Auto Resume
           href: https://resume.github.io/?sbalci

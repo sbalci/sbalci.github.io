@@ -1,5 +1,368 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting to Serdar-Balci-MD-Pathologist-CV</title>
-<meta http-equiv="refresh" content="0; URL=https://www.serdarbalci.com/Serdar-Balci-MD-Pathologist-CV.html">
-<link rel="canonical" href="https://www.serdarbalci.com/Serdar-Balci-MD-Pathologist-CV.html">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serdar Balcı, MD | Curriculum Vitae & Portfolio Portal</title>
+  <meta name="description" content="Select your preferred Curriculum Vitae format for Assoc. Prof. Serdar Balcı, MD - Pathologist, researcher, and clinical data science developer.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --card-hover: #172033;
+      --border: #1f293d;
+      --border-hover: #3b82f6;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #3b82f6;
+      --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+      --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+      --font-display: 'Space Grotesk', system-ui, sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 40px 20px 20px;
+      line-height: 1.6;
+    }
+
+    .portal-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .portal-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .avatar-wrapper {
+      width: 96px;
+      height: 96px;
+      margin: 0 auto 16px;
+      border-radius: 50%;
+      padding: 3px;
+      background: var(--accent-gradient);
+    }
+
+    .portal-avatar {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .portal-eyebrow {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .portal-title {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 800;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .portal-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 0 auto;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .portal-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 30px 24px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .portal-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--accent-gradient);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .portal-card:hover {
+      background: var(--card-hover);
+      border-color: var(--border-hover);
+      transform: translateY(-5px);
+      box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.5);
+    }
+
+    .portal-card:hover::before {
+      opacity: 1;
+    }
+
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: rgba(59, 130, 246, 0.12);
+      color: var(--accent);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-bottom: 18px;
+    }
+
+    .card-title {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .badge-featured {
+      font-size: 0.7rem;
+      font-family: var(--font-sans);
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 9999px;
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .card-desc {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      flex-grow: 1;
+    }
+
+    .card-features {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 0.82rem;
+      color: #cbd5e1;
+      margin-bottom: 24px;
+    }
+
+    .card-features li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-features i {
+      color: #10b981;
+      font-size: 0.75rem;
+    }
+
+    .card-action {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--accent);
+      transition: gap 0.2s ease;
+    }
+
+    .portal-card:hover .card-action {
+      gap: 12px;
+    }
+
+    .portal-footer {
+      text-align: center;
+      padding: 24px 0;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .portal-footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .legacy-section {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .legacy-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      border: 1px dashed var(--border);
+      transition: all 0.2s ease;
+    }
+
+    .legacy-btn:hover {
+      color: var(--text);
+      border-color: var(--text-muted);
+      background: var(--card-bg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="portal-container">
+    <header class="portal-header">
+      <div class="avatar-wrapper">
+        <img src="../img/SerdarBalci-MD-Pathologist.jpg" alt="Doç. Dr. Serdar Balcı" class="portal-avatar">
+      </div>
+      <div class="portal-eyebrow">Curriculum Vitae & Portfolio Hub</div>
+      <h1 class="portal-title">Doç. Dr. Serdar Balcı, MD</h1>
+      <p class="portal-subtitle">
+        Pathology Specialist & Associate Professor &middot; Digital Pathology & AI Innovator &middot; Open-Source Medical Software Developer
+      </p>
+    </header>
+
+    <div class="cards-grid">
+      <!-- 1. Interactive Portfolio -->
+      <a href="../cv-interactive/" class="portal-card">
+        <div>
+          <div class="card-icon"><i class="fa-solid fa-sparkles"></i></div>
+          <div class="card-title">
+            Interactive Portfolio
+            <span class="badge-featured">Recommended</span>
+          </div>
+          <p class="card-desc">
+            Flagship modern executive experience with real-time search, category filters, animated stats, interactive timeline, and dark/light modes.
+          </p>
+          <ul class="card-features">
+            <li><i class="fa-solid fa-check"></i> Instant publication search & topic filter</li>
+            <li><i class="fa-solid fa-check"></i> One-click citation copy</li>
+            <li><i class="fa-solid fa-check"></i> Interactive career journey & software cards</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          Open Interactive CV <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <!-- 2. Academic Dossier -->
+      <a href="../cv-academic/" class="portal-card">
+        <div>
+          <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="card-title">Academic Dossier</div>
+          <p class="card-desc">
+            Tailored for university promotion, grant review, and academic evaluation. Editorial typography with structured bibliometrics and BibTeX export.
+          </p>
+          <ul class="card-features">
+            <li><i class="fa-solid fa-check"></i> Google Scholar, ORCID & Scopus IDs</li>
+            <li><i class="fa-solid fa-check"></i> APA, AMA & BibTeX citation modal</li>
+            <li><i class="fa-solid fa-check"></i> Grants, supervised theses & committees</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          Open Academic Dossier <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <!-- 3. Computational & AI -->
+      <a href="../cv-developer/" class="portal-card">
+        <div>
+          <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
+          <div class="card-title">Computational & AI</div>
+          <p class="card-desc">
+            Obsidian terminal theme highlighting the intersection of pathology and code: ClinicoPath Jamovi module, Patoloji Atlası, webR, and WSI pipelines.
+          </p>
+          <ul class="card-features">
+            <li><i class="fa-solid fa-check"></i> Software repository matrix & live demos</li>
+            <li><i class="fa-solid fa-check"></i> Interactive CLI installation snippets</li>
+            <li><i class="fa-solid fa-check"></i> R, Python, WSI & AI tech stack</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          Open Developer CV <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <!-- 4. Compact & Print -->
+      <a href="../cv-compact/" class="portal-card">
+        <div>
+          <div class="card-icon"><i class="fa-solid fa-file-pdf"></i></div>
+          <div class="card-title">Compact & Print</div>
+          <p class="card-desc">
+            Minimalist Swiss-style layout for rapid scanning, consulting bios, and pristine print-to-PDF generation with custom page breaks.
+          </p>
+          <ul class="card-features">
+            <li><i class="fa-solid fa-check"></i> 1-Page Summary vs. Full Dossier toggle</li>
+            <li><i class="fa-solid fa-check"></i> Pixel-perfect @media print CSS</li>
+            <li><i class="fa-solid fa-check"></i> High-contrast executive format</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          Open Compact Resume <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </a>
+    </div>
+
+    <!-- Legacy Distill CV link -->
+    <div class="legacy-section">
+      <a href="../Serdar-Balci-MD-Pathologist-CV.html" class="legacy-btn">
+        <i class="fa-solid fa-book"></i> Access Comprehensive Classic RMarkdown CV (3,000+ Lines)
+      </a>
+    </div>
+  </div>
+
+  <footer class="portal-footer">
+    <p>Doç. Dr. Serdar Balcı, MD &middot; <a href="https://patoloji.memorial.com.tr/" target="_blank" rel="noopener">Memorial Healthcare Group</a> &middot; <a href="https://www.serdarbalci.com">www.serdarbalci.com</a></p>
+  </footer>
+
+</body>
+</html>

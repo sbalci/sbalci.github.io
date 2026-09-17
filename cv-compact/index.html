@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serdar Balcı, MD | Compact Executive Resume & Print-Ready CV</title>
+  <meta name="description" content="Compact Swiss-style executive resume of Assoc. Prof. Serdar Balcı, MD. Optimized for quick scanning and print-to-PDF generation.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CV Format Switcher Bar (Screen only) -->
+  <aside class="cv-switcher-bar no-print" aria-label="CV Version Switcher">
+    <div class="switcher-container">
+      <span class="switcher-label"><i class="fa-solid fa-file-invoice"></i> CV Formats:</span>
+      <nav class="switcher-links">
+        <a href="../cv-interactive/" class="switcher-btn" id="sw-interactive"><i class="fa-solid fa-sparkles"></i> Interactive Portfolio</a>
+        <a href="../cv-academic/" class="switcher-btn" id="sw-academic"><i class="fa-solid fa-graduation-cap"></i> Academic Dossier</a>
+        <a href="../cv-developer/" class="switcher-btn" id="sw-developer"><i class="fa-solid fa-code"></i> Computational & AI</a>
+        <a href="../cv-compact/" class="switcher-btn active" id="sw-compact"><i class="fa-solid fa-file-pdf"></i> Compact & Print</a>
+        <a href="../Serdar-Balci-MD-Pathologist-CV.html" class="switcher-btn legacy-link" id="sw-legacy"><i class="fa-solid fa-book"></i> Classic Rmd CV</a>
+      </nav>
+      <div class="view-controls">
+        <button id="viewToggleBtn" class="btn-toggle-view" title="Toggle between 1-page summary and expanded mode">
+          <i class="fa-solid fa-arrows-up-down"></i> <span id="viewModeLabel">Show Full Dossier</span>
+        </button>
+        <button class="btn-print-primary" onclick="window.print()">
+          <i class="fa-solid fa-print"></i> Print / Save PDF
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sheet Container (A4 / Letter Print Canvas) -->
+  <div class="sheet-container">
+
+    <!-- Resume Header -->
+    <header class="resume-header">
+      <div class="header-main">
+        <h1 class="header-name">Doç. Dr. Serdar Balcı, MD</h1>
+        <div class="header-title">Associate Professor of Pathology &middot; Pathologist &middot; Medical Data Scientist</div>
+        <div class="header-affil">Memorial Healthcare Group &middot; Department of Pathology &middot; Istanbul, Turkey</div>
+      </div>
+      <div class="header-contact">
+        <div><i class="fa-regular fa-envelope"></i> serdarbalci@serdarbalci.com</div>
+        <div><i class="fa-solid fa-globe"></i> www.serdarbalci.com</div>
+        <div><i class="fa-brands fa-github"></i> github.com/sbalci</div>
+        <div><i class="fa-solid fa-graduation-cap"></i> scholar.google.com (q40DcqYAAAAJ)</div>
+      </div>
+    </header>
+
+    <!-- Executive Summary -->
+    <section class="resume-section">
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="summary-text">
+        Board-certified surgical pathologist and Associate Professor with 20 years of clinical and academic experience. Subspecialty expertise in <strong>Pancreatobiliary & Gastrointestinal Pathology</strong>, with seminal contributions to international staging and WHO tumor classification systems through postdoctoral research at <strong>Emory University School of Medicine</strong>. Leader in <strong>Digital Pathology</strong> routine primary diagnostics (WSI) and developer of open-source clinical analytics tools (<strong>ClinicoPath</strong> Jamovi module, <strong>Patoloji Atlası</strong>).
+      </p>
+    </section>
+
+    <!-- Core Competencies & Skills -->
+    <section class="resume-section">
+      <h2 class="section-title">Core Competencies</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <strong>Clinical Pathology:</strong> Pancreatobiliary Pathology, GI Biopsies, Frozen Section, AJCC/UICC Staging, Immunohistochemistry.
+        </div>
+        <div class="skill-group">
+          <strong>Digital Pathology & AI:</strong> Routine WSI Primary Diagnosis, Telepathology, Quality Assurance, QuPath, Aiforia Integration.
+        </div>
+        <div class="skill-group">
+          <strong>Informatics & Software:</strong> R / Tidyverse, Jamovi Module Development (jmvtools), Survival Analysis, webR (Wasm), Git.
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Appointments -->
+    <section class="resume-section">
+      <h2 class="section-title">Professional Appointments</h2>
+      <div class="compact-timeline">
+        <div class="timeline-row">
+          <span class="row-period">2021 – Present</span>
+          <div class="row-content">
+            <strong>Associate Professor & Pathology Specialist</strong> &middot; Memorial Healthcare Group, Istanbul
+            <div class="row-sub">Diagnostic surgical pathology (pancreas, liver, GI) & routine Whole Slide Imaging (WSI) diagnostic workflow lead.</div>
+          </div>
+        </div>
+
+        <div class="timeline-row">
+          <span class="row-period">2016 – 2021</span>
+          <div class="row-content">
+            <strong>Associate Professor & Academic Consultant</strong> &middot; Independent Practice, Ankara / Istanbul
+            <div class="row-sub">International oncology research, bibliometrics, creator of ClinicoPath Jamovi module & Patoloji Atlası.</div>
+          </div>
+        </div>
+
+        <div class="timeline-row">
+          <span class="row-period">2014 – 2015</span>
+          <div class="row-content">
+            <strong>Department Chair & Residency Program Director</strong> &middot; Yıldırım Beyazıt Univ. / Ankara Atatürk Training Hospital
+            <div class="row-sub">Residency training, diagnostic pathology operations, laboratory quality standardization.</div>
+          </div>
+        </div>
+
+        <div class="timeline-row">
+          <span class="row-period">2013 – 2014</span>
+          <div class="row-content">
+            <strong>Postdoctoral Research Scholar (YÖK Fellowship)</strong> &middot; Emory University School of Medicine, Atlanta, USA
+            <div class="row-sub">Translational pancreatobiliary oncology research with Prof. Volkan Adsay.</div>
+          </div>
+        </div>
+
+        <div class="timeline-row expanded-only">
+          <span class="row-period">2012 – 2016</span>
+          <div class="row-content">
+            <strong>Assistant Professor of Pathology</strong> &middot; Yıldırım Beyazıt University Faculty of Medicine, Ankara
+          </div>
+        </div>
+
+        <div class="timeline-row expanded-only">
+          <span class="row-period">2010 – 2012</span>
+          <div class="row-content">
+            <strong>Pathology Specialist</strong> &middot; Ankara Atatürk Training and Research Hospital, Ankara
+          </div>
+        </div>
+
+        <div class="timeline-row expanded-only">
+          <span class="row-period">2005 – 2010</span>
+          <div class="row-content">
+            <strong>Pathology Resident / Research Fellow</strong> &middot; Hacettepe University Faculty of Medicine, Ankara
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Credentials -->
+    <section class="resume-section">
+      <h2 class="section-title">Education & Credentials</h2>
+      <div class="compact-grid-2">
+        <div><strong>2016</strong> &middot; Associate Professorship (Doçentlik) in Surgical Pathology &middot; ÜAK</div>
+        <div><strong>2010 – 2011</strong> &middot; Postgraduate Studies in Biostatistics & Bioinformatics &middot; Hacettepe University</div>
+        <div><strong>2005 – 2010</strong> &middot; Pathology Residency (Specialty Degree) &middot; Hacettepe University Dept. of Pathology</div>
+        <div><strong>1998 – 2005</strong> &middot; Medical Doctor (MD) &middot; Hacettepe University Faculty of Medicine (English)</div>
+      </div>
+    </section>
+
+    <!-- Open Source Scientific Software -->
+    <section class="resume-section">
+      <h2 class="section-title">Open-Source Scientific Software & Platforms</h2>
+      <ul class="software-compact-list">
+        <li>
+          <strong>ClinicoPath Jamovi Module</strong> (github.com/sbalci/ClinicoPathJamoviModule): Full clinical survival analysis, ROC curves, and decision curve analysis for clinical investigators.
+        </li>
+        <li>
+          <strong>Patoloji Atlası</strong> (www.patolojiatlasi.com): Turkey's first open-access virtual microscopy digital pathology atlas with over 1,000 Whole Slide Images.
+        </li>
+        <li>
+          <strong>jsurvival & meddecide</strong>: Modules for medical survival statistics and diagnostic test accuracy.
+        </li>
+        <li>
+          <strong>webR & ShinyLive</strong>: Running zero-server R and interactive analytics inside web browsers.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Selected Publications -->
+    <section class="resume-section">
+      <div class="pub-section-header">
+        <h2 class="section-title" id="pubSectionTitle">Selected High-Impact Publications</h2>
+        <span class="text-muted font-mono no-print" id="pubModeIndicator">(Showing Key Papers)</span>
+      </div>
+      <ol class="compact-pub-list" id="compactPubList">
+        <!-- Rendered by app.js (top selected or full dossier) -->
+      </ol>
+    </section>
+
+    <!-- Professional Memberships -->
+    <section class="resume-section">
+      <h2 class="section-title">Selected Societies & Editorial Roles</h2>
+      <p class="compact-societies-text">
+        <strong>Pancreatobiliary Pathology Society</strong> (Website & Membership Committee, Journal Watch Editor) &middot; 
+        <strong>Digital Pathology Association (DPA)</strong> &middot; 
+        <strong>European Society for Digital & Integrative Pathology (ESDIP)</strong> &middot; 
+        <strong>United States and Canadian Academy of Pathology (USCAP)</strong> &middot; 
+        <strong>European Society of Pathology (ESP)</strong> &middot; 
+        <strong>Patoloji Dernekleri Federasyonu</strong>.
+      </p>
+    </section>
+
+    <!-- Print Footer -->
+    <footer class="resume-footer">
+      <div>Online CV & full publication list: <strong>https://www.serdarbalci.com</strong></div>
+      <div class="font-mono">Doç. Dr. Serdar Balcı, MD &middot; Curriculum Vitae</div>
+    </footer>
+
+  </div>
+
+  <script src="../cv-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serdar Balcı, MD, Pathologist | Interactive Executive Portfolio & CV</title>
+  <meta name="description" content="Official interactive portfolio & curriculum vitae of Assoc. Prof. Serdar Balcı, MD - Pathologist at Memorial Healthcare Group, digital pathology pioneer, researcher, and clinical data science developer.">
+  <meta name="keywords" content="Serdar Balcı, Pathologist, Digital Pathology, Pancreatobiliary Pathology, Computational Pathology, Memorial Health Group, ClinicoPath, Jamovi, R, Whole Slide Imaging">
+  
+  <!-- Modern Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- CV Format Switcher Bar -->
+  <aside class="cv-switcher-bar" aria-label="CV Version Switcher">
+    <div class="switcher-container">
+      <span class="switcher-label"><i class="fa-solid fa-layer-group"></i> CV Formats:</span>
+      <nav class="switcher-links">
+        <a href="../cv-interactive/" class="switcher-btn active" id="sw-interactive"><i class="fa-solid fa-sparkles"></i> Interactive Portfolio</a>
+        <a href="../cv-academic/" class="switcher-btn" id="sw-academic"><i class="fa-solid fa-graduation-cap"></i> Academic Dossier</a>
+        <a href="../cv-developer/" class="switcher-btn" id="sw-developer"><i class="fa-solid fa-code"></i> Computational & AI</a>
+        <a href="../cv-compact/" class="switcher-btn" id="sw-compact"><i class="fa-solid fa-file-pdf"></i> Compact & Print</a>
+        <a href="../Serdar-Balci-MD-Pathologist-CV.html" class="switcher-btn legacy-link" id="sw-legacy"><i class="fa-solid fa-book"></i> Classic Rmd CV</a>
+      </nav>
+      <div class="theme-control">
+        <button id="themeToggleBtn" class="theme-btn" aria-label="Toggle Dark/Light Mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Navigation -->
+  <header class="main-header" id="mainHeader">
+    <div class="header-inner">
+      <a href="#hero" class="brand-link">
+        <span class="brand-avatar-mini">SB</span>
+        <span class="brand-text"><strong>Serdar Balcı</strong>, MD</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#about"><i class="fa-regular fa-user"></i> About</a>
+        <a href="#experience"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#competencies"><i class="fa-solid fa-microscope"></i> Clinical & AI</a>
+        <a href="#software"><i class="fa-solid fa-laptop-code"></i> Open Source</a>
+        <a href="#publications"><i class="fa-solid fa-newspaper"></i> Publications</a>
+        <a href="#societies"><i class="fa-solid fa-users"></i> Leadership</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-outline btn-sm" onclick="window.print()" id="headerPrintBtn">
+          <i class="fa-solid fa-print"></i> Print
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-envelope"></i> Contact
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+      </div>
+      
+      <div class="hero-container">
+        <div class="hero-avatar-wrapper">
+          <div class="avatar-ring">
+            <img src="../img/SerdarBalci-MD-Pathologist.jpg" alt="Doç. Dr. Serdar Balcı" class="hero-avatar" id="heroAvatarImg">
+          </div>
+          <div class="status-badge" title="Active in Clinical Practice & Digital Pathology Innovation">
+            <span class="pulse-dot"></span> Active Practice & Research
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-tags">
+            <span class="tag-pill tag-accent"><i class="fa-solid fa-stethoscope"></i> MD, Pathologist</span>
+            <span class="tag-pill"><i class="fa-solid fa-award"></i> Associate Professor</span>
+            <span class="tag-pill"><i class="fa-solid fa-microchip"></i> Computational Pathology</span>
+          </div>
+
+          <h1 class="hero-name">Doç. Dr. Serdar Balcı</h1>
+          <p class="hero-subtitle">
+            Pathology Specialist at <a href="https://patoloji.memorial.com.tr/" target="_blank" rel="noopener" class="highlight-link">Memorial Healthcare Group</a> · Former Postdoc Research Fellow at <a href="https://med.emory.edu/" target="_blank" rel="noopener" class="highlight-link">Emory University School of Medicine</a>
+          </p>
+
+          <p class="hero-bio">
+            Surgical pathologist specializing in <strong>Pancreatobiliary & Gastrointestinal Pathology</strong>, pioneer of routine <strong>Whole Slide Imaging (WSI)</strong> digital workflows, and creator of open-source clinical research tools (<strong>ClinicoPath</strong> Jamovi module, <strong>Patoloji Atlası</strong>). Bridging diagnostic anatomical pathology, biostatistical modeling, and AI-enabled diagnostics.
+          </p>
+
+          <!-- Social & Scholarly Profiles -->
+          <div class="scholarly-links">
+            <a href="https://scholar.google.com/citations?user=q40DcqYAAAAJ" target="_blank" rel="noopener" class="scholar-badge" title="Google Scholar Profile">
+              <i class="fa-solid fa-graduation-cap"></i> Google Scholar
+            </a>
+            <a href="https://orcid.org/0000-0002-7852-3851" target="_blank" rel="noopener" class="scholar-badge" title="ORCID iD">
+              <i class="fa-brands fa-orcid"></i> ORCID
+            </a>
+            <a href="https://www.ncbi.nlm.nih.gov/myncbi/serdar.balci.1/bibliography/public/" target="_blank" rel="noopener" class="scholar-badge" title="PubMed My Bibliography">
+              <i class="fa-solid fa-book-medical"></i> PubMed
+            </a>
+            <a href="https://github.com/sbalci" target="_blank" rel="noopener" class="scholar-badge" title="GitHub Open Source Repositories">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/serdar-balci-md-pathologist/" target="_blank" rel="noopener" class="scholar-badge" title="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://twitter.com/serdarbalci" target="_blank" rel="noopener" class="scholar-badge" title="Twitter / X">
+              <i class="fa-brands fa-x-twitter"></i> @serdarbalci
+            </a>
+          </div>
+
+          <!-- Hero Action CTAs -->
+          <div class="hero-actions">
+            <a href="#publications" class="btn btn-primary"><i class="fa-solid fa-file-lines"></i> Explore Publications</a>
+            <a href="#software" class="btn btn-secondary"><i class="fa-solid fa-code-branch"></i> Open Source Tools</a>
+            <a href="https://patoloji.memorial.com.tr/" target="_blank" rel="noopener" class="btn btn-outline"><i class="fa-solid fa-hospital"></i> Memorial Pathology</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Dynamic Stats Counters -->
+    <section class="stats-section">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-book-open"></i></div>
+          <div class="stat-value" data-target="85">0</div>
+          <div class="stat-label">Peer-Reviewed International Articles</div>
+          <div class="stat-sub">High-impact journals (AJSP, Mod Pathol, Histopathology)</div>
+        </div>
+        
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-quote-right"></i></div>
+          <div class="stat-value" data-target="1500" data-suffix="+">0</div>
+          <div class="stat-label">Scholarly Citations</div>
+          <div class="stat-sub">International guidelines & WHO staging contributions</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <div class="stat-value" data-target="6">0</div>
+          <div class="stat-label">Open Source Scientific Modules</div>
+          <div class="stat-sub">ClinicoPath, jsurvival, meddecide, jjstatsplot</div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fa-solid fa-images"></i></div>
+          <div class="stat-value" data-target="1000" data-suffix="+">0</div>
+          <div class="stat-label">Whole Slide Images (WSI) in Atlas</div>
+          <div class="stat-sub">Patoloji Atlası — Turkey's 1st digital pathology atlas</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Philosophy Section -->
+    <section class="section-container" id="about">
+      <div class="section-header">
+        <span class="section-eyebrow">Profile & Mission</span>
+        <h2 class="section-title">Bridging Clinical Precision & Data Science</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-panel">
+          <h3><i class="fa-solid fa-bullseye text-accent"></i> Core Professional Focus</h3>
+          <p>
+            Graduated from <strong>Hacettepe University Faculty of Medicine (English)</strong> in 2005 and completed pathology residency in 2010. Conducted advanced research on pancreatobiliary neoplasms at <strong>Emory University School of Medicine (Atlanta, USA)</strong> under Prof. Volkan Adsay. Contributions have helped refine international tumor classification and staging guidelines.
+          </p>
+          <p>
+            Currently serving as Associate Professor of Pathology at <strong>Memorial Healthcare Group</strong> in Istanbul, directing digital primary diagnosis workflows and advancing routine WSI adoption across clinical laboratories.
+          </p>
+        </div>
+
+        <div class="about-card glass-panel">
+          <h3><i class="fa-solid fa-quote-left text-accent"></i> Motto & Ethical Principles</h3>
+          <blockquote class="motto-quote">
+            "In God we trust. All others must bring data."
+            <footer class="quote-author">— W. Edwards Deming</footer>
+          </blockquote>
+          <ul class="motto-list">
+            <li><i class="fa-solid fa-check-circle text-success"></i> <strong>Data-driven ethical decision making</strong> in patient care and pathology management.</li>
+            <li><i class="fa-solid fa-check-circle text-success"></i> <strong>Open scientific education:</strong> Making histopathology accessible worldwide via digital whole-slide microscopy.</li>
+            <li><i class="fa-solid fa-check-circle text-success"></i> <strong>Reproducibility:</strong> Pioneering accessible statistical GUIs so clinicians can conduct robust survival & biomarker analyses.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Career Timeline -->
+    <section class="section-container" id="experience">
+      <div class="section-header">
+        <span class="section-eyebrow">Professional Pathway</span>
+        <h2 class="section-title">Career Milestones & Academic Appointments</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Timeline filter buttons -->
+      <div class="timeline-filters" id="timelineFilters">
+        <button class="filter-pill active" data-filter="all">All Appointments</button>
+        <button class="filter-pill" data-filter="clinical">Clinical Practice</button>
+        <button class="filter-pill" data-filter="academic">Academic & Leadership</button>
+        <button class="filter-pill" data-filter="fellowship">Research Fellowship</button>
+      </div>
+
+      <div class="timeline-wrapper" id="timelineList">
+        <!-- Rendered via app.js from CV_DATA -->
+      </div>
+    </section>
+
+    <!-- Education & Training Section -->
+    <section class="section-container" id="education">
+      <div class="section-header">
+        <span class="section-eyebrow">Academic Credentials</span>
+        <h2 class="section-title">Education, Boards & Advanced Studies</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="edu-grid" id="educationGrid">
+        <!-- Rendered via app.js -->
+      </div>
+    </section>
+
+    <!-- Clinical Competencies & Computational Pathology -->
+    <section class="section-container" id="competencies">
+      <div class="section-header">
+        <span class="section-eyebrow">Expertise & Skill Matrix</span>
+        <h2 class="section-title">Clinical Diagnostics & Technological Domains</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="competencies-grid">
+        <div class="competency-card glass-panel">
+          <div class="competency-header">
+            <i class="fa-solid fa-microscope competency-icon"></i>
+            <h3>Anatomic Surgical Pathology</h3>
+          </div>
+          <p class="competency-desc">Subspecialty expertise with focus on high-complexity resection specimens and intraoperative frozen consultations.</p>
+          <div class="skills-tags">
+            <span class="skill-tag">Pancreatobiliary Pathology</span>
+            <span class="skill-tag">Gastrointestinal Biopsies</span>
+            <span class="skill-tag">Frozen Section Consultations</span>
+            <span class="skill-tag">AJCC/UICC Tumor Staging</span>
+            <span class="skill-tag">Immunohistochemical Panels</span>
+            <span class="skill-tag">WHO Tumor Classification</span>
+          </div>
+        </div>
+
+        <div class="competency-card glass-panel">
+          <div class="competency-header">
+            <i class="fa-solid fa-desktop competency-icon"></i>
+            <h3>Digital Pathology & AI</h3>
+          </div>
+          <p class="competency-desc">Practical implementation of Whole Slide Imaging (WSI) workflows for routine primary diagnosis and telepathology.</p>
+          <div class="skills-tags">
+            <span class="skill-tag">Routine WSI Primary Diagnosis</span>
+            <span class="skill-tag">Digital Pathology QA/QC</span>
+            <span class="skill-tag">Virtual Slide Annotation</span>
+            <span class="skill-tag">QuPath & Aiforia Integration</span>
+            <span class="skill-tag">Digital Teleconsultation</span>
+            <span class="skill-tag">Scanner Integration & LIS</span>
+          </div>
+        </div>
+
+        <div class="competency-card glass-panel">
+          <div class="competency-header">
+            <i class="fa-solid fa-code competency-icon"></i>
+            <h3>Biomedical Data Science</h3>
+          </div>
+          <p class="competency-desc">Statistical programming, survival analysis modeling, and development of open-source clinical research packages.</p>
+          <div class="skills-tags">
+            <span class="skill-tag">R / Tidyverse Programming</span>
+            <span class="skill-tag">Jamovi GUI Module Development</span>
+            <span class="skill-tag">Survival Analysis (Kaplan-Meier, Cox)</span>
+            <span class="skill-tag">Diagnostic Accuracy (ROC, DCA)</span>
+            <span class="skill-tag">webR & ShinyLive WebAssembly</span>
+            <span class="skill-tag">Bibliometrics (VOSviewer)</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Open Source Software & Innovations -->
+    <section class="section-container" id="software">
+      <div class="section-header">
+        <span class="section-eyebrow">Open Science & Tools</span>
+        <h2 class="section-title">Software Modules & Educational Resources</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Pioneering accessible, open-source software tools used worldwide by clinicians, residents, and researchers.</p>
+      </div>
+
+      <div class="software-grid" id="softwareGrid">
+        <!-- Rendered dynamically from CV_DATA.software -->
+      </div>
+    </section>
+
+    <!-- Interactive Publication Explorer -->
+    <section class="section-container" id="publications">
+      <div class="section-header">
+        <span class="section-eyebrow">Scholarly Work</span>
+        <h2 class="section-title">Peer-Reviewed Publications & Research</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Filter or search across international research papers, reviews, and clinical guidelines.</p>
+      </div>
+
+      <!-- Publication Explorer Controls -->
+      <div class="pub-controls glass-panel">
+        <div class="pub-search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="pubSearchInput" placeholder="Search by title, author, journal, keyword or year..." autocomplete="off">
+          <button id="clearSearchBtn" class="clear-search-btn" title="Clear search" style="display:none;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="pub-category-chips" id="pubCategoryChips">
+          <button class="chip active" data-topic="all">All Topics (<span id="countAll">0</span>)</button>
+          <button class="chip" data-topic="Pancreatobiliary">Pancreatobiliary (<span id="countPancreas">0</span>)</button>
+          <button class="chip" data-topic="Digital Pathology & AI">Digital Pathology & AI (<span id="countDigital">0</span>)</button>
+          <button class="chip" data-topic="Gastrointestinal">Gastrointestinal (<span id="countGI">0</span>)</button>
+          <button class="chip" data-topic="Quality & Methods">Quality & Methods (<span id="countQuality">0</span>)</button>
+          <button class="chip" data-topic="Surgical Pathology">Surgical Pathology (<span id="countSurg">0</span>)</button>
+        </div>
+
+        <div class="pub-status-bar">
+          <span id="pubResultCount" class="result-count">Showing 0 publications</span>
+          <div class="pub-filter-actions">
+            <button id="toggleHighlightsOnlyBtn" class="btn btn-xs btn-outline">
+              <i class="fa-solid fa-star"></i> High-Impact Only
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Publications List Container -->
+      <div class="pub-list" id="publicationsList">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- Societies, Committees & Editorial Roles -->
+    <section class="section-container" id="societies">
+      <div class="section-header">
+        <span class="section-eyebrow">Community & Governance</span>
+        <h2 class="section-title">Societies, Committees & Professional Memberships</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="societies-grid">
+        <div class="society-card glass-panel">
+          <div class="society-badge-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+          <div class="society-info">
+            <h4>Pancreatobiliary Pathology Society</h4>
+            <p class="society-role">Website & Membership Committee Member (2018 – 2025) · Journal Watch Editor</p>
+          </div>
+        </div>
+
+        <div class="society-card glass-panel">
+          <div class="society-badge-icon"><i class="fa-solid fa-brain"></i></div>
+          <div class="society-info">
+            <h4>Digital Pathology Association (DPA)</h4>
+            <p class="society-role">Active International Member</p>
+          </div>
+        </div>
+
+        <div class="society-card glass-panel">
+          <div class="society-badge-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <div class="society-info">
+            <h4>European Society for Digital & Integrative Pathology (ESDIP)</h4>
+            <p class="society-role">Member & Digital Pathology Contributor</p>
+          </div>
+        </div>
+
+        <div class="society-card glass-panel">
+          <div class="society-badge-icon"><i class="fa-solid fa-globe"></i></div>
+          <div class="society-info">
+            <h4>United States and Canadian Academy of Pathology (USCAP)</h4>
+            <p class="society-role">International Member & Meeting Presenter</p>
+          </div>
+        </div>
+
+        <div class="society-card glass-panel">
+          <div class="society-badge-icon"><i class="fa-solid fa-certificate"></i></div>
+          <div class="society-info">
+            <h4>Patoloji Dernekleri Federasyonu (PDF)</h4>
+            <p class="society-role">Standardizasyon Komisyonu & HPB Çalışma Grubu</p>
+          </div>
+        </div>
+
+        <div class="society-card glass-panel">
+          <div class="society-badge-icon"><i class="fa-solid fa-hospital-user"></i></div>
+          <div class="society-info">
+            <h4>European Society of Pathology (ESP) & Asian Society of Digital Pathology</h4>
+            <p class="society-role">Active International Member</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Consultation Section -->
+    <section class="section-container" id="contact">
+      <div class="contact-banner glass-panel">
+        <div class="contact-content">
+          <span class="section-eyebrow">Get in Touch</span>
+          <h2>Clinical Consultation & Academic Collaboration</h2>
+          <p>
+            Available for surgical pathology second opinions, international collaborative research in pancreatobiliary/GI oncology, digital pathology consulting, and clinical data science workshops.
+          </p>
+          <div class="contact-buttons">
+            <a href="mailto:serdarbalci@serdarbalci.com" class="btn btn-primary"><i class="fa-solid fa-envelope"></i> Email Dr. Balcı</a>
+            <a href="https://superpeer.com/serdarbalci" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fa-solid fa-video"></i> Video Consultation (Superpeer)</a>
+            <a href="https://patoloji.memorial.com.tr/" target="_blank" rel="noopener" class="btn btn-outline"><i class="fa-solid fa-hospital"></i> Memorial Pathology Dept</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <p><strong>Doç. Dr. Serdar Balcı</strong> · MD, Pathologist</p>
+        <p class="footer-sub">Hosted on GitHub Pages · <a href="https://www.serdarbalci.com">www.serdarbalci.com</a></p>
+      </div>
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top-btn" id="backToTopBtn" title="Back to top">
+          <i class="fa-solid fa-arrow-up"></i> Top
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification for Citation Copied -->
+  <div id="toastNotification" class="toast-notification" aria-live="polite"></div>
+
+  <!-- Shared Data and Script -->
+  <script src="../cv-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
