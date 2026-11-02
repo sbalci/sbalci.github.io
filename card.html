@@ -1,129 +1,206 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <style type="text/css">body {font-family: 'Roboto Slab', serif;}</style>
-
-    <title>Serdar Balcı</title>
-
-  </head>
-  <body>
-    <div class="container-flex min-vh-100 d-none d-lg-block d-xl-block">
-      <div class="d-flex flex-row">
-        <div class="d-flex flex-col col-5 align-items-center min-vh-100 border-right text-center">
-          <div class="mx-auto text-center">
-            <div class="p-3">
-              <img src=img/SerdarBalci-MD-Pathologist.jpg style="height:15rem" class="rounded">
-            </div>
-            <div class="p-2">
-              <h1>Serdar Balcı</h1>
-            </div>
-            <hr style="width:60%;"/>
-            <div class="p-2">
-              <div id="icon-list">
-                <ul class="list-inline">
-
-                                                      <li class="list-inline-item">
-                    <a href=https://www.linkedin.com/in/serdar-balci-md-pathologist/>
-                      <button type="button" class="btn btn-outline-dark">
-                        LinkedIn
-                      </button>
-                    </a>
-                  </li>
-                                                                        <li class="list-inline-item">
-                    <a href=https://twitter.com/serdarbalci>
-                      <button type="button" class="btn btn-outline-dark">
-                        Twitter
-                      </button>
-                    </a>
-                  </li>
-                                                                        <li class="list-inline-item">
-                    <a href=https://github.com/sbalci>
-                      <button type="button" class="btn btn-outline-dark">
-                        GitHub
-                      </button>
-                    </a>
-                  </li>
-                                                                        <li class="list-inline-item">
-                    <a href=mailto:serdarbalci@serdarbalci.com>
-                      <button type="button" class="btn btn-outline-dark">
-                        Email
-                      </button>
-                    </a>
-                  </li>
-                                                    </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex flex-col px-5 align-items-center">
-          <div id="content">
-            <p><strong>Serdar Balcı</strong><br />
-            <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br />
-            2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi’nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD’de Emory Üniversitesi’nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.</p>
-          </div>
-        </div>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102c3e">
+  <meta name="description" content="Connect with Doç. Dr. Serdar Balcı, MD — pathologist, digital pathology educator and open-science developer. Clinical consultation, publications, teaching, projects and contact information.">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Serdar Balcı, MD | Digital Business Card">
+  <meta property="og:description" content="Pathology · Digital Pathology · Research · Education. All my professional links in one place.">
+  <meta property="og:url" content="https://www.serdarbalci.com/card.html">
+  <meta property="og:image" content="https://www.serdarbalci.com/img/SerdarBalci-MD-Pathologist.jpg">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://www.serdarbalci.com/card.html">
+  <title>Serdar Balcı, MD | Digital Business Card</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink:#102c3e; --muted:#526778; --accent:#167d83; --accent-dark:#105e65;
+      --paper:#fffefa; --line:#d7e3e5; --shadow:0 14px 38px rgba(11,48,62,.09);
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    }
+    *,*::before,*::after {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {
+      margin:0; min-height:100vh; color:var(--ink); line-height:1.55;
+      background:radial-gradient(ellipse 55% 25% at 12% 0%,#b7e6df 0%,transparent 100%),
+                 radial-gradient(ellipse 50% 35% at 100% 20%,#dae8fc 0%,transparent 100%),#f4f7f6;
+    }
+    a {color:inherit}
+    button {font:inherit}
+    a:focus-visible,button:focus-visible {outline:3px solid #ba6b22;outline-offset:4px}
+    .skip {position:absolute;top:-90px;left:1rem;z-index:5;background:#fff;padding:.7rem 1rem}
+    .skip:focus {top:1rem}
+    .shell {max-width:740px;margin:auto;padding:2.6rem 1.2rem 4rem}
+    .topline {display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-bottom:1.6rem}
+    .wordmark {font-weight:800;letter-spacing:.12em;font-size:.76rem;text-transform:uppercase;color:#31546a;text-decoration:none}
+    .mini-link {text-decoration:none;font-weight:650;font-size:.82rem;color:#245866}
+    .mini-link:hover {text-decoration:underline}
+    .hero {text-align:center;margin:0 auto 2.2rem}
+    .portrait {width:126px;height:126px;margin:auto auto 1.15rem;border:5px solid white;border-radius:50%;overflow:hidden;box-shadow:0 8px 30px #0c435438;background:linear-gradient(135deg,#185d6a,#6a9b9b);display:grid;place-items:center;position:relative}
+    .portrait span {font-size:2.5rem;color:white;font-weight:800;letter-spacing:.06em}
+    .portrait img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .eyebrow {display:inline-flex;align-items:center;gap:.45rem;border:1px solid #bcded9;border-radius:99px;padding:.3rem .8rem;background:#eafff9;color:#176269;font-size:.72rem;font-weight:780;letter-spacing:.08em;text-transform:uppercase}
+    .eyebrow::before {content:"";width:7px;height:7px;background:#24a68c;border-radius:50%}
+    h1 {font-size:clamp(2rem,6vw,3rem);letter-spacing:-.055em;line-height:1.12;margin:.82rem 0 .55rem}
+    .role {font-size:1.08rem;font-weight:700;margin:0;color:#205b67}
+    .affiliation {color:var(--muted);margin:.2rem 0 0}
+    .intro {color:#435a69;margin:1rem auto 1.1rem;max-width:560px;font-size:.97rem}
+    .social {display:flex;justify-content:center;flex-wrap:wrap;gap:.5rem;margin:1.25rem 0}
+    .social a {text-decoration:none;border:1px solid #c6d8dc;background:#ffffffd9;border-radius:999px;padding:.49rem .86rem;font-size:.83rem;font-weight:700;transition:background .15s ease,border-color .15s ease}
+    .social a:hover {background:#dcf5ef;border-color:#7fb9ba}
+    .actions {display:flex;flex-wrap:wrap;justify-content:center;gap:.65rem;margin:1.4rem 0 0}
+    .action {display:inline-flex;align-items:center;justify-content:center;text-decoration:none;cursor:pointer;border:1.5px solid #b8d4d4;background:white;color:#17434d;border-radius:13px;padding:.78rem 1rem;font-size:.91rem;font-weight:750;min-width:157px;min-height:47px}
+    .action.primary {background:var(--ink);border-color:var(--ink);color:white}
+    .action:hover {filter:brightness(.95);transform:translateY(-1px)}
+    .section-head {display:flex;align-items:end;justify-content:space-between;gap:1rem;margin:2rem 0 .7rem}
+    h2 {font-size:.79rem;text-transform:uppercase;letter-spacing:.13em;margin:0;color:#416777;font-weight:800}
+    .section-count {color:#738b95;font-size:.75rem}
+    .stack {display:grid;gap:.7rem}
+    .link {display:flex;align-items:center;gap:1rem;min-height:83px;padding:1rem 1.08rem;background:var(--paper);border:1px solid var(--line);border-radius:17px;text-decoration:none;box-shadow:var(--shadow);transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}
+    .link:hover {transform:translateY(-2px);border-color:#75abae;box-shadow:0 16px 34px #123c4c1b}
+    .link-icon {flex:0 0 44px;height:44px;display:grid;place-items:center;border-radius:13px;background:#e4f4f0;font-size:1.3rem}
+    .link-content {flex:1;min-width:0}
+    .link-title {display:block;font-weight:800;font-size:.98rem;line-height:1.35}
+    .link-desc {display:block;color:var(--muted);font-size:.82rem;margin-top:.13rem}
+    .arrow {color:var(--accent);font-weight:bold;font-size:1.3rem;padding:0 .1rem}
+    .qr-panel {margin-top:2.3rem;border:1px solid #c9dddf;border-radius:22px;padding:1.5rem;background:#ffffffdf;display:flex;align-items:center;justify-content:center;gap:1.7rem;box-shadow:var(--shadow)}
+    .qr-panel img {flex:0 0 172px;width:172px;height:172px;image-rendering:pixelated;border-radius:8px;border:8px solid white}
+    .qr-copy {max-width:290px}
+    .qr-copy h2 {font-size:1.14rem;text-transform:none;letter-spacing:-.02em;color:var(--ink)}
+    .qr-copy p {color:var(--muted);font-size:.89rem;margin:.5rem 0}
+    .qr-url {overflow-wrap:anywhere;color:var(--accent-dark);font-size:.82rem;font-weight:700}
+    .copy-status {min-height:1.4em;color:#186368;font-size:.81rem;margin-top:.5rem}
+    .copy-fallback {position:absolute;left:-10000px;width:1px;height:1px}
+    .copy-fallback.show {position:static;width:100%;height:auto;margin-top:.5rem;border:1px solid #9bc0c2;padding:.5rem;border-radius:8px;background:white}
+    footer {text-align:center;font-size:.81rem;color:#58717b;margin-top:2rem}
+    footer a {color:#245866}
+    @media(max-width:520px) {
+      .shell {padding:1.5rem 1rem 3rem}
+      .intro {font-size:.91rem}
+      .actions {display:grid;grid-template-columns:1fr 1fr}
+      .action {min-width:0;padding:.8rem .45rem;font-size:.82rem}
+      .qr-panel {flex-direction:column;text-align:center;padding:1.3rem}
+      .qr-copy {max-width:none}
+      .link {min-height:79px}
+    }
+    @media(prefers-reduced-motion:reduce) {
+      html {scroll-behavior:auto}
+      .link,.action {transition:none}
+      .link:hover,.action:hover {transform:none}
+    }
+    @media print {
+      body {background:white}
+      .shell {max-width:680px;padding:0}
+      .link,.qr-panel {box-shadow:none;break-inside:avoid}
+      .actions,.skip,.copy-status,#copyLink {display:none}
+      .qr-panel {padding:.7rem}
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to links</a>
+  <div class="shell">
+    <div class="topline">
+      <a class="wordmark" href="https://www.serdarbalci.com/">SB / Pathology</a>
+      <a class="mini-link" href="https://www.serdarbalci.com/cv-interactive/">View full CV ↗</a>
     </div>
 
-    <div class="container-flex min-vh-100 d-block d-lg-none d-xl-none">
-      <div class="d-flex flex-row justify-content-center">
-        <div class="d-flex flex-col">
-          <div class="mx-auto">
-            <div class="p-3 mt-3 text-center">
-              <img src=img/SerdarBalci-MD-Pathologist.jpg style="height:15rem" class="rounded">
-            </div>
-            <div class="p-2 text-center">
-              <h1>Serdar Balcı</h1>
-            </div>
-            <hr style="width:60%;"/>
-
-            <div class="row justify-content-center align-items-center">
-              <div class="col-8 p-1 text-center">
-                <div class="list-group">
-                                                      <a href=https://www.linkedin.com/in/serdar-balci-md-pathologist/>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      LinkedIn
-                    </button>
-                  </a>
-                                                                        <a href=https://twitter.com/serdarbalci>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      Twitter
-                    </button>
-                  </a>
-                                                                        <a href=https://github.com/sbalci>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      GitHub
-                    </button>
-                  </a>
-                                                                        <a href=mailto:serdarbalci@serdarbalci.com>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      Email
-                    </button>
-                  </a>
-                                                    </div>
-              </div>
-            </div>
-            <div class="p pt-4 px-5">
-              <p><strong>Serdar Balcı</strong><br />
-              <em>Türk Hekim ve Araştırmacı. Patoloji Uzmanı.</em><br />
-              2005 yılında Hacettepe Üniversitesi Tıp (İng) Fakültesi’nden mezun oldu. Aynı yıl patoloji asistanlığına başladı. 2010 yılında patoloji uzmanı oldu. 2009 ve 2013-2014 arasında ABD’de Emory Üniversitesi’nde pankreatobilier sistem tümörleri üzerinde araştırmalar yaptı. Katıldığı çalışmalar ışığında tümör sınıflama ve kılavuzlarında güncellemeler oldu. 2016 yılında doçent oldu. İlgi alanları arasında tümör sınıflandırılması, tümör evrelemesi, patolojide kalite kontrol uygulamaları, anatomik patolojide istatistik uygulamaları ve R-project yer almaktadır.</p>
-            </div>
-        </div>
+    <header class="hero">
+      <div class="portrait">
+        <span aria-hidden="true">SB</span>
+        <img src="img/SerdarBalci-MD-Pathologist.jpg" alt="Portrait of Serdar Balcı" width="126" height="126" onerror="this.remove()">
       </div>
-    </div>
+      <span class="eyebrow">Pathology · Research · Education</span>
+      <h1>Doç. Dr. Serdar Balcı</h1>
+      <p class="role">MD · Associate Professor of Pathology</p>
+      <p class="affiliation">Memorial Healthcare Group · Istanbul, Türkiye</p>
+      <p class="intro">Surgical &amp; digital pathology, whole-slide imaging, biostatistics and open-source tools for medical research. Connect, collaborate, or explore my work.</p>
+      <nav class="social" aria-label="Social and scholarly profiles">
+        <a href="https://www.linkedin.com/in/serdar-balci-md-pathologist/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/sbalci" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://x.com/serdarbalci" target="_blank" rel="noopener noreferrer">X ↗</a>
+        <a href="https://scholar.google.com/citations?user=q40DcqYAAAAJ" target="_blank" rel="noopener noreferrer">Scholar ↗</a>
+        <a href="https://orcid.org/0000-0002-7852-3851" target="_blank" rel="noopener noreferrer">ORCID ↗</a>
+      </nav>
+      <div class="actions">
+        <a class="action primary" href="card/serdar-balci.vcf" download="Serdar-Balci.vcf">＋ Save contact</a>
+        <a class="action" href="mailto:serdarbalci@serdarbalci.com">✉ Email me</a>
+        <button class="action" id="shareLink" type="button">↗ Share this card</button>
+        <a class="action" href="#qr">▦ Scan QR code</a>
+      </div>
+    </header>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+    <main id="main">
+      <div class="section-head"><h2>Connect &amp; collaborate</h2><span class="section-count">Contact</span></div>
+      <div class="stack">
+        <a class="link" href="https://patoloji.memorial.com.tr/" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">🏥</span><span class="link-content"><span class="link-title">Memorial Pathology</span><span class="link-desc">Clinical pathology department &amp; consultation</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://www.serdarbalci.com/cv-interactive/"><span class="link-icon" aria-hidden="true">👤</span><span class="link-content"><span class="link-title">About me · Interactive CV</span><span class="link-desc">Professional background, expertise and experience</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://superpeer.com/serdarbalci" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">💬</span><span class="link-content"><span class="link-title">Video consultation</span><span class="link-desc">External booking page · Subject to availability</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="section-head"><h2>Digital pathology &amp; education</h2><span class="section-count">Selected projects</span></div>
+      <div class="stack">
+        <a class="link" href="https://patolojiatlasi.com/" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">🔬</span><span class="link-content"><span class="link-title">Patoloji Atlası</span><span class="link-desc">Digital histopathology atlas · Türkçe</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://histopathologyatlas.com/" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">🧫</span><span class="link-content"><span class="link-title">Histopathology Atlas</span><span class="link-desc">Whole-slide teaching collection · English</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://www.patolojinotlari.com/" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">📚</span><span class="link-content"><span class="link-title">Patoloji Notları</span><span class="link-desc">Turkish pathology lecture notes and resources</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://www.parapathology.com/" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">📝</span><span class="link-content"><span class="link-title">(Para)Pathology</span><span class="link-desc">Notes on pathology, methods and tools</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="section-head"><h2>Research &amp; open source</h2><span class="section-count">Explore</span></div>
+      <div class="stack">
+        <a class="link" href="https://www.serdarbalci.com/ClinicoPathJamoviModule/"><span class="link-icon" aria-hidden="true">📊</span><span class="link-content"><span class="link-title">ClinicoPath for jamovi</span><span class="link-desc">Open-source clinical and pathology statistics</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://scholar.google.com/citations?user=q40DcqYAAAAJ" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">🎓</span><span class="link-content"><span class="link-title">Publications &amp; citations</span><span class="link-desc">Google Scholar research profile</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://www.ncbi.nlm.nih.gov/myncbi/serdar.balci.1/bibliography/public/" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">📄</span><span class="link-content"><span class="link-title">PubMed bibliography</span><span class="link-desc">Peer-reviewed publications</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="link" href="https://github.com/sbalci" target="_blank" rel="noopener noreferrer"><span class="link-icon" aria-hidden="true">⌘</span><span class="link-content"><span class="link-title">GitHub · Code &amp; projects</span><span class="link-desc">QuPath, pathology automation and research software</span></span><span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+
+      <section class="qr-panel" id="qr" aria-label="Scan this digital business card">
+        <img alt="QR code linking to www.serdarbalci.com/card.html" width="172" height="172" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAAEDCAIAAAC+s/acAAAEUUlEQVR42u3d0W3bMBSG0brQAh2kM3T2ztBBOoL6nkoBA/r+l7TPeU5iS84HGheU9DjP8xu8ve9OASgBlABKACWAEkAJoARQAigBlABKACWAEkAJoARQAigBlABKACWAEkAJoARQAigBlABBR8Uf/fHz12rH+ffP78wLXR775auP/2TFq/s0rQmgBFACKAGUAEqAQUfslXrnmJM/GXvz4++zd9664KdpTQAlgBJACaAEUAIUOXpffnJGtuAO08k3X3FCKt781p+mNQGUAEoAJYASQAnwJYdT8Fzjo8DJmePkRtrYaNWaAEoAJYASQAmgBNjdW09RK8aLFXcJiM1brQmgBEAJoARQAigB/tc8RX29zY/jk9nxce0um0m3/jStCaAEUAIoAZQASoA7uSnqgjsixweRsZ9c8H3u8mlaE0AJoARQAigBlABFSqao77zD9PVuQvomN0u1JoASQAmgBFACKAHuPM7zfPof7R0aVuwGvTR5RBXbOWPbY2O7VmP/NtYEUAIoAZQASgAlwJ3cXtTYNeCxgWnFzHHy13snswv+M1gTQAmgBFACKAGUAPNe8OlSuwz4Km6WGjvM2FzYmgBKACWAEkAJoARo13xF/4I3DI29pV2OfdzW94S1JoASQAmgBFACKAHuvODTpWKbSWM3YJ0cRG69azU2hLUmgBJACaAEUAIoAe6s+HSpBXdELngfzwoVD6eKTXutCaAEUAIoAZQASoAizfdFrZjQxaZ+W8+FY6/eOxu1JoASQAmgBFACKAHm5aaoCz61KfZ8p9hh9r7P2Em2FxV8OwIlgBJACaAESGreixq7MDz2TPne698vf7330Vi9t1W1JoASQAmgBFACKAHmHVu/+9jIcvLVL73e/VsnPw73RQXfjkAJoARQAigB1rTNfVEv9d4XdfIwK369Yjfo+AtVfMSxubA1AZQASgAlgBJACXAnN0WN3R+z9yFFk8cem/ZOzjFj+0Zd0Q++HYESQAmgBFACtNvmiv7YLsvJcW3s1xfcoDp5kif/GawJoARQAigBlABKgCKP8zzf9uBjl7pXbDvtvU5/8nwuuF/YmgBKACWAEkAJoAS4U7IXtXef46XJ3aC7nKWKI1rwwVzWBFACKAGUAEoAJUBS831RKyz4MKXxv7ngds7eG7C6Lyr4dgRKACWAEkAJ0K75vqgL3h9z/H0ueFl678cxeepiT9ayJoASQAmgBFACKAG+5HAKPhif5cXuYdr7yKmKn3RFP/h2BEoAJYASQAmwEVPUj2IDvorR6qXYM6MWvAGrNQGUAEoAJYASQAkwr3mKuuBF8RWbSV/vWUwVp84V/eDbESgBlABKACXAmh7neT79j8Yecz8uNqGLPdsqdvV9xVh5/DCtCaAEUAIoAZQASoB2JVNUsCaAEkAJoARQAigBlABKACWAEkAJoARQAigBlABKACWAEkAJoARQglMASgAlgBJACaAEUAJ84h91py9RXAP+xAAAAABJRU5ErkJggg==">
+        <div class="qr-copy">
+          <h2>Meet me in one scan</h2>
+          <p>Open your camera to visit this card, or share the link with a colleague.</p>
+          <a class="qr-url" href="https://www.serdarbalci.com/card.html">www.serdarbalci.com/card.html</a>
+          <div><button class="action" id="copyLink" type="button">Copy card link</button></div>
+          <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+          <input class="copy-fallback" id="copyFallback" type="text" value="https://www.serdarbalci.com/card.html" readonly aria-label="Card URL to copy manually">
+        </div>
+      </section>
+    </main>
+    <footer>© Serdar Balcı · Built for easy sharing · <a href="https://www.serdarbalci.com/">Personal website</a></footer>
+  </div>
+  <script>
+    (function () {
+      "use strict";
+      const url = "https://www.serdarbalci.com/card.html";
+      const status = document.getElementById("copyStatus");
+      const fallback = document.getElementById("copyFallback");
+      async function copyLink() {
+        try {
+          if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error("No clipboard access");
+          await navigator.clipboard.writeText(url);
+          status.textContent = "Card link copied.";
+        } catch (error) {
+          fallback.classList.add("show");
+          fallback.focus();
+          fallback.select();
+          status.textContent = "Select and copy the highlighted link.";
+        }
+      }
+      document.getElementById("copyLink").addEventListener("click", copyLink);
+      document.getElementById("shareLink").addEventListener("click", async function () {
+        if (navigator.share) {
+          try {
+            await navigator.share({title:"Serdar Balcı, MD | Digital Business Card",url:url});
+            return;
+          } catch (error) {
+            if (error && error.name === "AbortError") return;
+          }
+        }
+        await copyLink();
+      });
+    }());
+  </script>
+</body>
 </html>
