@@ -1,11 +1,11 @@
 BEGIN:VCARD
-VERSION:4.0
+VERSION:3.0
 N:Balcı;Serdar;;;
-FN:Serdar Balcı, MD
+FN:Serdar Balcı\, MD
 ORG:Memorial Healthcare Group
 TITLE:Pathologist · Researcher · Developer
-TEL;TYPE=cell,voice;VALUE=uri:tel:+905334472096
-EMAIL;TYPE=work:serdarbalci@serdarbalci.com
+TEL;TYPE=CELL,VOICE:+905334472096
+EMAIL;TYPE=WORK:serdarbalci@serdarbalci.com
 URL:https://www.serdarbalci.com/links/
-NOTE:Memorial Healthcare Group, Istanbul
+NOTE:Memorial Healthcare Group\, Istanbul
 END:VCARD
