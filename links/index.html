@@ -52,7 +52,8 @@ h2{font-size:1.12rem;letter-spacing:-.025em;margin:0}
 .qr img{width:170px;height:170px;border:7px solid white;border-radius:12px;image-rendering:pixelated}
 .qr h2{margin:0 0 .35rem}.qr p{margin:0 0 .8rem;color:var(--muted);font-size:.9rem}
 .qr .address{font-size:.83rem;overflow-wrap:anywhere;color:var(--teal-deep);display:block;margin:.4rem 0 .8rem;font-weight:650}
-#copyStatus{font-size:.84rem;color:var(--teal-deep);min-height:1.4rem;margin-top:.4rem}
+#copyStatus,#shareStatus{font-size:.84rem;color:var(--teal-deep);min-height:1.4rem;margin-top:.4rem}
+#shareStatus:empty{display:none}
 #copyFallback{display:none;max-width:100%;padding:.5rem;border:1px solid #abcdd1;border-radius:8px}
 #copyFallback.visible{display:block}
 footer{text-align:center;color:#617786;font-size:.78rem;margin:2rem 0 0}
@@ -70,6 +71,7 @@ footer{text-align:center;color:#617786;font-size:.78rem;margin:2rem 0 0}
 <span class="eyebrow"><span data-i18n="eyebrow">Pathology · Research · Technology</span></span><h1>Serdar Balcı, MD</h1>
 <p class="role"><span data-i18n="role">Pathologist · Researcher · Developer</span></p><p class="org"><span data-i18n="org">Memorial Healthcare Group · Istanbul</span></p><p class="intro"><span data-i18n="intro">Pathologist specializing in gastrointestinal and pancreatobiliary pathology, with a focus on digital pathology, computational research, biostatistics, and open-source medical education.</span></p>
 <div class="hero-actions"><button class="pill primary" id="shareLink" type="button">↗ <span data-i18n="share">Share this page</span></button><a href="#qr" class="pill">▦ <span data-i18n="qrjump">Show QR code</span></a></div>
+<p id="shareStatus" role="status" aria-live="polite"></p>
 </header>
 <main id="content">
 <section class="section" id="contact" aria-labelledby="contact-heading"><div class="section-heading"><div><h2 id="contact-heading"><span data-i18n="contact">Get in touch</span></h2><p><span data-i18n="contactdesc">Reach me or save my details</span></p></div><span class="count">06</span></div><div class="items"><a class="item" href="tel:+905334472096"><span class="item-icon" aria-hidden="true">☎</span><span class="item-copy"><strong><span data-i18n="phone">Call</span></strong><small><span data-i18n="phoneDesc">+90 533 447 20 96</span></small></span><span class="chevron" aria-hidden="true">↗</span></a>
@@ -121,6 +123,7 @@ function applyLanguage(lang){
  Object.keys(buttons).forEach(function(k){buttons[k].setAttribute("aria-pressed",String(k===current));});
  try{localStorage.setItem("serdar-links-language",current);}catch(err){}
  document.getElementById("copyStatus").textContent="";
+ document.getElementById("shareStatus").textContent="";
 }
 let stored=null;
 try{stored=localStorage.getItem("serdar-links-language");}catch(err){}
@@ -128,26 +131,26 @@ const browserLang=(navigator.languages&&navigator.languages[0])||navigator.langu
 applyLanguage(stored==="tr"||stored==="en"?stored:(/^tr(?:-|$)/i.test(browserLang)?"tr":"en"));
 buttons.en.addEventListener("click",function(){applyLanguage("en");});
 buttons.tr.addEventListener("click",function(){applyLanguage("tr");});
-const status=document.getElementById("copyStatus");
 const fallback=document.getElementById("copyFallback");
-async function copyLink(){
+async function copyLink(statusId){
+ const feedback=document.getElementById(statusId);
  try{
   if(!navigator.clipboard||!navigator.clipboard.writeText)throw new Error("Clipboard unavailable");
   await navigator.clipboard.writeText(url);
-  status.textContent=translations[current].copied;
+  feedback.textContent=translations[current].copied;
   fallback.classList.remove("visible");
  }catch(err){
   fallback.classList.add("visible");fallback.focus();fallback.select();
-  status.textContent=translations[current].copyfallback;
+  feedback.textContent=translations[current].copyfallback;
  }
 }
-document.getElementById("copyLink").addEventListener("click",copyLink);
+document.getElementById("copyLink").addEventListener("click",function(){return copyLink("copyStatus");});
 document.getElementById("shareLink").addEventListener("click",async function(){
  if(navigator.share){
   try{await navigator.share({title:"Serdar Balcı, MD",url:url});return;}
   catch(err){if(err&&err.name==="AbortError")return;}
  }
- await copyLink();
+ await copyLink("shareStatus");
 });
 }());
 </script>
