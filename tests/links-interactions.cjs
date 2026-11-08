@@ -18,7 +18,7 @@ function load({language='en-US',stored=null,share,clipboard='ok',storage=true}={
 }
 (async()=>{
  let checks=0;
- for(const [language,expected] of [['tr-TR','tr'],['TR','tr'],['en-US','en'],['de-DE','en']]){const a=load({language});assert.equal(a.document.documentElement.lang,expected);assert.ok(a.translated.every(e=>e.textContent));checks++}
+ for(const [language,expected] of [['tr-TR','tr'],['TR','tr'],['en-US','en'],['de-DE','en']]){const a=load({language});assert.equal(a.document.documentElement.lang,expected);assert.ok(a.translated.every(e=>e.textContent));assert.ok(a.elements.qrImg.alt&&a.elements.copyFallback.attrs["aria-label"]);checks++}
  let a=load({language:'tr-TR'});await a.click('langEn');assert.equal(a.stored,'en');assert.equal(load({language:'tr-TR',stored:a.stored}).document.documentElement.lang,'en');assert.equal(a.elements.langEn.attrs['aria-pressed'],'true');checks++;
  a=load({language:'tr-TR',storage:false});assert.equal(a.document.documentElement.lang,'tr');await a.click('langEn');assert.equal(a.document.documentElement.lang,'en');checks++;
  a=load();await a.click('copyLink');assert.deepEqual(a.writes,['https://www.serdarbalci.com/links/']);assert.equal(a.elements.copyStatus.textContent,'Link copied to clipboard.');checks++;
